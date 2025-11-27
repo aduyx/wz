@@ -1,9 +1,0 @@
-Dalian・CN - 大连・中国
-Tianjin/Xingang・CN - 天津 / 新港・中国
-Qingdao・CN - 青岛・中国
-Ningbo/Beilun・CN - 宁波 / 北仑・中国
-Shanghai・CN - 上海・中国
-Xiamen/Amoy・CN - 厦门 / 厦门・中国
-Guangzhou/Nansha・CN - 广州 / 南沙・中国
-Shenzhen/Yantian・CN - 深圳 / 盐田・中国
-Fangchenggang・CN - 防城港・中国
