@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>集卡博物馆 - AI智货代</title>
+  
+  <!-- SEO 元数据 -->
+  <meta name="description" content="探索集卡博物馆，了解集装箱卡车的发展历史、技术演进和在现代物流中的重要作用。">
+  <meta name="keywords" content="集卡博物馆,集装箱卡车,物流历史,运输设备,AI智货代">
+  <meta name="author" content="AI智货代">
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <!-- 全局样式 -->
+  <link rel="stylesheet" href="/assets/css/global.css">
+  
+  <!-- 自定义配置 -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#165DFF',
+            secondary: '#0E2E88',
+            accent: '#FF7D00',
+            neutral: '#F5F7FA',
+            dark: '#1D2129',
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+          },
+        },
+      }
+    }
+  </script>
+  <style type="text/tailwindcss">
+    @layer utilities {
+      .content-auto {
+        content-visibility: auto;
+      }
+      .text-shadow {
+        text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      }
+      .transition-custom {
+        transition: all 0.3s ease;
+      }
+      .card-hover {
+        @apply hover:shadow-lg hover:-translate-y-1 transition-custom;
+      }
+      .custom-gradient {
+        background: linear-gradient(to right, 
+          #3b82f6 0%, 
+          #3b82f6 61.8%, 
+          #14b8a6 80.9%, 
+          #06b6d4 100%);
+      }
+      .text-gradient {
+        background: linear-gradient(45deg, #fbbf24, #f59e0b, #d97706, #92400e);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+      .h2-gradient {
+        background: linear-gradient(135deg, #165DFF 0%, #0E2E88 30%, #FF7D00 70%, #f59e0b 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        background-size: 200% 200%;
+        animation: gradientShift 3s ease-in-out infinite;
+      }
+      @keyframes gradientShift {
+        0%, 100% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+      }
+      
+      /* 统一按钮样式 */
+      .btn-primary {
+        @apply bg-primary text-white font-medium py-3 px-6 rounded-lg hover:bg-primary/90 transition-all duration-300 ease-in-out transform hover:scale-105 shadow-md hover:shadow-lg;
+      }
+      
+      .btn-secondary {
+        @apply bg-gray-600 text-white font-medium py-2 px-4 rounded-lg hover:bg-gray-700 transition-all duration-300 ease-in-out transform hover:scale-105 shadow-md hover:shadow-lg;
+      }
+      
+      .btn-accent {
+        @apply bg-yellow-500 text-black font-medium py-2 px-4 rounded-lg hover:bg-yellow-400 transition-all duration-300 ease-in-out transform hover:scale-105 shadow-md hover:shadow-lg;
+      }
+      
+      /* 强制首页使用浅色背景 */
+      body {
+        background-color: #f9fafb !important;
+      }
+      
+      /* 响应式设计优化 */
+      @media (max-width: 767px) {
+        .hero {
+          @apply py-6 px-3;
+        }
+        .hero__title {
+          @apply text-2xl leading-tight;
+        }
+        .hero__subtitle {
+          @apply text-base;
+        }
+        .container {
+          @apply px-3;
+        }
+        .timeline {
+          @apply pl-0;
+        }
+        .timeline-item {
+          @apply pl-0;
+        }
+        .timeline-item::before {
+          left: 0;
+        }
+      }
+      
+      @media (max-width: 480px) {
+        .hero {
+          @apply py-4 px-2;
+        }
+        .hero__title {
+          @apply text-xl;
+        }
+        .container {
+          @apply px-2;
+        }
+      }
+      
+      /* 时间线样式 */
+      .timeline {
+        @apply border-l-2 border-primary pl-8 relative;
+      }
+      
+      .timeline-item {
+        @apply mb-12 pl-8 relative;
+      }
+      
+      .timeline-item::before {
+        content: '';
+        @apply absolute w-4 h-4 bg-primary rounded-full -left-10 top-2;
+      }
+      
+      .timeline-item:last-child {
+        @apply mb-0;
+      }
+    }
+  </style>
+  <!-- 全局JavaScript -->
+  <script src="/assets/js/global.js?v=20251114"></script>
+</head>
+<body class="bg-gray-50 font-sans text-dark">
+  <!-- 页眉容器 -->
+  <div id="header-container"></div>
+
+  <main id="main">
+    <!-- 全宽横幅 -->
+    <section class="hero custom-gradient text-white py-8">
+      <div class="container mx-auto px-4 text-left">
+        <h1 class="hero__title text-[clamp(2rem,5vw,3.5rem)] font-bold mb-4 text-shadow">
+          集卡博物馆
+        </h1>
+        <p class="hero__subtitle text-[clamp(1rem,2vw,1.25rem)] max-w-3xl opacity-90">
+          探索集装箱卡车的发展历程，了解这些陆地巨兽如何塑造现代物流行业
+        </p>
+      </div>
+    </section>
+
+    <!-- 主内容容器 -->
+    <section class="container mx-auto px-4 py-8">
+      <!-- 简介 -->
+      <div class="bg-white rounded-lg shadow-sm p-6 mb-8 border border-blue-500">
+        <h2 class="text-2xl font-bold mb-4 h2-gradient">关于集卡博物馆</h2>
+        <p class="text-gray-700 mb-4">
+          欢迎来到AI智货代集卡博物馆！在这里，您将深入了解集装箱卡车（简称"集卡"）的发展历史、技术演进以及在现代物流体系中的重要作用。
+          集装箱卡车作为连接海陆运输的重要纽带，是全球贸易不可或缺的一环。
+        </p>
+        <p class="text-gray-700">
+          通过丰富的图文资料和实物展示，我们将带您穿越时空，见证集卡从诞生到现代化的全过程，
+          感受技术创新如何推动物流行业的发展，以及AI智货代如何运用先进技术为行业赋能。
+        </p>
+      </div>
+      <div class="bg-white rounded-lg shadow-sm p-6 mt-8 border border-blue-500">
+        <h2 class="text-2xl font-bold mb-6 h2-gradient">卡牌分组</h2>
+        <div id="group-list" class="space-y-8"></div>
+      </div>
+      </section>
+  </main>
+
+  <!-- 页脚容器 -->
+  <div id="footer-container"></div>
+
+  <script>
+    // 页面加载完成后初始化
+    document.addEventListener('DOMContentLoaded', function() {
+      // 加载全局组件
+      loadComponent('header-container', '/components/header.html');
+      loadComponent('footer-container', '/components/footer.html');
+      const GROUPS = [
+        { id: 'g1', name: '第1组', images: [] },
+        { id: 'g2', name: '第2组', images: [] },
+        { id: 'g3', name: '第3组', images: [] },
+        { id: 'g4', name: '第4组', images: [] }
+      ];
+      function shuffle(arr) {
+        for (let i = arr.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [arr[i], arr[j]] = [arr[j], arr[i]];
+        }
+        return arr;
+      }
+      function randomPartition(files, k = 4) {
+        const n = files.length;
+        if (n === 0) return Array.from({ length: k }, () => []);
+        const cuts = new Set();
+        while (cuts.size < k - 1) {
+          const p = Math.floor(Math.random() * (n - 1)) + 1;
+          cuts.add(p);
+        }
+        const points = Array.from(cuts).sort((a, b) => a - b);
+        const groups = [];
+        let prev = 0;
+        for (const c of points) {
+          groups.push(files.slice(prev, c));
+          prev = c;
+        }
+        groups.push(files.slice(prev));
+        return groups;
+      }
+      async function fetchFiles() {
+        const res = await fetch('/卡片/');
+        const html = await res.text();
+        const doc = new DOMParser().parseFromString(html, 'text/html');
+        const hrefs = Array.from(doc.querySelectorAll('a')).map(a => a.getAttribute('href')).filter(h => h && h.endsWith('.png'));
+        return hrefs.map(h => decodeURIComponent(h));
+      }
+      function renderAllGroups() {
+        const list = document.getElementById('group-list');
+        list.innerHTML = GROUPS.map((g, idx) => {
+          const count = Array.isArray(g.images) ? g.images.length : 0;
+          const nums = Array.from({ length: count }, (_, i) => i + 1).join(',');
+          const items = (g.images || []).map(f => {
+            const src = `/卡片/${encodeURIComponent(f)}`;
+            return `
+              <div class="border border-gray-200 rounded-lg p-3 w-40 flex-none">
+                <img src="${src}" alt="${g.name}" class="w-full h-64 object-contain rounded bg-white" />
+                <div class="mt-2 text-sm text-gray-600">${f}</div>
+              </div>
+            `;
+          }).join('');
+          return `
+            <section class="space-y-4">
+              <div class="flex items-center justify-between">
+                <h3 class="text-lg font-bold">${g.name}</h3>
+                <span class="text-sm text-gray-600">${count} 张</span>
+              </div>
+              <div class="text-sm text-gray-700">${nums ? `卡片：${nums}（卡片）` : '该组暂无卡片'}</div>
+              <div class="flex flex-wrap gap-4">${items}</div>
+            </section>
+          `;
+        }).join('');
+      }
+      fetchFiles().then(files => {
+        const shuffled = shuffle(files.slice());
+        const parts = randomPartition(shuffled, 4);
+        GROUPS.forEach((g, idx) => { g.images = parts[idx] || []; });
+        renderAllGroups();
+        localStorage.setItem('museum_groups', JSON.stringify(GROUPS));
+      });
+    });
+  </script>
+</body>
+</html>

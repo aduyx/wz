@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>新闻管理 - AI智货代</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/global.css">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: { primary: '#165DFF', accent: '#FF7D00' }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-gray-50 font-sans text-dark">
+  <div id="header-container"></div>
+  <main class="container mx-auto px-4 py-6">
+    <div class="flex items-center justify-between mb-4">
+      <h1 class="text-2xl font-semibold text-gray-800">新闻管理</h1>
+      <a href="/pages/admin/index.html" class="text-primary hover:underline"><i class="fas fa-arrow-left mr-2"></i>返回仪表盘</a>
+    </div>
+
+    <!-- 说明条 -->
+    <div class="rounded bg-blue-50 border border-blue-200 p-3 text-sm text-blue-700 mb-4">
+      管理完整资讯文章库与新闻页侧边栏配置。保存后写入本地浏览器配置并即时生效。前台 pages/news.html 将自动联动。
+    </div>
+
+    <!-- 新闻库管理 -->
+    <section id="library" class="bg-white rounded-lg shadow-sm p-6 border border-green-200 mb-6">
+      <h2 class="text-xl font-semibold mb-3 flex items-center"><i class="fas fa-newspaper mr-2 text-green-600"></i>新闻库管理</h2>
+      <p class="text-gray-600 text-sm mb-4">字段：标题、摘要、链接、封面、发布时间、来源、标签、热度、置顶、状态。新闻库写入 <code>news_library</code>，并自动将“已发布”文章同步至 <code>home_news</code> 供前台使用。</p>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-3 mb-3">
+        <input id="nl-title" class="border rounded px-3 py-2" placeholder="标题">
+        <input id="nl-summary" class="border rounded px-3 py-2" placeholder="摘要">
+        <input id="nl-href" class="border rounded px-3 py-2" placeholder="链接，如：/pages/news/detail.html">
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-3 mb-3">
+        <input id="nl-publish" type="datetime-local" class="border rounded px-3 py-2">
+        <input id="nl-source" class="border rounded px-3 py-2" placeholder="来源，如：媒体/官方公告">
+        <input id="nl-tags" class="border rounded px-3 py-2" placeholder="标签，逗号分隔，如：航线,运价">
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-3 mb-4">
+        <input id="nl-heat" type="number" class="border rounded px-3 py-2" placeholder="热度，如：120">
+        <label class="inline-flex items-center text-sm"><input id="nl-pinned" type="checkbox" class="mr-2">置顶</label>
+        <select id="nl-status" class="border rounded px-3 py-2">
+          <option value="draft">草稿</option>
+          <option value="published">已发布</option>
+          <option value="offline">已下线</option>
+        </select>
+        <div>
+          <label class="block text-sm text-gray-600 mb-1">封面上传</label>
+          <input id="nl-cover" type="file" accept="image/*" class="w-full border rounded px-3 py-2">
+        </div>
+      </div>
+      <div class="flex gap-2 mb-4 items-center flex-wrap">
+        <button id="nl-add" class="bg-primary text-white px-4 py-2 rounded"><i class="fas fa-plus mr-2"></i>添加</button>
+        <button id="nl-save" class="bg-gray-200 text-gray-800 px-4 py-2 rounded"><i class="fas fa-save mr-2"></i>保存</button>
+        <button id="nl-export" class="bg-blue-100 text-blue-700 px-4 py-2 rounded"><i class="fas fa-file-export mr-2"></i>导出JSON</button>
+        <label class="inline-flex items-center px-3 py-2 bg-blue-50 border border-blue-200 rounded cursor-pointer text-blue-700">
+          <i class="fas fa-file-import mr-2"></i>导入JSON
+          <input id="nl-import" type="file" accept="application/json" class="hidden">
+        </label>
+        <button id="nl-clear" class="bg-gray-200 text-gray-800 px-4 py-2 rounded"><i class="fas fa-trash mr-2"></i>清空库</button>
+        <div class="ml-auto flex items-center gap-2 flex-wrap">
+          <label class="text-sm text-gray-600">筛选状态</label>
+          <select id="nl-filter-status" class="border rounded px-2 py-1 text-sm">
+            <option value="all">全部</option>
+            <option value="draft">草稿</option>
+            <option value="published">已发布</option>
+            <option value="offline">已下线</option>
+          </select>
+          <label class="text-sm text-gray-600 ml-2">审核</label>
+          <select id="nl-filter-review" class="border rounded px-2 py-1 text-sm">
+            <option value="all">全部</option>
+            <option value="pending">待审核</option>
+            <option value="approved">已通过</option>
+            <option value="rejected">已驳回</option>
+          </select>
+          <input id="nl-search" class="border rounded px-2 py-1 text-sm" placeholder="搜索标题/摘要/标签/来源">
+          <select id="nl-sort" class="border rounded px-2 py-1 text-sm" title="排序">
+            <option value="publishDate_desc">按发布时间(新→旧)</option>
+            <option value="publishDate_asc">按发布时间(旧→新)</option>
+            <option value="heat_desc">按热度(高→低)</option>
+            <option value="heat_asc">按热度(低→高)</option>
+            <option value="pinned_first">置顶优先</option>
+          </select>
+          <label class="text-sm text-gray-600">每页</label>
+          <select id="nl-page-size" class="border rounded px-2 py-1 text-sm">
+            <option value="5">5</option>
+            <option value="10" selected>10</option>
+            <option value="20">20</option>
+            <option value="50">50</option>
+          </select>
+          <label class="inline-flex items-center text-sm ml-2"><input id="nl-select-all" type="checkbox" class="mr-2">全选</label>
+          <button id="nl-bulk-publish" class="bg-green-100 text-green-700 px-3 py-1 rounded text-sm"><i class="fas fa-upload mr-1"></i>批量发布</button>
+          <button id="nl-bulk-offline" class="bg-yellow-100 text-yellow-700 px-3 py-1 rounded text-sm"><i class="fas fa-download mr-1"></i>批量下线</button>
+          <button id="nl-bulk-delete" class="bg-red-100 text-red-700 px-3 py-1 rounded text-sm"><i class="fas fa-trash mr-1"></i>批量删除</button>
+        </div>
+      </div>
+
+      <div id="nl-list" class="grid grid-cols-1 md:grid-cols-2 gap-4"></div>
+      <div class="mt-4 flex items-center justify-between">
+        <div id="nl-page-info" class="text-sm text-gray-600"></div>
+        <div class="flex gap-2">
+          <button id="nl-prev" class="bg-gray-200 text-gray-800 px-3 py-1 rounded text-sm"><i class="fas fa-chevron-left mr-1"></i>上一页</button>
+          <button id="nl-next" class="bg-gray-200 text-gray-800 px-3 py-1 rounded text-sm">下一页<i class="fas fa-chevron-right ml-1"></i></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- 侧边栏配置 -->
+    <section id="sidebar" class="bg-white rounded-lg shadow-sm p-6 border border-purple-200 mb-6">
+      <h2 class="text-xl font-semibold mb-3 flex items-center"><i class="fas fa-user-pen mr-2 text-purple-600"></i>新闻页侧边栏配置</h2>
+      <p class="text-gray-600 text-sm mb-4">作者、特邀嘉宾、标签。写入 localStorage: <code>news_side_author</code>、<code>news_side_guests</code>、<code>news_side_tags</code></p>
+
+      <!-- 作者信息 -->
+      <div class="border rounded-lg p-4 mb-4">
+        <h3 class="font-semibold mb-3">作者信息</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-3 mb-3">
+          <div>
+            <label class="block text-sm text-gray-600 mb-1">头像上传</label>
+            <input id="sa-avatar" type="file" accept="image/*" class="w-full border rounded px-3 py-2">
+          </div>
+          <input id="sa-name" class="border rounded px-3 py-2" placeholder="名称，如：AI智货代编辑部">
+          <input id="sa-bio" class="border rounded px-3 py-2" placeholder="简介，如：聚焦行业趋势与干货分享">
+        </div>
+        <div class="flex gap-2">
+          <button id="sa-save" class="bg-primary text-white px-4 py-2 rounded"><i class="fas fa-save mr-2"></i>保存作者</button>
+          <button id="sa-reset" class="bg-gray-200 text-gray-800 px-4 py-2 rounded"><i class="fas fa-undo mr-2"></i>恢复默认</button>
+        </div>
+      </div>
+
+      <!-- 特邀嘉宾 -->
+      <div class="border rounded-lg p-4 mb-4">
+        <h3 class="font-semibold mb-3">特邀嘉宾</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-3 mb-3">
+          <input id="sg-name" class="border rounded px-3 py-2" placeholder="嘉宾姓名">
+          <input id="sg-intro" class="border rounded px-3 py-2" placeholder="简要介绍">
+          <input id="sg-avatar" type="file" accept="image/*" class="border rounded px-3 py-2">
+        </div>
+        <div class="flex gap-2 mb-3">
+          <button id="sg-add" class="bg-primary text-white px-4 py-2 rounded"><i class="fas fa-plus mr-2"></i>添加嘉宾</button>
+          <button id="sg-clear" class="bg-gray-200 text-gray-800 px-4 py-2 rounded"><i class="fas fa-trash mr-2"></i>清空嘉宾</button>
+        </div>
+        <div id="sg-list" class="grid grid-cols-1 md:grid-cols-2 gap-3"></div>
+      </div>
+
+      <!-- 标签管理 -->
+      <div class="border rounded-lg p-4">
+        <h3 class="font-semibold mb-3">标签管理</h3>
+        <div class="flex gap-2 mb-3">
+          <input id="st-tag" class="border rounded px-3 py-2" placeholder="标签，如：航线">
+          <button id="st-add" class="bg-primary text-white px-4 py-2 rounded"><i class="fas fa-plus mr-2"></i>添加标签</button>
+          <button id="st-clear" class="bg-gray-200 text-gray-800 px-4 py-2 rounded"><i class="fas fa-trash mr-2"></i>清空标签</button>
+        </div>
+        <div id="st-list" class="flex flex-wrap gap-2"></div>
+      </div>
+    </section>
+  </main>
+  <div id="footer-container"></div>
+  <script src="/assets/js/global.js?v=20251114"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function(){
+      if (typeof loadComponent === 'function') {
+        loadComponent('header-container', '/components/header.html');
+        loadComponent('footer-container', '/components/footer.html');
+      }
+    });
+  </script>
+  <script>
+    // 权限简单校验（与部分后台页风格一致）
+    (function(){
+      try {
+        const u = JSON.parse(localStorage.getItem('yx_user'));
+        if (!u || (u.role !== 'super_admin' && u.role !== 'admin')) {
+          console.warn('非管理员访问新闻管理页');
+        }
+      } catch(e) {}
+    })();
+
+    // 当前用户与权限判断
+    function getCurrentUser(){ try { return JSON.parse(localStorage.getItem('yx_user')||'{}'); } catch(e){ return {}; } }
+    function isAdmin(){ const u = getCurrentUser(); return !!u && (u.role==='super_admin' || u.role==='admin'); }
+
+    // ==== 工具函数：文件转 base64 ====
+    function fileToBase64(file){
+      return new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onload = () => resolve(reader.result);
+        reader.onerror = reject;
+        reader.readAsDataURL(file);
+      });
+    }
+
+    // ==== 新闻库 CRUD（库与前台分离：库 -> news_library；前台读取 -> home_news[仅已发布]）====
+    const libraryKey = 'news_library';
+    const newsKey = 'home_news';
+    function getLibrary(){ try { return JSON.parse(localStorage.getItem(libraryKey) || '[]'); } catch { return []; } }
+    function setLibrary(arr){ localStorage.setItem(libraryKey, JSON.stringify(arr)); localStorage.setItem('news_library_updated', String(Date.now())); syncHomeNews(); }
+    function syncHomeNews(){ const lib = getLibrary(); const published = lib.filter(n => (n.status||'published') === 'published'); localStorage.setItem(newsKey, JSON.stringify(published)); localStorage.setItem('home_news_updated', String(Date.now())); }
+    (function migrateIfNeeded(){ try { const lib = getLibrary(); const hn = JSON.parse(localStorage.getItem(newsKey)||'[]'); if ((!lib || lib.length===0) && Array.isArray(hn) && hn.length>0){ const migrated = hn.map(n => ({ ...n, status: n.status||'published' })); setLibrary(migrated); console.log('已从 home_news 迁移到 news_library'); } else { syncHomeNews(); } } catch(e){ console.warn('迁移新闻库失败', e); } })();
+    // 列表视图状态与工具
+    const nlState = { status: 'all', review: 'all', search: '', sort: 'publishDate_desc', page: 1, pageSize: 10, selected: new Set() };
+    function compareBy(a, b, key, asc){
+      const va = (a[key]||''); const vb = (b[key]||'');
+      if (key === 'publishDate'){ return (new Date(va||0)) - (new Date(vb||0)); }
+      if (typeof va === 'number' && typeof vb === 'number'){ return va - vb; }
+      return String(va).localeCompare(String(vb));
+    }
+    function getViewData(){
+      const all = getLibrary();
+      // 过滤状态
+      let list = nlState.status==='all' ? all : all.filter(n => (n.status||'draft')===nlState.status);
+      // 过滤审核
+      list = nlState.review==='all' ? list : list.filter(n => (n.reviewStatus||'pending')===nlState.review);
+      // 搜索
+      const q = nlState.search.trim().toLowerCase();
+      if (q){
+        list = list.filter(n => (
+          (n.title||'').toLowerCase().includes(q) ||
+          (n.summary||'').toLowerCase().includes(q) ||
+          (n.source||'').toLowerCase().includes(q) ||
+          (Array.isArray(n.tags)?n.tags.join(','):'').toLowerCase().includes(q)
+        ));
+      }
+      // 排序
+      const s = nlState.sort;
+      if (s === 'pinned_first'){
+        list = list.slice().sort((a,b)=> (b.pinned?1:0) - (a.pinned?1:0) || compareBy(b,a,'publishDate'));
+      } else if (s.startsWith('publishDate_')){
+        const asc = s.endsWith('_asc'); list = list.slice().sort((a,b)=> asc ? compareBy(a,b,'publishDate') : compareBy(b,a,'publishDate'));
+      } else if (s.startsWith('heat_')){
+        const asc = s.endsWith('_asc'); list = list.slice().sort((a,b)=> asc ? compareBy(a,b,'heat') : compareBy(b,a,'heat'));
+      }
+      return list;
+    }
+    function renderNewsLib(){
+      const wrap = document.getElementById('nl-list');
+      wrap.innerHTML = '';
+      const admin = isAdmin();
+      // 同步筛选状态（从控件读取一次）
+      nlState.status = document.getElementById('nl-filter-status')?.value || 'all';
+      nlState.review = document.getElementById('nl-filter-review')?.value || 'all';
+      nlState.pageSize = parseInt(document.getElementById('nl-page-size')?.value||'10', 10);
+      const list = getViewData();
+      const total = list.length; const totalPages = Math.max(1, Math.ceil(total / nlState.pageSize));
+      if (nlState.page > totalPages) nlState.page = totalPages;
+      const start = (nlState.page - 1) * nlState.pageSize;
+      const pageItems = list.slice(start, start + nlState.pageSize);
+      pageItems.forEach((n, idxOnPage) => {
+        const globalIdx = start + idxOnPage; // 在完整列表中的索引
+        const card = document.createElement('div');
+        card.className = 'border rounded p-3 flex gap-3';
+        const checked = nlState.selected.has(n.id);
+        card.innerHTML = `
+          <div class='w-24 h-24 border rounded overflow-hidden flex-shrink-0 relative'>
+            ${n.cover ? `<img src='${n.cover}' class='w-full h-full object-cover'>` : `<div class='w-full h-full flex items-center justify-center text-xs text-gray-400'>无封面</div>`}
+            <label class='absolute -top-2 -left-2 bg-white border rounded px-2 py-1 text-xs inline-flex items-center'><input type='checkbox' class='mr-1' data-act='select' ${checked?'checked':''}>选择</label>
+          </div>
+          <div class='flex-1 grid grid-cols-1 md:grid-cols-2 gap-2 text-sm'>
+            <input class='border rounded px-2 py-1' value='${n.title||''}' placeholder='标题'>
+            <input class='border rounded px-2 py-1' value='${n.summary||''}' placeholder='摘要'>
+            <input class='border rounded px-2 py-1' value='${n.href||''}' placeholder='链接'>
+            <input class='border rounded px-2 py-1' type='datetime-local' value='${n.publishDate||''}'>
+            <input class='border rounded px-2 py-1' value='${n.source||''}' placeholder='来源'>
+            <input class='border rounded px-2 py-1' value='${(n.tags||[]).join(',')}' placeholder='标签（逗号分隔）'>
+            <input class='border rounded px-2 py-1' type='number' value='${n.heat||0}' placeholder='热度'>
+            <label class='inline-flex items-center'><input type='checkbox' ${n.pinned?'checked':''} class='mr-2'>置顶</label>
+            <div class='flex items-center gap-2'>
+              <label class='text-gray-600'>状态</label>
+              <select class='border rounded px-2 py-1'>
+                <option value='draft' ${ (n.status||'draft')==='draft' ? 'selected' : '' }>草稿</option>
+                <option value='published' ${ (n.status||'draft')==='published' ? 'selected' : '' } ${ admin ? '' : 'disabled' }>已发布</option>
+                <option value='offline' ${ (n.status||'draft')==='offline' ? 'selected' : '' }>已下线</option>
+              </select>
+            </div>
+            <div class='md:col-span-2 grid grid-cols-1 md:grid-cols-3 gap-2 items-start'>
+              <div class='flex items-center gap-2'>
+                <label class='text-gray-600'>审核</label>
+                <select class='border rounded px-2 py-1'>
+                  <option value='pending' ${ (n.reviewStatus||'pending')==='pending' ? 'selected' : '' }>待审核</option>
+                  <option value='approved' ${ (n.reviewStatus||'pending')==='approved' ? 'selected' : '' }>已通过</option>
+                  <option value='rejected' ${ (n.reviewStatus||'pending')==='rejected' ? 'selected' : '' }>已驳回</option>
+                </select>
+              </div>
+              <input class='border rounded px-2 py-1' value='${n.reviewer||''}' placeholder='审核人'>
+              <textarea class='border rounded px-2 py-1' rows='2' placeholder='审核备注'>${n.reviewNotes||''}</textarea>
+            </div>
+          </div>
+          <div class='flex flex-col gap-2'>
+            <label class='text-xs'>更换封面<input type='file' accept='image/*' class='block mt-1'></label>
+            <button class='bg-gray-200 text-gray-800 px-3 py-1 rounded text-xs' data-act='save' data-idx='${globalIdx}'><i class='fas fa-save mr-1'></i>保存</button>
+            <button class='bg-gray-200 text-gray-800 px-3 py-1 rounded text-xs' data-act='delete' data-idx='${globalIdx}'><i class='fas fa-trash mr-1'></i>删除</button>
+            <button class='bg-blue-100 text-blue-700 px-3 py-1 rounded text-xs' data-act='submit' data-idx='${globalIdx}'><i class='fas fa-paper-plane mr-1'></i>提交审核</button>
+            <button class='bg-green-100 text-green-700 px-3 py-1 rounded text-xs' data-act='approve' data-idx='${globalIdx}'><i class='fas fa-check mr-1'></i>通过</button>
+            <button class='bg-yellow-100 text-yellow-700 px-3 py-1 rounded text-xs' data-act='reject' data-idx='${globalIdx}'><i class='fas fa-times mr-1'></i>驳回</button>
+          </div>`;
+        wrap.appendChild(card);
+      });
+      // 页码信息
+      const info = document.getElementById('nl-page-info');
+      if (info) info.textContent = `共 ${total} 条，页 ${nlState.page}/${Math.max(1, Math.ceil(total/nlState.pageSize))}`;
+      // 同步全选勾选状态
+      const selAll = document.getElementById('nl-select-all'); if (selAll){
+        const allChecked = pageItems.length>0 && pageItems.every(n => nlState.selected.has(n.id));
+        selAll.checked = allChecked;
+      }
+    }
+    function addNewsItem(){
+      const title = document.getElementById('nl-title').value.trim();
+      const summary = document.getElementById('nl-summary').value.trim();
+      const href = document.getElementById('nl-href').value.trim();
+      const publishDate = document.getElementById('nl-publish').value;
+      const source = document.getElementById('nl-source').value.trim();
+      const tags = document.getElementById('nl-tags').value.split(',').map(s=>s.trim()).filter(Boolean);
+      const heat = parseInt(document.getElementById('nl-heat').value||'0',10);
+      const pinned = document.getElementById('nl-pinned').checked;
+      const status = document.getElementById('nl-status').value;
+      const coverInput = document.getElementById('nl-cover');
+      const id = 'n'+Date.now();
+      const push = (coverBase64) => {
+        const arr = getLibrary();
+        arr.push({ id, title, summary, href, cover: coverBase64||'', publishDate, source, tags, heat, pinned, status });
+        setLibrary(arr);
+        renderNewsLib();
+        alert('已添加文章');
+      };
+      if (!title){ alert('请填写标题'); return; }
+      if (coverInput.files && coverInput.files[0]) {
+        fileToBase64(coverInput.files[0]).then(base64 => push(base64));
+      } else {
+        push('');
+      }
+    }
+    document.getElementById('nl-add').addEventListener('click', addNewsItem);
+    document.getElementById('nl-save').addEventListener('click', function(){ alert('已保存新闻库'); });
+    document.getElementById('nl-clear').addEventListener('click', function(){ if (!confirm('确认清空文章库？')) return; setLibrary([]); renderNewsLib(); });
+    document.getElementById('nl-export').addEventListener('click', function(){ const blob = new Blob([localStorage.getItem(libraryKey)||'[]'], {type:'application/json'}); const url = URL.createObjectURL(blob); const a=document.createElement('a'); a.href=url; a.download='news_library.json'; a.click(); URL.revokeObjectURL(url); });
+    document.getElementById('nl-import').addEventListener('change', function(){ const f=this.files[0]; if(!f) return; const reader=new FileReader(); reader.onload=()=>{ try{ const arr=JSON.parse(reader.result); if(!Array.isArray(arr)) throw new Error('JSON不是数组'); setLibrary(arr); renderNewsLib(); alert('已导入'); }catch(e){ alert('导入失败：'+e.message); } }; reader.readAsText(f); });
+    document.getElementById('nl-filter-status').addEventListener('change', function(){ nlState.page=1; renderNewsLib(); });
+    document.getElementById('nl-filter-review').addEventListener('change', function(){ nlState.page=1; renderNewsLib(); });
+    document.getElementById('nl-search').addEventListener('input', function(){ nlState.search = this.value; nlState.page=1; renderNewsLib(); });
+    document.getElementById('nl-sort').addEventListener('change', function(){ nlState.sort = this.value; renderNewsLib(); });
+    document.getElementById('nl-page-size').addEventListener('change', function(){ nlState.pageSize = parseInt(this.value,10); nlState.page=1; renderNewsLib(); });
+    document.getElementById('nl-select-all').addEventListener('change', function(){ const list = getViewData(); const start=(nlState.page-1)*nlState.pageSize; const pageItems=list.slice(start,start+nlState.pageSize); if(this.checked){ pageItems.forEach(n=> nlState.selected.add(n.id)); } else { pageItems.forEach(n=> nlState.selected.delete(n.id)); } renderNewsLib(); });
+    document.getElementById('nl-bulk-publish').addEventListener('click', function(){ if(!isAdmin()){ alert('仅管理员可执行“发布”操作'); return; } const arr = getLibrary().map(n => nlState.selected.has(n.id) ? { ...n, status: 'published' } : n); setLibrary(arr); renderNewsLib(); });
+    document.getElementById('nl-bulk-offline').addEventListener('click', function(){ const arr = getLibrary().map(n => nlState.selected.has(n.id) ? { ...n, status: 'offline' } : n); setLibrary(arr); renderNewsLib(); });
+    document.getElementById('nl-bulk-delete').addEventListener('click', function(){ if(!confirm('确定批量删除选中项？')) return; const arr = getLibrary().filter(n => !nlState.selected.has(n.id)); setLibrary(arr); nlState.selected.clear(); renderNewsLib(); });
+    document.getElementById('nl-prev').addEventListener('click', function(){ if (nlState.page>1){ nlState.page--; renderNewsLib(); } });
+    document.getElementById('nl-next').addEventListener('click', function(){ const total = getViewData().length; const totalPages = Math.max(1, Math.ceil(total/nlState.pageSize)); if (nlState.page < totalPages){ nlState.page++; renderNewsLib(); } });
+    document.getElementById('nl-list').addEventListener('click', async function(e){
+      const btn = e.target.closest('button');
+      const inputFile = e.target.tagName==='INPUT' && e.target.type==='file' ? e.target : null;
+      const card = e.target.closest('div.border');
+      const checkbox = e.target.tagName==='INPUT' && e.target.type==='checkbox' && e.target.getAttribute('data-act')==='select' ? e.target : null;
+      if (checkbox && card){
+        const idx = parseInt(card.querySelector('[data-act=save]')?.getAttribute('data-idx')||'-1',10);
+        const arr = getLibrary();
+        const item = arr[idx]; if (!item) return;
+        if (checkbox.checked) nlState.selected.add(item.id); else nlState.selected.delete(item.id);
+        return;
+      }
+      if (inputFile && card) {
+        const idx = Array.from(card.parentNode.children).indexOf(card);
+        const arr = getLibrary();
+        if (inputFile.files && inputFile.files[0]) {
+          const base64 = await fileToBase64(inputFile.files[0]);
+          arr[idx].cover = base64; setLibrary(arr); renderNewsLib();
+        }
+        return;
+      }
+      if (!btn) return;
+      const act = btn.getAttribute('data-act');
+      const idx = parseInt(btn.getAttribute('data-idx'),10);
+      const inputs = card.querySelectorAll('input');
+      const selects = card.querySelectorAll('select');
+      const rec = {
+        title: inputs[1].value.trim(),
+        summary: inputs[2].value.trim(),
+        href: inputs[3].value.trim(),
+        publishDate: inputs[4].value,
+        source: inputs[5].value.trim(),
+        tags: inputs[6].value.split(',').map(s=>s.trim()).filter(Boolean),
+        heat: parseInt(inputs[7].value||'0',10),
+        pinned: inputs[8].checked,
+        status: selects[0]?.value || 'draft',
+        reviewStatus: selects[1]?.value || 'pending',
+        reviewer: inputs[9]?.value.trim() || '',
+        reviewNotes: card.querySelector('textarea')?.value || ''
+      };
+      const arr = getLibrary();
+      // 审核动作快捷操作
+      if (act==='submit'){ arr[idx] = { ...arr[idx], reviewStatus: 'pending' }; setLibrary(arr); renderNewsLib(); return; }
+      if (act==='approve'){ const reviewer = (JSON.parse(localStorage.getItem('yx_user')||'{}').name)||''; arr[idx] = { ...arr[idx], reviewStatus: 'approved', reviewer }; setLibrary(arr); renderNewsLib(); return; }
+      if (act==='reject'){ const reviewer = (JSON.parse(localStorage.getItem('yx_user')||'{}').name)||''; arr[idx] = { ...arr[idx], reviewStatus: 'rejected', reviewer }; setLibrary(arr); renderNewsLib(); return; }
+      if (act==='save') {
+        // 非管理员禁止将状态改为“已发布”
+        if (rec.status==='published' && !isAdmin()){
+          alert('仅管理员可发布。已恢复原状态。');
+          rec.status = arr[idx]?.status || 'draft';
+        }
+        arr[idx] = { ...arr[idx], ...rec }; setLibrary(arr); alert('已保存');
+      }
+      else if (act==='delete') { arr.splice(idx,1); setLibrary(arr); renderNewsLib(); }
+    });
+    renderNewsLib();
+
+    // ==== 侧边栏配置 ====
+    const sideAuthorKey = 'news_side_author';
+    const sideGuestsKey = 'news_side_guests';
+    const sideTagsKey = 'news_side_tags';
+    const defaultSideAuthor = { avatar: '/assets/images/logo.webp', name: 'AI智货代编辑部', bio: '聚焦航运与货代行业趋势与干货分享。' };
+    const defaultSideGuests = [
+      { avatar: '/assets/images/2msk.webp', name: '马士基资深顾问', intro: '解读航线与市场策略' },
+      { avatar: '/assets/images/4cosco.webp', name: '中远海运分析师', intro: '货代数字化实践' }
+    ];
+    const defaultSideTags = ['航线','港口','集装箱','运价','数字化','供应链'];
+    function getSideAuthor(){ try { return JSON.parse(localStorage.getItem(sideAuthorKey) || 'null') || defaultSideAuthor; } catch { return defaultSideAuthor; } }
+    function setSideAuthor(obj){ localStorage.setItem(sideAuthorKey, JSON.stringify(obj)); }
+    function getGuests(){ try { return JSON.parse(localStorage.getItem(sideGuestsKey) || '[]'); } catch { return []; } }
+    function setGuests(arr){ localStorage.setItem(sideGuestsKey, JSON.stringify(arr)); }
+    function getTags(){ try { return JSON.parse(localStorage.getItem(sideTagsKey) || '[]'); } catch { return []; } }
+    function setTags(arr){ localStorage.setItem(sideTagsKey, JSON.stringify(arr)); }
+
+    function renderGuests(){
+      const wrap = document.getElementById('sg-list');
+      wrap.innerHTML = '';
+      const arr = getGuests();
+      arr.forEach((g, idx) => {
+        const row = document.createElement('div');
+        row.className = 'border rounded p-3 flex gap-3 items-center';
+        row.innerHTML = `
+          <img src='${g.avatar||'/assets/images/logo.webp'}' class='w-12 h-12 rounded-full object-cover'>
+          <input class='border rounded px-2 py-1 text-sm' value='${g.name||''}' placeholder='姓名'>
+          <input class='border rounded px-2 py-1 text-sm flex-1' value='${g.intro||''}' placeholder='介绍'>
+          <input type='file' accept='image/*' class='text-xs'>
+          <button class='bg-gray-200 text-gray-800 px-3 py-1 rounded text-xs' data-act='save' data-idx='${idx}'><i class='fas fa-save mr-1'></i>保存</button>
+          <button class='bg-gray-200 text-gray-800 px-3 py-1 rounded text-xs' data-act='delete' data-idx='${idx}'><i class='fas fa-trash mr-1'></i>删除</button>`;
+        wrap.appendChild(row);
+      });
+    }
+    function renderTags(){
+      const wrap = document.getElementById('st-list'); wrap.innerHTML='';
+      const arr = getTags();
+      arr.forEach((t, idx) => {
+        const chip = document.createElement('div');
+        chip.className = 'px-3 py-1 border rounded-full text-sm flex items-center gap-2';
+        chip.innerHTML = `<span>${t}</span><button class='text-xs text-gray-600' data-act='remove' data-idx='${idx}'>移除</button>`;
+        wrap.appendChild(chip);
+      });
+    }
+
+    // 作者保存/重置
+    document.getElementById('sa-save').addEventListener('click', async function(){
+      const name = document.getElementById('sa-name').value.trim();
+      const bio = document.getElementById('sa-bio').value.trim();
+      const file = document.getElementById('sa-avatar').files[0];
+      const author = getSideAuthor();
+      const avatar = file ? await fileToBase64(file) : author.avatar;
+      setSideAuthor({ avatar, name: name || author.name, bio: bio || author.bio });
+      alert('已保存作者');
+    });
+    document.getElementById('sa-reset').addEventListener('click', function(){ setSideAuthor(defaultSideAuthor); alert('已恢复默认作者'); });
+
+    // 嘉宾新增/清空/保存/删除/更换头像
+    document.getElementById('sg-add').addEventListener('click', async function(){
+      const name = document.getElementById('sg-name').value.trim();
+      const intro = document.getElementById('sg-intro').value.trim();
+      const file = document.getElementById('sg-avatar').files[0];
+      const avatar = file ? await fileToBase64(file) : '/assets/images/logo.webp';
+      const arr = getGuests();
+      arr.push({ name, intro, avatar });
+      setGuests(arr); renderGuests();
+    });
+    document.getElementById('sg-clear').addEventListener('click', function(){ if(!confirm('确定清空嘉宾？')) return; setGuests([]); renderGuests(); });
+    document.getElementById('sg-list').addEventListener('click', async function(e){
+      const btn = e.target.closest('button');
+      const row = e.target.closest('div.border');
+      if (e.target.tagName==='INPUT' && e.target.type==='file' && row){
+        const idx = Array.from(row.parentNode.children).indexOf(row);
+        const arr = getGuests();
+        const base64 = await fileToBase64(e.target.files[0]);
+        arr[idx].avatar = base64; setGuests(arr); renderGuests(); return;
+      }
+      if (!btn) return;
+      const act = btn.getAttribute('data-act');
+      const idx = parseInt(btn.getAttribute('data-idx'),10);
+      const inputs = row.querySelectorAll('input');
+      const rec = { name: inputs[1].value.trim(), intro: inputs[2].value.trim() };
+      const arr = getGuests();
+      if (act==='save'){ arr[idx] = { ...arr[idx], ...rec }; setGuests(arr); alert('已保存'); }
+      else if (act==='delete'){ arr.splice(idx,1); setGuests(arr); renderGuests(); }
+    });
+    renderGuests();
+
+    // 标签新增/清空/移除
+    document.getElementById('st-add').addEventListener('click', function(){ const val = document.getElementById('st-tag').value.trim(); if(!val) return; const arr = getTags(); arr.push(val); setTags(arr); renderTags(); document.getElementById('st-tag').value=''; });
+    document.getElementById('st-clear').addEventListener('click', function(){ if(!confirm('确定清空标签？')) return; setTags([]); renderTags(); });
+    document.getElementById('st-list').addEventListener('click', function(e){ const btn = e.target.closest('button'); if(!btn) return; const idx=parseInt(btn.getAttribute('data-idx'),10); const arr=getTags(); arr.splice(idx,1); setTags(arr); renderTags(); });
+    renderTags();
+
+    // 与前台联动：storage 监听（可选，便于多个Tab协作）
+    window.addEventListener('storage', function(e){
+      if (e.key === libraryKey || e.key === newsKey) renderNewsLib();
+      if (e.key === sideAuthorKey || e.key === sideGuestsKey || e.key === sideTagsKey) {
+        renderGuests(); renderTags();
+      }
+    });
+  </script>
+</body>
+</html>

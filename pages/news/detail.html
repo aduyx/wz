@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>行业资讯—详情 - AI智货代</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/global.css">
+</head>
+<body class="bg-gray-50 font-sans text-dark">
+  <div id="header-container"></div>
+
+  <main class="container mx-auto px-4 py-8">
+    <article class="prose max-w-none">
+      <h1 class="text-3xl font-bold mb-3">资讯标题占位</h1>
+      <p class="text-gray-500 mb-6">发布时间 / 来源占位</p>
+      <div class="bg-white rounded-lg shadow-sm p-6">
+        <p class="text-gray-700">这里展示资讯正文内容，后续接入实际数据。</p>
+      </div>
+      <a href="../../news.html" class="inline-flex items-center mt-6 text-primary hover:underline">
+        <i class="fas fa-arrow-left mr-2"></i>返回资讯列表
+      </a>
+    </article>
+  </main>
+
+  <div id="footer-container"></div>
+
+  <script src="/assets/js/global.js?v=20251114"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      loadComponent('header-container', '/components/header.html');
+      loadComponent('footer-container', '/components/footer.html');
+    });
+    function getParam(name){ const u=new URL(location.href); return u.searchParams.get(name)||''; }
+    function readNews(){ try{ const arr=JSON.parse(localStorage.getItem('home_news')||'[]'); return Array.isArray(arr)?arr:[]; }catch{ return []; } }
+    function renderItem(it){
+      document.querySelector('h1').textContent = it.title||'未命名文章';
+      document.querySelector('p.text-gray-500').textContent = (it.publishDate||'') + (it.source?(' / '+it.source):'');
+      const box=document.querySelector('.bg-white.rounded-lg.shadow-sm.p-6');
+      const img=it.cover?(`<img src="${it.cover}" alt="${it.title||''}" class="w-full h-48 object-cover rounded mb-4">`):'';
+      const sum=it.summary||'';
+      box.innerHTML = img + `<div class="text-gray-700">${sum}</div>`;
+    }
+    function init(){
+      const id=getParam('id');
+      const list=readNews();
+      const it=list.find(x=>String(x.id||'')===String(id||''));
+      if(!it){ return; }
+      const href=it.href||'';
+      if(href && !href.includes('detail.html')){ location.href=href; return; }
+      renderItem(it);
+    }
+    document.addEventListener('DOMContentLoaded', init);
+  </script>
+</body>
+</html>

@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>获客中心 - AI智货代</title>
+  <meta name="description" content="AI智货代获客中心：发布需求、对接伙伴，快速拓展业务。">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/global.css">
+  <script>
+    tailwind.config = { theme: { extend: { colors: { primary: '#165DFF', secondary: '#0E2E88', accent: '#FF7D00', neutral: '#F5F7FA', dark: '#1D2129' }, fontFamily: { sans: ['Inter','system-ui','sans-serif'] } } } };
+  </script>
+  <style type="text/tailwindcss">
+    @layer utilities {
+      .text-shadow { text-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+      .custom-gradient {
+        background: linear-gradient(to right, 
+          #3b82f6 0%, 
+          #3b82f6 61.8%, 
+          #14b8a6 80.9%, 
+          #06b6d4 100%);
+      }
+    }
+  </style>
+</head>
+<body class="bg-gray-50 font-sans text-dark">
+  <div id="header-container"></div>
+  <main id="main">
+    <section class="hero custom-gradient text-white py-8">
+      <div class="container mx-auto px-4 text-left">
+        <h1 class="text-[clamp(2rem,5vw,3.5rem)] font-bold mb-3 text-shadow">获客中心</h1>
+        <p class="text-[clamp(1rem,2vw,1.25rem)] opacity-90 max-w-3xl">发布业务需求、对接合作伙伴，获取高质量线索与转化。</p>
+      </div>
+    </section>
+    <div id="ad-slot" class="container mx-auto px-4 mt-4">
+      <div class="w-full h-28 md:h-32 lg:h-36 rounded-lg overflow-hidden border-2 border-accent bg-neutral flex items-center justify-center">
+        <img id="ad-img" alt="ad" class="w-full h-full object-cover hidden">
+        <div id="ad-placeholder" class="text-accent text-sm">通栏广告位（支持链接参数 bannerAd）</div>
+      </div>
+    </div>
+
+    <section class="container mx-auto px-4 py-8">
+      <div class="bg-white rounded-lg shadow-sm p-6 mb-8 border-2 border-accent">
+            <div class="flex flex-wrap gap-2 border-b border-gray-200 pb-3">
+              <button class="tab-btn px-4 py-2 rounded-md text-sm font-medium bg-primary text-white" data-tab="cn-agent">国内代理</button>
+              <button class="tab-btn px-4 py-2 rounded-md text-sm font-medium hover:bg-gray-100" data-tab="overseas-agent">海外代理</button>
+              <button class="tab-btn px-4 py-2 rounded-md text-sm font-medium hover:bg-gray-100" data-tab="cn-seller">国内卖家</button>
+              <button class="tab-btn px-4 py-2 rounded-md text-sm font-medium hover:bg-gray-100" data-tab="overseas-seller">海外卖家</button>
+            </div>
+            <div class="mt-6">
+              <div id="tab-cn-agent" class="tab-panel">
+                <div class="flex items-center gap-3 mb-3">
+                  <h2 class="text-xl font-bold">国内代理</h2>
+                  <p class="text-gray-700">设置合作需求与匹配规则，支持后续对接流程。</p>
+                </div>
+              </div>
+              <div id="tab-overseas-agent" class="tab-panel hidden">
+                <div class="flex items-center gap-3 mb-3">
+                  <h2 class="text-xl font-bold">海外代理</h2>
+                  <p class="text-gray-700">配置目标国家与航线偏好，完善代理协作细节。</p>
+                </div>
+              </div>
+              <div id="tab-cn-seller" class="tab-panel hidden">
+                <div class="flex items-center gap-3 mb-3">
+                  <h2 class="text-xl font-bold">国内卖家</h2>
+                  <p class="text-gray-700">添加货品类型、出货频次与服务要求占位。</p>
+                </div>
+              </div>
+              <div id="tab-overseas-seller" class="tab-panel hidden">
+                <div class="flex items-center gap-3 mb-3">
+                  <h2 class="text-xl font-bold">海外卖家</h2>
+                  <p class="text-gray-700">设置进口地区与渠道合作偏好，后续完善。</p>
+                </div>
+              </div>
+
+              <div id="search-controls" class="mt-4">
+                <div class="flex flex-wrap items-center gap-3">
+                  <input id="search-q" type="text" placeholder="搜索公司/关键词" class="border rounded px-3 py-2 w-[280px] flex-1 min-w-[180px]">
+                  <select id="region-select" class="border rounded px-3 py-2">
+                    <option value="">不限地区</option>
+                    <option>华东</option>
+                    <option>华南</option>
+                    <option>华北</option>
+                    <option>东北</option>
+                    <option>西南</option>
+                    <option>欧洲</option>
+                    <option>北美</option>
+                    <option>东南亚</option>
+                    <option>中东</option>
+                    <option>非洲</option>
+                  </select>
+                  <select id="industry-select" class="border rounded px-3 py-2 hidden">
+                    <option value="">不限行业</option>
+                    <option>电子</option>
+                    <option>机械</option>
+                    <option>纺织</option>
+                    <option>化工</option>
+                    <option>食品</option>
+                    <option>家具</option>
+                    <option>汽配</option>
+                    <option>医药</option>
+                    <option>家电</option>
+                    <option>建材</option>
+                  </select>
+                  <button id="search-btn" type="button" class="btn-primary h-10 px-4">搜索</button>
+                  
+                </div>
+              </div>
+
+              <div id="results" class="space-y-8 mt-2"></div>
+            </div>
+          </div>
+      </div>
+    </section>
+  </main>
+  <div id="footer-container"></div>
+  <script src="/assets/js/global.js?v=20251114"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function(){
+      loadComponent('header-container','/components/header.html');
+      loadComponent('footer-container','/components/footer.html');
+      var params = new URLSearchParams(location.search);
+      var t = params.get('type');
+      var bg = params.get('bg');
+      var banner = params.get('banner');
+      var hero = document.querySelector('.hero');
+      if (banner && hero) {
+        hero.classList.remove('custom-gradient');
+        hero.style.backgroundImage = 'url(' + banner + ')';
+        hero.style.backgroundSize = 'cover';
+        hero.style.backgroundPosition = 'center';
+        hero.style.backgroundRepeat = 'no-repeat';
+      } else if (bg && hero) {
+        hero.style.background = bg;
+      }
+      var bannerAd = params.get('bannerAd');
+      if (bannerAd) {
+        var adImg = document.getElementById('ad-img');
+        var adPh = document.getElementById('ad-placeholder');
+        if (adImg) { adImg.src = bannerAd; adImg.classList.remove('hidden'); }
+        if (adPh) adPh.classList.add('hidden');
+      }
+      var initialTab = 'cn-agent';
+      if (t) {
+        var m2 = { '国内代理': 'cn-agent', '海外代理': 'overseas-agent', '国内卖家': 'cn-seller', '海外卖家': 'overseas-seller', '本地货代': 'cn-agent', '国内工厂': 'cn-seller', '海外买家': 'overseas-seller' };
+        if (m2[t]) initialTab = m2[t];
+      }
+      const industrySelectEl = document.getElementById('industry-select');
+      const regionSelectEl = document.getElementById('region-select');
+      const searchInputEl = document.getElementById('search-q');
+      const resultsEl = document.getElementById('results');
+
+      function updateControlsForTab(key){
+        if (key === 'cn-seller' || key === 'overseas-seller') {
+          if (industrySelectEl) industrySelectEl.classList.remove('hidden');
+        } else {
+          if (industrySelectEl) industrySelectEl.classList.add('hidden');
+        }
+      }
+
+      function selectTab(key) {
+        document.querySelectorAll('.tab-btn').forEach(function(b){
+          if (b.dataset.tab === key) { b.classList.add('bg-primary','text-white'); b.classList.remove('hover:bg-gray-100'); }
+          else { b.classList.remove('bg-primary','text-white'); }
+        });
+        document.querySelectorAll('.tab-panel').forEach(function(p){
+          if (p.id === 'tab-' + key) { p.classList.remove('hidden'); }
+          else { p.classList.add('hidden'); }
+        });
+        updateControlsForTab(key);
+        renderCompanies(key);
+      }
+      selectTab(initialTab);
+      document.querySelectorAll('.tab-btn').forEach(function(b){
+        b.addEventListener('click', function(){ selectTab(this.dataset.tab); });
+      });
+
+      const companiesKey = 'leads_companies';
+      const savedKey = 'saved_companies';
+      function getCompanies(){ try { return JSON.parse(localStorage.getItem(companiesKey)||'[]'); } catch { return []; } }
+      function setCompanies(arr){ localStorage.setItem(companiesKey, JSON.stringify(arr)); }
+      function getSaved(){ try { return JSON.parse(localStorage.getItem(savedKey)||'[]'); } catch { return []; } }
+      function setSaved(arr){ localStorage.setItem(savedKey, JSON.stringify(arr)); }
+      function generateSample(n){
+        const inds = ['电子','机械','纺织','化工','食品','家具','汽配','医药','家电','建材'];
+        const regs = ['华东','华南','华北','东北','西南','欧洲','北美','东南亚','中东','非洲'];
+        const roles = ['cn-agent','overseas-agent','cn-seller','overseas-seller'];
+        const arr = [];
+        for (let i=0;i<n;i++){
+          arr.push({
+            id: 'c'+Date.now()+i,
+            logo: 'https://placehold.co/64x64?text=LOGO',
+            name_cn: '示例公司'+(i+1),
+            name_en: 'Sample Co. '+(i+1),
+            industry: inds[i%inds.length],
+            region: regs[i%regs.length],
+            role: roles[i%roles.length],
+            desc: '示例描述，行业'+inds[i%inds.length]+'，地区'+regs[i%regs.length]
+          });
+        }
+        return arr;
+      }
+
+      function applyFilters(list, key){
+        const q = (searchInputEl?.value||'').trim().toLowerCase();
+        const reg = regionSelectEl?.value||'';
+        const ind = industrySelectEl?.classList.contains('hidden') ? '' : (industrySelectEl?.value||'');
+        return list.filter(it => {
+          const okRole = key ? (it.role ? it.role === key : true) : true;
+          const okQ = !q || (it.name_cn||'').toLowerCase().includes(q) || (it.name_en||'').toLowerCase().includes(q) || (it.desc||'').toLowerCase().includes(q);
+          const okReg = !reg || (it.region === reg);
+          const okInd = !ind || (it.industry === ind);
+          return okRole && okQ && okReg && okInd;
+        });
+      }
+
+      function cardHTML(it){
+        return `
+        <div class="card group relative border border-gray-200 rounded-lg p-4 flex items-center gap-3 bg-white hover:shadow">
+          <img src="${it.logo||'https://placehold.co/64x64?text=LOGO'}" class="w-12 h-12 rounded object-cover bg-neutral" alt="logo">
+          <div class="flex-1 min-w-0">
+            <div class="font-semibold truncate">${it.name_cn||''}</div>
+            <div class="text-sm text-gray-600 truncate">${it.name_en||''}</div>
+          </div>
+          <div class="popover absolute -top-2 left-full hidden group-hover:flex flex-col justify-between bg-white/95 border border-accent rounded-lg p-3 z-20 w-72 shadow-lg">
+            <div class="text-sm">
+              <div class="font-semibold mb-1">${it.name_cn||''} / ${it.name_en||''}</div>
+              <div class="text-gray-700">行业：${it.industry||''} · 地区：${it.region||''}</div>
+              <div class="text-gray-600 mt-1">${it.desc||''}</div>
+            </div>
+            <button class="btn-primary h-9 self-end save-btn" data-id="${it.id}">保存到我的账号</button>
+          </div>
+        </div>`;
+      }
+
+      function renderCompanies(key){
+        if (!resultsEl) return;
+        const all = getCompanies();
+        const list = applyFilters(all, key);
+        const part1 = list.slice(0,6);
+        const part2 = list.slice(6,21);
+        const part3 = list.slice(21);
+        const h1 = `<div class="grid grid-cols-2 gap-4">${part1.map(cardHTML).join('')}</div>`;
+        const h2 = `<div class="grid grid-cols-3 gap-4">${part2.map(cardHTML).join('')}</div>`;
+        const h3 = `<div class="grid grid-cols-4 gap-4">${part3.map(cardHTML).join('')}</div>`;
+        resultsEl.innerHTML = h1 + h2 + h3;
+        resultsEl.querySelectorAll('.save-btn').forEach(function(btn){
+          btn.addEventListener('click', function(){
+            const id = this.dataset.id;
+            const cur = getSaved();
+            const existing = cur.find(x=>x.id===id);
+            if (!existing){
+              const item = list.find(x=>x.id===id) || all.find(x=>x.id===id);
+              if (item){ cur.push(item); setSaved(cur); alert('已保存到我的账号'); }
+            } else {
+              alert('已在我的账号中');
+            }
+          });
+        });
+        resultsEl.querySelectorAll('.card').forEach(function(el){
+          const pop = el.querySelector('.popover');
+          let hideTimer;
+          el.addEventListener('mouseenter', function(){
+            if (!pop) return;
+            clearTimeout(hideTimer);
+            pop.classList.remove('hidden');
+            pop.classList.add('flex');
+          });
+          el.addEventListener('mouseleave', function(){
+            if (!pop) return;
+            hideTimer = setTimeout(function(){
+              pop.classList.add('hidden');
+              pop.classList.remove('flex');
+            }, 200);
+          });
+          if (pop){
+            pop.addEventListener('mouseenter', function(){
+              clearTimeout(hideTimer);
+              pop.classList.remove('hidden');
+              pop.classList.add('flex');
+            });
+            pop.addEventListener('mouseleave', function(){
+              hideTimer = setTimeout(function(){
+                pop.classList.add('hidden');
+                pop.classList.remove('flex');
+              }, 200);
+            });
+          }
+        });
+      }
+
+      const searchBtn = document.getElementById('search-btn');
+
+      function parseCsv(text){
+        const lines = String(text).trim().split(/\r?\n/);
+        const header = lines[0].split(',');
+        const idx = (name)=> header.indexOf(name);
+        const arr = [];
+        for (let i=1;i<lines.length;i++){
+          if (!lines[i]) continue;
+          const cols = lines[i].split(',');
+          const o = {
+            id: 'c'+Date.now()+i,
+            logo: cols[idx('logo')]||'',
+            name_cn: cols[idx('name_cn')]||'',
+            name_en: cols[idx('name_en')]||'',
+            region: cols[idx('region')]||'',
+            industry: cols[idx('industry')]||'',
+            role: cols[idx('role')]||'',
+            desc: cols[idx('desc')]||''
+          };
+          arr.push(o);
+        }
+        return arr;
+      }
+
+      function loadSample(kind){
+        const url = '../../data/leads_samples/' + kind + '.csv';
+        fetch(url).then(function(r){ return r.text(); }).then(function(text){
+          const arr = parseCsv(text);
+          setCompanies(arr);
+          renderCompanies(initialTab);
+          alert('已加载示例库：共 ' + arr.length + ' 条');
+        }).catch(function(err){ alert('加载失败：' + err); });
+      }
+      function loadAllSamples(){
+        const kinds = ['cn_agents','overseas_agents','cn_sellers','overseas_sellers'];
+        Promise.all(kinds.map(function(k){ return fetch('../../data/leads_samples/' + k + '.csv').then(function(r){ return r.text(); }); }))
+          .then(function(texts){
+            const all = texts.map(function(t){ return parseCsv(t); }).reduce(function(acc,cur){ return acc.concat(cur); },[]);
+            setCompanies(all);
+            renderCompanies(initialTab);
+            alert('已加载全部示例库：共 ' + all.length + ' 条');
+          }).catch(function(err){ alert('加载失败：' + err); });
+      }
+      
+      
+      loadAllSamples();
+      if (searchBtn){ searchBtn.addEventListener('click', function(){ const active = document.querySelector('.tab-btn.bg-primary')?.dataset.tab || initialTab; renderCompanies(active); }); }
+      if (searchInputEl){ searchInputEl.addEventListener('keydown', function(e){ if (e.key==='Enter'){ const active = document.querySelector('.tab-btn.bg-primary')?.dataset.tab || initialTab; renderCompanies(active); } }); }
+      const key = 'leads_submissions';
+      function getAll(){ try { return JSON.parse(localStorage.getItem(key)||'[]'); } catch { return []; } }
+      function setAll(arr){ localStorage.setItem(key, JSON.stringify(arr)); localStorage.setItem('leads_updated', Date.now().toString()); }
+      function renderList(){
+        const wrap = document.getElementById('lead-items');
+        const list = getAll();
+        if (!wrap) return;
+        wrap.innerHTML = '';
+        list.slice().reverse().forEach(item => {
+          const d = document.createElement('div');
+          d.className = 'border rounded p-3 text-sm flex flex-col gap-1';
+          d.innerHTML = `
+            <div class="font-semibold">${item.name||''} · ${item.company||''}</div>
+            <div class="text-gray-700">${item.type||''} · ${item.phone||item.email||''}</div>
+            <div class="text-gray-600">${item.origin||''} → ${item.dest||''} · ${item.date||''}</div>
+            <div class="text-gray-500">${item.remark||''}</div>
+          `;
+          wrap.appendChild(d);
+        });
+      }
+      const formEl = document.getElementById('lead-form');
+      if (formEl) formEl.addEventListener('submit', function(e){
+        e.preventDefault();
+        const data = {
+          name: document.getElementById('lead-name').value.trim(),
+          company: document.getElementById('lead-company').value.trim(),
+          phone: document.getElementById('lead-phone').value.trim(),
+          email: document.getElementById('lead-email').value.trim(),
+          type: document.getElementById('lead-type').value,
+          origin: document.getElementById('lead-origin').value.trim(),
+          dest: document.getElementById('lead-dest').value.trim(),
+          date: document.getElementById('lead-date').value,
+          remark: document.getElementById('lead-remark').value.trim(),
+          ts: Date.now()
+        };
+        if (!data.name || !(data.phone || data.email)) { alert('请填写姓名，并至少提供电话或邮箱'); return; }
+        const list = getAll();
+        list.push(data);
+        setAll(list);
+        alert('已提交线索');
+        this.reset();
+      });
+      const viewBtn = document.getElementById('lead-view');
+      if (viewBtn) viewBtn.addEventListener('click', function(){
+        const box = document.getElementById('lead-list');
+        if (!box) return;
+        const show = box.classList.contains('hidden');
+        if (show) { renderList(); box.classList.remove('hidden'); this.textContent = '隐藏我的提交'; }
+        else { box.classList.add('hidden'); this.textContent = '查看我的提交'; }
+      });
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>后台管理 - AI智货代</title>
+  
+  <!-- SEO 元数据 -->
+  <meta name="description" content="AI智货代后台管理系统 - 管理用户、订单、内容等">
+  <meta name="keywords" content="货代工具,后台管理,AI智货代,管理系统">
+  <meta name="author" content="AI智货代">
+  <meta name="robots" content="noindex, nofollow">
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <!-- 全局样式 -->
+  <link rel="stylesheet" href="/assets/css/global.css">
+  
+  <!-- 自定义配置 -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#165DFF',
+            secondary: '#0E2E88',
+            accent: '#FF7D00',
+            neutral: '#F5F7FA',
+            dark: '#1D2129',
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+          },
+        },
+      }
+    }
+  </script>
+  <style type="text/tailwindcss">
+    @layer utilities {
+      .content-auto {
+        content-visibility: auto;
+      }
+      .text-shadow {
+        text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      }
+      .transition-custom {
+        transition: all 0.3s ease;
+      }
+      .card-hover {
+        @apply hover:shadow-lg hover:-translate-y-1 transition-custom;
+      }
+      .custom-gradient {
+        background: linear-gradient(to right, 
+          #3b82f6 0%, 
+          #3b82f6 61.8%, 
+          #14b8a6 80.9%, 
+          #06b6d4 100%);
+      }
+      .text-gradient {
+        background: linear-gradient(45deg, #fbbf24, #f59e0b, #d97706, #92400e);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+      .h2-gradient {
+        background: linear-gradient(135deg, #165DFF 0%, #0E2E88 30%, #FF7D00 70%, #f59e0b 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        background-size: 200% 200%;
+        animation: gradientShift 3s ease-in-out infinite;
+      }
+      @keyframes gradientShift {
+        0%, 100% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+      }
+      
+      /* 统一按钮样式 */
+      .btn-primary {
+        @apply bg-primary text-white font-medium py-3 px-6 rounded-lg hover:bg-primary/90 transition-all duration-300 ease-in-out transform hover:scale-105 shadow-md hover:shadow-lg;
+      }
+      
+      .btn-secondary {
+        @apply bg-gray-600 text-white font-medium py-2 px-4 rounded-lg hover:bg-gray-700 transition-all duration-300 ease-in-out transform hover:scale-105 shadow-md hover:shadow-lg;
+      }
+      
+      .btn-accent {
+        @apply bg-yellow-500 text-black font-medium py-2 px-4 rounded-lg hover:bg-yellow-400 transition-all duration-300 ease-in-out transform hover:scale-105 shadow-md hover:shadow-lg;
+      }
+      
+      /* 后台管理页面背景 */
+      body {
+        background-color: #f9fafb !important;
+      }
+      
+      /* 侧边栏样式 */
+      .sidebar {
+        @apply bg-gray-800 text-white min-h-screen shadow-lg;
+      }
+      
+      .sidebar-item {
+        @apply py-3 px-4 rounded-lg my-1 transition-all duration-200 flex items-center;
+      }
+      
+      .sidebar-item:hover {
+        @apply bg-gray-700 text-white;
+      }
+      
+      .sidebar-item.active {
+        @apply bg-primary text-white;
+      }
+      /* 二级菜单样式与交互增强 */
+      .menu-parent {
+        @apply w-full text-left flex items-center justify-between py-3 px-4 rounded-lg my-1 transition-all duration-200 cursor-pointer;
+      }
+      .menu-parent:hover { @apply bg-gray-700 text-white; }
+      .menu-parent .chevron { font-size: 0.75rem; transition: transform 0.2s ease; }
+      .menu-parent.expanded .chevron { transform: rotate(180deg); }
+      .sidebar-subitem {
+        @apply py-2 pl-8 pr-4 rounded-md my-1 transition-all duration-200 flex items-center text-gray-300 hover:text-white hover:bg-gray-700;
+      }
+      
+      /* 数据卡片样式 */
+      .data-card {
+        @apply bg-white rounded-lg shadow-sm p-6 border border-gray-200 transition-all duration-300;
+      }
+      
+      .data-card:hover {
+        @apply shadow-md border-primary/30;
+      }
+      
+      /* 表格样式 */
+      .table-container {
+        @apply bg-white rounded-lg shadow-sm overflow-hidden;
+      }
+      
+      table {
+        @apply min-w-full divide-y divide-gray-200;
+      }
+      
+      th {
+        @apply px-6 py-3 bg-gray-50 text-left text-xs font-medium text-gray-500 uppercase tracking-wider;
+      }
+      
+      td {
+        @apply px-6 py-4 whitespace-nowrap text-sm text-gray-500;
+      }
+      
+      tr:nth-child(even) {
+        @apply bg-gray-50;
+      }
+      
+      tr:hover {
+        @apply bg-blue-50;
+      }
+      
+      /* 响应式设计优化 */
+      @media (max-width: 767px) {
+        .dashboard-grid {
+          @apply grid-cols-1 gap-4;
+        }
+        
+        .sidebar {
+          @apply hidden;
+        }
+        
+        .main-content {
+          @apply w-full;
+        }
+      }
+      
+      @media (min-width: 768px) {
+        .sidebar {
+          @apply block;
+        }
+      }
+    }
+  </style>
+  <!-- 全局JavaScript -->
+  <script src="/assets/js/global.js?v=20251114"></script>
+ </head>
+ <body class="bg-gray-50 font-sans text-dark">
+  <!-- 全局页眉容器（统一 Header） -->
+  <div id="header-container"></div>
+  <div class="flex min-h-screen">
+    <!-- 侧边栏 -->
+    <aside class="sidebar w-64 flex-shrink-0 hidden md:block">
+      <div class="p-4 border-b border-gray-700">
+        <h1 class="text-xl font-bold text-white">AI智货代管理</h1>
+      </div>
+      <nav class="p-4 space-y-6">
+        <!-- 主控面板 -->
+        <div>
+          <h2 class="text-xs uppercase text-gray-400 font-semibold mb-2">主控面板</h2>
+          <a href="/pages/admin/index.html" class="sidebar-item active">
+            <i class="fas fa-home mr-3"></i> 仪表盘
+          </a>
+          <a href="#" class="sidebar-item">
+            <i class="fas fa-chart-line mr-3"></i> 数据统计
+          </a>
+        </div>
+
+        <!-- 全站设置 -->
+        <div>
+          <h2 class="text-xs uppercase text-gray-400 font-semibold mb-2">全站设置</h2>
+          <button type="button" class="menu-parent">
+            <span><i class="fas fa-wrench mr-3"></i> 全站设置</span>
+            <i class="fas fa-chevron-down chevron"></i>
+          </button>
+          <div class="submenu hidden">
+            <a href="/pages/admin/site.html" class="sidebar-subitem">
+              <i class="fas fa-gear mr-3"></i> 站点基础信息
+            </a>
+            <a href="#" class="sidebar-subitem">
+              <i class="fas fa-bars mr-3"></i> 导航菜单管理
+            </a>
+            <a href="#" class="sidebar-subitem">
+              <i class="fas fa-heading mr-3"></i> 头部组件设置
+            </a>
+            <a href="#" class="sidebar-subitem">
+              <i class="fas fa-layer-group mr-3"></i> 尾部组件设置
+            </a>
+          </div>
+        </div>
+
+        <!-- 用户管理 -->
+        <div>
+          <h2 class="text-xs uppercase text-gray-400 font-semibold mb-2">用户与权限</h2>
+          <button type="button" class="menu-parent">
+            <span><i class="fas fa-user-gear mr-3"></i> 用户管理</span>
+            <i class="fas fa-chevron-down chevron"></i>
+          </button>
+          <div class="submenu hidden">
+            <a href="/pages/admin/users.html" class="sidebar-subitem">
+              <i class="fas fa-users mr-3"></i> 用户列表
+            </a>
+            <a href="/pages/admin/membership.html" class="sidebar-subitem">
+              <i class="fas fa-key mr-3"></i> 角色与权限
+            </a>
+          </div>
+        </div>
+
+        <!-- 资讯文章管理 -->
+        <div>
+          <h2 class="text-xs uppercase text-gray-400 font-semibold mb-2">资讯文章管理</h2>
+          <button type="button" class="menu-parent">
+            <span><i class="fas fa-file-lines mr-3"></i> 资讯文章</span>
+            <i class="fas fa-chevron-down chevron"></i>
+          </button>
+          <div class="submenu hidden">
+            <a href="/pages/admin/content.html" class="sidebar-subitem">
+              <i class="fas fa-list mr-3"></i> 文章列表
+            </a>
+            <a href="/pages/admin/news.html" class="sidebar-subitem">
+              <i class="fas fa-newspaper mr-3"></i> 新闻库管理
+            </a>
+            <a href="#" class="sidebar-subitem">
+              <i class="fas fa-tags mr-3"></i> 分类管理
+            </a>
+            <a href="#" class="sidebar-subitem">
+              <i class="fas fa-bullhorn mr-3"></i> Banner/公告
+            </a>
+          </div>
+        </div>
+
+        <!-- 商城管理 -->
+        <div>
+          <h2 class="text-xs uppercase text-gray-400 font-semibold mb-2">商城管理</h2>
+          <button type="button" class="menu-parent">
+            <span><i class="fas fa-store mr-3"></i> 积分商城</span>
+            <i class="fas fa-chevron-down chevron"></i>
+          </button>
+          <div class="submenu hidden">
+            <a href="/pages/admin/orders.html" class="sidebar-subitem">
+              <i class="fas fa-box mr-3"></i> 订单管理
+            </a>
+            <a href="/pages/points-mall/index.html" class="sidebar-subitem" title="积分商城前台页面">
+              <i class="fas fa-tags mr-3"></i> 商品管理（前台）
+            </a>
+          </div>
+        </div>
+
+        <!-- 卡片博物馆管理 -->
+        <div>
+          <h2 class="text-xs uppercase text-gray-400 font-semibold mb-2">卡片博物馆管理</h2>
+          <a href="/pages/admin/museum.html" class="sidebar-item">
+            <i class="fas fa-landmark mr-3"></i> 博物馆管理
+          </a>
+        </div>
+
+        <!-- 页面内容管理（按页面块） -->
+        <div>
+          <h2 class="text-xs uppercase text-gray-400 font-semibold mb-2">页面内容管理</h2>
+          <button type="button" class="menu-parent">
+            <span><i class="fas fa-layer-group mr-3"></i> 页面内容管理</span>
+            <i class="fas fa-chevron-down chevron"></i>
+          </button>
+          <div class="submenu hidden">
+            <a href="/pages/admin/content.html" class="sidebar-subitem">
+              <i class="fas fa-home mr-3"></i> 首页区块维护
+            </a>
+            <a href="/pages/admin/pricing.html" class="sidebar-subitem">
+              <i class="fas fa-file-invoice-dollar mr-3"></i> 报价配置管理
+            </a>
+            <a href="#" class="sidebar-subitem">
+              <i class="fas fa-bullseye mr-3"></i> 客户获取中心页面
+            </a>
+            <a href="#" class="sidebar-subitem">
+              <i class="fas fa-screwdriver-wrench mr-3"></i> 实用工具页面
+            </a>
+            <a href="#" class="sidebar-subitem">
+              <i class="fas fa-gift mr-3"></i> 积分商城页面
+            </a>
+            <a href="#" class="sidebar-subitem">
+              <i class="fas fa-id-card mr-3"></i> 卡片博物馆页面
+            </a>
+          </div>
+        </div>
+
+        <!-- 返回前台 -->
+        <div>
+          <a href="/index.html" class="sidebar-item">
+            <i class="fas fa-arrow-left mr-3"></i> 返回前台
+          </a>
+        </div>
+      </nav>
+    </aside>
+
+    <!-- 主内容区 -->
+    <main class="flex-grow">
+      <!-- 顶部导航 -->
+      <header class="bg-white shadow-sm border-b border-gray-200">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+          <div class="flex items-center">
+            <button class="md:hidden mr-4 text-gray-500">
+              <i class="fas fa-bars"></i>
+            </button>
+            <h1 class="text-xl font-semibold text-gray-800">管理仪表盘</h1>
+          </div>
+          <div class="flex items-center space-x-4">
+            <button class="text-gray-500 hover:text-gray-700 relative">
+              <i class="fas fa-bell"></i>
+              <span class="absolute top-0 right-0 bg-red-500 text-white text-xs rounded-full h-4 w-4 flex items-center justify-center">3</span>
+            </button>
+            <div class="flex items-center">
+              <div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center text-white">
+                <i class="fas fa-user"></i>
+              </div>
+              <span class="ml-2 text-gray-700 hidden md:inline">管理员</span>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- 内容区域 -->
+  <div class="container mx-auto px-4 py-6">
+        <div class="mb-4 flex items-center gap-3">
+          <input id="admin-search" type="text" placeholder="搜索模块" class="w-64 px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary text-sm">
+          <button id="admin-clear" class="btn-secondary px-4 py-2 text-sm">清空</button>
+        </div>
+        <section class="data-card border-primary mb-6">
+          <div class="flex items-center justify-between mb-3">
+            <h3 class="text-lg font-bold h2-gradient">前端联动控制台</h3>
+            <a href="/index.html" class="inline-flex items-center px-3 py-1 text-xs rounded bg-primary text-white hover:bg-primary/90"><i class="fas fa-external-link-alt mr-1"></i>查看前台</a>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
+            <button id="btn-apply-hero" class="btn-primary"><i class="fas fa-bullhorn mr-2"></i>应用首页横幅配置</button>
+            <button id="btn-apply-homecfg" class="btn-primary"><i class="fas fa-home mr-2"></i>应用首页模块配置</button>
+            <button id="btn-apply-news" class="btn-primary"><i class="fas fa-newspaper mr-2"></i>刷新首页新闻卡</button>
+            <button id="btn-apply-shipowners" class="btn-primary"><i class="fas fa-ship mr-2"></i>刷新首页船东卡片</button>
+            <button id="btn-apply-schedule-links" class="btn-primary"><i class="fas fa-calendar-alt mr-2"></i>刷新船期链接</button>
+            <button id="btn-apply-tracking" class="btn-primary"><i class="fas fa-box mr-2"></i>刷新集装箱追踪设置</button>
+            <button id="btn-apply-marquee" class="btn-primary"><i class="fas fa-bullhorn mr-2"></i>刷新运价播报</button>
+          </div>
+        </section>
+        <section class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-6" id="admin-modules">
+          <div class="data-card border-blue-500">
+            <h3 class="text-lg font-bold mb-3 h2-gradient">全站设置</h3>
+            <div class="grid grid-cols-1 gap-2">
+              <a href="/pages/admin/site.html" class="block p-2 rounded-lg hover:bg-gray-50 transition-colors">站点基础信息</a>
+              <a href="/pages/admin/site.html" class="block p-2 rounded-lg hover:bg-gray-50 transition-colors">船期链接管理</a>
+            </div>
+          </div>
+          <div class="data-card border-red-500">
+            <h3 class="text-lg font-bold mb-3 h2-gradient">内容管理</h3>
+            <div class="grid grid-cols-1 gap-2">
+              <a href="/pages/admin/content.html" class="block p-2 rounded-lg hover:bg-gray-50 transition-colors">首页区块维护</a>
+              <a href="/pages/admin/news.html#library" class="block p-2 rounded-lg hover:bg-gray-50 transition-colors">新闻库管理</a>
+              <a href="/pages/admin/pages.html" class="block p-2 rounded-lg hover:bg-gray-50 transition-colors">页面内容管理</a>
+            </div>
+          </div>
+          <div class="data-card border-green-500">
+            <h3 class="text-lg font-bold mb-3 h2-gradient">数据管理</h3>
+            <div class="grid grid-cols-1 gap-2">
+              <a href="#" class="block p-2 rounded-lg hover:bg-gray-50 transition-colors">港口数据维护</a>
+              <a href="#" class="block p-2 rounded-lg hover:bg-gray-50 transition-colors">船东主数据</a>
+            </div>
+          </div>
+          <div class="data-card border-purple-500">
+            <h3 class="text-lg font-bold mb-3 h2-gradient">报价管理</h3>
+            <div class="grid grid-cols-1 gap-2">
+              <a href="/pages/admin/pricing.html" class="block p-2 rounded-lg hover:bg-gray-50 transition-colors">报价配置</a>
+              <a href="#" class="block p-2 rounded-lg hover:bg-gray-50 transition-colors">本地杂费维护</a>
+            </div>
+          </div>
+          <div class="data-card border-orange-500">
+            <h3 class="text-lg font-bold mb-3 h2-gradient">工具与商城</h3>
+            <div class="grid grid-cols-1 gap-2">
+              <a href="/pages/tools/index.html" class="block p-2 rounded-lg hover:bg-gray-50 transition-colors">实用工具</a>
+              <a href="/pages/points-mall/index.html" class="block p-2 rounded-lg hover:bg-gray-50 transition-colors">积分商城</a>
+              <a href="/pages/admin/orders.html" class="block p-2 rounded-lg hover:bg-gray-50 transition-colors">订单管理</a>
+            </div>
+          </div>
+          <div class="data-card border-gray-500">
+            <h3 class="text-lg font-bold mb-3 h2-gradient">用户与权限</h3>
+            <div class="grid grid-cols-1 gap-2">
+              <a href="/pages/admin/users.html" class="block p-2 rounded-lg hover:bg-gray-50 transition-colors">用户列表</a>
+              <a href="/pages/admin/membership.html" class="block p-2 rounded-lg hover:bg-gray-50 transition-colors">角色与权限</a>
+            </div>
+          </div>
+        </section>
+        <!-- 管理快捷中心：与前台首页风格对齐（标题+按钮同行、双列网格） -->
+        <section class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
+          <!-- 获客中心管理 -->
+          <div class="data-card border-blue-500">
+            <div class="flex items-center justify-between mb-3">
+              <h3 class="text-lg font-bold h2-gradient">获客中心管理</h3>
+              <a href="#" class="inline-flex items-center px-3 py-1 text-xs rounded bg-blue-600 text-white hover:bg-blue-700">
+                <i class="fas fa-users mr-1"></i>进入模块
+              </a>
+            </div>
+            <div class="grid grid-cols-2 gap-2">
+              <a href="#" class="block p-2 rounded-lg hover:bg-gray-50 transition-colors flex items-center">
+                <i class="fas fa-handshake text-primary mr-2"></i>
+                <span class="text-sm">国内同行名录</span>
+              </a>
+              <a href="#" class="block p-2 rounded-lg hover:bg-gray-50 transition-colors flex items-center">
+                <i class="fas fa-globe-asia text-primary mr-2"></i>
+                <span class="text-sm">海外代理名录</span>
+              </a>
+              <a href="#" class="block p-2 rounded-lg hover:bg-gray-50 transition-colors flex items-center">
+                <i class="fas fa-industry text-primary mr-2"></i>
+                <span class="text-sm">国内工厂名录</span>
+              </a>
+              <a href="#" class="block p-2 rounded-lg hover:bg-gray-50 transition-colors flex items-center">
+                <i class="fas fa-user-tie text-primary mr-2"></i>
+                <span class="text-sm">海外买家名录</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- 实用工具管理 -->
+          <div class="data-card border-green-500">
+            <div class="flex items-center justify-between mb-3">
+              <h3 class="text-lg font-bold h2-gradient">实用工具管理</h3>
+              <a href="/pages/tools/index.html" class="inline-flex items-center px-3 py-1 text-xs rounded bg-green-600 text-white hover:bg-green-700">
+                <i class="fas fa-toolbox mr-1"></i>进入工具页
+              </a>
+            </div>
+            <div class="grid grid-cols-2 gap-2">
+              <a href="/pages/tools/quote-calculator.html" class="block p-2 rounded-lg hover:bg-gray-50 transition-colors flex items-center">
+                <i class="fas fa-calculator text-primary mr-2"></i>
+                <span class="text-sm">运费计算器</span>
+              </a>
+              <a href="/pages/tools/freight-query.html" class="block p-2 rounded-lg hover:bg-gray-50 transition-colors flex items-center">
+                <i class="fas fa-route text-primary mr-2"></i>
+                <span class="text-sm">运价查询</span>
+              </a>
+              <a href="/pages/tools/container-size.html" class="block p-2 rounded-lg hover:bg-gray-50 transition-colors flex items-center">
+                <i class="fas fa-box-open text-primary mr-2"></i>
+                <span class="text-sm">箱型尺寸</span>
+              </a>
+              <a href="/pages/schedules/index.html" class="block p-2 rounded-lg hover:bg-gray-50 transition-colors flex items-center">
+                <i class="fas fa-ship text-primary mr-2"></i>
+                <span class="text-sm">船期查询</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- 积分商城管理 -->
+          <div class="data-card border-orange-500">
+            <div class="flex items-center justify-between mb-3">
+              <h3 class="text-lg font-bold h2-gradient">积分商城管理</h3>
+              <a href="/pages/points-mall/index.html" class="inline-flex items-center px-3 py-1 text-xs rounded bg-orange-500 text-white hover:bg-orange-600">
+                <i class="fas fa-store mr-1"></i>进入商城页
+              </a>
+            </div>
+            <div class="grid grid-cols-2 gap-2">
+              <a href="/pages/admin/orders.html" class="block p-2 rounded-lg hover:bg-gray-50 transition-colors flex items-center">
+                <i class="fas fa-cubes text-primary mr-2"></i>
+                <span class="text-sm">商品管理</span>
+              </a>
+              <a href="/pages/admin/orders.html" class="block p-2 rounded-lg hover:bg-gray-50 transition-colors flex items-center">
+                <i class="fas fa-shopping-cart text-primary mr-2"></i>
+                <span class="text-sm">订单管理</span>
+              </a>
+              <a href="/pages/admin/membership.html" class="block p-2 rounded-lg hover:bg-gray-50 transition-colors flex items-center">
+                <i class="fas fa-gift text-primary mr-2"></i>
+                <span class="text-sm">积分规则</span>
+              </a>
+              <a href="/pages/admin/content.html" class="block p-2 rounded-lg hover:bg-gray-50 transition-colors flex items-center">
+                <i class="fas fa-bullhorn text-primary mr-2"></i>
+                <span class="text-sm">优惠活动</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- 集卡博物馆管理 -->
+          <div class="data-card border-yellow-500">
+            <div class="flex items-center justify-between mb-3">
+              <h3 class="text-lg font-bold h2-gradient">集卡博物馆管理</h3>
+              <a href="/pages/jika-museum/index.html" class="inline-flex items-center px-3 py-1 text-xs rounded bg-yellow-500 text-black hover:bg-yellow-400">
+                <i class="fas fa-truck-moving mr-1"></i>进入展馆页
+              </a>
+            </div>
+            <div class="grid grid-cols-2 gap-2">
+              <a href="/pages/admin/content.html" class="block p-2 rounded-lg hover:bg-gray-50 transition-colors flex items-center">
+                <i class="fas fa-layer-group text-primary mr-2"></i>
+                <span class="text-sm">分类管理</span>
+              </a>
+              <a href="/pages/admin/content.html" class="block p-2 rounded-lg hover:bg-gray-50 transition-colors flex items-center">
+                <i class="fas fa-plus-circle text-primary mr-2"></i>
+                <span class="text-sm">新增展品</span>
+              </a>
+              <a href="/pages/admin/content.html" class="block p-2 rounded-lg hover:bg-gray-50 transition-colors flex items-center">
+                <i class="fas fa-edit text-primary mr-2"></i>
+                <span class="text-sm">编辑展品</span>
+              </a>
+              <a href="/pages/admin/content.html" class="block p-2 rounded-lg hover:bg-gray-50 transition-colors flex items-center">
+                <i class="fas fa-check-circle text-primary mr-2"></i>
+                <span class="text-sm">审核投稿</span>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <!-- 资讯文章管理 快捷入口 -->
+        <section class="grid grid-cols-1 gap-6 mb-6">
+          <div class="data-card border-red-500">
+            <div class="flex items-center justify-between mb-3">
+              <h3 class="text-lg font-bold h2-gradient">资讯文章管理</h3>
+              <a href="/pages/admin/news.html#library" class="inline-flex items-center px-3 py-1 text-xs rounded bg-red-600 text-white hover:bg-red-700">
+                <i class="fas fa-newspaper mr-1"></i>进入新闻库
+              </a>
+            </div>
+            <div class="grid grid-cols-2 gap-2">
+              <a href="/pages/admin/news.html#library" class="block p-2 rounded-lg hover:bg-gray-50 transition-colors flex items-center">
+                <i class="fas fa-list text-primary mr-2"></i>
+                <span class="text-sm">新闻库管理</span>
+              </a>
+              <a href="/pages/admin/news.html#sidebar" class="block p-2 rounded-lg hover:bg-gray-50 transition-colors flex items-center">
+                <i class="fas fa-user-pen text-primary mr-2"></i>
+                <span class="text-sm">侧边栏配置</span>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <!-- 统计卡片 -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-6 dashboard-grid">
+          <div class="data-card">
+            <div class="flex justify-between items-center">
+              <div>
+                <p class="text-gray-500 text-sm">总用户数</p>
+                <h3 class="text-2xl font-bold mt-1">1,254</h3>
+              </div>
+              <div class="bg-blue-100 p-3 rounded-full">
+                <i class="fas fa-users text-blue-500 text-xl"></i>
+              </div>
+            </div>
+            <p class="text-green-500 text-sm mt-2">
+              <i class="fas fa-arrow-up"></i> 12% 较上月
+            </p>
+          </div>
+          
+          <div class="data-card">
+            <div class="flex justify-between items-center">
+              <div>
+                <p class="text-gray-500 text-sm">订单总数</p>
+                <h3 class="text-2xl font-bold mt-1">3,421</h3>
+              </div>
+              <div class="bg-green-100 p-3 rounded-full">
+                <i class="fas fa-box text-green-500 text-xl"></i>
+              </div>
+            </div>
+            <p class="text-green-500 text-sm mt-2">
+              <i class="fas fa-arrow-up"></i> 8% 较上月
+            </p>
+          </div>
+          
+          <div class="data-card">
+            <div class="flex justify-between items-center">
+              <div>
+                <p class="text-gray-500 text-sm">总收入</p>
+                <h3 class="text-2xl font-bold mt-1">¥245,680</h3>
+              </div>
+              <div class="bg-yellow-100 p-3 rounded-full">
+                <i class="fas fa-yen-sign text-yellow-500 text-xl"></i>
+              </div>
+            </div>
+            <p class="text-red-500 text-sm mt-2">
+              <i class="fas fa-arrow-down"></i> 3% 较上月
+            </p>
+          </div>
+          
+          <div class="data-card">
+            <div class="flex justify-between items-center">
+              <div>
+                <p class="text-gray-500 text-sm">转化率</p>
+                <h3 class="text-2xl font-bold mt-1">24.8%</h3>
+              </div>
+              <div class="bg-purple-100 p-3 rounded-full">
+                <i class="fas fa-percentage text-purple-500 text-xl"></i>
+              </div>
+            </div>
+            <p class="text-green-500 text-sm mt-2">
+              <i class="fas fa-arrow-up"></i> 5% 较上月
+            </p>
+          </div>
+        </div>
+        
+        <!-- 图表和表格区域 -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
+          <!-- 图表 -->
+          <div class="data-card">
+            <h2 class="text-lg font-semibold mb-4">流量统计</h2>
+            <div class="h-64 flex items-center justify-center bg-gray-50 rounded-lg">
+              <p class="text-gray-500">图表区域 - 显示访问量趋势</p>
+            </div>
+          </div>
+          
+          <!-- 最近活动 -->
+          <div class="data-card">
+            <h2 class="text-lg font-semibold mb-4">最近活动</h2>
+            <div class="table-container">
+              <table>
+                <thead>
+                  <tr>
+                    <th>用户</th>
+                    <th>活动</th>
+                    <th>时间</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="font-medium">张三</td>
+                    <td>查询了集装箱状态</td>
+                    <td>2分钟前</td>
+                  </tr>
+                  <tr>
+                    <td class="font-medium">李四</td>
+                    <td>提交了船期查询</td>
+                    <td>15分钟前</td>
+                  </tr>
+                  <tr>
+                    <td class="font-medium">王五</td>
+                    <td>注册了新账户</td>
+                    <td>1小时前</td>
+                  </tr>
+                  <tr>
+                    <td class="font-medium">赵六</td>
+                    <td>兑换了积分商品</td>
+                    <td>3小时前</td>
+                  </tr>
+                  <tr>
+                    <td class="font-medium">孙七</td>
+                    <td>提交了咨询表单</td>
+                    <td>5小时前</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        
+        <!-- 用户表格 -->
+        <div class="data-card">
+          <div class="flex justify-between items-center mb-4">
+            <h2 class="text-lg font-semibold">用户管理</h2>
+            <button class="btn-primary">
+              <i class="fas fa-plus mr-2"></i> 添加用户
+            </button>
+          </div>
+          <div class="table-container">
+            <table>
+              <thead>
+                <tr>
+                  <th>
+                    <div class="flex items-center">
+                      <input type="checkbox" class="rounded text-primary">
+                    </div>
+                  </th>
+                  <th>用户ID</th>
+                  <th>用户名</th>
+                  <th>邮箱</th>
+                  <th>注册时间</th>
+                  <th>状态</th>
+                  <th>操作</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <input type="checkbox" class="rounded text-primary">
+                  </td>
+                  <td>#001</td>
+                  <td class="font-medium">张三</td>
+                  <td>zhangsan@example.com</td>
+                  <td>2025-10-25</td>
+                  <td>
+                    <span class="px-2 py-1 bg-green-100 text-green-800 rounded-full text-xs">活跃</span>
+                  </td>
+                  <td>
+                    <button class="text-blue-500 hover:text-blue-700 mr-2">
+                      <i class="fas fa-edit"></i>
+                    </button>
+                    <button class="text-red-500 hover:text-red-700">
+                      <i class="fas fa-trash"></i>
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="checkbox" class="rounded text-primary">
+                  </td>
+                  <td>#002</td>
+                  <td class="font-medium">李四</td>
+                  <td>lisi@example.com</td>
+                  <td>2025-10-24</td>
+                  <td>
+                    <span class="px-2 py-1 bg-green-100 text-green-800 rounded-full text-xs">活跃</span>
+                  </td>
+                  <td>
+                    <button class="text-blue-500 hover:text-blue-700 mr-2">
+                      <i class="fas fa-edit"></i>
+                    </button>
+                    <button class="text-red-500 hover:text-red-700">
+                      <i class="fas fa-trash"></i>
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="checkbox" class="rounded text-primary">
+                  </td>
+                  <td>#003</td>
+                  <td class="font-medium">王五</td>
+                  <td>wangwu@example.com</td>
+                  <td>2025-10-23</td>
+                  <td>
+                    <span class="px-2 py-1 bg-yellow-100 text-yellow-800 rounded-full text-xs">待审核</span>
+                  </td>
+                  <td>
+                    <button class="text-blue-500 hover:text-blue-700 mr-2">
+                      <i class="fas fa-edit"></i>
+                    </button>
+                    <button class="text-red-500 hover:text-red-700">
+                      <i class="fas fa-trash"></i>
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="checkbox" class="rounded text-primary">
+                  </td>
+                  <td>#004</td>
+                  <td class="font-medium">赵六</td>
+                  <td>zhaoliu@example.com</td>
+                  <td>2025-10-22</td>
+                  <td>
+                    <span class="px-2 py-1 bg-red-100 text-red-800 rounded-full text-xs">禁用</span>
+                  </td>
+                  <td>
+                    <button class="text-blue-500 hover:text-blue-700 mr-2">
+                      <i class="fas fa-edit"></i>
+                    </button>
+                    <button class="text-red-500 hover:text-red-700">
+                      <i class="fas fa-trash"></i>
+                    </button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="mt-4 flex justify-between items-center">
+            <div class="text-gray-500 text-sm">
+              显示第 1 到 4 项结果，共 4 项
+            </div>
+            <div class="flex space-x-2">
+              <button class="px-3 py-1 bg-gray-200 rounded hover:bg-gray-300">
+                <i class="fas fa-chevron-left"></i>
+              </button>
+              <button class="px-3 py-1 bg-primary text-white rounded">
+                1
+              </button>
+              <button class="px-3 py-1 bg-gray-200 rounded hover:bg-gray-300">
+                <i class="fas fa-chevron-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- 全局页脚容器（统一 Footer） -->
+  <div id="footer-container"></div>
+
+  <script>
+    // 初始化页眉页脚
+    document.addEventListener('DOMContentLoaded', function() {
+      // 加载统一的页眉与页脚组件
+      loadComponent('header-container', '/components/header.html');
+      loadComponent('footer-container', '/components/footer.html');
+
+      // 侧边栏切换功能
+      const sidebarToggle = document.querySelector('button.md\\:hidden');
+      const sidebar = document.querySelector('.sidebar');
+      
+      if (sidebarToggle) {
+        sidebarToggle.addEventListener('click', function() {
+          if (sidebar) {
+            sidebar.classList.toggle('hidden');
+          }
+        });
+      }
+      // 二级菜单展开/收起
+      const menuParents = document.querySelectorAll('.menu-parent');
+      menuParents.forEach(btn => {
+        btn.addEventListener('click', function() {
+          const submenu = this.nextElementSibling;
+          if (submenu && submenu.classList.contains('submenu')) {
+            submenu.classList.toggle('hidden');
+            this.classList.toggle('expanded');
+          }
+        });
+      });
+      
+      // 侧边栏菜单激活状态切换
+      const sidebarItems = document.querySelectorAll('.sidebar-item');
+      sidebarItems.forEach(item => {
+        item.addEventListener('click', function(e) {
+          const href = this.getAttribute('href');
+          // 仅当是占位链接（# 或空）时，阻止默认并切换激活样式；实际链接允许跳转
+          if (!href || href === '#') {
+            e.preventDefault();
+            sidebarItems.forEach(i => i.classList.remove('active'));
+            this.classList.add('active');
+          }
+        });
+      });
+
+      const searchInput = document.getElementById('admin-search');
+      const clearBtn = document.getElementById('admin-clear');
+      const modules = document.querySelectorAll('#admin-modules .data-card');
+      function filterModules(q){
+        const s = String(q||'').trim().toLowerCase();
+        modules.forEach(function(card){
+          const text = card.innerText.toLowerCase();
+          card.style.display = s && !text.includes(s) ? 'none' : '';
+        });
+      }
+      if (searchInput) searchInput.addEventListener('input', function(){ filterModules(searchInput.value); });
+      if (clearBtn) clearBtn.addEventListener('click', function(){ if (searchInput) searchInput.value=''; filterModules(''); });
+
+      function stamp(k){ try { localStorage.setItem(k, String(Date.now())); alert('已同步：'+k); } catch(e){} }
+      var btnHero = document.getElementById('btn-apply-hero'); if (btnHero) btnHero.addEventListener('click', function(){ stamp('home_hero_config_updated'); });
+      var btnHomeCfg = document.getElementById('btn-apply-homecfg'); if (btnHomeCfg) btnHomeCfg.addEventListener('click', function(){ stamp('site_home_config_updated'); });
+      var btnNews = document.getElementById('btn-apply-news'); if (btnNews) btnNews.addEventListener('click', function(){ stamp('home_news_updated'); });
+      var btnOwners = document.getElementById('btn-apply-shipowners'); if (btnOwners) btnOwners.addEventListener('click', function(){ stamp('home_shipowners_cards_updated'); });
+      var btnSchedule = document.getElementById('btn-apply-schedule-links'); if (btnSchedule) btnSchedule.addEventListener('click', function(){ stamp('shipowner_schedule_links_updated'); });
+      var btnTracking = document.getElementById('btn-apply-tracking'); if (btnTracking) btnTracking.addEventListener('click', function(){ stamp('trackingSettingsUpdated'); });
+      var btnMarquee = document.getElementById('btn-apply-marquee'); if (btnMarquee) btnMarquee.addEventListener('click', function(){ stamp('freight_marquee_updated'); });
+    });
+  </script>
+<script>
+  (function(){
+      try {
+        const u = JSON.parse(localStorage.getItem('yx_user'));
+        if (!u || u.role !== 'super_admin') {
+          alert('该页面仅限超级管理员访问，请使用管理员账号登录。');
+          window.location.href = (typeof resolveRootUrl==='function') ? resolveRootUrl('/pages/user/login.html') : '/pages/user/login.html';
+        }
+      } catch (e) {
+        window.location.href = (typeof resolveRootUrl==='function') ? resolveRootUrl('/pages/user/login.html') : '/pages/user/login.html';
+      }
+  })();
+</script>
+</body>
+</html>

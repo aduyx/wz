@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>页面内容管理 - AI智货代</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/global.css">
+</head>
+<body class="bg-gray-50 font-sans text-dark">
+  <div id="header-container"></div>
+  <main class="container mx-auto px-4 py-6">
+    <div class="bg-white rounded-lg shadow-sm p-6 border border-gray-200">
+      <div class="flex items-center justify-between mb-4">
+        <h1 class="text-2xl font-semibold text-gray-800">页面内容管理</h1>
+        <a href="/pages/admin/index.html" class="text-primary hover:underline"><i class="fas fa-arrow-left mr-2"></i>返回仪表盘</a>
+      </div>
+      <div class="rounded bg-blue-50 border border-blue-200 p-3 text-sm text-blue-700 mb-4">
+        说明：此处直接修改首页模块的标题、入口按钮文案与链接，以及“获客中心”四项的名称/描述/链接。保存后会写入本地浏览器配置并即时生效。
+      </div>
+
+      <form id="home-config-form" class="space-y-6">
+        <section class="border rounded-lg p-4">
+          <h2 class="text-lg font-semibold mb-3 flex items-center"><i class="fas fa-toolbox text-blue-600 mr-2"></i>实用工具模块</h2>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div>
+              <label class="block text-sm text-gray-600 mb-1">模块标题</label>
+              <input id="tools-title" type="text" class="w-full border rounded px-3 py-2" placeholder="实用工具">
+            </div>
+            <div>
+              <label class="block text-sm text-gray-600 mb-1">入口按钮文案</label>
+              <input id="tools-enter-text" type="text" class="w-full border rounded px-3 py-2" placeholder="进入实用工具">
+            </div>
+            <div>
+              <label class="block text-sm text-gray-600 mb-1">入口按钮链接</label>
+              <input id="tools-enter-link" type="text" class="w-full border rounded px-3 py-2" placeholder="pages/tools/index.html">
+            </div>
+          </div>
+        </section>
+
+        <section class="border rounded-lg p-4">
+          <h2 class="text-lg font-semibold mb-3 flex items-center"><i class="fas fa-store text-green-600 mr-2"></i>积分商城模块</h2>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div>
+              <label class="block text-sm text-gray-600 mb-1">模块标题</label>
+              <input id="mall-title" type="text" class="w-full border rounded px-3 py-2" placeholder="积分商城">
+            </div>
+            <div>
+              <label class="block text-sm text-gray-600 mb-1">入口按钮文案</label>
+              <input id="mall-enter-text" type="text" class="w-full border rounded px-3 py-2" placeholder="进入积分商城">
+            </div>
+            <div>
+              <label class="block text-sm text-gray-600 mb-1">入口按钮链接</label>
+              <input id="mall-enter-link" type="text" class="w-full border rounded px-3 py-2" placeholder="pages/points-mall/index.html">
+            </div>
+          </div>
+        </section>
+
+        <section class="border rounded-lg p-4">
+          <h2 class="text-lg font-semibold mb-3 flex items-center"><i class="fas fa-truck-moving text-orange-500 mr-2"></i>集卡博物馆模块</h2>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div>
+              <label class="block text-sm text-gray-600 mb-1">模块标题</label>
+              <input id="museum-title" type="text" class="w-full border rounded px-3 py-2" placeholder="集卡博物馆">
+            </div>
+            <div>
+              <label class="block text-sm text-gray-600 mb-1">入口按钮文案</label>
+              <input id="museum-enter-text" type="text" class="w-full border rounded px-3 py-2" placeholder="进入集卡博物馆">
+            </div>
+            <div>
+              <label class="block text-sm text-gray-600 mb-1">入口按钮链接</label>
+              <input id="museum-enter-link" type="text" class="w-full border rounded px-3 py-2" placeholder="pages/jika-museum/index.html">
+            </div>
+          </div>
+        </section>
+
+        <section class="border rounded-lg p-4">
+          <h2 class="text-lg font-semibold mb-3 flex items-center"><i class="fas fa-user-friends text-violet-600 mr-2"></i>获客中心模块</h2>
+          <div class="mb-3">
+            <label class="block text-sm text-gray-600 mb-1">模块标题</label>
+            <input id="leads-title" type="text" class="w-full border rounded px-3 py-2" placeholder="获客中心">
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div class="border rounded p-3">
+              <div class="text-sm font-semibold mb-2">入口1</div>
+              <label class="block text-xs text-gray-600 mb-1">名称</label>
+              <input id="leads-item-0-name" type="text" class="w-full border rounded px-3 py-2 mb-2" placeholder="本地货代">
+              <label class="block text-xs text-gray-600 mb-1">描述</label>
+              <input id="leads-item-0-desc" type="text" class="w-full border rounded px-3 py-2 mb-2" placeholder="对接本地/全国货代伙伴">
+              <label class="block text-xs text-gray-600 mb-1">链接</label>
+              <input id="leads-item-0-link" type="text" class="w-full border rounded px-3 py-2" placeholder="#">
+            </div>
+            <div class="border rounded p-3">
+              <div class="text-sm font-semibold mb-2">入口2</div>
+              <label class="block text-xs text-gray-600 mb-1">名称</label>
+              <input id="leads-item-1-name" type="text" class="w-full border rounded px-3 py-2 mb-2" placeholder="海外代理">
+              <label class="block text-xs text-gray-600 mb-1">描述</label>
+              <input id="leads-item-1-desc" type="text" class="w-full border rounded px-3 py-2 mb-2" placeholder="拓展海外船东与代理网">
+              <label class="block text-xs text-gray-600 mb-1">链接</label>
+              <input id="leads-item-1-link" type="text" class="w-full border rounded px-3 py-2" placeholder="#">
+            </div>
+            <div class="border rounded p-3">
+              <div class="text-sm font-semibold mb-2">入口3</div>
+              <label class="block text-xs text-gray-600 mb-1">名称</label>
+              <input id="leads-item-2-name" type="text" class="w-full border rounded px-3 py-2 mb-2" placeholder="国内工厂">
+              <label class="block text-xs text-gray-600 mb-1">描述</label>
+              <input id="leads-item-2-desc" type="text" class="w-full border rounded px-3 py-2 mb-2" placeholder="链接制造端直客需求">
+              <label class="block text-xs text-gray-600 mb-1">链接</label>
+              <input id="leads-item-2-link" type="text" class="w-full border rounded px-3 py-2" placeholder="#">
+            </div>
+            <div class="border rounded p-3">
+              <div class="text-sm font-semibold mb-2">入口4</div>
+              <label class="block text-xs text-gray-600 mb-1">名称</label>
+              <input id="leads-item-3-name" type="text" class="w-full border rounded px-3 py-2 mb-2" placeholder="海外买家">
+              <label class="block text-xs text-gray-600 mb-1">描述</label>
+              <input id="leads-item-3-desc" type="text" class="w-full border rounded px-3 py-2 mb-2" placeholder="对接进口买家与渠道">
+              <label class="block text-xs text-gray-600 mb-1">链接</label>
+              <input id="leads-item-3-link" type="text" class="w-full border rounded px-3 py-2" placeholder="#">
+            </div>
+          </div>
+        </section>
+
+        <div class="flex items-center gap-3">
+          <button type="button" id="btn-save" class="bg-primary text-white px-4 py-2 rounded"><i class="fas fa-save mr-2"></i>保存</button>
+          <button type="button" id="btn-reset" class="bg-gray-200 text-gray-800 px-4 py-2 rounded"><i class="fas fa-undo mr-2"></i>恢复默认</button>
+          <button type="button" id="btn-apply" class="bg-blue-100 text-blue-700 px-4 py-2 rounded"><i class="fas fa-sync mr-2"></i>立即应用</button>
+          <button type="button" id="btn-placeholder" class="bg-yellow-100 text-yellow-700 px-4 py-2 rounded"><i class="fas fa-exclamation-triangle mr-2"></i>一键占位404链接</button>
+        </div>
+        <div class="mt-4 text-xs text-gray-500">提示：如首页已打开，请刷新或在同一浏览器内自动同步更改。</div>
+      </form>
+      
+      <!-- 追加：首页“集装箱追踪”设置 -->
+      <section class="bg-white rounded-lg shadow p-6 border border-purple-200 mt-8">
+        <h2 class="text-xl font-semibold mb-3 flex items-center"><i class="fas fa-search mr-2 text-purple-500"></i>首页“集装箱追踪”设置</h2>
+        <p class="text-gray-600 text-sm mb-4">配置追踪区块的标题、占位符、按钮与帮助链接，同时设置输入校验规则。</p>
+        <form id="tracking-settings-form" class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <label class="block">
+            <span class="text-sm">标题</span>
+            <input id="track-title" class="mt-1 w-full border rounded px-3 py-2" placeholder="如：集装箱追踪查询">
+          </label>
+          <label class="block">
+            <span class="text-sm">按钮文字</span>
+            <input id="track-button-text" class="mt-1 w-full border rounded px-3 py-2" placeholder="如：查询">
+          </label>
+          <label class="block md:col-span-2">
+            <span class="text-sm">输入框占位符</span>
+            <input id="track-placeholder" class="mt-1 w-full border rounded px-3 py-2" placeholder="如：请输入提单号或箱号">
+          </label>
+          <label class="block">
+            <span class="text-sm">帮助链接文字</span>
+            <input id="track-link-text" class="mt-1 w-full border rounded px-3 py-2" placeholder="如：申请加入船东">
+          </label>
+          <label class="block">
+            <span class="text-sm">帮助链接地址</span>
+            <input id="track-help-link-href" class="mt-1 w-full border rounded px-3 py-2" placeholder="如：/pages/contact/index.html#apply-owner">
+          </label>
+          <label class="block">
+            <span class="text-sm">箱号正则</span>
+            <input id="track-container-regex" class="mt-1 w-full border rounded px-3 py-2" placeholder="默认：^[A-Z]{4}\\d{7,8}$">
+          </label>
+          <label class="block">
+            <span class="text-sm">提单号正则</span>
+            <input id="track-bl-regex" class="mt-1 w-full border rounded px-3 py-2" placeholder="默认：^[A-Z0-9\\-]{5,20}$">
+          </label>
+          <label class="block md:col-span-2">
+            <span class="text-sm">无效输入提示</span>
+            <input id="track-invalid-tip" class="mt-1 w-full border rounded px-3 py-2" placeholder="如：输入不符合规则，请按要求输入箱号或提单号。">
+          </label>
+          <div class="md:col-span-2 flex gap-3 mt-1">
+            <button type="button" id="track-save" class="btn-primary"><i class="fas fa-save mr-2"></i>保存设置</button>
+            <button type="button" id="track-reset" class="btn-secondary"><i class="fas fa-undo mr-2"></i>恢复默认</button>
+          </div>
+        </form>
+      </section>
+
+      <!-- 追加：船东列表维护（用于下拉与外链追踪模板） -->
+      <section class="bg-white rounded-lg shadow p-6 border border-orange-200 mt-6">
+        <h2 class="text-xl font-semibold mb-3 flex items-center"><i class="fas fa-ship mr-2 text-orange-500"></i>船东列表维护</h2>
+        <p class="text-gray-600 text-sm mb-4">维护船东下拉列表与外部追踪链接模板。模板可使用 {query} 占位符。</p>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-3 mb-4">
+          <input id="owner-code" class="border rounded px-3 py-2" placeholder="代码，如：msc">
+          <input id="owner-name" class="border rounded px-3 py-2" placeholder="名称，如：地中海航运(MSC)">
+          <input id="owner-urltpl" class="border rounded px-3 py-2" placeholder="追踪链接模板，如：https://www.msc.com/track/{query}">
+        </div>
+        <div class="flex gap-3 mb-4">
+          <button type="button" id="owner-add" class="btn-primary"><i class="fas fa-plus mr-2"></i>添加/更新</button>
+          <button type="button" id="owner-clear" class="btn-secondary"><i class="fas fa-trash mr-2"></i>清空全部（谨慎）</button>
+          <button type="button" id="owner-load-txt" class="btn-secondary"><i class="fas fa-file-import mr-2"></i>从项目TXT加载</button>
+        </div>
+        <table class="w-full text-sm border">
+          <thead>
+            <tr class="bg-gray-100">
+              <th class="p-2 border">代码</th>
+              <th class="p-2 border">名称</th>
+              <th class="p-2 border">链接模板</th>
+              <th class="p-2 border">操作</th>
+            </tr>
+          </thead>
+          <tbody id="owner-table" class="align-top"></tbody>
+        </table>
+      </section>
+
+      <!-- 追加：首页行业快讯维护 -->
+      <section class="bg-white rounded-lg shadow p-6 border border-green-200 mt-6">
+        <h2 class="text-xl font-semibold mb-3 flex items-center"><i class="fas fa-newspaper mr-2 text-green-600"></i>首页“行业快讯”维护</h2>
+        <p class="text-gray-600 text-sm mb-4">设置首页显示的文章卡片（仅用于首页展示，不影响资讯文章库）。</p>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-3 mb-3">
+          <input id="news-title" class="border rounded px-3 py-2" placeholder="标题">
+          <input id="news-summary" class="border rounded px-3 py-2" placeholder="摘要">
+          <input id="news-href" class="border rounded px-3 py-2" placeholder="链接，如：/news.html#id">
+        </div>
+        <div class="flex gap-3 mb-4">
+          <button type="button" id="news-add" class="btn-primary"><i class="fas fa-plus mr-2"></i>添加</button>
+          <button type="button" id="news-save" class="btn-secondary"><i class="fas fa-save mr-2"></i>保存</button>
+          <button type="button" id="news-clear" class="btn-secondary"><i class="fas fa-trash mr-2"></i>清空</button>
+        </div>
+        <ul id="news-list" class="list-disc pl-5 text-sm"></ul>
+      </section>
+    </div>
+  </main>
+  <div id="footer-container"></div>
+  <script src="/assets/js/global.js?v=20251114"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function(){
+      if (typeof loadComponent === 'function') {
+        loadComponent('header-container', '/components/header.html');
+        loadComponent('footer-container', '/components/footer.html');
+      }
+    });
+  </script>
+  <!-- 首页模块配置脚本 -->
+  <script>
+    // 默认配置（与首页当前展示保持一致）
+    const defaultHomeConfig = {
+      tools: { title: '实用工具', enterText: '进入实用工具', enterLink: '/pages/404.html' },
+      mall: { title: '积分商城', enterText: '进入积分商城', enterLink: '/pages/404.html' },
+      museum: { title: '集卡博物馆', enterText: '进入集卡博物馆', enterLink: '/pages/404.html' },
+      leads: {
+        title: '获客中心',
+        items: [
+          { name: '本地货代', desc: '对接本地/全国货代伙伴', link: '/pages/404.html' },
+          { name: '海外代理', desc: '拓展海外船东与代理网', link: '/pages/404.html' },
+          { name: '国内工厂', desc: '链接制造端直客需求', link: '/pages/404.html' },
+          { name: '海外买家', desc: '对接进口买家与渠道', link: '/pages/404.html' }
+        ]
+      }
+    };
+
+    function loadHomeConfig() {
+      try {
+        const raw = localStorage.getItem('site_home_config');
+        if (!raw) return JSON.parse(JSON.stringify(defaultHomeConfig));
+        const cfg = JSON.parse(raw);
+        return { ...defaultHomeConfig, ...cfg,
+          tools: { ...defaultHomeConfig.tools, ...(cfg.tools||{}) },
+          mall: { ...defaultHomeConfig.mall, ...(cfg.mall||{}) },
+          museum: { ...defaultHomeConfig.museum, ...(cfg.museum||{}) },
+          leads: {
+            title: (cfg.leads && cfg.leads.title) || defaultHomeConfig.leads.title,
+            items: Array.isArray(cfg.leads && cfg.leads.items) ? cfg.leads.items.map((it, i) => ({
+              name: it.name || defaultHomeConfig.leads.items[i]?.name || '',
+              desc: it.desc || defaultHomeConfig.leads.items[i]?.desc || '',
+              link: it.link || defaultHomeConfig.leads.items[i]?.link || '#'
+            })) : defaultHomeConfig.leads.items
+          }
+        };
+      } catch(e) {
+        console.error('读取首页配置失败', e);
+        return JSON.parse(JSON.stringify(defaultHomeConfig));
+      }
+    }
+
+    function saveHomeConfig(cfg) {
+      try {
+        if (window.APP_API && window.APP_API.set) {
+          window.APP_API.set('site_home_config', cfg).then(function(){
+            try { localStorage.setItem('site_home_config', JSON.stringify(cfg)); } catch(e){}
+            localStorage.setItem('site_home_config_updated', String(Date.now()));
+            alert('已保存首页配置');
+          });
+          return;
+        }
+        localStorage.setItem('site_home_config', JSON.stringify(cfg));
+        localStorage.setItem('site_home_config_updated', String(Date.now()));
+        alert('已保存首页配置');
+      } catch(e) {
+        alert('保存失败：' + e.message);
+      }
+    }
+
+    function fillForm(cfg) {
+      document.getElementById('tools-title').value = cfg.tools.title;
+      document.getElementById('tools-enter-text').value = cfg.tools.enterText;
+      document.getElementById('tools-enter-link').value = cfg.tools.enterLink;
+      document.getElementById('mall-title').value = cfg.mall.title;
+      document.getElementById('mall-enter-text').value = cfg.mall.enterText;
+      document.getElementById('mall-enter-link').value = cfg.mall.enterLink;
+      document.getElementById('museum-title').value = cfg.museum.title;
+      document.getElementById('museum-enter-text').value = cfg.museum.enterText;
+      document.getElementById('museum-enter-link').value = cfg.museum.enterLink;
+      document.getElementById('leads-title').value = cfg.leads.title;
+      cfg.leads.items.forEach((it, i) => {
+        document.getElementById(`leads-item-${i}-name`).value = it.name;
+        document.getElementById(`leads-item-${i}-desc`).value = it.desc;
+        document.getElementById(`leads-item-${i}-link`).value = it.link;
+      });
+    }
+
+    function collectFormConfig() {
+      const cfg = {
+        tools: {
+          title: document.getElementById('tools-title').value.trim(),
+          enterText: document.getElementById('tools-enter-text').value.trim(),
+          enterLink: document.getElementById('tools-enter-link').value.trim()
+        },
+        mall: {
+          title: document.getElementById('mall-title').value.trim(),
+          enterText: document.getElementById('mall-enter-text').value.trim(),
+          enterLink: document.getElementById('mall-enter-link').value.trim()
+        },
+        museum: {
+          title: document.getElementById('museum-title').value.trim(),
+          enterText: document.getElementById('museum-enter-text').value.trim(),
+          enterLink: document.getElementById('museum-enter-link').value.trim()
+        },
+        leads: {
+          title: document.getElementById('leads-title').value.trim(),
+          items: [0,1,2,3].map(i => ({
+            name: document.getElementById(`leads-item-${i}-name`).value.trim(),
+            desc: document.getElementById(`leads-item-${i}-desc`).value.trim(),
+            link: document.getElementById(`leads-item-${i}-link`).value.trim() || '#'
+          }))
+        }
+      };
+      return cfg;
+    }
+
+    document.addEventListener('DOMContentLoaded', function(){
+      const cfg = loadHomeConfig();
+      fillForm(cfg);
+      document.getElementById('btn-save').addEventListener('click', function(){
+        const newCfg = collectFormConfig();
+        saveHomeConfig(newCfg);
+      });
+      document.getElementById('btn-reset').addEventListener('click', function(){
+        fillForm(defaultHomeConfig);
+        saveHomeConfig(defaultHomeConfig);
+      });
+      document.getElementById('btn-apply').addEventListener('click', function(){
+        const newCfg = collectFormConfig();
+        saveHomeConfig(newCfg);
+        alert('已写入配置。请切换到首页查看效果。');
+      });
+      const placeholderBtn = document.getElementById('btn-placeholder');
+      if (placeholderBtn) {
+        placeholderBtn.addEventListener('click', function(){
+          const p = '/pages/404.html';
+          document.getElementById('tools-enter-link').value = p;
+          document.getElementById('mall-enter-link').value = p;
+          document.getElementById('museum-enter-link').value = p;
+          [0,1,2,3].forEach(function(i){ document.getElementById(`leads-item-${i}-link`).value = p; });
+          const cfg = collectFormConfig();
+          saveHomeConfig(cfg);
+          alert('已设置为占位链接并保存');
+        });
+      }
+    });
+  </script>
+  <!-- 追加：追踪设置 / 船东列表 / 首页新闻脚本，与 content.html 保持一致 -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function(){
+      // 追踪设置：读写
+      const tsKey = 'trackingSettings';
+      const t = id => document.getElementById(id);
+      function loadTrackingSettings(){
+        const cfg = JSON.parse(localStorage.getItem(tsKey) || '{}');
+        t('track-title').value = cfg.title || '';
+        t('track-button-text').value = cfg.buttonText || '';
+        t('track-placeholder').value = cfg.placeholder || '';
+        t('track-link-text').value = cfg.linkText || '';
+        t('track-help-link-href').value = cfg.helpLinkHref || '';
+        t('track-container-regex').value = cfg.containerRegex || '';
+        t('track-bl-regex').value = cfg.blRegex || '';
+        t('track-invalid-tip').value = cfg.invalidTip || '';
+      }
+      function saveTrackingSettings(){
+        const data = {
+          title: t('track-title').value.trim(),
+          buttonText: t('track-button-text').value.trim(),
+          placeholder: t('track-placeholder').value.trim(),
+          linkText: t('track-link-text').value.trim(),
+          helpLinkHref: t('track-help-link-href').value.trim(),
+          containerRegex: t('track-container-regex').value.trim(),
+          blRegex: t('track-bl-regex').value.trim(),
+          invalidTip: t('track-invalid-tip').value.trim()
+        };
+        localStorage.setItem(tsKey, JSON.stringify(data));
+        localStorage.setItem('trackingSettingsUpdated', Date.now().toString());
+        alert('已保存追踪设置');
+      }
+      t('track-save').addEventListener('click', saveTrackingSettings);
+      t('track-reset').addEventListener('click', function(){
+        localStorage.removeItem(tsKey);
+        localStorage.setItem('trackingSettingsUpdated', Date.now().toString());
+        loadTrackingSettings();
+        alert('已恢复默认');
+      });
+      loadTrackingSettings();
+
+      // 船东列表 CRUD
+      const ownersKey = 'shipowners';
+      function getOwners(){
+        try { return JSON.parse(localStorage.getItem(ownersKey) || '[]'); } catch { return []; }
+      }
+      function setOwners(arr){
+        localStorage.setItem(ownersKey, JSON.stringify(arr));
+        localStorage.setItem('shipownersUpdated', Date.now().toString());
+      }
+      function renderOwners(){
+        const tbody = document.getElementById('owner-table');
+        tbody.innerHTML = '';
+        const data = getOwners();
+        data.forEach((o, idx) => {
+          const tr = document.createElement('tr');
+          tr.innerHTML = `
+            <td class="p-2 border align-top"><input class="w-full border rounded px-2 py-1" value="${o.code}"></td>
+            <td class="p-2 border align-top"><input class="w-full border rounded px-2 py-1" value="${o.name}"></td>
+            <td class="p-2 border align-top"><input class="w-full border rounded px-2 py-1" value="${o.trackingUrlTemplate || ''}"></td>
+            <td class="p-2 border align-top">
+              <button class="btn-secondary text-xs mr-2" data-act="save" data-idx="${idx}"><i class="fas fa-save mr-1"></i>保存</button>
+              <button class="btn-secondary text-xs" data-act="delete" data-idx="${idx}"><i class="fas fa-trash mr-1"></i>删除</button>
+            </td>`;
+          tbody.appendChild(tr);
+        });
+      }
+      function addOrUpdateOwner(){
+        const code = t('owner-code').value.trim().toLowerCase().replace(/\s+/g,'');
+        const name = t('owner-name').value.trim();
+        const tpl = t('owner-urltpl').value.trim();
+        if (!code || !name){ alert('请填写代码与名称'); return; }
+        const data = getOwners();
+        const idx = data.findIndex(x => x.code === code);
+        const rec = { code, name, trackingUrlTemplate: tpl };
+        if (idx >= 0) data[idx] = rec; else data.push(rec);
+        setOwners(data);
+        renderOwners();
+        alert('已添加/更新船东');
+      }
+      document.getElementById('owner-add').addEventListener('click', addOrUpdateOwner);
+      document.getElementById('owner-clear').addEventListener('click', function(){
+        if (!confirm('确定清空全部船东？此操作不可恢复。')) return;
+        setOwners([]);
+        renderOwners();
+      });
+      document.getElementById('owner-table').addEventListener('click', function(e){
+        const btn = e.target.closest('button');
+        if (!btn) return;
+        const act = btn.getAttribute('data-act');
+        const idx = parseInt(btn.getAttribute('data-idx'), 10);
+        const tr = btn.closest('tr');
+        const inputs = tr.querySelectorAll('input');
+        const rec = { code: inputs[0].value.trim().toLowerCase(), name: inputs[1].value.trim(), trackingUrlTemplate: inputs[2].value.trim() };
+        const data = getOwners();
+        if (act === 'save') {
+          data[idx] = rec;
+          setOwners(data);
+          alert('已保存');
+        } else if (act === 'delete') {
+          data.splice(idx,1);
+          setOwners(data);
+          renderOwners();
+        }
+      });
+      renderOwners();
+
+      // 从项目TXT加载船东（数据/船东名称 .txt）
+      function parseOwnersTXT(text){
+        const lines = text.split(/\r?\n/).map(l=>l.trim()).filter(Boolean);
+        const items = [];
+        lines.forEach(line => {
+          // 提取URL
+          const urlMatch = line.match(/https?:\/\/\S+/);
+          const url = urlMatch ? urlMatch[0] : '';
+          const namePart = url ? line.replace(url, '').trim().replace(/[，,]$/,'').trim() : line;
+          if (!namePart) return;
+          // 代码提取策略：优先取括号中的英文字母，如 地中海航运(MSC)
+          let code = '';
+          const paren = namePart.match(/\(([A-Za-z0-9]+)\)/);
+          if (paren) code = paren[1].toLowerCase();
+          // 若未取到，尝试按全英文名称缩写（取首段英文连续字母）
+          if (!code){
+            const en = namePart.match(/[A-Za-z]{2,}/g);
+            if (en && en.length){ code = en[0].toLowerCase(); }
+          }
+          items.push({ code, name: namePart, trackingUrlTemplate: url });
+        });
+        // 去重：按code或name唯一
+        const uniq = [];
+        items.forEach(it => {
+          const exists = uniq.find(u => (it.code && u.code===it.code) || u.name===it.name);
+          if (!exists) uniq.push(it);
+        });
+        return uniq;
+      }
+
+      async function loadOwnersFromProjectTXT(){
+        try {
+          const path = '/数据/船东名称 .txt';
+          const url = encodeURI(path);
+          const res = await fetch(url);
+          if (!res.ok){ alert('无法加载项目TXT：'+path); return; }
+          const text = await res.text();
+          const items = parseOwnersTXT(text);
+          if (!items.length){ alert('TXT未解析到有效行'); return; }
+          const arr = getOwners();
+          // 合并：按code或name覆盖
+          items.forEach(it => {
+            const idx = arr.findIndex(x => (it.code && x.code===it.code) || x.name===it.name);
+            if (idx>=0) arr[idx] = it; else arr.push(it);
+          });
+          setOwners(arr);
+          renderOwners();
+          alert(`已从项目TXT导入/合并 ${items.length} 条船东`);
+        } catch(e){
+          alert('加载失败：'+ e.message);
+        }
+      }
+      const btnLoadTxt = document.getElementById('owner-load-txt');
+      if (btnLoadTxt) btnLoadTxt.addEventListener('click', loadOwnersFromProjectTXT);
+
+      // 首页新闻维护
+      const newsKey = 'home_news';
+      function getNews(){ try { return JSON.parse(localStorage.getItem(newsKey) || '[]'); } catch { return []; } }
+      function setNews(arr){ localStorage.setItem(newsKey, JSON.stringify(arr)); }
+      function renderNews(){
+        const ul = document.getElementById('news-list');
+        ul.innerHTML = '';
+        const arr = getNews();
+        arr.forEach((n, idx) => {
+          const li = document.createElement('li');
+          li.className = 'mb-2';
+          li.innerHTML = `
+            <input class=\"border rounded px-2 py-1 mr-2 w-48\" value=\"${n.title}\" placeholder=\"标题\">
+            <input class=\"border rounded px-2 py-1 mr-2 w-64\" value=\"${n.summary}\" placeholder=\"摘要\">
+            <input class=\"border rounded px-2 py-1 mr-2 w-56\" value=\"${n.href}\" placeholder=\"链接\">
+            <button class=\"btn-secondary text-xs mr-2\" data-act=\"save\" data-idx=\"${idx}\"><i class='fas fa-save mr-1'></i>保存</button>
+            <button class=\"btn-secondary text-xs\" data-act=\"delete\" data-idx=\"${idx}\"><i class='fas fa-trash mr-1'></i>删除</button>`;
+          ul.appendChild(li);
+        });
+      }
+      document.getElementById('news-add').addEventListener('click', function(){
+        const title = t('news-title').value.trim();
+        const summary = t('news-summary').value.trim();
+        const href = t('news-href').value.trim();
+        if (!title) { alert('请填写标题'); return; }
+        const arr = getNews();
+        arr.push({ title, summary, href });
+        setNews(arr);
+        renderNews();
+        t('news-title').value = '';
+        t('news-summary').value = '';
+        t('news-href').value = '';
+      });
+      document.getElementById('news-save').addEventListener('click', function(){
+        alert('已保存新闻列表');
+      });
+      document.getElementById('news-clear').addEventListener('click', function(){
+        if (!confirm('确认清空首页新闻列表？')) return;
+        setNews([]);
+        renderNews();
+      });
+      document.getElementById('news-list').addEventListener('click', function(e){
+        const btn = e.target.closest('button');
+        if (!btn) return;
+        const act = btn.getAttribute('data-act');
+        const idx = parseInt(btn.getAttribute('data-idx'), 10);
+        const li = btn.closest('li');
+        const inputs = li.querySelectorAll('input');
+        const rec = { title: inputs[0].value.trim(), summary: inputs[1].value.trim(), href: inputs[2].value.trim() };
+        const arr = getNews();
+        if (act === 'save') {
+          arr[idx] = rec; setNews(arr); alert('已保存');
+        } else if (act === 'delete') {
+          arr.splice(idx,1); setNews(arr); renderNews();
+        }
+      });
+      renderNews();
+    });
+  </script>
+  <script>
+    (function(){
+      try {
+        const u = JSON.parse(localStorage.getItem('yx_user'));
+        if (!u || u.role !== 'super_admin') {
+          alert('该页面仅限超级管理员访问，请使用管理员账号登录。');
+          window.location.href = '/pages/user/login.html';
+        }
+      } catch (e) {
+        window.location.href = '/pages/user/login.html';
+      }
+    })();
+  </script>
+</body>
+</html>

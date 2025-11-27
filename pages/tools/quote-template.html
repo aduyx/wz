@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>报价单线稿（可自由修改）</title>
+  <style>
+    :root {
+      --brand-color: #7c3aed; /* 品牌主色，可修改 */
+      --text-color: #1f2937;  /* 文本颜色 */
+      --muted-color: #6b7280; /* 次要文本颜色 */
+      --border-color: #cbd5e1;/* 边框颜色 */
+      --bg-color: #ffffff;    /* 背景颜色 */
+      --container-width: 840px; /* 页面宽度 */
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji"; background: #f8fafc; color: var(--text-color); }
+    .page { max-width: var(--container-width); margin: 24px auto; padding: 24px; background: var(--bg-color); border: 1px dashed var(--border-color); border-radius: 8px; }
+    .header { padding-bottom: 12px; border-bottom: 1px dashed var(--border-color); }
+    .header-top { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+    .brand { display: flex; align-items: center; gap: 8px; }
+    .brand img { width: 28px; height: 28px; object-fit: contain; }
+    .brand .name { font-weight: 700; }
+    .doc-title { font-size: 18px; font-weight: 700; }
+    .header-bottom { margin-top: 8px; display: flex; align-items: center; justify-content: space-between; gap: 16px; font-size: 13px; color: var(--muted-color); }
+    .header-bottom .sales { flex: 1; }
+    .header-bottom .quote-no { flex: 1; text-align: center; }
+    .header-bottom .date { flex: 1; text-align: right; }
+
+    .info { display: grid; grid-template-columns: 1fr 1fr; gap: 12px 24px; padding: 16px 0; border-bottom: 1px dashed var(--border-color); }
+    .info .row { display: flex; align-items: center; justify-content: space-between; }
+    .info .label { color: var(--muted-color); }
+    .info .value { font-weight: 600; }
+    /* 预计时间一行（在起运港和船东下方，三项同一行显示） */
+    .info .row.times { grid-column: 1 / -1; justify-content: flex-start; gap: 24px; display: flex; flex-wrap: nowrap; }
+    .info .row.times .item { display: flex; align-items: center; gap: 6px; }
+    .info .row.times .item { white-space: nowrap; }
+    .info .row.times .item .label { color: var(--muted-color); }
+    .info .row.times .item .value { font-weight: 600; }
+
+    .table { margin-top: 16px; border: 1px dashed var(--border-color); border-radius: 6px; overflow: hidden; }
+    table { width: 100%; border-collapse: collapse; font-size: 14px; }
+    thead, tfoot { background: #f1f5f9; }
+    th, td { padding: 10px 12px; border-bottom: 1px dashed var(--border-color); }
+    th { text-align: left; font-weight: 600; color: var(--muted-color); }
+    td.num { text-align: right; }
+    tfoot td { font-weight: 700; }
+    .total { color: var(--brand-color); }
+
+    .note { margin-top: 12px; font-size: 12px; color: var(--muted-color); }
+
+    .actions { margin-top: 16px; display: flex; justify-content: flex-end; gap: 8px; }
+    .btn { padding: 8px 12px; border: 1px dashed var(--border-color); background: #fff; cursor: pointer; font-size: 13px; }
+    .btn:hover { background: #f8fafc; }
+
+    /* 可选水印占位（需要时显示） */
+    .watermark { position: relative; }
+    .watermark::after { content: "YXAI AI智货代-www.yxtrans.com"; position: absolute; inset: 0; display: block; color: var(--brand-color); opacity: 0.08; font-weight: 700; font-size: 40px; letter-spacing: 4px; text-align: center; padding-top: 120px; pointer-events: none; }
+
+    /* 地面费用（人民币）列表样式 */
+    .fees { margin-top: 16px; border: 1px dashed var(--border-color); border-radius: 6px; padding: 12px; }
+    .fees-title { font-weight: 700; color: var(--muted-color); margin-bottom: 8px; }
+    .fees-list { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 24px; }
+    .fee-row { display: flex; align-items: center; justify-content: space-between; border-bottom: 1px dashed var(--border-color); padding: 6px 4px; }
+    .fee-row:last-child { border-bottom: none; }
+    .fee-row .label { color: var(--muted-color); }
+    .fee-row .value { font-weight: 600; }
+  </style>
+</head>
+<body>
+  <!--
+    使用说明（线稿）：
+    1) 这是一个独立的“报价单线稿”文件，结构清晰，方便直接修改布局/样式/文案。
+    2) 替换占位值（如公司名、起运港/目的港、船东、数量、单价等）即可形成你的报价单模板。
+    3) 如需品牌色/边框/宽度统一修改，请调整 <style> 中的 :root 变量。
+    4) 若要增加/删除字段，可直接改动下方 .info 区块或表格行。
+    5) 若需打印，可使用右下角“打印”按钮或浏览器的打印功能。
+    6) 若需水印，给 .page 元素加上 class="watermark" 即可显示淡紫色水印占位。
+  -->
+
+  <div class="page" id="quotation">
+    <div class="header">
+      <div class="header-top">
+        <div class="brand">
+          <!-- LOGO：替换为你的路径或移除 -->
+          <img src="/assets/images/logo.webp" alt="logo" />
+          <!-- 公司名称：自行修改 -->
+          <span class="name">公司名称（可修改）</span>
+        </div>
+        <div class="doc-title">运费报价单（线稿）</div>
+      </div>
+      <div class="header-bottom">
+        <div class="sales">业务员 张三 / 138-0000-0000</div>
+        <div class="quote-no">报价编号：YX-2025-0001</div>
+        <div class="date">日期：2025-01-01（可修改）</div>
+      </div>
+    </div>
+
+    <div class="info">
+      <!-- 起运港/目的港：保持在同一行展示 -->
+      <div class="row"><span class="label">起运港 / 目的港</span><span class="value">Shanghai / Los Angeles</span></div>
+      <!-- 船东：独立展示 -->
+      <div class="row"><span class="label">船东</span><span class="value">MSC（可修改）</span></div>
+      <!-- 预计时间一行（同一行显示三项） -->
+      <div class="row times">
+        <div class="item"><span class="label">预计截单时间：</span><span class="value">2025-01-05</span></div>
+        <div class="item"><span class="label">预计开船日：</span><span class="value">2025-01-08</span></div>
+        <div class="item"><span class="label">预计到港时间：</span><span class="value">2025-02-01</span></div>
+      </div>
+      <!-- 其他可选信息位（如业务员/联系方式等）-->
+      
+    </div>
+
+    <div class="table">
+      <table>
+        <thead>
+          <tr>
+            <th>箱型</th>
+            <th class="num">数量</th>
+            <th class="num">单价（USD）</th>
+            <th class="num">小计（USD）</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- 示例行：需要显示时，根据你的箱型与数量填写即可 -->
+          <tr>
+            <td>20GP</td>
+            <td class="num">2</td>
+            <td class="num">800.00</td>
+            <td class="num">1600.00</td>
+          </tr>
+          <tr>
+            <td>40GP</td>
+            <td class="num">1</td>
+            <td class="num">1200.00</td>
+            <td class="num">1200.00</td>
+          </tr>
+          <tr>
+            <td>40HQ</td>
+            <td class="num">0</td>
+            <td class="num">1200.00</td>
+            <td class="num">0.00</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3" class="num">合计（USD）</td>
+            <td class="num total">2800.00</td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+
+    <!-- 地面费用（人民币）列表：位于美金运费表格下方 -->
+    <div class="fees">
+      <div class="fees-title">地面费用（人民币）</div>
+      <div class="fees-list">
+        <div class="fee-row"><span class="label">THC</span><span class="value">0.00</span></div>
+        <div class="fee-row"><span class="label">港杂</span><span class="value">0.00</span></div>
+        <div class="fee-row"><span class="label">铅封</span><span class="value">0.00</span></div>
+        <div class="fee-row"><span class="label">文件费</span><span class="value">0.00</span></div>
+        <div class="fee-row"><span class="label">VGM</span><span class="value">0.00</span></div>
+        <div class="fee-row"><span class="label">安保</span><span class="value">0.00</span></div>
+        <div class="fee-row"><span class="label">CHC</span><span class="value">0.00</span></div>
+        <div class="fee-row"><span class="label">设备</span><span class="value">0.00</span></div>
+        <div class="fee-row"><span class="label">舱单</span><span class="value">0.00</span></div>
+      </div>
+    </div>
+
+    <div class="note">注：运费市场波动频繁，本报价只作为核算参考，不作为运费结算依据。如需订舱请和销售确认。</div>
+
+    <div class="actions">
+      <button class="btn" onclick="window.print()">打印</button>
+      <button class="btn" onclick="toggleWatermark()">水印开/关</button>
+    </div>
+  </div>
+
+  <script>
+    function toggleWatermark(){
+      const el = document.getElementById('quotation');
+      el.classList.toggle('watermark');
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>登录 - YXTrans</title>
+  <!-- Tailwind CSS（用于页眉/页脚以及整页的布局与颜色类） -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/assets/css/global.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    /* 修正登录页品牌 Logo 比例与显示 */
+    .brand-logo { height: 40px; width: auto; object-fit: contain; display: inline-block; }
+  </style>
+</head>
+<body class="bg-amber-50 text-gray-900">
+  <div id="header-container"></div>
+
+  <main class="container mx-auto px-4 py-10">
+    <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-0 items-stretch rounded-lg overflow-hidden shadow">
+      <div class="bg-white text-gray-900 p-6 md:p-8 h-full border border-sky-100">
+        <div class="flex items-center mb-6">
+          <img src="/assets/images/logo.webp" alt="YXTrans" class="brand-logo mr-3">
+          <div>
+            <h1 class="text-2xl font-bold">登录到 YXTrans</h1>
+            <p class="text-sm text-gray-600">欢迎回来，请使用您的账号登录</p>
+          </div>
+        </div>
+        <div id="demo-fill-row" class="flex items-center justify-between mb-4">
+          <div class="text-xs text-gray-500">演示账号：adu/adu1234（超管），yang/1234（普通）</div>
+          <div class="space-x-2">
+            <button id="fill-admin" type="button" class="px-2 py-1 bg-gray-100 hover:bg-gray-200 rounded text-xs">填入管理员</button>
+            <button id="fill-user" type="button" class="px-2 py-1 bg-gray-100 hover:bg-gray-200 rounded text-xs">填入用户</button>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-2 mb-4">
+          <button id="tab-login" type="button" class="px-3 py-2 rounded bg-primary text-white">登录</button>
+          <button id="tab-register" type="button" class="px-3 py-2 rounded hover:bg-gray-100">注册</button>
+        </div>
+
+        <div id="logged-panel" class="hidden">
+          <div class="bg-green-50 border border-green-200 rounded p-4 mb-4">
+            <p class="text-sm"><span id="logged-user"></span> 已登录。</p>
+            <div class="mt-3 space-x-2">
+              <a href="/pages/user/index.html" class="inline-block px-3 py-2 bg-yellow-500 text-black rounded hover:bg-yellow-400">进入用户中心</a>
+              <a id="go-admin" href="/pages/admin/index.html" class="inline-block px-3 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 hidden-element">进入管理后台</a>
+              <button id="logout-btn" class="inline-block px-3 py-2 bg-gray-200 rounded hover:bg-gray-300">退出登录</button>
+            </div>
+          </div>
+        </div>
+
+        <form id="login-form" class="space-y-4">
+          <div>
+            <label class="block text-sm font-medium mb-1" for="username">登录账号</label>
+            <input id="username" name="username" type="text" class="w-full border rounded px-3 py-2" placeholder="手机号/微信号/用户名" required />
+          </div>
+          <div>
+            <label class="block text-sm font-medium mb-1" for="password">密码</label>
+            <input id="password" name="password" type="password" class="w-full border rounded px-3 py-2" placeholder="请输入密码" required />
+          </div>
+          <div class="flex items-center justify-between text-sm">
+            <label class="inline-flex items-center"><input type="checkbox" class="mr-2">记住我</label>
+            <a href="#" class="text-gray-500 hover:text-gray-700">忘记密码？</a>
+          </div>
+          <button type="submit" class="w-full px-4 py-2 bg-yellow-500 text-black rounded hover:bg-yellow-400"><i class="fas fa-sign-in-alt mr-2"></i>登录</button>
+          <p id="login-msg" class="text-sm text-red-600 mt-2 hidden-element"></p>
+          <div class="text-sm text-gray-600 mt-3">还没有账号？<a id="go-register" href="#" class="text-blue-600 hover:underline">点击注册</a></div>
+        </form>
+        <form id="register-form" class="space-y-4 hidden">
+          <input id="reg-username" type="text" class="w-full border rounded px-3 py-2" placeholder="用户名" required />
+          <input id="reg-password" type="password" class="w-full border rounded px-3 py-2" placeholder="密码" required />
+          <input id="reg-confirm" type="password" class="w-full border rounded px-3 py-2" placeholder="确认密码" required />
+          <input id="reg-phone" type="text" class="w-full border rounded px-3 py-2" placeholder="手机号（中国大陆）" required />
+          <input id="reg-wechat" type="text" class="w-full border rounded px-3 py-2" placeholder="微信号" required />
+          <input id="reg-email" type="email" class="w-full border rounded px-3 py-2" placeholder="邮箱" required />
+          <div class="flex items-center gap-2">
+            <input id="reg-invite" type="text" class="flex-1 border rounded px-3 py-2" placeholder="邀请码" required />
+            <button id="btn-get-invite" type="button" class="px-3 py-2 bg-gray-100 hover:bg-gray-200 rounded">索取邀请码</button>
+          </div>
+          <div class="flex items-center gap-2">
+            <input id="reg-company" type="text" class="flex-1 border rounded px-3 py-2" placeholder="公司名称" required />
+            <span class="text-xs text-gray-500">准确填写，生成报价单时会显示</span>
+          </div>
+          <button type="submit" class="w-full px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700"><i class="fas fa-user-plus mr-2"></i>立即注册</button>
+          <p id="register-msg" class="text-sm text-red-600 mt-2 hidden-element"></p>
+          <div class="text-sm text-gray-600 mt-3">已有账号？<a id="go-login" href="#" class="text-blue-600 hover:underline">去登录</a></div>
+        </form>
+      </div>
+
+      <div class="block h-full">
+        <div class="bg-gradient-to-r from-sky-600 to-sky-400 text-white p-6 md:p-8 h-full border border-sky-300 border-l-4 border-sky-600">
+          <h2 id="login-side-title" class="text-xl font-semibold mb-3">登录后您可以</h2>
+          <ul id="login-bullets" class="text-white text-sm space-y-2">
+            <li>· 查看与管理订单/询价</li>
+            <li>· 管理邀请与积分明细</li>
+            <li>· 升级会员、查看会员权益</li>
+            <li>· 企业会员申请与客服工单</li>
+          </ul>
+          <div class="mt-4">
+            <a id="login-cta" href="/pages/user/upgrade.html" class="inline-flex items-center px-4 py-2 bg-yellow-500 text-black rounded hover:bg-yellow-400"><i class="fas fa-crown mr-2"></i>会员升级/开通</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div id="footer-container"></div>
+
+  <script src="/assets/js/global.js?v=20251114"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      loadComponent('header-container', '/components/header.html');
+      loadComponent('footer-container', '/components/footer.html');
+
+      const form = document.getElementById('login-form');
+      const msg = document.getElementById('login-msg');
+      const fillAdmin = document.getElementById('fill-admin');
+      const fillUser = document.getElementById('fill-user');
+      const loggedPanel = document.getElementById('logged-panel');
+      const loggedUser = document.getElementById('logged-user');
+      const goAdmin = document.getElementById('go-admin');
+      const logoutBtn = document.getElementById('logout-btn');
+      const tabLogin = document.getElementById('tab-login');
+      const tabRegister = document.getElementById('tab-register');
+      const demoRow = document.getElementById('demo-fill-row');
+      const regForm = document.getElementById('register-form');
+      const regMsg = document.getElementById('register-msg');
+      const goRegister = document.getElementById('go-register');
+      const goLogin = document.getElementById('go-login');
+      const sideTitle = document.getElementById('login-side-title');
+      const sideBullets = document.getElementById('login-bullets');
+      const sideCta = document.getElementById('login-cta');
+
+      function getLoginSideCfg(){
+        try { return JSON.parse(localStorage.getItem('login_side_config')||'{}'); } catch(e){ return {}; }
+      }
+      function applyLoginSideCfg(){
+        const cfg = getLoginSideCfg();
+        const title = cfg.title || '登录后您可以';
+        const bullets = Array.isArray(cfg.bullets) && cfg.bullets.length ? cfg.bullets : ['· 查看与管理订单/询价','· 管理邀请与积分明细','· 升级会员、查看会员权益','· 企业会员申请与客服工单'];
+        const ctaText = cfg.ctaText || '会员升级/开通';
+        const ctaHref = cfg.ctaHref || '/pages/user/upgrade.html';
+        if (sideTitle) sideTitle.textContent = title;
+        if (sideBullets) {
+          sideBullets.innerHTML = '';
+          bullets.forEach(function(b){ var li = document.createElement('li'); li.textContent = b; sideBullets.appendChild(li); });
+        }
+        if (sideCta) { sideCta.textContent = ctaText; sideCta.href = ctaHref; }
+      }
+      applyLoginSideCfg();
+
+      // 预填演示账号
+      fillAdmin.addEventListener('click', function(){
+        document.getElementById('username').value = 'adu';
+        document.getElementById('password').value = 'adu1234';
+      });
+      fillUser.addEventListener('click', function(){
+        document.getElementById('username').value = 'yang';
+        document.getElementById('password').value = '1234';
+      });
+
+      // 已登录状态展示
+      try {
+        const raw = localStorage.getItem('yx_user');
+        if (raw) {
+          const u = JSON.parse(raw);
+          loggedUser.textContent = `当前账号：${u.username}（${u.role === 'super_admin' ? '超级管理员' : '普通用户'}）`;
+          loggedPanel.classList.remove('hidden');
+          if (u.role === 'super_admin') goAdmin.style.display = 'inline-block';
+        }
+      } catch (e) {}
+
+      logoutBtn && logoutBtn.addEventListener('click', function(){
+        try { localStorage.removeItem('yx_user'); } catch (e) {}
+        window.location.reload();
+      });
+      function getRegistry(){ try { return JSON.parse(localStorage.getItem('yx_users')||'{}'); } catch(e){ return {}; } }
+      function setRegistry(obj){ try { localStorage.setItem('yx_users', JSON.stringify(obj)); } catch(e){} }
+      function switchMode(mode){
+        if (mode==='register'){
+          form.classList.add('hidden');
+          regForm.classList.remove('hidden');
+          tabLogin.classList.remove('bg-primary','text-white');
+          tabRegister.classList.add('bg-primary','text-white');
+          if (demoRow) demoRow.style.display = 'none';
+        } else {
+          regForm.classList.add('hidden');
+          form.classList.remove('hidden');
+          tabRegister.classList.remove('bg-primary','text-white');
+          tabLogin.classList.add('bg-primary','text-white');
+          if (demoRow) demoRow.style.display = '';
+        }
+        msg.style.display = 'none';
+        regMsg.style.display = 'none';
+      }
+      tabLogin && tabLogin.addEventListener('click', function(){ switchMode('login'); });
+      tabRegister && tabRegister.addEventListener('click', function(){ switchMode('register'); });
+      goRegister && goRegister.addEventListener('click', function(e){ e.preventDefault(); switchMode('register'); });
+      goLogin && goLogin.addEventListener('click', function(e){ e.preventDefault(); switchMode('login'); });
+      (function prefillInviteFromQuery(){
+        try {
+          var p = new URLSearchParams(location.search);
+          var code = p.get('invite');
+          if (code){ switchMode('register'); var input = document.getElementById('reg-invite'); if (input) input.value = code; }
+        } catch(e){}
+      })();
+      form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        const identifier = document.getElementById('username').value.trim();
+        const password = document.getElementById('password').value;
+        // 优先尝试后端登录（多人联动）
+        try {
+          var base = (typeof window.SERVER_API_BASE==='string' && window.SERVER_API_BASE) ? window.SERVER_API_BASE : (localStorage.getItem('server_api_base')||'');
+          if (base && window.APP_AUTH && typeof window.APP_AUTH.login==='function'){
+            window.APP_AUTH.login(identifier, password).then(function(res){
+              if (res && res.role==='super_admin') window.location.href = '/pages/admin/index.html'; else window.location.href = '/pages/user/index.html';
+            }).catch(function(){ /* 回退本地 */ proceedLocal(); });
+            return;
+          }
+        } catch(e){}
+        function proceedLocal(){
+        const base = { 'adu': { password: 'adu1234', role: 'super_admin' }, 'yang': { password: '1234', role: 'user' } };
+        const reg = getRegistry();
+        let u = null; let uname = null;
+        if (base[identifier]) { u = base[identifier]; uname = identifier; }
+        else if (reg[identifier]) { u = reg[identifier]; uname = identifier; }
+        else {
+          const keys = Object.keys(reg);
+          for (let i=0;i<keys.length;i++){
+            const k = keys[i]; const v = reg[k];
+            if (v && (v.phone === identifier || v.wechat === identifier)) { u = v; uname = k; break; }
+          }
+        }
+        if (u && u.password === password) {
+          try { localStorage.setItem('yx_user', JSON.stringify({ username: uname, role: u.role, login_at: Date.now() })); } catch (err) {}
+          try {
+            var loginAdd = parseInt(localStorage.getItem('invite_points_per_login'));
+            if (!isNaN(loginAdd) && loginAdd>0){
+              var inviteCode = u.invite;
+              var inviter = null;
+              Object.keys(reg).forEach(function(k){ var v = reg[k]; if (v && v.my_invite === inviteCode) inviter = k; });
+              if (inviter){ var pts = {}; try { pts = JSON.parse(localStorage.getItem('yx_points')||'{}'); } catch(e){}
+                pts[inviter] = (typeof pts[inviter]==='number' ? pts[inviter] : 0) + loginAdd;
+                localStorage.setItem('yx_points', JSON.stringify(pts)); }
+            }
+          } catch(e){}
+          // 超级管理员登录后直接去后台首页，普通用户跳用户中心
+          if (u.role === 'super_admin') {
+            window.location.href = '/pages/admin/index.html';
+          } else {
+            window.location.href = '/pages/user/index.html';
+          }
+        } else {
+          msg.textContent = '用户名或密码错误，请重试。';
+          msg.style.display = 'block';
+        }
+        }
+      });
+      const btnGetInvite = document.getElementById('btn-get-invite');
+      if (btnGetInvite) btnGetInvite.addEventListener('click', function(){
+        const code = 'INV-' + Math.random().toString().slice(2,10).toUpperCase();
+        const input = document.getElementById('reg-invite');
+        if (input) input.value = code;
+      });
+      function isCNPhone(v){ return /^1[3-9]\d{9}$/.test(v); }
+      function isWechat(v){ return /^[a-zA-Z][-_a-zA-Z0-9]{5,19}$/.test(v); }
+      function isEmail(v){ return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v); }
+      regForm && regForm.addEventListener('submit', function(e){
+        e.preventDefault();
+        const username = document.getElementById('reg-username').value.trim();
+        const password = document.getElementById('reg-password').value;
+        const confirm = document.getElementById('reg-confirm').value;
+        const phone = document.getElementById('reg-phone').value.trim();
+        const wechat = document.getElementById('reg-wechat').value.trim();
+        const email = document.getElementById('reg-email').value.trim();
+        const invite = document.getElementById('reg-invite').value.trim();
+        const company = document.getElementById('reg-company').value.trim();
+        if (!username || username.length < 3){ regMsg.textContent = '用户名长度至少3个字符'; regMsg.style.display = 'block'; return; }
+        if (!password || password.length < 4){ regMsg.textContent = '密码长度至少4位'; regMsg.style.display = 'block'; return; }
+        if (password !== confirm){ regMsg.textContent = '两次输入的密码不一致'; regMsg.style.display = 'block'; return; }
+        if (!isCNPhone(phone)){ regMsg.textContent = '请输入有效的中国大陆手机号'; regMsg.style.display = 'block'; return; }
+        if (!isWechat(wechat)){ regMsg.textContent = '请输入有效的微信号'; regMsg.style.display = 'block'; return; }
+        if (!isEmail(email)){ regMsg.textContent = '请输入有效的邮箱'; regMsg.style.display = 'block'; return; }
+        if (!invite){ regMsg.textContent = '请填写邀请码，或点击索取邀请码'; regMsg.style.display = 'block'; return; }
+        if (!company){ regMsg.textContent = '请填写公司名称'; regMsg.style.display = 'block'; return; }
+        const reg = getRegistry();
+        if (username==='adu' || username==='yang'){ regMsg.textContent = '该用户名为保留名称'; regMsg.style.display = 'block'; return; }
+        if (reg[username]){ regMsg.textContent = '该用户名已存在'; regMsg.style.display = 'block'; return; }
+        const vals = Object.values(reg);
+        if (vals.some(function(u){ return u && u.phone===phone; })){ regMsg.textContent = '该手机号已被注册'; regMsg.style.display = 'block'; return; }
+        if (vals.some(function(u){ return u && u.wechat===wechat; })){ regMsg.textContent = '该微信号已被注册'; regMsg.style.display = 'block'; return; }
+        reg[username] = { password: password, role: 'user', email: email, phone: phone, wechat: wechat, invite: invite, company: company, registered_at: Date.now() };
+        setRegistry(reg);
+        try {
+          var inviter = null;
+          Object.keys(reg).forEach(function(k){ var v = reg[k]; if (v && v.my_invite === invite) inviter = k; });
+          if (inviter){
+            var pts = {}; try { pts = JSON.parse(localStorage.getItem('yx_points')||'{}'); } catch(e){}
+            var add = 50; try { var cfg = parseInt(localStorage.getItem('invite_points_per_signup')); if (!isNaN(cfg)) add = cfg; } catch(e){}
+            pts[inviter] = (typeof pts[inviter]==='number' ? pts[inviter] : 0) + add;
+            localStorage.setItem('yx_points', JSON.stringify(pts));
+            var uinfo = reg[username]; uinfo.invited_by = inviter; reg[username] = uinfo; setRegistry(reg);
+          }
+        } catch(e){}
+        try { localStorage.setItem('yx_user', JSON.stringify({ username, role: 'user', login_at: Date.now() })); } catch (err) {}
+        window.location.href = '/pages/user/index.html';
+      });
+    });
+  </script>
+</body>
+</html>

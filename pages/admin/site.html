@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>全站设置 - AI智货代</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/global.css">
+</head>
+<body class="bg-gray-50 font-sans text-dark">
+  <div id="header-container"></div>
+  <main class="container mx-auto px-4 py-6">
+    <div class="bg-white rounded-lg shadow-sm p-6 border border-gray-200">
+      <div class="flex items-center justify-between mb-4">
+        <h1 class="text-2xl font-semibold text-gray-800">全站设置</h1>
+        <a href="/pages/admin/index.html" class="text-primary hover:underline"><i class="fas fa-arrow-left mr-2"></i>返回仪表盘</a>
+      </div>
+      <p class="text-gray-600 mb-4">配置站点基础信息与全局组件。</p>
+
+      <!-- 头部横幅（首页 Hero）配置 -->
+      <div class="p-4 border rounded-lg mb-6">
+        <h2 class="font-semibold mb-2 flex items-center"><i class="fas fa-bullhorn mr-2 text-primary"></i>首页头部横幅配置</h2>
+        <p class="text-gray-500 text-sm mb-4">设置首页头部横幅的背景、标题、副标题与两个按钮。</p>
+        <form id="hero-config-form" class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <label class="block">
+            <span class="text-sm text-gray-700">背景（颜色或CSS渐变）</span>
+            <input type="text" id="hero-background" class="mt-1 w-full border rounded px-3 py-2" placeholder="如：linear-gradient(90deg,#6b46c1,#4c51bf) 或 #6b46c1">
+          </label>
+          <label class="block md:col-span-2">
+            <span class="text-sm text-gray-700">主标题</span>
+            <input type="text" id="hero-title" class="mt-1 w-full border rounded px-3 py-2" placeholder="如：AI 智货代 | 改变货代的功效">
+          </label>
+          <label class="block md:col-span-2">
+            <span class="text-sm text-gray-700">副标题</span>
+            <textarea id="hero-subtitle" class="mt-1 w-full border rounded px-3 py-2" rows="3" placeholder="副标题文本"></textarea>
+          </label>
+          <label class="block">
+            <span class="text-sm text-gray-700">按钮1文本</span>
+            <input type="text" id="hero-btn1-text" class="mt-1 w-full border rounded px-3 py-2" placeholder="如：会员升级/开通">
+          </label>
+          <label class="block">
+            <span class="text-sm text-gray-700">按钮1链接</span>
+            <input type="text" id="hero-btn1-href" class="mt-1 w-full border rounded px-3 py-2" placeholder="如：/pages/user/upgrade.html">
+          </label>
+          <label class="block">
+            <span class="text-sm text-gray-700">按钮2文本</span>
+            <input type="text" id="hero-btn2-text" class="mt-1 w-full border rounded px-3 py-2" placeholder="如：查看会员权益">
+          </label>
+          <label class="block">
+            <span class="text-sm text-gray-700">按钮2链接</span>
+            <input type="text" id="hero-btn2-href" class="mt-1 w-full border rounded px-3 py-2" placeholder="如：/pages/user/upgrade.html">
+          </label>
+          <div class="md:col-span-2 flex gap-3 mt-2">
+            <button type="button" id="hero-save" class="btn-primary"><i class="fas fa-save mr-2"></i>保存配置</button>
+            <button type="button" id="hero-reset" class="btn-secondary"><i class="fas fa-undo mr-2"></i>恢复默认</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="p-4 border rounded-lg mb-6">
+        <h2 class="font-semibold mb-2 flex items-center"><i class="fas fa-calendar-alt mr-2 text-yellow-500"></i>船期链接管理</h2>
+        <p class="text-gray-500 text-sm mb-4">维护船东船期查询链接，支持占位符 {port}。</p>
+        <div class="flex gap-2 mb-3 items-center flex-wrap">
+          <button id="sl-save" class="btn-primary"><i class="fas fa-save mr-2"></i>保存</button>
+          <button id="sl-export" class="btn-secondary"><i class="fas fa-file-export mr-2"></i>导出JSON</button>
+          <label class="btn-secondary cursor-pointer"><i class="fas fa-file-import mr-2"></i>导入JSON<input id="sl-import" type="file" accept="application/json" class="hidden"></label>
+          <button id="sl-reset" class="btn-secondary"><i class="fas fa-undo mr-2"></i>恢复默认</button>
+        </div>
+        <div id="sl-list" class="grid grid-cols-1 md:grid-cols-2 gap-3"></div>
+      </div>
+
+      <!-- 其他模块占位 -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div class="p-4 border rounded-lg">
+          <h2 class="font-semibold mb-2">基础信息</h2>
+          <p class="text-gray-500 text-sm">站点名称、LOGO、联系方式、SEO等。（占位）</p>
+        </div>
+        <div class="p-4 border rounded-lg">
+          <h2 class="font-semibold mb-2">导航菜单</h2>
+          <p class="text-gray-500 text-sm">主导航与底部导航的菜单维护。（占位）</p>
+        </div>
+        <div class="p-4 border rounded-lg">
+          <h2 class="font-semibold mb-2">头部组件</h2>
+          <p class="text-gray-500 text-sm">Header区域的内容与样式配置。（占位）</p>
+        </div>
+        <div class="p-4 border rounded-lg">
+          <h2 class="font-semibold mb-2">尾部组件</h2>
+          <p class="text-gray-500 text-sm">Footer区域的内容与样式配置。（占位）</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <div id="footer-container"></div>
+  <script src="/assets/js/global.js?v=20251114"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function(){
+      if (typeof loadComponent === 'function') {
+        loadComponent('header-container', '/components/header.html');
+        loadComponent('footer-container', '/components/footer.html');
+      }
+
+      // 读取已有配置填充表单
+      const cfg = JSON.parse(localStorage.getItem('home_hero_config') || '{}');
+      function setVal(id, val){ var el = document.getElementById(id); if (el) el.value = val || ''; }
+      setVal('hero-background', cfg.background || '');
+      setVal('hero-title', cfg.title || '');
+      setVal('hero-subtitle', cfg.subtitle || '');
+      setVal('hero-btn1-text', cfg.btn1Text || '');
+      setVal('hero-btn1-href', cfg.btn1Href || '/pages/user/upgrade.html');
+      setVal('hero-btn2-text', cfg.btn2Text || '');
+      setVal('hero-btn2-href', cfg.btn2Href || '/pages/user/upgrade.html');
+
+      function saveHero() {
+        const data = {
+          background: $('#hero-background').value.trim(),
+          title: $('#hero-title').value.trim(),
+          subtitle: $('#hero-subtitle').value.trim(),
+          btn1Text: $('#hero-btn1-text').value.trim(),
+          btn1Href: $('#hero-btn1-href').value.trim(),
+          btn2Text: $('#hero-btn2-text').value.trim(),
+          btn2Href: $('#hero-btn2-href').value.trim()
+        };
+        localStorage.setItem('home_hero_config', JSON.stringify(data));
+        localStorage.setItem('home_hero_config_updated', Date.now().toString());
+        alert('已保存首页头部横幅配置');
+      }
+
+      document.getElementById('hero-save').addEventListener('click', saveHero);
+      document.getElementById('hero-reset').addEventListener('click', function(){
+        localStorage.removeItem('home_hero_config');
+        localStorage.setItem('home_hero_updated', Date.now().toString());
+        alert('已恢复默认设置');
+      });
+
+      var carriers = [
+        { code: 'msc', name: '地中海航运(MSC)' },
+        { code: 'maersk', name: '马士基(Maersk)' },
+        { code: 'cma', name: '达飞轮船(CMA CGM)' },
+        { code: 'cosco', name: '中远海运(COSCO Shipping)' },
+        { code: 'hapag', name: '赫伯罗特(Hapag-Lloyd)' },
+        { code: 'one', name: '海洋网联(ONE)' },
+        { code: 'evergreen', name: '长荣海运(Evergreen)' },
+        { code: 'hmm', name: '现代商船(HMM)' },
+        { code: 'zim', name: '以星航运(ZIM)' },
+        { code: 'yangming', name: '阳明海运(Yang Ming)' },
+        { code: 'oocl', name: '东方海外(OOCL)' },
+        { code: 'pil', name: '太平船务(PIL)' },
+        { code: 'wanhai', name: '万海航运(Wan Hai)' },
+        { code: 'kmtc', name: '高丽海运(KMTC)' },
+        { code: 'sitc', name: '海丰国际(SITC)' },
+        { code: 'tslines', name: '德翔海运(TS Lines)' },
+        { code: 'rcl', name: '宏海船务(RCL)' },
+        { code: 'smline', name: '长锦商船(SM Line)' },
+        { code: 'ckline', name: '天敬海运(CK Line)' },
+        { code: 'namsung', name: '南星船务(NAMSUNG)' }
+      ];
+      var slWrap = document.getElementById('sl-list');
+      var slSave = document.getElementById('sl-save');
+      var slExport = document.getElementById('sl-export');
+      var slImport = document.getElementById('sl-import');
+      var slReset = document.getElementById('sl-reset');
+      var links = {};
+      try { links = JSON.parse(localStorage.getItem('shipowner_schedule_links')||'{}'); } catch(e) { links = {}; }
+      function renderSL(){
+        if (!slWrap) return;
+        slWrap.innerHTML = '';
+        carriers.forEach(function(c){
+          var row = document.createElement('div');
+          row.className = 'grid grid-cols-1 md:grid-cols-3 gap-2 items-center';
+          var name = document.createElement('div');
+          name.className = 'text-sm text-gray-700';
+          name.textContent = c.name;
+          var input = document.createElement('input');
+          input.className = 'border rounded px-3 py-2 md:col-span-2';
+          input.placeholder = '如：https://example.com/schedules?dest={port}';
+          input.value = links[c.code]||'';
+          input.setAttribute('data-code', c.code);
+          row.appendChild(name);
+          row.appendChild(input);
+          slWrap.appendChild(row);
+        });
+      }
+      renderSL();
+      if (slSave) {
+        slSave.addEventListener('click', function(){
+          var inputs = slWrap.querySelectorAll('input[data-code]');
+          var data = {};
+          inputs.forEach(function(inp){ var code = inp.getAttribute('data-code'); data[code] = inp.value.trim(); });
+          if (window.APP_API && window.APP_API.set) {
+            window.APP_API.set('shipowner_schedule_links', data).then(function(){ localStorage.setItem('shipowner_schedule_links_updated', Date.now().toString()); alert('已保存船期链接配置'); });
+          } else {
+            localStorage.setItem('shipowner_schedule_links', JSON.stringify(data));
+            localStorage.setItem('shipowner_schedule_links_updated', Date.now().toString());
+            alert('已保存船期链接配置');
+          }
+        });
+      }
+      if (slExport) {
+        slExport.addEventListener('click', function(){
+          var data = localStorage.getItem('shipowner_schedule_links')||'{}';
+          var blob = new Blob([data], { type: 'application/json' });
+          var url = URL.createObjectURL(blob);
+          var a = document.createElement('a');
+          a.href = url; a.download = 'shipowner_schedule_links.json';
+          document.body.appendChild(a); a.click(); document.body.removeChild(a);
+          URL.revokeObjectURL(url);
+        });
+      }
+      if (slImport) {
+        slImport.addEventListener('change', function(e){
+          var f = e.target.files && e.target.files[0];
+          if (!f) return;
+          var reader = new FileReader();
+          reader.onload = function(){
+            try { var obj = JSON.parse(reader.result||'{}'); localStorage.setItem('shipowner_schedule_links', JSON.stringify(obj)); renderSL(); alert('已导入船期链接配置'); } catch(err) { alert('导入失败'); }
+          };
+          reader.readAsText(f);
+        });
+      }
+      if (slReset) {
+        slReset.addEventListener('click', function(){ localStorage.removeItem('shipowner_schedule_links'); links = {}; renderSL(); alert('已恢复默认'); });
+      }
+    });
+  </script>
+  <script>
+    (function(){
+      try {
+        const u = JSON.parse(localStorage.getItem('yx_user'));
+        if (!u || u.role !== 'super_admin') {
+          alert('该页面仅限超级管理员访问，请使用管理员账号登录。');
+          window.location.href = (typeof resolveRootUrl==='function') ? resolveRootUrl('/pages/user/login.html') : '/pages/user/login.html';
+        }
+      } catch (e) {
+        window.location.href = (typeof resolveRootUrl==='function') ? resolveRootUrl('/pages/user/login.html') : '/pages/user/login.html';
+      }
+    })();
+  </script>
+</body>
+</html>

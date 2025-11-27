@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>实用工具总览 - AI智货代</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/global.css">
+</head>
+<body class="bg-gray-50 font-sans text-dark">
+  <div id="header-container"></div>
+
+  <main class="container mx-auto px-4 py-8">
+    <h1 class="text-3xl font-bold mb-6">实用工具总览</h1>
+    <div id="tools-grid" class="grid grid-cols-1 md:grid-cols-3 gap-6"></div>
+  </main>
+
+  <div id="footer-container"></div>
+
+  <script src="/assets/js/global.js?v=20251114"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      loadComponent('header-container', '/components/header.html');
+      loadComponent('footer-container', '/components/footer.html');
+
+      function getHomeConfig(){
+        try { return JSON.parse(localStorage.getItem('site_home_config')||'{}'); } catch { return {}; }
+      }
+      function getToolsItems(){
+        const cfg = getHomeConfig();
+        const items = (cfg.tools && Array.isArray(cfg.tools.items)) ? cfg.tools.items : [
+          { name: '运价查询', link: 'freight-query.html', download: '', image: '', content: '按起运港与目的港跳转至设定的运价查询页面。' },
+          { name: '集装箱尺寸与换算', link: 'container-size.html', download: '', image: '', content: '常见箱型尺寸与体积重量换算工具。' },
+          { name: '费用/报价计算器', link: 'quote-calculator.html', download: '', image: '', content: '常见费用项与报价试算（示例）。' }
+        ];
+        return items;
+      }
+      function renderGrid(){
+        const grid = document.getElementById('tools-grid');
+        const items = getToolsItems();
+        grid.innerHTML = '';
+        items.forEach((it, idx) => {
+          const card = document.createElement('div');
+          card.className = 'bg-white rounded-lg shadow-sm p-6 hover:shadow-md transition border';
+          const imgSrc = it.imageData || it.image || '';
+          card.innerHTML = `
+            <div class="flex items-start gap-4">
+              ${imgSrc ? `<img src="${imgSrc}" alt="cover" class="w-16 h-16 object-cover rounded border">` : ''}
+              <div class="flex-1">
+                <h2 class="text-xl font-semibold mb-1">${it.name||'未命名工具'}</h2>
+                <p class="text-gray-600 text-sm">${(it.content||'').slice(0, 80)}</p>
+                <div class="flex items-center gap-2 mt-3">
+                  ${it.link ? `<a href="${it.link}" class="btn-primary text-xs"><i class='fas fa-up-right-from-square mr-1'></i>访问</a>` : ''}
+                  ${it.download ? `<a href="${it.download}" class="btn-secondary text-xs"><i class='fas fa-download mr-1'></i>下载</a>` : ''}
+                  <button class="btn-secondary text-xs" data-act="toggle" data-idx="${idx}"><i class='fas fa-info-circle mr-1'></i>详情</button>
+                </div>
+                <div class="mt-3 hidden" data-detail="${idx}">
+                  ${imgSrc ? `<img src="${imgSrc}" alt="illustration" class="w-full max-h-48 object-cover rounded border mb-2">` : ''}
+                  <div class="prose prose-sm">${it.content||''}</div>
+                </div>
+              </div>
+            </div>`;
+          grid.appendChild(card);
+        });
+
+        grid.addEventListener('click', function(e){
+          const btn = e.target.closest('button[data-act="toggle"]');
+          if (!btn) return;
+          const idx = btn.dataset.idx;
+          const detail = grid.querySelector(`[data-detail="${idx}"]`);
+          if (detail) detail.classList.toggle('hidden');
+        });
+      }
+
+      renderGrid();
+      window.addEventListener('storage', function(e){ if (e.key==='site_home_config') renderGrid(); });
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>会员升级/开通（支付） - AI智货代</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/global.css">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#165DFF',
+            secondary: '#0E2E88',
+            accent: '#FF7D00',
+            neutral: '#F5F7FA',
+            dark: '#1D2129'
+          },
+          fontFamily: {
+            sans: ['Inter','system-ui','sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-gray-50 font-sans text-dark">
+  <div id="header-container"></div>
+  <main class="container mx-auto px-4 py-8">
+    <div class="grid md:grid-cols-12 gap-6">
+      <section class="md:col-span-12">
+        <h1 class="text-3xl font-bold mb-4">会员升级/开通</h1>
+        <p class="text-gray-600 mb-6">选择适合您的会员方案，支持月付与年付。</p>
+
+        <div class="flex items-center gap-3 mb-6">
+          <span class="text-sm text-gray-600">计费方式</span>
+          <div class="inline-flex rounded-lg border overflow-hidden">
+            <button id="btn-mode-month" class="px-4 py-2 text-sm hover:bg-gray-100">月付</button>
+            <button id="btn-mode-year" class="px-4 py-2 text-sm hover:bg-gray-100">年付</button>
+          </div>
+        </div>
+
+        <div class="grid md:grid-cols-4 gap-6 items-stretch">
+          <div class="bg-white rounded-lg shadow p-6 border flex flex-col h-full" data-plan="free">
+            <div class="flex items-center justify-between mb-2">
+              <h2 id="plan-free-title" class="text-xl font-semibold">免费会员</h2>
+              <span id="plan-free-badge" class="px-2 py-1 text-xs rounded bg-gray-100 text-gray-700">基础</span>
+            </div>
+            <div id="plan-free-price-month" class="text-2xl font-bold mb-1" data-price-month>免费</div>
+            <div id="plan-free-price-year" class="text-2xl font-bold mb-1 hidden-element" data-price-year>免费</div>
+            <div id="plan-free-desc" class="text-sm text-gray-600 mb-4">适合轻度使用与新用户体验</div>
+            <ul id="plan-free-features" class="space-y-2 text-sm mb-4">
+              <li class="flex items-center gap-2"><i class="fas fa-check text-green-600"></i>基础查询额度</li>
+              <li class="flex items-center gap-2"><i class="fas fa-check text-green-600"></i>邀请注册获得积分</li>
+              <li class="flex items-center gap-2"><i class="fas fa-check text-green-600"></i>消息通知与基础客服</li>
+            </ul>
+            <button id="cta-free" class="px-4 py-2 w-full rounded bg-gray-200 text-gray-700 mt-auto">当前等级</button>
+          </div>
+
+          <div class="bg-white rounded-lg shadow p-6 border flex flex-col h-full" data-plan="normal">
+            <div class="flex items-center justify-between mb-2">
+              <h2 id="plan-normal-title" class="text-xl font-semibold">普通会员</h2>
+              <span id="plan-normal-badge" class="px-2 py-1 text-xs rounded bg-blue-50 text-blue-700">标准</span>
+            </div>
+            <div id="plan-normal-price-month" class="text-2xl font-bold mb-1" data-price-month>¥49/月</div>
+            <div id="plan-normal-price-year" class="text-2xl font-bold mb-1 hidden-element" data-price-year>¥499/年</div>
+            <div id="plan-normal-desc" class="text-sm text-gray-600 mb-4">适合常规个人使用</div>
+            <ul id="plan-normal-features" class="space-y-2 text-sm mb-4">
+              <li class="flex items-center gap-2"><i class="fas fa-check text-green-600"></i>更高查询额度与速率</li>
+              <li class="flex items-center gap-2"><i class="fas fa-check text-green-600"></i>扩展历史记录</li>
+              <li class="flex items-center gap-2"><i class="fas fa-check text-green-600"></i>基础客服升级</li>
+            </ul>
+            <button id="cta-normal" class="px-4 py-2 w-full rounded bg-blue-600 text-white mt-auto">立即开通</button>
+          </div>
+
+          <div class="bg-white rounded-lg shadow p-6 border flex flex-col h-full" data-plan="pro">
+            <div class="flex items-center justify-between mb-2">
+              <h2 id="plan-pro-title" class="text-xl font-semibold">Pro会员</h2>
+              <span id="plan-pro-badge" class="px-2 py-1 text-xs rounded bg-blue-100 text-blue-700">专业</span>
+            </div>
+            <div id="plan-pro-price-month" class="text-2xl font-bold mb-1" data-price-month>¥99/月</div>
+            <div id="plan-pro-price-year" class="text-2xl font-bold mb-1 hidden-element" data-price-year>¥999/年</div>
+            <div id="plan-pro-desc" class="text-sm text-gray-600 mb-4">适合高频个人用户与进阶使用</div>
+            <ul id="plan-pro-features" class="space-y-2 text-sm mb-4">
+              <li class="flex items-center gap-2"><i class="fas fa-check text-green-600"></i>更高查询额度与速率</li>
+              <li class="flex items-center gap-2"><i class="fas fa-check text-green-600"></i>工具增强与历史记录扩展</li>
+              <li class="flex items-center gap-2"><i class="fas fa-check text-green-600"></i>优先客服与问题响应</li>
+              <li class="flex items-center gap-2"><i class="fas fa-check text-green-600"></i>邀请积分加成</li>
+            </ul>
+            <button id="cta-pro" class="px-4 py-2 w-full rounded bg-blue-600 text-white mt-auto">立即开通</button>
+          </div>
+
+          <div class="bg-white rounded-lg shadow p-6 border flex flex-col h-full" data-plan="enterprise">
+            <div class="flex items-center justify-between mb-2">
+              <h2 id="plan-enterprise-title" class="text-xl font-semibold">企业会员</h2>
+              <span id="plan-enterprise-badge" class="px-2 py-1 text-xs rounded bg-purple-100 text-purple-700">团队</span>
+            </div>
+            <div id="plan-enterprise-desc" class="text-sm text-gray-600 mb-4">支持多用户协作与管理</div>
+            <ul id="plan-enterprise-features" class="space-y-2 text-sm mb-4">
+              <li class="flex items-center gap-2"><i class="fas fa-check text-green-600"></i>多用户团队与成员权限</li>
+              <li class="flex items-center gap-2"><i class="fas fa-check text-green-600"></i>专属客服与服务协议</li>
+              <li class="flex items-center gap-2"><i class="fas fa-check text-green-600"></i>自定义积分策略与接口对接</li>
+              <li class="flex items-center gap-2"><i class="fas fa-check text-green-600"></i>报表导出与审计</li>
+            </ul>
+            <a id="cta-enterprise" href="/pages/contact/index.html" class="px-4 py-2 w-full rounded bg-purple-600 text-white text-center mt-auto">联系管理员</a>
+          </div>
+        </div>
+
+      </section>
+    </div>
+  </main>
+  <div id="footer-container"></div>
+  <script src="/assets/js/global.js?v=20251114"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      loadComponent('header-container', '/components/header.html');
+      loadComponent('footer-container', '/components/footer.html');
+      var mode = 'month';
+      try { var saved = localStorage.getItem('membership_price_mode'); if (saved) mode = saved; } catch(e){}
+      function applyMode(m){
+        var months = document.querySelectorAll('[data-price-month]');
+        var years = document.querySelectorAll('[data-price-year]');
+        months.forEach(function(el){ el.style.display = m==='month' ? '' : 'none'; });
+        years.forEach(function(el){ el.style.display = m==='year' ? '' : 'none'; });
+        var bm = document.getElementById('btn-mode-month'); var by = document.getElementById('btn-mode-year');
+        if (bm){ bm.classList.toggle('bg-primary', m==='month'); bm.classList.toggle('text-white', m==='month'); }
+        if (by){ by.classList.toggle('bg-primary', m==='year'); by.classList.toggle('text-white', m==='year'); }
+      }
+      applyMode(mode);
+      var bm = document.getElementById('btn-mode-month'); var by = document.getElementById('btn-mode-year');
+      if (bm) bm.addEventListener('click', function(){ mode='month'; try { localStorage.setItem('membership_price_mode', mode); } catch(e){} applyMode(mode); });
+      if (by) by.addEventListener('click', function(){ mode='year'; try { localStorage.setItem('membership_price_mode', mode); } catch(e){} applyMode(mode); });
+
+      var cfg;
+      try { cfg = JSON.parse(localStorage.getItem('membership_config')); } catch(e){}
+      if (!cfg) cfg = {
+        free: { title:'免费会员', badge:'基础', price_month:'免费', price_year:'免费', desc:'适合轻度使用与新用户体验', features:['基础查询额度','邀请注册获得积分','消息通知与基础客服'], cta_text:'当前等级' },
+        normal: { title:'普通会员', badge:'标准', price_month:'¥49/月', price_year:'¥499/年', desc:'适合常规个人使用', features:['更高查询额度与速率','扩展历史记录','基础客服升级'], cta_text:'立即开通' },
+        pro: { title:'Pro会员', badge:'专业', price_month:'¥99/月', price_year:'¥999/年', desc:'适合高频个人用户与进阶使用', features:['更高查询额度与速率','工具增强与历史记录扩展','优先客服与问题响应','邀请积分加成'], cta_text:'立即开通' },
+        enterprise: { title:'企业会员', badge:'团队', desc:'支持多用户协作与管理', features:['多用户团队与成员权限','专属客服与服务协议','自定义积分策略与接口对接','报表导出与审计'], cta_text:'联系管理员', cta_href:'/pages/contact/index.html' }
+      };
+      function setText(id, v){ var el = document.getElementById(id); if (el) el.textContent = v; }
+      function setFeatures(id, list){ var el = document.getElementById(id); if (!el) return; el.innerHTML = ''; list.forEach(function(t){ var li = document.createElement('li'); li.className = 'flex items-center gap-2'; var i = document.createElement('i'); i.className = 'fas fa-check text-green-600'; li.appendChild(i); var span = document.createTextNode(t); li.appendChild(span); el.appendChild(li); }); }
+      setText('plan-free-title', cfg.free.title);
+      setText('plan-free-badge', cfg.free.badge);
+      setText('plan-free-price-month', cfg.free.price_month);
+      setText('plan-free-price-year', cfg.free.price_year);
+      setText('plan-free-desc', cfg.free.desc);
+      setFeatures('plan-free-features', cfg.free.features);
+      setText('plan-normal-title', cfg.normal.title);
+      setText('plan-normal-badge', cfg.normal.badge);
+      setText('plan-normal-price-month', cfg.normal.price_month);
+      setText('plan-normal-price-year', cfg.normal.price_year);
+      setText('plan-normal-desc', cfg.normal.desc);
+      setFeatures('plan-normal-features', cfg.normal.features);
+      setText('plan-pro-title', cfg.pro.title);
+      setText('plan-pro-badge', cfg.pro.badge);
+      setText('plan-pro-price-month', cfg.pro.price_month);
+      setText('plan-pro-price-year', cfg.pro.price_year);
+      setText('plan-pro-desc', cfg.pro.desc);
+      setFeatures('plan-pro-features', cfg.pro.features);
+      setText('plan-enterprise-title', cfg.enterprise.title);
+      setText('plan-enterprise-badge', cfg.enterprise.badge);
+      setText('plan-enterprise-desc', cfg.enterprise.desc);
+      setFeatures('plan-enterprise-features', cfg.enterprise.features);
+      var c1 = document.getElementById('cta-free'); if (c1) c1.textContent = cfg.free.cta_text;
+      var c2 = document.getElementById('cta-normal'); if (c2) c2.textContent = cfg.normal.cta_text;
+      var c3 = document.getElementById('cta-pro'); if (c3) c3.textContent = cfg.pro.cta_text;
+      var c4 = document.getElementById('cta-enterprise'); if (c4){ c4.textContent = cfg.enterprise.cta_text; c4.setAttribute('href', cfg.enterprise.cta_href || '/pages/contact/index.html'); }
+    });
+  </script>
+</body>
+</html>

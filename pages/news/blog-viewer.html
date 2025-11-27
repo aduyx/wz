@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>行业资讯—博客正文 - AI智货代</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/global.css">
+</head>
+<body class="bg-gray-50 font-sans text-dark">
+  <div id="header-container"></div>
+
+  <main class="container mx-auto px-4 py-8">
+    <article class="prose max-w-none">
+      <h1 id="viewer-title" class="text-3xl font-bold mb-3">正在加载...</h1>
+      <p id="viewer-meta" class="text-gray-500 mb-6"></p>
+      <div id="viewer-content" class="bg-white rounded-lg shadow-sm p-6"></div>
+      <a href="../../news.html" class="inline-flex items-center mt-6 text-primary hover:underline">
+        <i class="fas fa-arrow-left mr-2"></i>返回资讯列表
+      </a>
+    </article>
+  </main>
+
+  <div id="footer-container"></div>
+
+  <script src="/assets/js/global.js?v=20251114"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      loadComponent('header-container', '/components/header.html');
+      loadComponent('footer-container', '/components/footer.html');
+    });
+    function getParam(name){ const url = new URL(window.location.href); return url.searchParams.get(name) || ''; }
+    async function loadBlog(){
+      const src = getParam('src');
+      if (!src) return;
+      try {
+        const r = await fetch(src);
+        const html = await r.text();
+        const doc = new DOMParser().parseFromString(html, 'text/html');
+        const main = doc.querySelector('main') || doc.querySelector('article') || doc.body;
+        const content = main ? main.innerHTML : html;
+        document.getElementById('viewer-content').innerHTML = content;
+        const h1 = (main || doc).querySelector('h1');
+        const title = h1 ? (h1.textContent || '').trim() : (doc.title || '博客正文');
+        document.getElementById('viewer-title').textContent = title;
+        const text = (main ? main.textContent : doc.body.textContent) || '';
+        const m = text.match(/\d{4}年\d{1,2}月\d{1,2}日/);
+        document.getElementById('viewer-meta').textContent = m ? m[0] : '';
+      } catch (e) {
+        document.getElementById('viewer-title').textContent = '加载失败';
+      }
+    }
+    document.addEventListener('DOMContentLoaded', loadBlog);
+  </script>
+</body>
+</html>
