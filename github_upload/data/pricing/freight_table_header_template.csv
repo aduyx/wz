@@ -1,0 +1,9 @@
+key,label,visible,order,width
+index,序号,true,1,60
+origin,起运港,true,2,120
+destination,目的港,true,3,120
+rate20gp,20GP,true,4,100
+rate40gp,40GP/HQ,true,5,120
+carrier,船东,true,6,100
+sailing,船期,true,7,120
+remark,备注,true,8,200

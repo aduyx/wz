@@ -1,0 +1,3575 @@
+MINA AL BAKR・IQ - 阿巴克 / 伊拉克・中国
+APALACHICOLA・US - 阿巴拉契科拉 / 美国・中国
+BANDAR ABBAS・IR - 阿巴斯港 / 伊朗・中国
+ABIDJAN・CI - 阿比让 / 科特迪瓦・中国
+ABERDOUR・GB - 阿伯道尔 / 英国・中国
+ABERDEEN,US・US - 阿伯丁 / 美国・中国
+ABERDEEN,EN・GB - 阿伯丁 / 英国・中国
+ABERDOVERY・GB - 阿伯多维 / 英国・中国
+ABERYSTWYTH・GB - 阿伯里斯特威斯 / 英国・中国
+ABBOT BAY・AU - 阿伯特湾 / 澳大利亚・中国
+ABU AL BUKHOOSH・AE - 阿布埃尔布霍希 / 阿联酋・中国
+ARBROATH・GB - 阿布罗斯 / 英国・中国
+ABBEVILLE・FR - 阿布维尔 / 法国・中国
+ABUYOG・PH - 阿布约 / 菲律宾・中国
+ABU ZENIMA・EG - 阿布宰尼迈 / 埃及・中国
+ABU DHABI・AE - 阿布扎比 / 阿联酋・中国
+ADDA・GH - 阿达 / 加纳・中国
+ADABIYA・EG - 阿代比耶 / 埃及・中国
+ARDGLASS・GB - 阿德格拉斯 / 英国・中国
+ADRA・ES - 阿德拉 / 西班牙・中国
+ADELAIDE・AU - 阿德莱德 / 澳大利亚・中国
+ARDRISHAIG・GB - 阿德里希格 / 英国・中国
+ARDROSSAN・GB - 阿德罗森 / 英国・中国
+ARDROSSAN,AU・AU - 阿德罗森 / 澳大利亚・中国
+ATICO・PE - 阿蒂科 / 秘鲁・中国
+ADDU ATOLL・MV - 阿杜环礁 / 马尔代夫・中国
+ARBATAX・IT - 阿尔巴塔克斯 / 意大利・中国
+ARBOGA・SE - 阿尔博加 / 瑞典・中国
+AARDALSTANGEN・NO - 阿尔达尔斯坦根 / 挪威・中国
+ALGHERO・IT - 阿尔盖罗 / 意大利・中国
+ARGOSTOLI・GR - 阿尔戈斯托利 / 希腊・中国
+ARCHANGEL・RU - 阿尔汉格尔 / 俄罗斯・中国
+ALGECIRAS・ES - 阿尔赫西拉斯 / 西班牙・中国
+ALGIERS・DZ - 阿尔及尔 / 阿尔及利亚・中国
+ARGUINEGUIN・ES - 阿尔吉内金 / 大西洋群岛・中国
+ARCACHON・FR - 阿尔卡雄 / 法国・中国
+AIKMAAR・NL - 阿尔克马 / 荷兰・中国
+ALCUDIA・ES - 阿尔库迪亚 / 西班牙・中国
+PORT ALMA・AU - 阿尔马港 / 澳大利亚・中国
+ALMERIA・ES - 阿尔梅里亚 / 西班牙・中国
+ALMIRANTE・PA - 阿尔米兰特 / 巴拿马・中国
+ALPENA・US - 阿尔皮纳 / 美国・中国
+ALTAMIRA ・MX - 阿尔塔米拉 / 墨西哥・中国
+ALTAMIRA,BR・BR - 阿尔塔米拉  / 巴西・中国
+ALTONA・DE - 阿尔托纳 / 德国・中国
+ALVARADO・MX - 阿尔瓦拉多 / 墨西哥・中国
+ARZIW・DZ - 阿尔泽 / 阿尔及利亚・中国
+HAVRE・FR - 阿弗尔 / 法国・中国
+AGRA・IN - 阿格拉 / 印度・中国
+AGUADILLA・PR - 阿瓜迪亚 / 波多黎各・中国
+AGUA DULCE・PA - 阿瓜杜尔塞 / 巴拿马・中国
+AGUILAS・ES - 阿吉拉斯 / 西班牙・中国
+AZ ZAWIYAH・LY - 阿济伟亚 / 利比亚・中国
+AGADIR・MA - 阿加迪尔 / 摩洛哥・中国
+ACRE・IL - 阿卡 / 以色列・中国
+AKALTYN・UZ - 阿卡尔腾 / 乌兹别克斯坦・中国
+ACAJUTLA・SV - 阿卡胡特拉 / 萨尔瓦多・中国
+ACAPULCO・MX - 阿卡普尔科 / 墨西哥・中国
+AKASSA・NG - 阿卡萨 / 尼日利亚・中国
+CAYOS ARCAS TERMINAL・MX - 阿卡斯群岛码头 / 墨西哥・中国
+ACCRA・GH - 阿克拉 / 加纳・中国
+AKRANES・IS - 阿克拉内斯 / 冰岛・中国
+AKLAVIK・CA - 阿克拉维克 / 加拿大・中国
+AKUREYRI・IS - 阿克雷里 / 冰岛・中国
+AKROTIRI・CY - 阿克罗蒂里 / 塞浦路斯・中国
+ARKLOW・IE - 阿克洛 / 爱尔兰・中国
+AKTAU・KZ - 阿克套 / 哈萨克斯坦・中国
+AKTOBE・KZ - 阿克托别 / 哈萨克斯坦・中国
+AXIM・GH - 阿克西姆 / 加纳・中国
+ALA・SE - 阿拉 / 瑞典・中国
+ALLARDYCE HARBOUR・SB - 阿拉迪斯港 / 所罗门群岛・中国
+ARACATI・BR - 阿拉卡蒂 / 巴西・中国
+ARACAJU・BR - 阿拉卡茹 / 巴西・中国
+ALAMEDA・US - 阿拉梅达 / 美国・中国
+ALMEDIN・KZ - 阿拉梅金 / 哈萨克斯坦・中国
+ALMATY・KZ - 阿拉木图 / 哈萨克斯坦・中国
+ALANYA・TR - 阿拉尼亚 / 土耳其・中国
+ARATU・BR - 阿拉图 / 巴西・中国
+ARAYA・VE - 阿拉亚 / 委内瑞拉・中国
+ALLEPPEY・IN - 阿勒皮 / 印度・中国
+ULLAPOOL・GB - 阿勒浦 / 英国・中国
+PUNTA ARENAS・CL - 阿雷纳斯角 / 智利・中国
+ARRECIFE・ES - 阿雷西费 / 大西洋群岛・中国
+ARECIBO・PR - 阿雷西沃 / 波多黎各・中国
+ARICA・CL - 阿里卡 / 智利・中国
+ARICHAT・CA - 阿里沙特 / 加拿大・中国
+AREIA BRANCA・BR - 阿里亚布兰卡 / 巴西・中国
+ALLIGATOR POND・JM - 阿利盖德庞德 / 牙买加・中国
+ALICANTE・ES - 阿利坎特 / 西班牙・中国
+ALIAGA・TR - 阿利亚加 / 土耳其・中国
+ALLINGE・DK - 阿灵厄 / 丹麦・中国
+ALULA・SO - 阿鲁拉 / 索马里・中国
+ARUTUNGA・NZ - 阿鲁通加 / 新西兰・中国
+ARENDAL・NO - 阿伦达尔 / 挪威・中国
+ALOFI・NU - 阿洛菲 / 纽埃・中国
+ALOTAU・PG - 阿洛陶 / 巴布亚新几内亚・中国
+AMAPALA・HN - 阿马帕拉 / 洪都拉斯・中国
+AMASRA・TR - 阿马斯腊 / 土耳其・中国
+ARDJUNA TERMINAL・ID - 阿米纳油码头 / 印度尼西亚・中国
+AMMOCHOSTUS・CY - 阿莫霍斯托斯 / 塞浦路斯・中国
+AMHERST・CA - 阿默斯特 / 加拿大・中国
+AMHERSTBURG・CA - 阿默斯特堡 / 加拿大・中国
+AMBARLI・TR - 阿姆巴利 / 土耳其・中国
+AMLWCH・GB - 阿姆卢赫 / 英国・中国
+AMUNITAN・PH - 阿姆尼坦 / 菲律宾・中国
+AMSTERDAM・NL - 阿姆斯特丹 / 荷兰・中国
+AMUAY BAY・VE - 阿穆艾湾 / 委内瑞拉・中国
+ANAKAN・PH - 阿纳根 / 菲律宾・中国
+ANACORTES・US - 阿纳科特斯 / 美国・中国
+ANALALAVA・MG - 阿纳拉拉瓦 / 马达加斯加・中国
+ARNHEM・NL - 阿纳姆 / 荷兰・中国
+ANAN・JP - 阿南 / 日本・中国
+APARRI・PH - 阿帕里 / 菲律宾・中国
+APAPA・NG - 阿帕帕 / 尼日利亚・中国
+APIZACO・MX - 阿皮萨科 / 墨西哥・中国
+APIA・WS - 阿皮亚 / 西萨摩亚・中国
+APPLEDORE・GB - 阿普尔多尔 / 英国・中国
+ASSAB・ET - 阿萨布 / 埃塞俄比亚・中国
+ASSAKE・KZ - 阿萨克 / 哈萨克斯坦・中国
+BANDAR ASSALUYEH・IR - 阿萨鲁耶 / 伊朗・中国
+PUERTO ACEVEDO・AR - 阿塞维多港 / 阿根廷・中国
+PORT ARTHUR・US - 阿瑟港 / 美国・中国
+ATHENS・US - 阿森斯 / 美国・中国
+ASSENS・DK - 阿森斯 / 丹麦・中国
+ASCENSION ISLAND・SH - 阿森松岛 / 圣赫勒拿・中国
+ASHDOD・IL - 阿什杜德 / 以色列・中国
+ASHKABAD・TM - 阿什哈巴德 / 土库曼斯坦・中国
+ASHKELON・IL - 阿什克伦 / 以色列・中国
+ASHLAND・US - 阿什兰 / 美国・中国
+ASHTABULA・US - 阿什塔比拉 / 美国・中国
+ASHTART TERMINAL・TN - 阿什塔特码头 / 突尼斯・中国
+ASPROPYRGOS・GR - 阿斯普罗皮戈斯 / 希腊・中国
+ASTAKOS・GR - 阿斯塔科斯 / 希腊・中国
+ASTORIA・US - 阿斯托里亚 / 美国・中国
+AZUA・DM - 阿苏阿 / 多米尼加・中国
+ATYRAU・KZ - 阿特劳 / 哈萨克斯坦・中国
+ATRECO・US - 阿特雷科 / 美国・中国
+AVEIRO・PT - 阿威罗 / 葡萄牙・中国
+AJACCIO・FR - 阿维克修 / 法国・中国
+AVILES・ES - 阿维莱斯 / 西班牙・中国
+AVOLA・IT - 阿沃拉 / 意大利・中国
+ASSINIE・CI - 阿西尼 / 科特迪瓦・中国
+ARGENTIA・CA - 阿真舍 / 加拿大・中国
+AJMAN・AE - 阿治曼 / 阿联酋・中国
+PORTO AZZURRO・IT - 阿祖罗港 / 意大利・中国
+EBEYE・FM - 埃贝耶 / 密克罗尼西亚联邦国・中国
+EBELTOFT・DK - 埃伯尔措夫特 / 丹麦・中国
+EDMONTON・CA - 埃德蒙顿 / 加拿大・中国
+EDINCIK・TR - 埃丁吉克 / 土耳其・中国
+EL PALITO・VE - 埃尔巴利托 / 委内瑞拉・中国
+EL GUAMACHE・VE - 埃尔瓜马切 / 委内瑞拉・中国
+EI PASO,TX・US - 埃尔帕索 / 美国・中国
+EL CHAURE・VE - 埃尔乔雷 / 委内瑞拉・中国
+EL SEGUNDO・US - 埃尔塞贡多 / 美国・中国
+ELSFLETH・DE - 埃尔斯费莱特 / 德国・中国
+ELLESMERE PORT・GB - 埃尔斯米尔港 / 英国・中国
+EL TABLAZO・VE - 埃尔塔布拉齐奥 / 委内瑞拉・中国
+ELSINORE・DK - 埃尔西诺 / 丹麦・中国
+PORT EVERGLADES・US - 埃弗格雷斯港 / 美国・中国
+EVERETT(WASH.・US - 埃弗里特 / 美国・中国
+EGEDESMINDE・GL - 埃格瑟斯明讷 / 格陵兰・中国
+EXETER・GB - 埃克塞特 / 英国・中国
+EXMOUTH・GB - 埃克斯茅斯 / 英国・中国
+ECKERNFORDE・DE - 埃肯弗尔德 / 德国・中国
+EILAT・IL - 埃拉特 / 以色列・中国
+ELEUSIS・GR - 埃莱夫西斯 / 希腊・中国
+AEROSKOBING・DK - 埃勒斯克平 / 丹麦・中国
+EREGLI・TR - 埃雷利 / 土耳其・中国
+YEREVAN・AM - 埃里温  / 亚美尼亚・中国
+ELLINGTON・FJ - 埃灵顿 / 斐济・中国
+PORT ELLEN・GB - 埃伦港 / 英国・中国
+EMDEN・DE - 埃姆登 / 德国・中国
+EEMSHAVEN・NL - 埃姆斯哈文 / 荷兰・中国
+ESSEN・DE - 埃森 / 德国・中国
+ESBJERG・DK - 埃斯比约 / 丹麦・中国
+PORT ESQUIVEL・JM - 埃斯基韦尔港 / 牙买加・中国
+ESCOMBRERAS HARBOUR・ES - 埃斯孔布雷阿斯 / 西班牙・中国
+ESQUIMALT・CA - 埃斯奎莫尔特 / 加拿大・中国
+ESMERALDAS・EC - 埃斯梅拉达斯 / 厄瓜多尔・中国
+ESPERANCE・AU - 埃斯佩兰斯 / 澳大利亚・中国
+PUNTA DEL ESTE・UY - 埃斯特角 / 乌拉圭・中国
+ETAPLES・FR - 埃塔普勒 / 法国・中国
+ETEN・PE - 埃腾 / 秘鲁・中国
+AVONMOUTH・GB - 埃文茅斯 / 英国・中国
+EVANSVILLE,IN・US - 埃文斯维尔 / 美国・中国
+EHOALA・MG - 艾奥拉 / 马达加斯加・中国
+PORT ALBERNI・CA - 艾伯尼港 / 加拿大・中国
+AYR・GB - 艾尔 / 英国・中国
+PORT ALFRED,CA・CA - 艾尔夫雷德港 / 加拿大・中国
+PORT ALFRED・ZA - 艾尔弗雷德港 / 南非・中国
+EGERSUND・NO - 艾格松 / 挪威・中国
+AHMEDABAD・IN - 艾哈迈达巴德 / 印度・中国
+PORT ALICE・CA - 艾利斯港 / 加拿大・中国
+EYEMOUTH・GB - 艾茅斯 / 英国・中国
+AITAPE・PG - 艾塔佩 / 巴布亚新几内亚・中国
+EITRHEIM・NO - 艾特尔海姆 / 挪威・中国
+AYVALIK・TR - 艾瓦勒克 / 土耳其・中国
+AIN SUKHNA・EG - 艾因苏赫纳 / 埃及・中国
+EDINBURGH・GB - 爱丁堡 / 英国・中国
+PORTO AMBAIM・AO - 安博因港 / 安哥拉・中国
+AMBRIZ・AO - 安布里什 / 安哥拉・中国
+AMBRIZETE・AO - 安布里泽特 / 安哥拉・中国
+ONTARIO,CA・US - 安大略湖 / 美国・中国
+ANTIGUA ・AN - 安地卡  / 安提瓜和巴布达・中国
+ANTIMONAN・PH - 安蒂莫纳 / 菲律宾・中国
+ANTILLA・CU - 安蒂亚 / 古巴・中国
+PORT ANTONIO・JM - 安东尼奥港 / 牙买加・中国
+ANGRA DOS REIS・BR - 安格拉杜斯雷斯 / 巴西・中国
+ANGUILLA・AN - 安圭拉 / 安圭拉・中国
+PORT ANGELES・US - 安吉利斯港 / 美国・中国
+ANDIJAN・UZ - 安集延 / 乌兹别克斯坦・中国
+PUERTO ANGAMOS・CL - 安加莫斯  / 智利・中国
+ANCHORAGE・US - 安科雷奇 / 美国・中国
+ANCON・PE - 安孔 / 秘鲁・中国
+ANCUD・CL - 安库德 / 智利・中国
+ARMUELLES・PA - 安蒙勒斯 / 巴拿马・中国
+ANNABA・DZ - 安纳巴 / 阿尔及利亚・中国
+ANNAPOLIS・CA - 安纳波利斯 / 加拿大・中国
+ANNALONG・GB - 安纳隆 / 英国・中国
+ANNAN・GB - 安嫩 / 英国・中国
+ANEWA BAY・PG - 安诺瓦湾 / 巴布亚新几内亚・中国
+AMPENAN・ID - 安佩南 / 印度尼西亚・中国
+ANZIO・IT - 安齐奥 / 意大利・中国
+ANTSIRANANA・MG - 安齐拉纳纳 / 马达加斯加・中国
+ANZHERSKAYA・RU - 安热罗苏真斯克 / 俄罗斯・中国
+TELOK ANSON・MA - 安顺 / 马来西亚・中国
+ANSTRUTHER・GB - 安斯特拉瑟 / 英国・中国
+ANTALAHA・MG - 安塔拉哈 / 马达加斯加・中国
+ANTALYA・TR - 安塔利亚 / 土耳其・中国
+ANTWERP・BE - 安特卫普 / 比利时・中国
+ANTOFAGASTA・CL - 安托法加斯塔 / 智利・中国
+ANTONIO ENES・MO - 安托尼奥埃尼什 / 莫桑比克・中国
+AMBON ISLAND・ID - 安汶 / 印度尼西亚・中国
+ANTIBES・FR - 昂蒂布 / 法国・中国
+ANTIFER・FR - 昂蒂弗 / 法国・中国
+ODESSA・UK - 敖德萨 / 乌克兰・中国
+ALBAJETTY・BA - 奥巴杰蒂 / 巴林・中国
+OBAN・GB - 奥本 / 英国・中国
+AABENRAA・DK - 奥本罗 / 丹麦・中国
+OBBIA・SO - 奥比亚 / 索马里・中国
+OPOBO・NG - 奥波博 / 尼日利亚・中国
+ODDA・NO - 奥达 / 挪威・中国
+ALBANY・US - 奥尔巴尼 / 美国・中国
+ALBANY,AU・AU - 奥尔巴尼 / 澳大利亚・中国
+AALBORG・DK - 奥尔堡 / 丹麦・中国
+OLBIA・IT - 奥尔比亚 / 意大利・中国
+PUERTO ORDAZ・VE - 奥尔达斯港 / 委内瑞拉・中国
+ALDERNEY・GB - 奥尔德尼 / 英国・中国
+ORDU・TR - 奥尔杜 / 土耳其・中国
+AARHUS・DK - 奥尔胡斯 / 丹麦・中国
+ORMARA・PA - 奥尔马拉 / 巴基斯坦・中国
+ORMOC・PH - 奥尔莫克 / 菲律宾・中国
+HORTA・ES - 奥尔塔 / 大西洋群岛・中国
+ORTH・DE - 奥尔特 / 德国・中国
+OFFENBACH・DE - 奥芬巴赫 / 德国・中国
+AUGUSTA・IT - 奥古斯塔 / 意大利・中国
+PORT AUGUSTA・AU - 奥古斯塔港 / 澳大利亚・中国
+OKHA・RU - 奥哈 / 俄罗斯・中国
+AHUS・SE - 奥胡斯 / 瑞典・中国
+PORT OKHA・IN - 奥卡港 / 印度・中国
+AUX CAYES・HA - 奥凯 / 海地・中国
+OAKLAND・US - 奥克兰 / 美国・中国
+AUCKLAND・NZ - 奥克兰 / 新西兰・中国
+OKRIKA・NG - 奥克里卡 / 尼日利亚・中国
+PORT AUX BARQUES・CA - 奥克斯巴凯斯港 / 加拿大・中国
+OAKVILLE・CA - 奥克维尔 / 加拿大・中国
+ORANJESTAD・NE - 奥拉涅斯塔德 / 荷属安的列斯・中国
+ORANGESTAD・AR - 奥拉涅斯塔德 / 阿鲁巴・中国
+LE CHATEAU・FR - 奥来龙堡 / 法国・中国
+ORAN・DZ - 奥兰 / 阿尔及利亚・中国
+AURANGABAD・IN - 奥兰加巴德 / 印度・中国
+ORANGE・US - 奥兰治 / 美国・中国
+OREHOVED・DK - 奥勒霍兹 / 丹麦・中国
+ALESUND・NO - 奥勒松 / 挪威・中国
+ORISTANO・IT - 奥里斯塔诺 / 意大利・中国
+OLHAO・PT - 奥良 / 葡萄牙・中国
+OLYMPIA・US - 奥林匹亚 / 美国・中国
+OLONGAPO・PH - 奥隆阿坡 / 菲律宾・中国
+OULU・FI - 奥鲁 / 芬兰・中国
+ORURO・BO - 奥鲁罗 / 玻利维亚・中国
+ORO BAY・PG - 奥鲁湾 / 巴布亚新几内亚・中国
+OMAHA,NE・US - 奥马哈 / 美国・中国
+OAMARU・NZ - 奥马鲁 / 新西兰・中国
+OMISALJ・CR - 奥米沙利 / 克罗地亚・中国
+DUGIRAT・CR - 奥米什 / 克罗地亚・中国
+ONNE・NG - 奥纳 / 尼日利亚・中国
+ONEHUNGA・NZ - 奥尼洪加 / 新西兰・中国
+ONEGA・RU - 奥涅加 / 俄罗斯・中国
+OPUA・NZ - 奥普阿 / 新西兰・中国
+OPLO・NO - 奥普洛 / 挪威・中国
+OCHO RIOS BAY・JM - 奥乔里奥斯湾 / 牙买加・中国
+OSHAWA・CA - 奥沙瓦 / 加拿大・中国
+OSH・KY - 奥什 / 吉尔吉斯斯坦・中国
+OSKARSHAMN・SE - 奥斯卡港 / 瑞典・中国
+OSLO・NO - 奥斯陆 / 挪威・中国
+OSTEND・BE - 奥斯坦德 / 比利时・中国
+OSTRICA・US - 奥斯特里卡 / 美国・中国
+OSWEGO・US - 奥斯威戈 / 美国・中国
+ORTONA・IT - 奥托纳 / 意大利・中国
+OWENDO・GA - 奥文多 / 加蓬・中国
+PORT WALCOTT・AU - 澳尔科特港 / 澳大利亚・中国
+BATANGAS・PH - 八打雁 / 菲律宾・中国
+YATSUSHIRO・JP - 八代 / 日本・中国
+YAWATA・JP - 八幡 / 日本・中国
+HACHINOHE・JP - 八户 / 日本・中国
+YAWATAHAMA・JP - 八恬滨 / 日本・中国
+BABOUILLAT・NE - 巴布勒特 / 新喀里多尼亚・中国
+BACHAQUERO・VE - 巴查克罗 / 委内瑞拉・中国
+BADAGRI・NG - 巴达格里 / 尼日利亚・中国
+BADAJOZ・ES - 巴达霍斯 / 西班牙・中国
+BATAAN・PH - 巴丹 / 菲律宾・中国
+BATAM・ID - 巴淡岛 / 印度尼西亚・中国
+BADDECK・CA - 巴德克 / 加拿大・中国
+BARDIA・LY - 巴迪亚 / 利比亚・中国
+PADANG・ID - 巴东 / 印度尼西亚・中国
+BARTON(E.C.・GB - 巴顿 / 英国・中国
+BARNSTAPLE・GB - 巴恩斯特珀尔 / 英国・中国
+BALBOA・PA - 巴尔博亚 / 巴拿马・中国
+BALBRIGGAN・IE - 巴尔布里根 / 爱尔兰・中国
+BALTIMORE,MD・US - 巴尔的摩 / 美国・中国
+BALTIMORE・IE - 巴尔的摩 / 爱尔兰・中国
+BARCADERA・NE - 巴尔卡德拉 / 荷属安的列斯・中国
+BARNAUL・RU - 巴尔瑙尔 / 俄罗斯・中国
+BALCHIK・BU - 巴尔奇克 / 保加利亚・中国
+PAVLODAR・KZ - 巴甫洛达尔 / 哈萨克斯坦・中国
+BAGOTVILLE・CA - 巴戈特洋 / 加拿大・中国
+BAJO GRANCDE・VE - 巴霍格兰德 / 委内瑞拉・中国
+BUCKIE・GB - 巴基 / 英国・中国
+BAKAR・CR - 巴卡尔 / 克罗地亚・中国
+VACAMONTE・PA - 巴卡蒙特 / 巴拿马・中国
+BACOLOD・PH - 巴科洛德 / 菲律宾・中国
+BUCKSPORT・US - 巴克斯波特 / 美国・中国
+BUCTOUCHE・CA - 巴克图什 / 加拿大・中国
+BAKU・AZ - 巴库 / 阿塞拜疆・中国
+BARAHONA・DM - 巴拉奥纳 / 多米尼加・中国
+BARAO DE TEFFE・BR - 巴拉奥特菲 / 巴西・中国
+PARADIP・IN - 巴拉迪布 / 印度・中国
+BARACOA・CU - 巴拉科阿 / 古巴・中国
+BARAM・MA - 巴拉姆 / 马来西亚・中国
+PARANAGUA・BR - 巴拉那瓜 / 巴西・中国
+BALLAST HEAD・AU - 巴拉斯特黑德 / 澳大利亚・中国
+BARRANQUILLA・CO - 巴兰基利亚 / 哥伦比亚・中国
+BARREIRO・PT - 巴雷鲁 / 葡萄牙・中国
+BALIKPAPAN・ID - 巴厘巴板 / 印度尼西亚・中国
+BARRY・GB - 巴里 / 英国・中国
+BARI・IT - 巴里 / 意大利・中国
+PUERTO BARRIOS・GU - 巴里奥斯港 / 危地马拉・中国
+PAREPARE・ID - 巴里巴里 / 印度尼西亚・中国
+RAS BAHREGAN・IR - 巴里根角 / 伊朗・中国
+BALIPAPAN・ID - 巴理加彭 / 印度尼西亚・中国
+BALLINA・IE - 巴利纳 / 爱尔兰・中国
+BARLETTA・IT - 巴列塔 / 意大利・中国
+BAHRAIN・BA - 巴林 / 巴林・中国
+BARROW・GB - 巴罗 / 英国・中国
+BARODA・IN - 巴罗达 / 印度・中国
+BARROW ISLAND・AU - 巴罗岛 / 澳大利亚・中国
+BAROSUND・FI - 巴罗生特 / 芬兰・中国
+BAMAKO・MA - 巴马科 / 马里・中国
+BARMOUTH・GB - 巴茅思 / 英国・中国
+PANAMA CITY・PA - 巴拿马城 / 巴拿马・中国
+PANAMA CITY,FL・US - 巴拿马城-福罗里达州 / 美国・中国
+PANARUKAN・ID - 巴那鲁干 / 印度尼西亚・中国
+BANABA・KI - 巴纳巴岛 / 基里巴斯・中国
+BANANA・CO - 巴纳纳 / 刚果(金)・中国
+PARNAIBA・BR - 巴纳伊巴 / 巴西・中国
+BANES・CU - 巴内斯 / 古巴・中国
+BAGNOLI・IT - 巴尼奥利 / 意大利・中国
+BANIAS・SY - 巴尼亚斯 / 叙利亚・中国
+SUNGEI PAKNING・ID - 巴宁河 / 印度尼西亚・中国
+BANYUWANGI・ID - 巴纽旺宣 / 印度尼西亚・中国
+BALAO TERMINAL・EC - 巴诺特米拉尔 / 厄瓜多尔・中国
+BASEL・SE - 巴塞尔 / 瑞典・中国
+BARCELONA・ES - 巴塞罗那 / 西班牙・中国
+BUSSELTON・AU - 巴瑟尔顿 / 澳大利亚・中国
+BATHURST・CA - 巴瑟斯特 / 加拿大・中国
+BASSENS・FR - 巴森 / 法国・中国
+PORT KELANG(N )・MA - 巴生北港 / 马来西亚・中国
+PORT KELANG(W)・MA - 巴生西港 / 马来西亚・中国
+BASRAH・IQ - 巴士拉 / 伊拉克・中国
+BATH・US - 巴斯 / 美国・中国
+BASTIA・FR - 巴斯蒂亚 / 法国・中国
+BASQUES COVE・CA - 巴斯克湾 / 加拿大・中国
+BASSE TERRE・GU - 巴斯特尔 / 瓜德罗普・中国
+PASARUAN・ID - 巴苏鲁安 / 印度尼西亚・中国
+BATA・GU - 巴塔 / 赤道几内亚・中国
+BATAREINAYA・RU - 巴塔列伊纳亚 / 俄罗斯・中国
+BATUMI・GE - 巴塔米 / 格鲁吉亚・中国
+BUTTERWORTH・MA - 巴特沃思 / 马来西亚・中国
+BARTICA・GU - 巴提卡 / 圭亚那・中国
+BATON ROUGE・US - 巴吞鲁日 / 美国・中国
+BAGAN DATOH・MA - 巴眼拿督 / 马来西亚・中国
+BAGAN SI API API・ID - 巴眼牙比 / 印度尼西亚・中国
+BAYONNE・FR - 巴约讷 / 法国・中国
+PUERTO BAYOVAR・PE - 巴约瓦尔港 / 秘鲁・中国
+BAZAIKHA・RU - 巴扎伊哈 / 俄罗斯・中国
+BATU PAHAT・MA - 巴株巴辖 / 马来西亚・中国
+KUALA BELAIT・NE - 白拉奕 / 文莱・中国
+PARGAS・FI - 柏尔加斯 / 芬兰・中国
+BERLIN・DE - 柏林 / 德国・中国
+BERBERA・SO - 柏培拉 / 索马里・中国
+BATTICALOA・SR - 拜蒂克洛 / 斯里兰卡・中国
+BAIS・PH - 拜斯 / 菲律宾・中国
+PAMBAN・IN - 班本 / 印度・中国
+BUNBURY・AU - 班伯里 / 澳大利亚・中国
+BUNDABERG・AU - 班达伯格 / 澳大利亚・中国
+BANDAR IMAM KHOMEINI・IR - 班德埃纳姆 / 伊朗・中国
+BANDIRMA・TR - 班德尔马 / 土耳其・中国
+BANGOR,US・US - 班戈 / 美国・中国
+BANGOR,EN・GB - 班戈 / 英国・中国
+BANDHOLM・DK - 班霍尔姆 / 丹麦・中国
+BANGALORE・IN - 班加罗尔 / 印度・中国
+BENGHAZI・LY - 班加西 / 利比亚・中国
+PEMANGKAT・ID - 班马吉 / 印度尼西亚・中国
+BANTRY・IE - 班特里 / 爱尔兰・中国
+BANJUL・GA - 班珠尔 / 冈比亚・中国
+HANNAN・JP - 阪南 / 日本・中国
+SAKAIDE・JP - 坂出 / 日本・中国
+HANDA・JP - 半田 / 日本・中国
+BONNY・NG - 邦尼 / 尼日利亚・中国
+KOMPONGSOM・KO - 磅逊 / 柬埔寨・中国
+BHAVNAGAR・IN - 包纳加匀 / 印度・中国
+PAULSBORO・US - 保罗斯伯罗 / 美国・中国
+BOWEN・AU - 鲍恩 / 澳大利亚・中国
+POWELL RIVER・CA - 鲍威尔 / 加拿大・中国
+BERGEN・NO - 卑尔根 / 挪威・中国
+PATTANI・TH - 北大年 / 泰国・中国
+PEKAN BARU・ID - 北干巴鲁 / 印度尼西亚・中国
+PEKALONGAN・ID - 北加浪岸 / 印度尼西亚・中国
+KITAKYUSHU・JP - 北九州 / 日本・中国
+PAKNAM・TH - 北榄 / 泰国・中国
+PLAMERSTON NORTH・NZ - 北帕默斯 / 新西兰・中国
+PAKANBARU・ID - 北千巴鲁 / 印度尼西亚・中国
+NORTH SUNDERLAND・GB - 北森德兰 / 英国・中国
+NORTH SYDNEY・CA - 北锡德尼 / 加拿大・中国
+NOSY BE・MG - 贝岛 / 马达加斯加・中国
+BEDI・IN - 贝迪 / 印度・中国
+BAYTOWN・US - 贝敦 / 美国・中国
+BELL BAY・AU - 贝尔贝 / 澳大利亚・中国
+BELFAST・GB - 贝尔法斯特 / 英国・中国
+BELGRAD・SE - 贝尔格莱德 / 塞尔维亚和黑山共和国・中国
+BEJAIA・DZ - 贝贾亚 / 阿尔及利亚・中国
+BAIE COMEAU・CA - 贝科莫 / 加拿大・中国
+BEIRA・MO - 贝拉 / 莫桑比克・中国
+BELLEDUNE・CA - 贝拉顿 / 加拿大・中国
+BELEKERI・IN - 贝莱克里 / 印度・中国
+BELLINGHAM・US - 贝灵哈姆 / 美国・中国
+BELLINGHAM・US - 贝灵哈姆 / 美国・中国
+BEIRUT・LE - 贝鲁特 / 黎巴嫩・中国
+BELEM・BR - 贝伦 / 巴西・中国
+BAY ROBERTS・CA - 贝罗伯茨 / 加拿大・中国
+BENISAF・DZ - 贝尼萨夫 / 阿尔及利亚・中国
+PEMBA ISLAND・TA - 奔巴岛 / 坦桑尼亚・中国
+PONDICHERRY・IN - 本地治里 / 印度・中国
+BENGUELA・AO - 本格拉 / 安哥拉・中国
+BURNTISLAND・GB - 本泰兰 / 英国・中国
+BUTZFLETH・DE - 比茨费莱特 / 德国・中国
+BIDEFORD・GB - 比迪福德 / 英国・中国
+BEAVER HARBOUR・CA - 比弗港 / 加拿大・中国
+PRETORIA・ZA - 比勒陀利亚 / 南非・中国
+PIRAEUS・GR - 比雷埃夫斯 / 希腊・中国
+BIMA・ID - 比马 / 印度尼西亚・中国
+BHEEMUNIPATNAM・IN - 比穆尼帕特南 / 印度・中国
+BIZERTA・TN - 比塞大 / 突尼斯・中国
+BUSSUM・NL - 比瑟姆 / 荷兰・中国
+BISSAU・GU - 比绍 / 几内亚比绍・中国
+BISHKEK・KY - 比什凯克 / 吉尔吉斯斯坦・中国
+BIYSK・RU - 比斯克 / 俄罗斯・中国
+BISLIG・PH - 比斯利格 / 菲律宾・中国
+BITUNG・ID - 比通 / 印度尼西亚・中国
+VIVERO・ES - 比韦罗 / 西班牙・中国
+VILLA NUEVA・HN - 比亚努埃瓦 / 洪都拉斯・中国
+PETERHEAD・GB - 彼得黑德 / 英国・中国
+PETROPAVLOVSK,RU・RU - 彼得罗巴浦洛夫斯克 / 俄罗斯・中国
+PETROPAVLOVSK・KZ - 彼得罗巴普洛夫斯克 / 哈萨克斯坦・中国
+PETERSBURG・US - 彼得斯堡 / 美国・中国
+BILBAO・ES - 毕尔巴鄂 / 西班牙・中国
+BEN THUI・VI - 边水 / 越南・中国
+BERDIANSK・UK - 别尔迪扬斯克 / 乌克兰・中国
+BELGOROD-DNESTROVSKIY・UK - 别尔哥罗德德涅斯罗夫 / 乌克兰・中国
+BEPPU・JP - 别府 / 日本・中国
+BEZYMYANKA・RU - 别济米扬卡 / 俄罗斯・中国
+FOS SUR MER・FR - 滨海福斯 / 法国・中国
+SAVANNA LA MAR・JM - 滨海萨凡纳 / 牙买加・中国
+HAMAMATSU・JP - 滨松 / 日本・中国
+HAMADA・JP - 滨田 / 日本・中国
+PENANG・MA - 槟城 / 马来西亚・中国
+PANGKAL PINANG・ID - 槟港 / 印度尼西亚・中国
+PORT DICKSON・MA - 波德申 / 马来西亚・中国
+PORTIGLIONE・IT - 波蒂格里欧内 / 意大利・中国
+PORTICI・IT - 波蒂奇 / 意大利・中国
+PORTISHEAD・GB - 波蒂斯黑德 / 英国・中国
+PORTO NOVO・BE - 波多诺伏 / 贝宁・中国
+PORTO NOVO,IN・IN - 波多诺伏港 / 印度・中国
+BONN・DE - 波恩 / 德国・中国
+BORDEAUX・FR - 波尔多 / 法国・中国
+PORTBURY・GB - 波尔特布里 / 英国・中国
+PORTO・PT - 波尔图 / 葡萄牙・中国
+PORVOO・FI - 波尔沃 / 芬兰・中国
+BOGOTA・CO - 波哥大 / 哥伦比亚・中国
+BOCHUM・DE - 波鸿 / 德国・中国
+POTI・GE - 波季 / 格鲁吉亚・中国
+PORKKALA・FI - 波卡拉 / 芬兰・中国
+BOCA GRANDE・US - 波卡洛兰德 / 美国・中国
+PORLAMAR・VE - 波拉马尔 / 委内瑞拉・中国
+PORI・FI - 波里 / 芬兰・中国
+BOLOGNA ・IT - 波伦亚 / 意大利・中国
+PORO・PH - 波罗 / 菲律宾・中国
+PRIMORSK・RU - 波罗奈斯克 / 俄罗斯・中国
+POLLOC・PH - 波略克 / 菲律宾・中国
+POMALAA・ID - 波马拉 / 印度尼西亚・中国
+POMARAO・PT - 波马朗 / 葡萄牙・中国
+PONAPE・PA - 波纳佩 / 太平洋群岛・中国
+BOSTON,MA・US - 波士顿 / 美国・中国
+PORSGRUNN・NO - 波斯格伦 / 挪威・中国
+PASKALLAVIK・SE - 波斯卡拉维克 / 瑞典・中国
+POSO・ID - 波索 / 印度尼西亚・中国
+PORT ASKAIG・GB - 波塔斯凯格 / 英国・中国
+PORTRUSH・GB - 波特拉什 / 英国・中国
+PORTLAND,US・US - 波特兰 / 美国・中国
+PORTLADN,EN・GB - 波特兰 / 英国・中国
+PORTLAND,AU・AU - 波特兰 / 澳大利亚・中国
+PORTLADN BILL・GB - 波特兰角 / 英国・中国
+PORTREE・GB - 波特里 / 英国・中国
+PORTHMADOG・GB - 波特马多克 / 英国・中国
+PORTUGALETE・ES - 波图加莱特 / 西班牙・中国
+PORTOCEL・BR - 波图塞尔 / 巴西・中国
+BOSTON・GB - 波土顿 / 英国・中国
+PAUILLAC・FR - 波亚克 / 法国・中国
+POZZALLO・IT - 波扎洛 / 意大利・中国
+POZOS COLORADOS・CO - 波佐科罗拉多斯 / 哥伦比亚・中国
+POZZUOLI・IT - 波佐利 / 意大利・中国
+CIUDAD BOLIVAR・VE - 玻利瓦尔城 / 委内瑞拉・中国
+PUERTO BOLIVAR・EC - 玻利瓦尔港 / 厄瓜多尔・中国
+BURTON PORT・IE - 伯顿波特 / 爱尔兰・中国
+BURNSIDE・US - 伯恩赛德 / 美国・中国
+BURNS HARBOUR・US - 伯恩斯港 / 美国・中国
+BURGHEAD・GB - 伯格黑德 / 英国・中国
+BURGEO・CA - 伯吉奥 / 加拿大・中国
+BERKELEY・US - 伯克利 / 美国・中国
+BIRKENHEAD・GB - 伯肯黑德 / 英国・中国
+BELIZE CITY・ B - 伯利兹城 / 伯利兹・中国
+BIRMINGHAM・GB - 伯明翰 / 英国・中国
+BIRMINGHAM,AL・US - 伯明翰-亚拉巴马州 / 美国・中国
+BURNIE・AU - 伯尼 / 澳大利亚・中国
+BENOA・ID - 伯诺阿 / 印度尼西亚・中国
+PASNI・PA - 伯斯尼 / 巴基斯坦・中国
+BERWICK・GB - 伯威克 / 英国・中国
+BASSEIN・BU - 勃生 / 缅甸・中国
+BOBO DIOULASSO・BU - 博博迪乌拉索 / 布基纳法索・中国
+BODO・NO - 博多 / 挪威・中国
+HAKATA・JP - 博多 / 日本・中国
+BOGENSE・DK - 博恩瑟 / 丹麦・中国
+PORBANDAR・IN - 博尔本德尔 / 印度・中国
+BUGO・PH - 博哥 / 菲律宾・中国
+BOCA GRANDE,CU・CU - 博卡格兰德 / 古巴・中国
+BOCA CHINA・DM - 博卡奇卡 / 多米尼加・中国
+BOQUERON・CU - 博克龙 / 古巴・中国
+BOLAMA・GU - 博拉多 / 几内亚比绍・中国
+PUERTO BORIES・CL - 博里奥斯港 / 智利・中国
+BORGHOLM・SE - 博里霍尔姆 / 瑞典・中国
+BOMA・CO - 博马 / 刚果(金)・中国
+BEAUMARIS・GB - 博马里斯 / 英国・中国
+BEAUMONT・US - 博蒙特 / 美国・中国
+BONIFACIO・FR - 博尼法乔 / 法国・中国
+BOSASO・SO - 博萨索 / 索马里・中国
+BOTWOOD・CA - 博特伍德 / 加拿大・中国
+BEAUTY POINT・AU - 博尤替角 / 澳大利亚・中国
+BREMEN・DE - 不来梅 / 德国・中国
+BREMERHAVEN・DE - 不来梅港 / 德国・中国
+BRUNSWICK・US - 不伦瑞克 / 美国・中国
+BUENAVENTURA・CO - 布埃纳文图拉 / 哥伦比亚・中国
+BUBAQUE・GU - 布巴克 / 几内亚比绍・中国
+BUDAPEST・HU - 布达佩斯 / 匈牙利・中国
+BURGOS・ES - 布尔戈斯 / 西班牙・中国
+BURGAS・BU - 布尔加斯 / 保加利亚・中国
+BUFFALO・US - 布法罗 / 美国・中国
+BUKHARA・UZ - 布哈拉 / 乌兹别克斯坦・中国
+BUCHAREST・RO - 布加勒斯特 / 罗马尼亚・中国
+BOURGAS・BU - 布加斯 / 保加利亚・中国
+BUKA・PG - 布卡 / 巴布亚新几内亚・中国
+BUKAVU・CO - 布卡武 / 刚果(金)・中国
+BUCHANAN,US・US - 布坎南 / 美国・中国
+BUCHANAN,LI・LI - 布坎南 / 利比里亚・中国
+PORT DE BOUC・FR - 布克港 / 法国・中国
+BRATISLAVA・CZ - 布拉迪斯拉发 / 斯洛伐克・中国
+BLUFF・NZ - 布拉夫 / 新西兰・中国
+PRAGUE・CH - 布拉格 / 捷克・中国
+BLANES・ES - 布拉内斯 / 西班牙・中国
+BRASS・NG - 布拉斯 / 尼日利亚・中国
+BRAVA・SO - 布拉瓦 / 索马里・中国
+BULAWAYO・ZI - 布拉瓦约 / 津巴布韦・中国
+BRAKE・DE - 布腊克 / 德国・中国
+BLAYE・FR - 布莱 / 法国・中国
+PRAI・MA - 布莱 / 马来西亚・中国
+PORT BALAIR・IN - 布莱尔港 / 印度・中国
+BLACK RIVER・JM - 布莱克河 / 牙买加・中国
+BULELENG・ID - 布莱伦 / 印度尼西亚・中国
+BLYTH・GB - 布莱斯 / 英国・中国
+BRIGHTON,EN・GB - 布赖顿 / 英国・中国
+BRIGHTON,TT・TR - 布赖顿 / 特立尼达和多巴哥・中国
+BRIGHTLINGSEA・GB - 布赖特灵西 / 英国・中国
+BAHIA BLANCA・AR - 布兰卡港 / 阿根廷・中国
+BLANTYRE・MA - 布兰太尔 / 马拉维・中国
+BROMBOROUGH DOCK・GB - 布朗巴勒 / 英国・中国
+BROWNSVILLE・US - 布朗斯维尔 / 美国・中国
+BROUWERSHAVEN・NL - 布劳沃斯港 / 荷兰・中国
+BRAILA・RO - 布勒伊拉 / 罗马尼亚・中国
+BUREA・SE - 布雷奥 / 瑞典・中国
+BURELA・ES - 布雷拉 / 西班牙・中国
+BREMERTON・US - 布雷默顿 / 美国・中国
+BREST・FR - 布雷斯特 / 法国・中国
+BREVIK・NO - 布雷维克 / 挪威・中国
+BRIDPORT・GB - 布里德波特 / 英国・中国
+BRIDLINGTON・GB - 布里德灵顿 / 英国・中国
+BRIXHAM・GB - 布里克瑟姆 / 英国・中国
+BRIDGEPORT・US - 布里奇波特 / 美国・中国
+BRIDGETOWN・BA - 布里奇敦 / 巴巴多斯・中国
+BRIDGEWATER・CA - 布里奇沃特 / 加拿大・中国
+BRIDGWATER・GB - 布里奇沃特 / 英国・中国
+BRISBANE・AU - 布里斯班 / 澳大利亚・中国
+BRISTOL・GB - 布里斯托尔 / 英国・中国
+BURRIANA・ES - 布里亚纳 / 西班牙・中国
+BURIN・CA - 布林 / 加拿大・中国
+BRINDISI・IT - 布林迪西 / 意大利・中国
+BUNSBUTTEL・DE - 布龙斯比特尔 / 德国・中国
+BLUEFIELDS,NI・NI - 布卢菲尔兹 / 尼加拉瓜・中国
+BLUEFIELDS,JA・JM - 布卢菲尔兹 / 牙买加・中国
+BROOME・AU - 布鲁姆 / 澳大利亚・中国
+BRUGES・BE - 布鲁日 / 比利时・中国
+BRUSSEL・BE - 布鲁塞尔 / 比利时・中国
+BURUTU・NG - 布鲁图 / 尼日利亚・中国
+BRONNOYSUND・NO - 布伦讷于松 / 挪威・中国
+BULLEN BAY・NE - 布伦湾 / 荷属安的列斯・中国
+BROFJORDEN・SE - 布罗夫约尔丹 / 瑞典・中国
+BROCKVILLE・CA - 布罗克维尔 / 加拿大・中国
+BOULOGNE・FR - 布洛涅 / 法国・中国
+BLOCHNAYA・RU - 布洛奇纳亚 / 俄罗斯・中国
+BUNA・PG - 布纳 / 巴布亚新几内亚・中国
+BUJUMBURA・BU - 布琼布拉 / 布隆迪・中国
+BUSHEHR・IR - 布什尔 / 伊朗・中国
+BUTUKU-LUBA・GU - 布图库卢巴 / 赤道几内亚・中国
+BUENOS AIRES・AR - 布宜诺斯艾利斯 / 阿根廷・中国
+CHABAHAR・IR - 查巴哈 / 伊朗・中国
+CHALNA ANCHORAGE・BA - 查尔纳港 / 孟加拉国・中国
+CHARLESTOWN,EN・GB - 查尔斯敦 / 英国・中国
+CHARLESTOWN,SK・SA - 查尔斯敦 / 圣基茨和尼维斯・中国
+CHARLESTON,SC・US - 查尔斯顿 / 美国・中国
+CHAGUARAMAS・TR - 查瓜拉马斯 / 特立尼达和多巴哥・中国
+CHACABUCO・CL - 查卡布科 / 智利・中国
+PORT CHAIMERS・NZ - 查默斯港 / 新西兰・中国
+CHANARAL・CL - 查尼亚拉尔 / 智利・中国
+CHATHAM・CA - 查塔姆 / 加拿大・中国
+JAYAPURA・ID - 查亚普拉 / 印度尼西亚・中国
+TAKUMA・JP - 诧间 / 日本・中国
+CHANGA・ZA - 昌加 / 赞比亚・中国
+CHEMAINUS・CA - 彻梅纳斯 / 加拿大・中国
+AKO WAN・JP - 赤穗湾 / 日本・中国
+OKINAWA・JP - 冲绳 / 日本・中国
+KAWASAKI・JP - 川崎 / 日本・中国
+KAWANOE・JP - 川之江 / 日本・中国
+FUNAKAWA・JP - 船川 / 日本・中国
+FUNABASHI・JP - 船桥 / 日本・中国
+KUSHIRO・JP - 钏路 / 日本・中国
+DABO・ID - 达博 / 印度尼西亚・中国
+DADRI・IN - 达得里 / 印度・中国
+DALHOUSIE・CA - 达尔豪西 / 加拿大・中国
+PORT DALHOUSIE・CA - 达尔胡西港 / 加拿大・中国
+DARWIN・AU - 达尔文 / 澳大利亚・中国
+DARLOWO・PO - 达尔沃沃 / 波兰・中国
+DAKHLA・TH - 达赫拉 / 西撒哈拉・中国
+DAKAR・SE - 达喀尔 / 塞内加尔・中国
+DHAKA・BA - 达卡 / 孟加拉国・中国
+DALARO・SE - 达拉勒 / 瑞典・中国
+DALLAS,TX・US - 达拉斯 / 美国・中国
+DAR ES SALAAM・TA - 达累斯萨拉姆 / 坦桑尼亚・中国
+DARU・PG - 达鲁 / 巴布亚新几内亚・中国
+DAMMAM・SA - 达曼 / 沙特阿拉伯・中国
+DAMAN・IN - 达曼 / 印度・中国
+DAMIETTA・EG - 达米埃塔 / 埃及・中国
+DARMSTADT・DE - 达姆施塔特 / 德国・中国
+DUNEDIN・NZ - 达尼丁 / 新西兰・中国
+DAS ISLAND・AE - 达斯岛 / 阿联酋・中国
+DASHRATH・IN - 达斯拉特 / 印度・中国
+DARTMOUTH・GB - 达特茅斯 / 英国・中国
+DAVAO・PH - 达沃 / 菲律宾・中国
+DAHOUET・FR - 达乌埃 / 法国・中国
+TARAKAN ISLAND・ID - 打拉根 / 印度尼西亚・中国
+GRAND BASSA・LI - 大巴萨 / 利比里亚・中国
+GRAND BASSAM・CI - 大巴萨姆 / 科特迪瓦・中国
+OSAKA・JP - 大阪 / 日本・中国
+OFUNATO・JP - 大船渡 / 日本・中国
+OMINATO・JP - 大凑 / 日本・中国
+OITA・JP - 大分 / 日本・中国
+DAMASCUS・SY - 大马士革 / 叙利亚・中国
+CHIRIQUI GRANDE・PA - 大奇里基 / 巴拿马・中国
+SAGUALA GRANDE・CU - 大萨瓜 / 古巴・中国
+OMISHIMA・JP - 大三岛 / 日本・中国
+GRAND TURK・TH - 大特克 / 特克斯和凯科斯群岛・中国
+GREAT YARMOUTH・GB - 大雅茅斯 / 英国・中国
+DEGEMA・NG - 代盖马 / 尼日利亚・中国
+DEGERBY・FI - 代格比 / 芬兰・中国
+DEGERHAMN・SE - 代格港 / 瑞典・中国
+DHANDRIKALAN・IN - 代里卡兰 / 印度・中国
+TELLICHERRY・IN - 代利杰里 / 印度・中国
+DELLYS・DZ - 代利斯 / 阿尔及利亚・中国
+DERINCE・TR - 代林杰 / 土耳其・中国
+DENVER,CO・US - 丹佛 / 美国・中国
+TANGIER・MA - 丹吉尔 / 摩洛哥・中国
+DAMPIER・AU - 丹皮尔 / 澳大利亚・中国
+TANJUNG PNANG・ID - 丹戎槟榔 / 印度尼西亚・中国
+TANJUNG PRIOK・ID - 丹戎不碌 / 印度尼西亚・中国
+TANJUNG REDEB・ID - 丹戎勒德布 / 印度尼西亚・中国
+TANJUNG PELEPAS・MA - 丹戎帕拉帕斯港 / 马来西亚・中国
+TANJUNG PANDAN・ID - 丹戎潘丹 / 印度尼西亚・中国
+TANJONG SALIRONG・NE - 丹戎沙利隆 / 文莱・中国
+TANJUNG SOFA・ID - 丹戎索法 / 印度尼西亚・中国
+TANJUNG UBAN・ID - 丹戎乌班 / 印度尼西亚・中国
+DANTE・SO - 丹特 / 索马里・中国
+TANJONG MANI・MA - 丹章马尼 / 马来西亚・中国
+TANJONG PENJURU・SI - 丹章彭鲁 / 新加坡・中国
+TEMBILAHAN・ID - 淡美拉汉 / 印度尼西亚・中国
+DOUGLAS・GB - 道格拉斯 / 英国・中国
+DURBAN・ZA - 德班 / 南非・中国
+DERBY・AU - 德比 / 澳大利亚・中国
+TOKUSHIMA・JP - 德岛 / 日本・中国
+DELFZYL・NL - 德尔夫寄尔 / 荷兰・中国
+DERNA・LY - 德尔纳 / 利比亚・中国
+DORTYOL・TR - 德尔特约尔 / 土耳其・中国
+DEGRAD DE CANNES・FR - 德格拉德卡内斯 / 法属圭亚那・中国
+TEHRAN・IR - 德黑兰 / 伊朗・中国
+DEKASTRY・RU - 德卡斯特莱 / 俄罗斯・中国
+TEXAS CITY・US - 德克萨斯城 / 美国・中国
+DELAWARE BAY・US - 德拉华湾 / 美国・中国
+DRAMMEN・NO - 德拉门 / 挪威・中国
+DRAPETZONA・GR - 德拉佩特佐拉 / 希腊・中国
+DRESDEN・DE - 德累斯顿 / 德国・中国
+TENASSERIM・BU - 德林达伊 / 缅甸・中国
+DULUTH・US - 德卢斯 / 美国・中国
+TERNATE ISLAND・ID - 德那第 / 印度尼西亚・中国
+DENIA・ES - 德尼亚 / 西班牙・中国
+PUERTO DESEADO・AR - 德塞阿多港 / 阿根廷・中国
+TOKUYAMA・JP - 德山 / 日本・中国
+SANTA CRUZ DE TENERIFE・ES - 德特内里费 / 西班牙・中国
+DEVONPORT・AU - 德文波特 / 澳大利亚・中国
+TRIPOLI,LY・LY - 的黎波里 / 利比亚・中国
+TRIPOLI・LE - 的黎波里 / 黎巴嫩・中国
+DUNBAR・GB - 邓巴 / 英国・中国
+DUNDRUM・GB - 邓德拉姆 / 英国・中国
+DUNDEE・GB - 邓迪 / 英国・中国
+DUNDALK・IE - 邓多克 / 爱尔兰・中国
+DUMFRIES・GB - 邓弗里斯 / 英国・中国
+DUNGARVAN・IE - 邓加文 / 爱尔兰・中国
+DUNCANNON・IE - 邓坎嫩 / 爱尔兰・中国
+DUNMORE・IE - 邓莫尔 / 爱尔兰・中国
+DEKHILA・EG - 狄克拉 / 埃及・中国
+DUBAI・AE - 迪拜 / 阿联酋・中国
+DIGBY・CA - 迪格比 / 加拿大・中国
+DIKILI・TR - 迪基利 / 土耳其・中国
+DINAGAT・PH - 迪纳加特 / 菲律宾・中国
+DIAMANTE・AR - 迪亚曼泰 / 阿根廷・中国
+DIEGO・MG - 迪耶果苏瓦雷斯 / 马达加斯加・中国
+DIEPPE・FR - 迪耶普 / 法国・中国
+HAGI・JP - 荻 / 日本・中国
+DETROIT,MI・US - 底特律 / 美国・中国
+PORT TANGIER MEDITERRANEE・MA - 地中海丹吉尔港 / 摩洛哥・中国
+DILI・EA - 帝力 / 东帝汶・中国
+DIPOLOG・PH - 第波罗 / 菲律宾・中国
+DIU・IN - 第乌 / 印度・中国
+TILBURG・NL - 蒂尔堡 / 荷兰・中国
+TILBURY・GB - 蒂尔伯里 / 英国・中国
+DIGHI・IN - 蒂基 / 印度・中国
+TIREBOLU・TR - 蒂雷博卢 / 土耳其・中国
+TIMARU・NZ - 蒂马鲁 / 新西兰・中国
+DINGALAN BAY・PH - 丁阿兰湾 / 菲律宾・中国
+DINGWALL,CA・CA - 丁沃尔 / 加拿大・中国
+DINGWALL,GB・GB - 丁沃尔 / 英国・中国
+VOSTOCHNY・RU - 东方港 / 俄罗斯・中国
+TOKYO・JP - 东京 / 日本・中国
+EAST LONDON・ZA - 东伦敦 / 南非・中国
+DONGGALA・ID - 栋加拉 / 印度尼西亚・中国
+DONGES・FR - 栋日 / 法国・中国
+DUBLIN・IE - 都柏林 / 爱尔兰・中国
+TOBOALI・ID - 都保里 / 印度尼西亚・中国
+DURRES・AL - 都拉斯 / 阿尔巴尼亚・中国
+TORINO・IT - 都灵 / 意大利・中国
+TAWAU・MA - 斗湖 / 马来西亚・中国
+DOUALA・CA - 杜阿拉 / 喀麦隆・中国
+DOUAMENEZ・FR - 杜阿梅勒兹 / 法国・中国
+DUBROVNIK・CR - 杜布罗夫尼克 / 克罗地亚・中国
+TUTICORIN・IN - 杜蒂戈林 / 印度・中国
+DUMAGUETE・PH - 杜马格特 / 菲律宾・中国
+DUMAI・ID - 杜迈 / 印度尼西亚・中国
+DOMSJO・SE - 杜姆舍 / 瑞典・中国
+DUSSELDORF・DE - 杜塞尔多夫 / 德国・中国
+DUSHANBE・TA - 杜尚别 / 塔吉克斯坦・中国
+DWARKA・IN - 杜瓦尔卡 / 印度・中国
+DUISBURG・DE - 杜伊斯堡 / 德国・中国
+TSURUGA・JP - 敦贺 / 日本・中国
+DUN LAOGHAIRE・IE - 敦劳费尔 / 爱尔兰・中国
+TOWNSVILLE・AU - 敦斯维尔 / 澳大利亚・中国
+DORDRECHT・NL - 多德雷赫特 / 荷兰・中国
+TADOTU・JP - 多度津 / 日本・中国
+FORT DAUPHIN・MG - 多凡堡 / 马达加斯加・中国
+DOVER・GB - 多佛 / 英国・中国
+DOHA・QA - 多哈 / 卡塔尔・中国
+TORONTO・CA - 多伦多 / 加拿大・中国
+DOMINO・CA - 多米诺 / 加拿大・中国
+DONEGAL・IE - 多尼戈尔 / 爱尔兰・中国
+DOS BOCAS・MX - 多斯博卡斯 / 墨西哥・中国
+DOSSO・NI - 多索 / 尼日尔・中国
+DORTMUND・DE - 多特蒙德 / 德国・中国
+DEAUVILLE・FR - 多维尔 / 法国・中国
+EL PASO・US - 厄尔巴索 / 美国・中国
+OKHOTSK・RU - 鄂霍次克 / 俄罗斯・中国
+OMSK・RU - 鄂木斯克  / 俄罗斯・中国
+EMBBAKASI・KE - 恩巴卡西 / 肯尼亚・中国
+ENDAU・MA - 恩达乌 / 马来西亚・中国
+NDOLA・ZA - 恩多拉 / 赞比亚・中国
+PORTO EMPEDOCLE・IT - 恩佩多克莱港 / 意大利・中国
+ENSENADA・MX - 恩塞纳达 / 墨西哥・中国
+ORNSKOLDSVIK・SE - 恩舍尔兹维克 / 瑞典・中国
+ENKOPING・SE - 恩雪平 / 瑞典・中国
+FAO・IQ - 法奥 / 伊拉克・中国
+FALKENBERG・SE - 法尔肯贝里 / 瑞典・中国
+FALMOUTH,EN・GB - 法尔茅斯 / 英国・中国
+FALMOUTH,JM・JM - 法尔茅斯 / 牙买加・中国
+FARSUND・NO - 法尔松德 / 挪威・中国
+FAGERSTRAND・NO - 法格斯特兰德 / 挪威・中国
+FAJARDO・PR - 法哈多 / 波多黎各・中国
+KHOR FAKKAN・AE - 法坎 / 阿联酋・中国
+FAK FAK・ID - 法克法克 / 印度尼西亚・中国
+FAKSE LADEPLADS・DK - 法克瑟莱泽普拉斯 / 丹麦・中国
+FARAFANGANA・MG - 法拉凡加纳 / 马达加斯加・中国
+FRANKFURT・DE - 法兰克福 / 德国・中国
+FORT DE FRANCE・MA - 法兰西堡 / 马提尼克（法属）・中国
+FAMAGUSTA・CY - 法马古斯塔 / 塞浦路斯・中国
+FATSA・TR - 法特萨 / 土耳其・中国
+FATEH TERMINAL・AE - 法特油码头 / 阿联酋・中国
+FANNING ISLAND・KI - 范宁岛 / 基里巴斯・中国
+FIGUEIRA・PT - 菲盖拉 / 葡萄牙・中国
+CAPE FINISTRERRE・ES - 菲力斯特里 / 西班牙・中国
+PHILIPS BOURG・NE - 菲利普斯堡 / 荷属安的列斯・中国
+PHILIPSBURG・ES - 菲利普斯堡 / 大西洋群岛・中国
+FINIKE・TR - 菲尼凯 / 土耳其・中国
+FISHGUARD・GB - 菲什加德 / 英国・中国
+FIUMICINO・IT - 菲乌米奇诺 / 意大利・中国
+FREDERIKSHAVN・DK - 腓特烈港 / 丹麦・中国
+FREDERIKSHAAB・GL - 腓特烈斯霍布 / 格陵兰・中国
+FREDRIKSTAD・NO - 腓特烈斯塔 / 挪威・中国
+FREDERIKSVARK・DK - 腓特烈斯韦克 / 丹麦・中国
+FREDERIKSSUND・DK - 腓特烈松 / 丹麦・中国
+FREDERICIA・DK - 腓特烈西亚 / 丹麦・中国
+THEODOSIA・UK - 费奥多西亚 / 乌克兰・中国
+PHILADELPHIA,PA・US - 费城 / 美国・中国
+PHOENIX,AZ・US - 费城 / 美国・中国
+Frederikstad ・NO - 费德列斯达 / 挪威・中国
+FELTON・CU - 费尔顿 / 古巴・中国
+MINA AL FAHAL・OM - 费赫勒港 / 阿曼・中国
+FECAMP・FR - 费康 / 法国・中国
+PORTOFERRAIO・IT - 费拉约港 / 意大利・中国
+FREEPORT,TX・US - 费里波特 / 美国・中国
+FAERINGEHAVN・GL - 费灵厄港 / 格陵兰・中国
+FERROL・ES - 费罗尔 / 西班牙・中国
+FERNANDINA・US - 费南迪纳 / 美国・中国
+FENIX・UY - 费尼克斯 / 巴拉圭・中国
+FENIT・IE - 费尼特 / 爱尔兰・中国
+FETHIYE・TR - 费特希耶 / 土耳其・中国
+FERNDALE・US - 芬代尔 / 美国・中国
+FINNART・GB - 芬纳特 / 英国・中国
+FINSHCAVEN・PG - 芬什哈芬 / 巴布亚新几内亚・中国
+FOMBONI・CO - 丰博尼 / 科摩罗・中国
+TOYOHASHI・JP - 丰桥 / 日本・中国
+FUNGHAL・ES - 丰沙尔 / 大西洋群岛・中国
+FIRENZE・TN - 佛罗伦萨 / 突尼斯・中国
+VEGESACK・DE - 弗格萨克 / 德国・中国
+VLAARDINGEN・NL - 弗拉尔丁恩 / 荷兰・中国
+FLEKKEFJORD・NO - 弗莱克菲尤尔 / 挪威・中国
+FRAY BENTOS・UY - 弗赖本托斯 / 乌拉圭・中国
+FRANCISTOWN・BO - 弗朗西斯敦 / 博茨瓦纳・中国
+FREDERIKSTED・TH - 弗雷德里克斯特德 / 美属维尔京群岛・中国
+FRESCO・CI - 弗雷斯科 / 科特迪瓦・中国
+FRASERBURGH・GB - 弗雷泽堡 / 英国・中国
+FERRPORT・BA - 弗里波特 / 巴哈马・中国
+FREETOWN・SI - 弗里敦 / 塞拉利昂・中国
+FREMANTLE・AU - 弗里曼特尔 / 澳大利亚・中国
+FELIXSTOWE・GB - 弗利克斯托 / 英国・中国
+FLEETWOOD・GB - 弗利特伍德 / 英国・中国
+FRONTERA・MX - 弗龙特拉 / 墨西哥・中国
+FLORO・NO - 弗卢勒 / 挪威・中国
+FLENSBURG・DE - 弗伦斯堡 / 德国・中国
+FROBISHER BAY・CA - 弗罗比舍湾 / 加拿大・中国
+FLORIANOPOLIS・BR - 弗洛里亚诺波利斯 / 巴西・中国
+WLADYSLAWOWO・PO - 弗瓦迪斯瓦沃沃 / 波兰・中国
+VOLOS・GR - 伏洛斯 / 希腊・中国
+FUSHIKI TOYAMASHINKO ・JP - 伏木富山新港 / 日本・中国
+FIUSHING・NL - 符拉辛 / 荷兰・中国
+FAABORG・DK - 福堡 / 丹麦・中国
+FALL RIVER・US - 福尔里弗 / 美国・中国
+FORMIA・IT - 福尔米亚 / 意大利・中国
+OCEAN FALLS・CA - 福尔斯海 / 加拿大・中国
+FUKUOKA・JP - 福冈 / 日本・中国
+FORCADOS・NG - 福卡多斯 / 尼日利亚・中国
+FOLKESTONE・GB - 福克斯通 / 英国・中国
+FUIK BAY・NE - 福克湾 / 荷属安的列斯・中国
+FAROSUND・SE - 福勒松德 / 瑞典・中国
+FORESTVILLE・CA - 福雷斯特维尔 / 加拿大・中国
+FAWLEY・GB - 福利 / 英国・中国
+FOLLONICA・IT - 福洛尼卡 / 意大利・中国
+FUKUYAMA・JP - 福山 / 日本・中国
+FOS・FR - 福斯 / 法国・中国
+FORTALEZA・BR - 福塔莱萨 / 巴西・中国
+POINT FORTIN・TR - 福廷角 / 特立尼达和多巴哥・中国
+FUTUNA ・FR - 福图纳 / 法国・中国
+FOWEY・GB - 福伊 / 英国・中国
+FOYNES・IE - 福因斯 / 爱尔兰・中国
+BUSAN・KO - 釜山 / 韩国・中国
+KAMAISHI・JP - 釜石 / 日本・中国
+EASTER ISLAND・CL - 复活节岛 / 智利・中国
+FUJAIRAH・AE - 富查伊拉 / 阿联酋・中国
+PHUOC LONG・VI - 富隆港 / 越南・中国
+FUNAFUTI ISALAND・TU - 富纳富提 / 图瓦卢・中国
+TOYAMA・JP - 富山 / 日本・中国
+TOYAMA SINKO・JP - 富山新港 / 日本・中国
+TONDA・JP - 富田 / 日本・中国
+GAINSHBOROUGH・GB - 盖恩斯伯勒 / 英国・中国
+GELIBOLU・TR - 盖利埔卢 / 土耳其・中国
+GEMLIK・TR - 盖姆利克 / 土耳其・中国
+KENITRA・MA - 盖尼特拉 / 摩洛哥・中国
+GEISMAR・US - 盖斯马 / 美国・中国
+GAMBA・GA - 甘巴 / 加蓬・中国
+KEMAMAN・MA - 甘马挽 / 马来西亚・中国
+KANTANG・TH - 干当 / 泰国・中国
+CANEA・GR - 干尼亚 / 希腊・中国
+CAEN・FR - 冈昂 / 法国・中国
+GUNNESS WHARF・GB - 冈纳斯 / 英国・中国
+OKAYAMA・JP - 冈山 / 日本・中国
+GANDIA・ES - 刚迪亚 / 西班牙・中国
+TAKAMATSU・JP - 高松 / 日本・中国
+KAOHSIUNG・TA - 高雄 / 中国台湾・中国
+KOCHI・JP - 高知 / 日本・中国
+GOPALPUR・IN - 戈巴尔布尔 / 印度・中国
+GODHAVN・GL - 戈德港 / 格陵兰・中国
+GODERICH・CA - 戈德里奇 / 加拿大・中国
+GOLD RIVER・CA - 戈尔德里弗 / 加拿大・中国
+GOLFITO・CO - 戈尔菲托 / 哥斯达黎加・中国
+GALWAY・IE - 戈尔韦 / 爱尔兰・中国
+GOVE・AU - 戈弗 / 澳大利亚・中国
+GHARI HARARU・IN - 戈里哈拉如 / 印度・中国
+GOMA・CO - 戈马 / 刚果(金)・中国
+GONAIVES・HA - 戈纳伊夫 / 海地・中国
+GODTHAAB・GL - 戈特霍布 / 格陵兰・中国
+GOCEK・TR - 戈西克 / 土耳其・中国
+COPENHAGEN・DK - 哥本哈根 / 丹麦・中国
+KOTA BARU,IN・ID - 哥打巴鲁 / 印度尼西亚・中国
+KOTA BHARU,MA・MA - 哥打巴鲁 / 马来西亚・中国
+KOTA KINABALU・MA - 哥打基纳巴卢 / 马来西亚・中国
+GOTHENBURG・SE - 哥德堡 / 瑞典・中国
+PUERTO COLOMBIA・CO - 哥伦比亚港 / 哥伦比亚・中国
+COLUMBUS,OH・US - 哥伦布 / 美国・中国
+GORONTALO・ID - 哥伦打洛 / 印度尼西亚・中国
+GDANSK・PO - 格但斯克 / 波兰・中国
+GDYNIA・PO - 格丁尼亚 / 波兰・中国
+GULFPORT・US - 格尔夫波特 / 美国・中国
+GOLCUK・TR - 格尔居克 / 土耳其・中国
+GRAZ ・AU - 格拉茨 / 奥地利・中国
+GLADSTONE・AU - 格拉德斯通 / 澳大利亚・中国
+GRAFTON・AU - 格拉夫顿 / 澳大利亚・中国
+GRAMERCY・US - 格拉梅西 / 美国・中国
+GLASGOW・GB - 格拉斯哥 / 英国・中国
+GRAVELINES・FR - 格拉沃利讷 / 法国・中国
+GLENARM・GB - 格莱纳姆 / 英国・中国
+GRAND BANK・CA - 格兰德班克 / 加拿大・中国
+PORTO GRANDE・CA - 格兰德港 / 佛得角・中国
+GRAND HAVEN・US - 格兰德黑文 / 美国・中国
+GRAND CAYMAN・CA - 格兰德卡曼  / 开曼群岛・中国
+GRANGEMOUTH・GB - 格兰杰默斯 / 英国・中国
+GRANVILLE・FR - 格兰维尔 / 法国・中国
+GRAVESEND・GB - 格雷夫森德 / 英国・中国
+GREGORIO・CL - 格雷戈里乌 / 智利・中国
+GORELE・TR - 格雷莱 / 土耳其・中国
+GREYMOUTH・NZ - 格雷茅斯 / 新西兰・中国
+GRENAA・DK - 格雷诺 / 丹麦・中国
+GRAYS HARBOUR・US - 格雷斯港 / 美国・中国
+HARBOUR GRACE・CA - 格雷斯港 / 加拿大・中国
+GRESIK・ID - 格雷西(锦石) / 印度尼西亚・中国
+GRIMSTAD・NO - 格里姆菲尤尔 / 挪威・中国
+GRIMSBY・GB - 格里姆斯比 / 英国・中国
+GREENORE・IE - 格里诺尔 / 爱尔兰・中国
+GREENOCK・GB - 格里诺克 / 英国・中国
+GREEN BAY・US - 格林贝 / 美国・中国
+GREENVILLE・LI - 格林维尔 / 利比里亚・中国
+CALINGAPATNAM・IN - 格灵格伯德讷姆 / 印度・中国
+KRU・ID - 格鲁 / 印度尼西亚・中国
+GROOTE EYLANDT・AU - 格鲁特岛 / 澳大利亚・中国
+GRONINGEN・NL - 格罗宁根 / 荷兰・中国
+GRASTEN・DK - 格罗斯滕 / 丹麦・中国
+GLOMFJORD・NO - 格洛姆菲尤尔 / 挪威・中国
+GLOUCESTER,US・US - 格洛斯特 / 美国・中国
+GLOUCESTER,EN・GB - 格洛斯特 / 英国・中国
+GLUCKSTADT・DE - 格吕克施塔特 / 德国・中国
+GIRVAN・GB - 格文 / 英国・中国
+NEGISHI・JP - 根岸 / 日本・中国
+NEMURO・JP - 根室 / 日本・中国
+GHENT・BE - 根特 / 比利时・中国
+MIYAKO・JP - 宫古 / 日本・中国
+MIYAZU・JP - 宫津 / 日本・中国
+MIYAZZAKI・JP - 宫崎 / 日本・中国
+COONDAPOOR・IN - 贡达布尔 / 印度・中国
+GONFREVILLE・FR - 贡夫勒维尔 / 法国・中国
+KUPANG・ID - 古拜 / 印度尼西亚・中国
+KUDAT・MA - 古达 / 马来西亚・中国
+GOOLE・GB - 古尔 / 英国・中国
+KUCHING・MA - 古晋 / 马来西亚・中国
+GIRESUN・TR - 古雷松 / 土耳其・中国
+GOUROCK・GB - 古罗克 / 英国・中国
+GUNUNG SITOLI・ID - 古农西托利 / 印度尼西亚・中国
+GOOSE BAY・CA - 古斯湾 / 加拿大・中国
+ISLE OF GRAIN・GB - 谷岛 / 英国・中国
+TANIYAMA・JP - 谷山 / 日本・中国
+GUADALAJARA・MX - 瓜达拉哈拉 / 墨西哥・中国
+GWADAR・PA - 瓜德尔 / 巴基斯坦・中国
+KUALA TRENGGANU・MA - 瓜拉丁加奴 / 马来西亚・中国
+KUALA KAPUAS・ID - 瓜拉卡普阿斯 / 印度尼西亚・中国
+KUALA ROMPIN・MA - 瓜拉弄宾 / 马来西亚・中国
+KUALA PAHANG・MA - 瓜拉彭亨 / 马来西亚・中国
+KUALA SUAI・MA - 瓜拉苏埃 / 马来西亚・中国
+KUALA SELANGOR・MA - 瓜拉雪兰莪 / 马来西亚・中国
+GWALOR・IN - 瓜廖尔 / 印度・中国
+GUANICA・PR - 瓜尼卡 / 波多黎各・中国
+GUAYAQUIL・EC - 瓜亚基尔 / 厄瓜多尔・中国
+GUAYACAN・CL - 瓜亚坎 / 智利・中国
+GUAYAMA・PR - 瓜亚马 / 波多黎各・中国
+GUAYANILLA・PR - 瓜亚尼亚 / 波多黎各・中国
+GUAYABAL・CU - 瓜亚瓦尔 / 古巴・中国
+GUAYMAS・MX - 瓜伊马斯 / 墨西哥・中国
+KUANTAN・MA - 关丹 / 马来西亚・中国
+GUARAGUAO・VE - 关腊关沃 / 委内瑞拉・中国
+KANMON・JP - 关门 / 日本・中国
+GUANTA・VE - 关塔 / 委内瑞拉・中国
+TATEYAMA・JP - 馆山 / 日本・中国
+HIKARI・JP - 光市 / 日本・中国
+KWANGYANG・KO - 光阳 / 韩国・中国
+HIROSHIMA・JP - 广岛 / 日本・中国
+HIROHATA・JP - 广田 / 日本・中国
+KWANG YEN・VI - 广义 / 越南・中国
+QUI NHON・VI - 归仁 / 越南・中国
+GUIRIA・VE - 圭里亚 / 委内瑞拉・中国
+GWERU・ZI - 圭鲁 / 津巴布韦・中国
+GABORONE・BO - 哈博罗内 / 博茨瓦纳・中国
+HAFNARFJORD・IS - 哈布纳菲厄泽 / 冰岛・中国
+HADERA・IL - 哈代拉 / 以色列・中国
+HALDEN・NO - 哈尔登 / 挪威・中国
+CHALKIS・GR - 哈尔基斯 / 希腊・中国
+KHARG ISLAND・IR - 哈尔克岛 / 伊朗・中国
+HALMSTAD・SE - 哈尔姆斯塔德 / 瑞典・中国
+HARSTAD・NO - 哈尔斯塔 / 挪威・中国
+HALLSTAVIK・SE - 哈尔斯塔维克 / 瑞典・中国
+HAVER ST.PIERRE・CA - 哈佛圣皮埃尔 / 加拿大・中国
+PORT HARCOURT・NG - 哈科特港 / 尼日利亚・中国
+HARAHOLMEN・SE - 哈拉霍尔梅 / 瑞典・中国
+HARARE ・ZI - 哈拉雷 / 津巴布韦・中国
+HARGSHAMN・SE - 哈里港 / 瑞典・中国
+HARWICH・GB - 哈里奇 / 英国・中国
+PORT KHALID・AE - 哈立德港 / 阿联酋・中国
+HALIFAX・CA - 哈利法克斯 / 加拿大・中国
+HARLINGEN・NL - 哈灵根 / 荷兰・中国
+HALUL ISLAND・QA - 哈卢勒岛 / 卡塔尔・中国
+HEROYA・NO - 哈略 / 挪威・中国
+HARMAC・CA - 哈麦克 / 加拿大・中国
+HAMINA・FI - 哈米纳 / 芬兰・中国
+HAMILTON,CA・CA - 哈密尔顿 / 加拿大・中国
+HAMILTON,BM・BE - 哈密尔顿 / 百慕大・中国
+HAMMERFEST・NO - 哈默菲斯特 / 挪威・中国
+MERSA EL HAMRA・EG - 哈姆拉港 / 埃及・中国
+HAMRIYA・AE - 哈姆瑞雅港 / 阿联酋・中国
+HAPARANDA・SE - 哈帕兰达 / 瑞典・中国
+HARTLEPOOL・GB - 哈特尔浦 / 英国・中国
+HAVANA・CU - 哈瓦那 / 古巴・中国
+JAVEA・ES - 哈韦阿 / 西班牙・中国
+HAVIK・NO - 哈维克 / 挪威・中国
+RAS AL KHAIMAH・AE - 哈伊马角 / 阿联酋・中国
+HADERSLEV・DK - 哈泽斯莱乌 / 丹麦・中国
+CAPE COAST・GH - 海岸角 / 加纳・中国
+HAY POINT・AU - 海波因特 / 澳大利亚・中国
+VLADIVOSTOK・RU - 海参威 / 俄罗斯・中国
+HAYDARPASA・TR - 海达尔帕夏 / 土耳其・中国
+HYDERABAD・IN - 海德拉巴 / 印度・中国
+CAP HAITIEN・HA - 海地角 / 海地・中国
+HEL・PO - 海尔 / 波兰・中国
+HAYLE・GB - 海尔 / 英国・中国
+HAUGESUND・NO - 海尔格松 / 挪威・中国
+HELMOND・NL - 海尔蒙德 / 荷兰・中国
+HAIFA・IL - 海法 / 以色列・中国
+HAIPHONG・VI - 海防 / 越南・中国
+HEREKE・TR - 海雷凯 / 土耳其・中国
+HEILIGENHAFEN・DE - 海利根港 / 德国・中国
+HEMIKSEM・BE - 海米克瑟姆 / 比利时・中国
+RIO HAINA・DM - 海纳 / 多米尼加・中国
+KAINAN・JP - 海南 / 日本・中国
+HASLE・DK - 海斯勒 / 丹麦・中国
+HADSUND・DK - 海松 / 丹麦・中国
+HAKODATE・JP - 函馆 / 日本・中国
+HAMBURG・DE - 汉堡 / 德国・中国
+HANTSPORT・CA - 汉茨波特 / 加拿大・中国
+HUNTSVILLE,AL・US - 汉茨维尔-阿拉巴马 / 美国・中国
+HANKO・FI - 汉科 / 芬兰・中国
+HANNOVER・DE - 汉诺威 / 德国・中国
+HAMPTON ROADS・US - 汉普顿港群 / 美国・中国
+HANSWEERT・NL - 汉斯韦尔特 / 荷兰・中国
+HAO ISLADN・FR - 豪岛 / 法属波利尼西亚・中国
+KHOR AL AMAYA・IQ - 豪尔艾迈耶 / 伊拉克・中国
+GOOD HOPE・US - 好望角 / 美国・中国
+JOSE PANGANIBAN・PH - 何塞庞阿尼班村 / 菲律宾・中国
+JOSE IGNACIO・UY - 何塞伊格纳西奥 / 乌拉圭・中国
+WAKAYAMA・JP - 和歌山 / 日本・中国
+HANOI・VI - 河内 / 越南・中国
+HOLSTEINSBORG・GL - 荷尔斯泰因斯堡 / 格陵兰・中国
+DUTCH HARBOUR・US - 荷兰港 / 美国・中国
+PORT HOLLAND・PH - 荷兰港 / 菲律宾・中国
+HOOK OF HOLLAND・NL - 荷兰角 / 荷兰・中国
+HODEIDAH・YE - 荷台达 / 也门・中国
+HULL・GB - 赫尔 / 英国・中国
+HERBRECHTINGEN・DE - 赫尔不莱锡廷根 / 德国・中国
+GARHI HARSARU・IN - 赫尔萨鲁堡 / 印度・中国
+KHERSON・UK - 赫尔松 / 乌克兰・中国
+HELSINGBORG・SE - 赫尔辛堡 / 瑞典・中国
+HELSINGOR・DK - 赫尔辛格 / 丹麦・中国
+HELSINKI・FI - 赫尔辛基 / 芬兰・中国
+HOGANAS・SE - 赫加奈斯 / 瑞典・中国
+HERNOSAND・SE - 赫纳散德 / 瑞典・中国
+HVAR・CR - 赫瓦尔 / 克罗地亚・中国
+HOYANGER・NO - 赫扬厄尔 / 挪威・中国
+TSURUMI・JP - 鹤见 / 日本・中国
+TSURUSAKI・JP - 鹤崎 / 日本・中国
+PORT HEDLAND・AU - 黑德兰港 / 澳大利亚・中国
+POINTE NOIRE,CA・CA - 黑角 / 加拿大・中国
+POINTE NOIRE,CO・CO - 黑角 / 刚果(布)・中国
+KUROSAKI・JP - 黑崎 / 日本・中国
+HUNTERSTON・GB - 亨特斯顿 / 英国・中国
+YOKOHAMA・JP - 横滨 / 日本・中国
+YOKOSUKA・JP - 横须贺 / 日本・中国
+HOHGAY・VI - 鸿基 / 越南・中国
+HUDIKSVALL・SE - 胡迪克斯瓦尔 / 瑞典・中国
+JUCARO・CU - 胡卡罗 / 古巴・中国
+KHOMS・LY - 胡姆斯 / 利比亚・中国
+HUSAVIK・IS - 胡萨维克 / 冰岛・中国
+HUSUM,GE・DE - 胡苏姆 / 德国・中国
+HUSUM,SE・SE - 胡苏姆 / 瑞典・中国
+HOCHIMINH VICT・VI - 胡志明国际港 / 越南・中国
+HOCHIMINH・VI - 胡志明市 / 越南・中国
+HOCHIMINH CAT LAI・VI - 胡志明泰莱港 / 越南・中国
+TAN CANG PORT・VI - 胡志明新港 / 越南・中国
+HOCHIMINH NEW PORT・VI - 胡志明新港 / 越南・中国
+TOBATA・JP - 户细 / 日本・中国
+HUALIAN・TA - 花莲 / 中国台湾・中国
+WALLACE BAY・MA - 华莱士 / 马来西亚・中国
+WARSAW・PO - 华沙 / 波兰・中国
+WASHINGTON・US - 华盛顿 / 美国・中国
+WHYALLA・AU - 怀阿拉 / 澳大利亚・中国
+WAIRAU・NZ - 怀劳 / 新西兰・中国
+PORT HUENEME・US - 怀尼米港 / 美国・中国
+WHITEHAVEN・GB - 怀特黑文 / 英国・中国
+PORT HERON・AU - 会翁港 / 澳大利亚・中国
+WELLINGTON・NZ - 惠灵顿 / 新西兰・中国
+WHITBY・GB - 惠特比 / 英国・中国
+WHITSTABLE・GB - 惠特斯特布尔 / 英国・中国
+HONOLULU・PA - 火奴鲁鲁 / 美属太平洋群岛・中国
+HOBART・AU - 霍巴特 / 澳大利亚・中国
+HORBART・AU - 霍巴特 / 澳大利亚・中国
+HOBRO・DK - 霍布罗 / 丹麦・中国
+HOUND POINT・GB - 霍德角 / 英国・中国
+HALDIA・IN - 霍尔迪亚 / 印度・中国
+HOLBAEK・DK - 霍尔克 / 丹麦・中国
+HOLMESTRAND・NO - 霍尔默斯特兰 / 挪威・中国
+KHOR AL MUFATTA・KU - 霍尔姆法塔 / 科威特・中国
+KHOLMSK・RU - 霍尔姆斯克 / 俄罗斯・中国
+HOLMSUND・SE - 霍尔姆松德 / 瑞典・中国
+HOLTENAU・DE - 霍尔特瑙 / 德国・中国
+PORT HAWKESBURY・CA - 霍克斯伯里港 / 加拿大・中国
+KHORRAMSHAHR・IR - 霍拉姆沙赫尔 / 伊朗・中国
+HOLYHEAD・GB - 霍利黑德 / 英国・中国
+HOLYROOD・CA - 霍利鲁德 / 加拿大・中国
+JOLO・PH - 霍洛 / 菲律宾・中国
+HOMER・US - 霍梅尔 / 美国・中国
+HOME・US - 霍姆 / 美国・中国
+HONAVAR・IN - 霍纳沃尔 / 印度・中国
+HORNEFORS・SE - 霍讷福什 / 瑞典・中国
+HONIARA・SB - 霍尼亚拉 / 所罗门群岛・中国
+HOPA・TR - 霍帕 / 土耳其・中国
+PORT HOPE・CA - 霍普港 / 加拿大・中国
+HOPEWELL・US - 霍普韦尔 / 美国・中国
+PORT HOPE SIMPSON・CA - 霍普辛普森港 / 加拿大・中国
+HORSENS・DK - 霍森斯 / 丹麦・中国
+HOWTH・IE - 霍思 / 爱尔兰・中国
+CAPE HOSKINS・PG - 霍斯金斯角 / 巴布亚新几内亚・中国
+HORTEN・NO - 霍腾 / 挪威・中国
+HIMEJI・JP - 姬路 / 日本・中国
+KIETA・PG - 基埃塔 / 巴布亚新几内亚・中国
+CHIOGGIA・IT - 基奥贾 / 意大利・中国
+QUITO・EC - 基多 / 厄瓜多尔・中国
+KIEL・DE - 基尔 / 德国・中国
+GULFHAVN・DK - 基尔夫港 / 丹麦・中国
+KILKEEL・GB - 基尔基尔 / 英国・中国
+KILRUSH・IE - 基尔拉什 / 爱尔兰・中国
+KILRONAN・IE - 基尔罗南 / 爱尔兰・中国
+KIEV ・UK - 基辅 / 乌克兰・中国
+KIGALI・RW - 基加利 / 卢旺达・中国
+KILLALA・IE - 基拉拉 / 爱尔兰・中国
+KILIYA・UK - 基里拉 / 乌克兰・中国
+KILLYBEGS・IE - 基利贝格斯 / 爱尔兰・中国
+KILLINGHOLME・GB - 基林霍尔姆 / 英国・中国
+KEELUNG・TA - 基隆 / 中国台湾・中国
+KILWA KIVINJE・TA - 基卢瓦基温杰 / 坦桑尼亚・中国
+KILWA MASOKO・TA - 基卢瓦马索科 / 坦桑尼亚・中国
+KENOSHA・US - 基诺沙 / 美国・中国
+KERET・RU - 基瑞特 / 俄罗斯・中国
+KISH・IR - 基什岛 / 伊朗・中国
+KISMAYU・SO - 基斯马尤 / 索马里・中国
+KITWE・ZA - 基特韦 / 赞比亚・中国
+KITIMAT・CA - 基提马特 / 加拿大・中国
+KEY WEST・US - 基韦斯特 / 美国・中国
+CHISINAU・MO - 基希讷乌 / 摩尔多瓦・中国
+DJIBOUTI・DJ - 吉布提 / 吉布提・中国
+JEDDAH・SA - 吉达 / 沙特阿拉伯・中国
+KETAPANG・ID - 吉打拜 / 印度尼西亚・中国
+CHITTAGONG・BA - 吉大港 / 孟加拉国・中国
+CIDE・TR - 吉代 / 土耳其・中国
+TIKHONOVO・RU - 吉洪诺沃 / 俄罗斯・中国
+JIJEL・DZ - 吉杰利 / 阿尔及利亚・中国
+GEELONG・AU - 吉朗 / 澳大利亚・中国
+PORT GILES・AU - 吉利港 / 澳大利亚・中国
+KUALA LUMPUR・MA - 吉隆坡 / 马来西亚・中国
+GUIMARAS ISLAND・PH - 吉马拉斯岛 / 菲律宾・中国
+GISBORNE・NZ - 吉斯珀恩 / 新西兰・中国
+GIZAN・SA - 吉赞 / 沙特阿拉伯・中国
+GIZO・SB - 吉佐 / 所罗门群岛・中国
+IHO・JP - 辑保 / 日本・中国
+ZIGHINKOR・SE - 济金绍尔 / 塞内加尔・中国
+ZIERIKZEE・NL - 济里克泽 / 荷兰・中国
+CHEJU・KO - 济州 / 韩国・中国
+YORISHIMA・JP - 寄岛 / 日本・中国
+GAETA・IT - 加埃塔 / 意大利・中国
+GABES・TN - 加贝斯 / 突尼斯・中国
+CARDIFF・GB - 加的夫 / 英国・中国
+CADIZ・ES - 加的斯 / 西班牙・中国
+CALCUTTA・IN - 加尔各答 / 印度・中国
+KARWAR・IN - 加尔瓦尔 / 印度・中国
+GALVESTON・US - 加尔维斯顿 / 美国・中国
+JAFARABAD・IN - 加法拉巴德 / 印度・中国
+GAVRION・GR - 加夫里翁 / 希腊・中国
+KAKOGAWA・JP - 加古川 / 日本・中国
+GALATZ・RO - 加拉茨 / 罗马尼亚・中国
+CARACAS BAY・NE - 加拉加斯湾 / 荷属安的列斯・中国
+CALAIS・FR - 加来 / 法国・中国
+GALEOTA POINT・TR - 加莱奥塔角 / 特立尼达和多巴哥・中国
+POINTE DES GALETS・RE - 加莱角 / 留尼汪・中国
+GALLE・SR - 加勒 / 斯里兰卡・中国
+KARIKAL・IN - 加里加尔 / 印度・中国
+KALININGRAD・RU - 加里宁格勒 / 俄罗斯・中国
+GALLIPOLI・IT - 加利波利 / 意大利・中国
+GARLIESTON・GB - 加利斯敦 / 英国・中国
+GARRUCHA・ES - 加鲁查 / 西班牙・中国
+GARSTON・GB - 加斯顿 / 英国・中国
+GASMATA ISLAND・PG - 加斯马塔岛 / 巴布亚新几内亚・中国
+GASPE・CA - 加斯佩 / 加拿大・中国
+GAYA・NI - 加亚 / 尼日尔・中国
+GHAZAWET・DZ - 加扎韦特 / 阿尔及利亚・中国
+JAWAHARIAL NEHRU・IN - 迦哇内卢 / 印度・中国
+CANNES・FR - 戛纳 / 法国・中国
+CAVITE・PH - 甲米地 / 菲律宾・中国
+CALBAYOG・PH - 甲描育 / 菲律宾・中国
+EL JADIDA・MA - 贾迪达 / 摩洛哥・中国
+JAFFNA・SR - 贾夫纳 / 斯里兰卡・中国
+JASK・IR - 贾斯克 / 伊朗・中国
+EL DJAZAIR・DZ - 贾扎伊尔 / 阿尔及利亚・中国
+CAMBRIDGE・US - 剑桥 / 美国・中国
+ENA・JP - 江名 / 日本・中国
+ETAJIMA・JP - 江田岛 / 日本・中国
+JODHPUR・IN - 焦达普尔 / 印度・中国
+GIOIA TAURO・IT - 焦亚陶罗  / 意大利・中国
+KYAUKPYU・BU - 皎漂 / 缅甸・中国
+JEBEL ALI・AE - 杰贝阿里 / 阿联酋・中国
+JEBEL DHANNA・AE - 杰贝尔丹那 / 阿联酋・中国
+DJERBA ISLAND・TN - 杰尔巴岛 / 突尼斯・中国
+JAKHAU・IN - 杰考 / 印度・中国
+PORT JACKSON・AU - 杰克逊港 / 澳大利亚・中国
+JACKSONVILLE,FL・US - 杰克逊维尔 / 美国・中国
+GELA・IT - 杰拉 / 意大利・中国
+GERALDTON・AU - 杰拉尔顿 / 澳大利亚・中国
+PORT JEROME・FR - 杰罗姆港 / 法国・中国
+SAKAISENBOKU・JP - 界泉北 / 日本・中国
+IMABARI・JP - 今治 / 日本・中国
+KIMBE・PG - 金贝 / 巴布亚新几内亚・中国
+KYNDBY・DK - 金比 / 丹麦・中国
+PHNOM PENH・KO - 金边 / 柬埔寨・中国
+KINSALE・IE - 金塞尔 / 爱尔兰・中国
+KINSHASA・CO - 金沙萨 / 刚果(金)・中国
+KINGSTON,JM・JM - 金斯敦 / 牙买加・中国
+KINGSTOWN・SA - 金斯敦 / 圣文森特和格林纳丁斯・中国
+KINGSTON,AU・AU - 金斯敦 / 澳大利亚・中国
+KINGSTON,NF・NO - 金斯敦 / 诺福克岛・中国
+KINGSTON,CA・CA - 金斯顿 / 加拿大・中国
+KINGSCOTE・AU - 金斯科特 / 澳大利亚・中国
+KINGS BAY・US - 金斯湾 / 美国・中国
+KIN WAN・JP - 金湾 / 日本・中国
+KANAZAWA・JP - 金泽 / 日本・中国
+TSU・JP - 津 / 日本・中国
+JINJA・UG - 津加 / 乌干达・中国
+TSUKUMI・JP - 津久见 / 日本・中国
+TSUIYAMA・JP - 津居山 / 日本・中国
+PORT CAMPHA・VI - 锦普港 / 越南・中国
+WALVIS BAY・NA - 鲸湾港 / 纳米比亚・中国
+CIREBON・ID - 井里汶 / 印度尼西亚・中国
+SAKAIMINATO・JP - 境港 / 日本・中国
+HISANOHAMA・JP - 久之滨 / 日本・中国
+SAKATA・JP - 酒田 / 日本・中国
+SAN FRANCISCO・US - 旧金山 / 美国・中国
+KERTEH・MA - 居茶 / 马来西亚・中国
+CYRUS TERMINAL・IR - 居鲁土码头 / 伊朗・中国
+GULLUK・TR - 居吕克 / 土耳其・中国
+KIKUMA・JP - 菊间 / 日本・中国
+TACHIBANA・JP - 橘町 / 日本・中国
+PALEMBANG・ID - 巨港 / 印度尼西亚・中国
+ZUTPHEN・NL - 聚特芬 / 荷兰・中国
+KABUL・AF - 喀布尔 / 阿富汗・中国
+KARSHI・UZ - 喀什 / 乌兹别克斯坦・中国
+CASCADE BAY・AU - 喀斯喀特湾 / 澳大利亚・中国
+CABEDELLO・BR - 卡贝德卢 / 巴西・中国
+PUERTO CABELLO・VE - 卡贝略港 / 委内瑞拉・中国
+PUERTO CABEZAS・NI - 卡贝萨斯港 / 尼加拉瓜・中国
+CABINDA・AO - 卡宾达 / 安哥拉・中国
+CABO NEGRO・CL - 卡博内格罗 / 智利・中国
+KABWE・ZA - 卡布韦 / 赞比亚・中国
+CARDENAS・CU - 卡德纳斯 / 古巴・中国
+CALDERA・CL - 卡尔德拉 / 智利・中国
+PUERTO CALDERA・CO - 卡尔德拉 / 哥斯达黎加・中国
+CALDERILLA・CL - 卡尔德里拉 / 智利・中国
+CARLETON・CA - 卡尔顿 / 加拿大・中国
+CALGARY・CA - 卡尔加里 / 加拿大・中国
+KALMAR・SE - 卡尔马 / 瑞典・中国
+KARLSBORG・SE - 卡尔斯堡 / 瑞典・中国
+KARLSHAMN・SE - 卡尔斯港 / 瑞典・中国
+KARLSKRONA・SE - 卡尔斯克鲁纳 / 瑞典・中国
+KARLSRUHE・DE - 卡尔斯鲁厄 / 德国・中国
+KARLSTAD・SE - 卡尔斯塔德 / 瑞典・中国
+CALVI・FR - 卡尔维 / 法国・中国
+KAHULUI・PA - 卡胡卢伊 / 美属太平洋群岛・中国
+CABO ROJO・DM - 卡活罗霍 / 多米尼加・中国
+KAKIR・UZ - 卡基尔 / 乌兹别克斯坦・中国
+KAKINADA・IN - 卡基纳达 / 印度・中国
+CAGAYAN DE ORO・PH - 卡加延德奥罗 / 菲律宾・中国
+CAACUPEMI・UY - 卡库佩米 / 巴拉圭・中国
+CALABAR・NG - 卡拉巴尔 / 尼日利亚・中国
+CARRABELLE・US - 卡拉贝尔 / 美国・中国
+KARAGANDA・KZ - 卡拉干达 / 哈萨克斯坦・中国
+CARAQUET・CA - 卡拉凯特 / 加拿大・中国
+BAHIA DE CARAGUEZ・EC - 卡拉克斯湾 / 厄瓜多尔・中国
+KALAMA・US - 卡拉马 / 美国・中国
+KALAMAKI・GR - 卡拉马基角 / 希腊・中国
+KALAMATA・GR - 卡拉迈 / 希腊・中国
+KARACHI・PA - 卡拉奇 / 巴基斯坦・中国
+KARAVOSTASSI・CY - 卡拉沃斯塔西 / 塞浦路斯・中国
+KARREBAEKSMINDE・DK - 卡勒拜克斯明讷 / 丹麦・中国
+CARIPITO・VE - 卡里波托 / 委内瑞拉・中国
+CARRICKFERGUS・GB - 卡里克弗格斯 / 英国・中国
+CALI・CO - 卡利 / 哥伦比亚・中国
+KALIANGET・ID - 卡利昂厄特 / 印度尼西亚・中国
+CALICUT・IN - 卡利卡特 / 印度・中国
+KALIX・SE - 卡利克斯 / 瑞典・中国
+KALILIMENES・GR - 卡利利梅内斯 / 希腊・中国
+KALYMNOS ISLAND・GR - 卡利姆诺斯 / 希腊・中国
+CAGLIARI・IT - 卡利亚里 / 意大利・中国
+CARONTE・FR - 卡隆特 / 法国・中国
+KALUTARA・SR - 卡卢特勒 / 斯里兰卡・中国
+CARUPANO・VE - 卡鲁帕诺 / 委内瑞拉・中国
+CARLOFORTE・IT - 卡洛福泰 / 意大利・中国
+CAMMARET・FR - 卡马雷 / 法国・中国
+KAMENAKI・GR - 卡梅纳基 / 希腊・中国
+CIUDAD DEL CARMEN・MX - 卡门城 / 墨西哥・中国
+COME-BY-CHANCE・CA - 卡姆拜钱斯 / 加拿大・中国
+CAMDEN・US - 卡姆登 / 美国・中国
+KAMSAR・GU - 卡姆萨尔 / 几内亚・中国
+CAERNARFON・GB - 卡那封 / 英国・中国
+CARNARVON・AU - 卡那封 / 澳大利亚・中国
+KANAKPURA・IN - 卡那克普拉 / 印度・中国
+PORT CANAVERAL・US - 卡纳维拉尔港 / 美国・中国
+CAPIZ・PH - 卡皮斯 / 菲律宾・中国
+KAPPELN・DE - 卡珀尔恩 / 德国・中国
+CASABLANCA・MA - 卡萨布兰卡 / 摩洛哥・中国
+RAS AL KATHEEB・YE - 卡塞卡角 / 也门・中国
+PUERTO CASTILLA・HN - 卡斯蒂利亚港 / 洪都拉斯・中国
+CASTLETOWN・GB - 卡斯尔敦 / 英国・中国
+CASTLETOWN BERE・IE - 卡斯尔顿贝尔 / 爱尔兰・中国
+KASKINEN・FI - 卡斯基宁 / 芬兰・中国
+KARSKAR・SE - 卡斯卡 / 瑞典・中国
+CASTRIES・SA - 卡斯特里 / 圣卢西亚・中国
+PORT CASTRIES・SA - 卡斯特里港 / 圣卢西亚・中国
+CASTELLON・ES - 卡斯特利翁 / 西班牙・中国
+CASTRO・CL - 卡斯特罗 / 智利・中国
+CARTAGENA,CO・CO - 卡塔赫纳 / 哥伦比亚・中国
+CARTAGENA,ES・ES - 卡塔赫纳 / 西班牙・中国
+KATAKOLO・GR - 卡塔科洛 / 希腊・中国
+CATANIA・IT - 卡塔尼亚 / 意大利・中国
+CATANZARO・IT - 卡坦扎罗 / 意大利・中国
+PORT CARTIER・CA - 卡提尔港 / 加拿大・中国
+KAVARNA・BU - 卡瓦尔纳 / 保加利亚・中国
+KAVALLA・GR - 卡瓦拉 / 希腊・中国
+CABANAS・CU - 卡瓦尼亚斯 / 古巴・中国
+KAVIENG・PG - 卡维恩 / 巴布亚新几内亚・中国
+CABIMAS・VE - 卡维马斯 / 委内瑞拉・中国
+CABO BLANCO・PE - 卡沃布兰科 / 秘鲁・中国
+CASILDA・CU - 卡西尔达 / 古巴・中国
+KASIM・ID - 卡西姆 / 印度尼西亚・中国
+QASIM・PA - 卡西姆港 / 巴基斯坦・中国
+CACHEU・GU - 卡谢乌 / 几内亚比绍・中国
+CALLAO・PE - 卡亚俄 / 秘鲁・中国
+CAYENNE・FR - 卡宴 / 法属圭亚那・中国
+KAYES・MA - 卡伊 / 马里・中国
+CAIRO・EG - 开罗 / 埃及・中国
+CAPE TOWN・ZA - 开普敦 / 南非・中国
+CAIBARIEN・CU - 凯巴连 / 古巴・中国
+KAYTS・SR - 凯茨 / 斯里兰卡・中国
+CAIRNS・AU - 凯恩斯 / 澳大利亚・中国
+KEFLAVIK・IS - 凯夫拉维克 / 冰岛・中国
+KYRENIA・CY - 凯里尼亚 / 塞浦路斯・中国
+KALUNDBORG・DK - 凯隆堡 / 丹麦・中国
+CAIMANERA・CU - 凯马勒那 / 古巴・中国
+KEMI・FI - 凯米 / 芬兰・中国
+KETCHIKAN・US - 凯奇坎 / 美国・中国
+KETA・GH - 凯塔 / 加纳・中国
+KERTEMINDE・DK - 凯特明讷 / 丹麦・中国
+PORT KAISER・JM - 凯泽港 / 牙买加・中国
+KANDLA・IN - 堪德拉 / 印度・中国
+KANSAS CITY,MO・US - 堪萨斯城 / 美国・中国
+KANSAS CITY,KS・US - 堪萨斯城 / 美国・中国
+CAMPBELTOWN・GB - 坎贝尔敦 / 英国・中国
+CAMPBELLTON・CA - 坎贝尔顿 / 加拿大・中国
+KANKESANTURAI・SR - 坎凯桑图赖 / 斯里兰卡・中国
+CANCUN・MX - 坎昆  / 墨西哥・中国
+CANNANORE・IN - 坎纳诺尔 / 印度・中国
+KAMPALA・UG - 坎帕拉 / 乌干达・中国
+CAMPANA・AR - 坎帕纳 / 阿根廷・中国
+QUIMPER・FR - 坎佩尔 / 法国・中国
+CAMPECHE・MX - 坎佩切 / 墨西哥・中国
+KAMPEN・NL - 坎彭 / 荷兰・中国
+KANPUR・IN - 坎普尔 / 印度・中国
+CANSO HARBOUR・CA - 坎索港 / 加拿大・中国
+CANCALE・FR - 康卜勒 / 法国・中国
+CONCHAN BEACH・PE - 康昌 / 秘鲁・中国
+KANGAMIUT・GL - 康加米尤特 / 格陵兰・中国
+CONNEAUT HARBOUR・US - 康尼奥特港 / 美国・中国
+CONCEPCION・AR - 康塞普西翁 / 阿根廷・中国
+CONSTANTZA・RO - 康斯坦萨 / 罗马尼亚・中国
+COUNTRY HARBOUR・CA - 康特里港 / 加拿大・中国
+CORNWALL・CA - 康沃尔 / 加拿大・中国
+KALOLACK・SE - 考拉克 / 塞内加尔・中国
+KAUNAS・LI - 考纳斯 / 立陶宛・中国
+CAUCEDO・DM - 考塞多 / 多米尼加・中国
+COWES・GB - 考斯 / 英国・中国
+KIRKCALDY・GB - 柯克沃尔 / 英国・中国
+COBOURG・CA - 科堡 / 加拿大・中国
+COBLENZ・DE - 科布伦茨 / 德国・中国
+KODIAK・US - 科迪亚克 / 美国・中国
+PORT COLBORNE・CA - 科尔本港 / 加拿大・中国
+CORDOVA・US - 科尔多瓦 / 美国・中国
+CORCUBION・ES - 科尔库维翁 / 西班牙・中国
+COLERAINE・GB - 科尔雷恩 / 英国・中国
+COLCHESTER・GB - 科尔切斯特 / 英国・中国
+KORCULA・CR - 科尔丘拉 / 克罗地亚・中国
+KORSAKOV・RU - 科尔萨科夫 / 俄罗斯・中国
+PUERTO CORTES・HN - 科尔特斯港 / 洪都拉斯・中国
+COBH・IE - 科夫 / 爱尔兰・中国
+CORFU・GR - 科孚 / 希腊・中国
+COQUIMBO・CL - 科金博 / 智利・中国
+KOKO・NG - 科科 / 尼日利亚・中国
+KOKKOLA・FI - 科科拉 / 芬兰・中国
+CORK・IE - 科克 / 爱尔兰・中国
+KOKSHETAU・KZ - 科克舍套 / 哈萨克斯坦・中国
+COLACHEL・IN - 科拉歇尔 / 印度・中国
+CORINTH・GR - 科林斯 / 希腊・中国
+CORINTO・NI - 科林托 / 尼加拉瓜・中国
+KOLDING・DK - 科灵 / 丹麦・中国
+COLLINGWOOD・CA - 科灵伍德 / 加拿大・中国
+COLOGNE・DE - 科隆 / 德国・中国
+COLONCHA・VE - 科隆查 / 委内瑞拉・中国
+COLON FREE ZONE・PA - 科隆自由贸易区 / 巴拿马・中国
+CORUNNA・ES - 科伦纳 / 西班牙・中国
+COLOMBO・SR - 科伦坡 / 斯里兰卡・中国
+KOROR・PA - 科罗尔 / 帕劳・中国
+PUNTA COLORADA・AR - 科罗拉多角 / 阿根廷・中国
+CORONEL・CL - 科罗内尔 / 智利・中国
+COLLO・DZ - 科洛 / 阿尔及利亚・中国
+COLONIA・UY - 科洛尼亚 / 乌拉圭・中国
+COMO・IT - 科莫 / 意大利・中国
+COMOX・CA - 科莫克斯 / 加拿大・中国
+CORNER BROOK・CA - 科纳布鲁克 / 加拿大・中国
+CONAKRY・GU - 科纳克里 / 几内亚・中国
+KOPER・SL - 科佩尔 / 斯洛文尼亚・中国
+CORPACH・GB - 科珀赫 / 英国・中国
+KOPERVIK・NO - 科珀维克 / 挪威・中国
+COCHABAMBA・BO - 科恰班巴 / 玻利维亚・中国
+COCHIN・IN - 科钦 / 印度・中国
+KORSOR・DK - 科瑟 / 丹麦・中国
+KEA ISLAND・GR - 科斯岛 / 希腊・中国
+KOSRAE・FM - 科斯雷 / 密克罗尼西亚联邦国・中国
+KUSTANAI・KZ - 科斯塔奈 / 哈萨克斯坦・中国
+COZUMEL ISLAND・MX - 科苏梅尔岛 / 墨西哥・中国
+KOTKA・FI - 科特卡 / 芬兰・中国
+KOTOR・MO - 科托尔 / 黑山共和国・中国
+COTONOU・BE - 科托努 / 贝宁・中国
+COWICHAN BAY・CA - 科威恰湾 / 加拿大・中国
+KUWAIT・KU - 科威特 / 科威特・中国
+COVENAS・CO - 科韦尼亚斯 / 哥伦比亚・中国
+KOVERHAR・FI - 科维尔哈 / 芬兰・中国
+KOLOBRZEG・PO - 科沃布热格 / 波兰・中国
+COISCO・PE - 科伊希科 / 秘鲁・中国
+COIMBATORE・IN - 科印拜陀 / 印度・中国
+CORPUS CHRISTI・US - 科珠斯克里斯蒂 / 美国・中国
+QUEPOS・CO - 克波斯 / 哥斯达黎加・中国
+KOGE・DK - 克厄 / 丹麦・中国
+CAHIRCIVEEN・IE - 克尔西文 / 爱尔兰・中国
+QUEQUEN・AR - 克肯 / 阿根廷・中国
+KRAGERO・NO - 克拉格勒 / 挪威・中国
+KLAGSHAMN・SE - 克拉格斯港 / 瑞典・中国
+KLAKSVIG・FA - 克拉克斯维克 / 法罗群岛・中国
+KRALENDIJK・NE - 克拉伦代克 / 荷属安的列斯・中国
+CLARENVILLE・CA - 克拉伦维尔 / 加拿大・中国
+CALETA CLARENCIA・CL - 克拉伦西亚 / 智利・中国
+KRAMFORS・SE - 克拉姆福什 / 瑞典・中国
+KRASNODAR・RU - 克拉斯诺达尔 / 俄罗斯・中国
+KRASNOAYRSK・RU - 克拉斯诺亚尔斯克 / 俄罗斯・中国
+KLEVEN・NO - 克来文 / 挪威・中国
+CLARECASTLE・IE - 克莱尔卡斯尔 / 爱尔兰・中国
+KLAIPEDA・LI - 克莱佩达 / 立陶宛・中国
+CHRISTCHURCH・NZ - 克赖斯特彻奇 / 新西兰・中国
+PORT CREDIT・CA - 克雷迪特港 / 加拿大・中国
+KREFELD・DE - 克雷菲尔德 / 德国・中国
+QUERETARO・MX - 克雷塔罗 / 墨西哥・中国
+KRIBI・CA - 克里比 / 喀麦隆・中国
+KRISTIANSAND S.・NO - 克里斯蒂安桑(南) / 挪威・中国
+CHRISTIANSHAAB・GL - 克里斯蒂安斯霍布 / 格陵兰・中国
+KRISTIANSUND N.・NO - 克里斯蒂安松(北) / 挪威・中国
+KRISTINEHANM・SE - 克里斯蒂那港 / 瑞典・中国
+KRISTIINA・FI - 克里斯蒂纳 / 芬兰・中国
+CHRISTIANSTED・TH - 克里斯琴斯特德 / 美属维尔京群岛・中国
+CRISTOBAL・PA - 克里斯托瓦尔 / 巴拿马・中国
+CLEVELAND,OH・US - 克利夫兰 / 美国・中国
+QUELIMANE・MO - 克利马内 / 莫桑比克・中国
+KLESCHIKHA・RU - 克列希哈 / 俄罗斯・中国
+KLINTEHAMN・SE - 克林特港 / 瑞典・中国
+CRUZ GRANDE・CL - 克鲁斯格兰德 / 智利・中国
+CROFTON・CA - 克罗夫顿 / 加拿大・中国
+CROMARTY・GB - 克罗默蒂 / 英国・中国
+CROTONE・IT - 克罗托 / 意大利・中国
+CLONAKILTY・IE - 克洛纳基尔蒂 / 爱尔兰・中国
+KEMEROVO・RU - 克麦罗沃 / 俄罗斯・中国
+PUERTO QUEMCHI・CL - 克姆智奇港 / 智利・中国
+KENAI・US - 克奈 / 美国・中国
+KVINESDAL・NO - 克维内斯达尔 / 挪威・中国
+PUERTO QUELLON・CL - 克永港 / 智利・中国
+KYZYLORDA・KZ - 克孜勒奥尔达 / 哈萨克斯坦・中国
+KERTCH・RU - 刻赤 / 俄罗斯・中国
+PART KEMBLA・AU - 肯布拉港 / 澳大利亚・中国
+KENDARI・ID - 肯达里 / 印度尼西亚・中国
+KENDALLVILLE,IN・US - 肯德尔维 / 美国・中国
+KLONG TOEY・TH - 孔堤 / 泰国・中国
+CONCARNEAU・FR - 孔卡尔诺 / 法国・中国
+VILLA CONSTITUCION・AR - 孔斯蒂图西翁镇 / 阿根廷・中国
+CONTRECOEUR・CA - 孔特勒科尔 / 加拿大・中国
+KHUJAND・TA - 苦盏 / 塔吉克斯坦・中国
+CUDDALORE・IN - 库达洛尔 / 印度・中国
+KOUDOUGOU・BU - 库杜古 / 布基纳法索・中国
+KHULNA・BA - 库尔纳 / 孟加拉国・中国
+COOKTOWN・AU - 库克敦 / 澳大利亚・中国
+CUXHAVEN・DE - 库克斯港 / 德国・中国
+CURACAO・NE - 库拉索岛 / 荷属安的列斯・中国
+CUMANA・VE - 库马纳 / 委内瑞拉・中国
+KUMAI・ID - 库迈 / 印度尼西亚・中国
+KUNAK・MA - 库纳克 / 马来西亚・中国
+KOSSEIR・EG - 库赛尔 / 埃及・中国
+KUSADASI・TR - 库沙达瑟 / 土耳其・中国
+KOUTALA・GR - 库塔拉 / 希腊・中国
+CUTUCO・SV - 库图科 / 萨尔瓦多・中国
+CUTUCO・SV - 库图科 / 萨尔瓦多・中国
+GAPE CUVIER・AU - 库维恩角 / 澳大利亚・中国
+PUNTA CUCHILLO・VE - 库希略角 / 委内瑞拉・中国
+COATZACOALCOS・MX - 夸察夸尔科斯 / 墨西哥・中国
+PUERTO QUETZAL・GU - 夸特扎尔港 / 危地马拉・中国
+QUA IBOE・NG - 夸伊博 / 尼日利亚・中国
+KWEKWE・ZI - 奎奎 / 津巴布韦・中国
+QUILON・IN - 奎隆 / 印度・中国
+KWINANA・AU - 奎纳纳 / 澳大利亚・中国
+QUEBEC・CA - 魁北克 / 加拿大・中国
+KUNDLI・IN - 坤德里 / 印度・中国
+PONTIANAK・ID - 坤甸 / 印度尼西亚・中国
+QUINTERO・CL - 坤脱罗 / 智利・中国
+QUEENBOROUGH・GB - 昆伯勒 / 英国・中国
+CUENCA・EC - 昆卡 / 厄瓜多尔・中国
+QUEENSFERRY・GB - 昆斯费里 / 英国・中国
+LA HAVE・CA - 拉阿沃 / 加拿大・中国
+LA PAZ・BO - 拉巴斯 / 玻利维亚・中国
+RABAT・MA - 拉巴特 / 摩洛哥・中国
+LAPALUOTO・FI - 拉柏罗吐 / 芬兰・中国
+LABO・DE - 拉伯 / 德国・中国
+LABUAN・MA - 拉布安 / 马来西亚・中国
+LARNE・GB - 拉恩 / 英国・中国
+LARVIK・NO - 拉尔维克 / 挪威・中国
+LAURIUM・GR - 拉夫里翁 / 希腊・中国
+LARGS・GB - 拉格斯 / 英国・中国
+LAGOS・NG - 拉各斯 / 尼日利亚・中国
+LA GOULETTE・TN - 拉古莱特 / 突尼斯・中国
+LA GUAIRA・VE - 拉瓜伊拉 / 委内瑞拉・中国
+LAHAD DATU・MA - 拉哈达图 / 马来西亚・中国
+LAHORE・PA - 拉合尔  / 巴基斯坦・中国
+RAAHE・FI - 拉赫 / 芬兰・中国
+LA CALERA・ES - 拉卡莱拉 / 西班牙・中国
+LRAKLION・GR - 拉克利昂 / 希腊・中国
+PUERTO LA CRUZ・VE - 拉克鲁斯港 / 委内瑞拉・中国
+LAZAREV・RU - 拉孔烈夫 / 俄罗斯・中国
+LARACHE・MA - 拉腊什 / 摩洛哥・中国
+LAREDO,TX・US - 拉雷多 / 美国・中国
+LAVRIO・GR - 拉里昂 / 希腊・中国
+LA LIBERTAD,SA・SV - 拉利贝塔德 / 萨尔瓦多・中国
+LA LIBERTAD,EC・EC - 拉利伯塔德 / 厄瓜多尔・中国
+LA LIMA・HN - 拉利马 / 洪都拉斯・中国
+LA ROMANA・DM - 拉罗马纳 / 多米尼加・中国
+RAROTONGA ISLAND・NZ - 拉罗通加岛 / 新西兰・中国
+LA ROCHELLE・FR - 拉罗谢尔 / 法国・中国
+LA MADDALENA・IT - 拉马达莱那 / 意大利・中国
+RAMALLO・AR - 拉马约 / 阿根廷・中国
+CAPE LAMBERT・AU - 拉姆贝特角 / 澳大利亚・中国
+RAMSGATE・GB - 拉姆斯盖特 / 英国・中国
+RAMSEY・GB - 拉姆西 / 英国・中国
+LAMU・KE - 拉穆 / 肯尼亚・中国
+LARNACA・CY - 拉纳卡 / 塞浦路斯・中国
+LLANELLI・GB - 拉内利 / 英国・中国
+LA NOUVELLE・FR - 拉努韦勒 / 法国・中国
+LA PALMA・PA - 拉帕尔马 / 巴拿马・中国
+LA PALLICE・FR - 拉帕利斯 / 法国・中国
+LA PAMPILLA・PE - 拉帕姆皮拉 / 秘鲁・中国
+RAPID BAY・AU - 拉皮德湾 / 澳大利亚・中国
+LA PLATA・AR - 拉普拉塔 / 阿根廷・中国
+RASA・CR - 拉萨 / 克罗地亚・中国
+LA SALINA・VE - 拉萨利纳 / 委内瑞拉・中国
+LA SALINETA・ES - 拉萨利内塔 / 大西洋群岛・中国
+LAZARO CARDENAS・MX - 拉萨罗卡德纳斯 / 墨西哥・中国
+LA SERENA・CL - 拉塞雷纳 / 智利・中国
+LA CEIBA・HN - 拉塞瓦 / 洪都拉斯・中国
+RAS AL KHAFJI・SA - 拉斯海夫吉 / 沙特阿拉伯・中国
+LA SKHIRRA・TN - 拉斯基拉 / 突尼斯・中国
+RAS GHARIB・EG - 拉斯加里卜 / 埃及・中国
+RAS LANUF・LY - 拉斯拉努夫 / 利比亚・中国
+RATHMULLEN・IE - 拉斯马伦 / 爱尔兰・中国
+LAS PALMAS・ES - 拉斯帕尔马斯 / 西班牙・中国
+LA SPEZIA ・IT - 拉斯佩齐亚 / 意大利・中国
+LA ESTACADA・VE - 拉斯塔加达 / 委内瑞拉・中国
+RAS TANURA・SA - 拉斯坦努拉 / 沙特阿拉伯・中国
+PORT LATTA・AU - 拉塔港 / 澳大利亚・中国
+LATTAKIA・SY - 拉塔基亚 / 叙利亚・中国
+LAT KRABANG・TH - 拉塔克拉班 / 泰国・中国
+LAOAG・PH - 拉瓦格 / 菲律宾・中国
+PORT LAVACA・US - 拉瓦卡港 / 美国・中国
+LAVERA・FR - 拉瓦拉 / 法国・中国
+LAVAN ISLAND・IR - 拉万岛 / 伊朗・中国
+RAVENNA・IT - 拉文纳 / 意大利・中国
+ESCRAVOS・NG - 拉沃斯河 / 尼日利亚・中国
+LA UNION,SV・SV - 拉乌尼翁 / 萨尔瓦多・中国
+LA UNION,PH・PH - 拉乌尼翁 / 菲律宾・中国
+LA CIOTAT・FR - 拉西约塔 / 法国・中国
+PORT RASHID・AE - 拉希德港 / 阿联酋・中国
+RACINE・US - 拉辛 / 美国・中国
+RACINE・US - 拉辛 / 美国・中国
+RYE・GB - 拉伊 / 英国・中国
+RAS SHUKHEIR・EG - 喇斯舒海尔 / 埃及・中国
+RABAUL・PG - 腊包尔 / 巴布亚新几内亚・中国
+LATCHI・CY - 腊基 / 塞浦路斯・中国
+RAS SELATA・LE - 腊斯塞拉塔 / 黎巴嫩・中国
+LEON・MX - 莱昂 / 墨西哥・中国
+LEBAK・PH - 莱巴克 / 菲律宾・中国
+LEIPZIG・DE - 莱比锡 / 德国・中国
+LAE・PG - 莱城 / 巴布亚新几内亚・中国
+LEIDEN・NL - 莱顿 / 荷兰・中国
+LERMA・MX - 莱尔马 / 墨西哥・中国
+LAKE CHARLES・US - 莱克查尔斯 / 美国・中国
+LEROS ISLAND・GR - 莱罗斯岛 / 希腊・中国
+LEMVIG・DK - 莱姆维 / 丹麦・中国
+LAMBASA・FJ - 兰巴萨 / 斐济・中国
+LLANDDULAS・GB - 兰杜拉斯 / 英国・中国
+WRANGELL・US - 兰格尔 / 美国・中国
+LANCASTER・GB - 兰开斯特 / 英国・中国
+RANDERS・DK - 兰讷斯 / 丹麦・中国
+LANDSKRONA・SE - 兰斯克鲁纳 / 瑞典・中国
+LANDERNEAU・FR - 朗代诺 / 法国・中国
+LANGESUND・NO - 朗厄松 / 挪威・中国
+RUNCORN・GB - 朗科恩 / 英国・中国
+LAME・GB - 朗姆 / 英国・中国
+LAUNCESTON・AU - 朗塞斯顿 / 澳大利亚・中国
+RAUMA・FI - 劳马 / 芬兰・中国
+RAUSTAN・UZ - 劳斯坦 / 乌兹别克斯坦・中国
+LAUTOKA・FJ - 劳托卡 / 斐济・中国
+LE HAVRE ・FR - 勒阿佛尔 / 法国・中国
+LE PORT・RE - 勒波尔 / 留尼汪・中国
+RATNAGIRI・IN - 勒德纳吉里 / 印度・中国
+LODINGEN・NO - 勒丁恩 / 挪威・中国
+LE VERDON・FR - 勒凡尔登 / 法国・中国
+LE GUIDO・FR - 勒吉尔多 / 法国・中国
+LERWICK・GB - 勒威克 / 英国・中国
+RODBYHAVN・DK - 勒兹比港 / 丹麦・中国
+RODVIG・DK - 勒兹维 / 丹麦・中国
+VILA REAL・PT - 雷阿尔城 / 葡萄牙・中国
+REPOSAARI・FI - 雷波萨里 / 芬兰・中国
+RADES・TU - 雷达斯 / 突尼斯・中国
+REDCAR・GB - 雷德卡 / 英国・中国
+REDI・IN - 雷迪 / 印度・中国
+PORT REDON・VI - 雷东港 / 越南・中国
+REGENSBURG・DE - 雷根斯堡 / 德国・中国
+REGGIO・IT - 雷焦 / 意大利・中国
+RECALADA・AR - 雷卡拉达 / 阿根廷・中国
+LEIXOES・PT - 雷克索斯 / 葡萄牙・中国
+REYKJAVIK・IS - 雷克雅未克 / 冰岛・中国
+REMSCHEID・DE - 雷姆沙伊德 / 德国・中国
+RAINHAM・GB - 雷纳姆 / 英国・中国
+REWARI・IN - 雷瓦里 / 印度・中国
+RETHIMNON・GR - 雷西姆农 / 希腊・中国
+LEER・DE - 累尔 / 德国・中国
+LEVUKA・FJ - 累武卡 / 斐济・中国
+RECIFE・BR - 累西腓 / 巴西・中国
+LEGASPI・PH - 黎牙实比 / 菲律宾・中国
+LYON・FR - 里昂 / 法国・中国
+RIO HACHA・CO - 里奥阿查 / 哥伦比亚・中国
+RIO BUENO・JM - 里奥布埃诺 / 牙买加・中国
+RIO GRANDE,AR・AR - 里奥格兰德 / 阿根廷・中国
+RIO GRANDE,BR・BR - 里奥格兰德 / 巴西・中国
+RIO GALLEGOS・AR - 里奥加耶戈斯 / 阿根廷・中国
+RIO MARINA・IT - 里奥马里纳 / 意大利・中国
+RICHARDS BAY・ZA - 里查德湾 / 南非・中国
+LILLE・FR - 里尔 / 法国・中国
+RHYL・GB - 里尔 / 英国・中国
+RIVERHEAD・US - 里弗黑德 / 美国・中国
+RIVER CESS・LI - 里弗塞斯 / 利比里亚・中国
+RIGA・LA - 里加 / 拉脱维亚・中国
+REGINA・CA - 里贾纳 / 加拿大・中国
+RIMOUSKI・CA - 里穆斯基 / 加拿大・中国
+RICHIBUCTO・CA - 里奇巴克托 / 加拿大・中国
+RICHBOROUGH・GB - 里奇伯勒 / 英国・中国
+RISOR・NO - 里瑟尔 / 挪威・中国
+RICHMOND・US - 里士满 / 美国・中国
+RISDON・AU - 里司登 / 澳大利亚・中国
+LISBON・PT - 里斯本 / 葡萄牙・中国
+CORNODORO RIVADAVIA・AR - 里瓦达维亚 / 阿根廷・中国
+RIBADEO・ES - 里瓦德奥 / 西班牙・中国
+RIBADESELLA・ES - 里瓦德塞利亚 / 西班牙・中国
+RIVIERE DU LOUP・CA - 里维耶尔-迪卢 / 加拿大・中国
+LEGHORN・IT - 里窝那 / 意大利・中国
+RIO DE JANEIRO・BR - 里约热内卢 / 巴西・中国
+RIZE・TR - 里泽 / 土耳其・中国
+YOSU・KO - 丽水 / 韩国・中国
+FORT LIBERTE・HA - 利贝泰堡 / 海地・中国
+LIBREVILLE・GA - 利伯维尔 / 加蓬・中国
+LIBOURNE・FR - 利布尔讷 / 法国・中国
+LYBSTER・GB - 利布斯特 / 英国・中国
+RIDHAM DOCK・GB - 利德哈姆多克 / 英国・中国
+LYDNEY・GB - 利德尼 / 英国・中国
+LIDKOPING・SE - 利德雪平 / 瑞典・中国
+LIRQUEN・CL - 利尔奎 / 智利・中国
+LICATA・IT - 利卡塔 / 意大利・中国
+LILLESAND・NO - 利勒桑 / 挪威・中国
+LILONGWE・MA - 利隆圭 / 马拉维・中国
+LIMA・PE - 利马 / 秘鲁・中国
+LIMASSOL・CY - 利马索尔 / 塞浦路斯・中国
+PUERTO LIMON・CO - 利蒙港 / 哥斯达黎加・中国
+LEAMINGTON・CA - 利明顿 / 加拿大・中国
+LIMIN SIROU・GR - 利明西鲁 / 希腊・中国
+LIMERICK・IE - 利默里克 / 爱尔兰・中国
+LIMHAMN・SE - 利姆港 / 瑞典・中国
+POINT LISAS・TR - 利萨斯角 / 特立尼达和多巴哥・中国
+LEITH・GB - 利斯 / 英国・中国
+LIS COMB・CA - 利斯科姆 / 加拿大・中国
+LYTTELTON・NZ - 利特尔顿 / 新西兰・中国
+LITTLEHAMPTON・GB - 利特尔汉普顿 / 英国・中国
+PORT LIVADHI・GR - 利瓦德希港 / 希腊・中国
+LIVINGSTON・GU - 利文斯顿 / 危地马拉・中国
+LIVORNO・IT - 利沃诺 / 意大利・中国
+LIVERPOOL,CA・CA - 利物浦 / 加拿大・中国
+LIVERPOOL,EN・GB - 利物浦 / 英国・中国
+RIYADH・SA - 利雅得 / 沙特阿拉伯・中国
+LIEPAJA・LA - 利耶帕亚 / 拉脱维亚・中国
+LEEDS・GB - 利兹 / 英国・中国
+KASAOKA・JP - 笠冈 / 日本・中国
+LENINGRAD・RU - 列宁格勒 / 俄罗斯・中国
+LIEGE・BE - 列日 / 比利时・中国
+RENI・UK - 烈尼 / 乌克兰・中国
+LAEM CHABANG・TH - 林查班 / 泰国・中国
+LINZ・AU - 林茨 / 奥地利・中国
+LINDI・TA - 林迪 / 坦桑尼亚・中国
+LYNGOR・NO - 林厄尔 / 挪威・中国
+LINGAH・IR - 林格 / 伊朗・中国
+RINGI COVE・SB - 林吉湾 / 所罗门群岛・中国
+LINGGA・MA - 林加 / 马来西亚・中国
+LINGAYEN・PH - 林加延 / 菲律宾・中国
+PART LINCOLN・AU - 林肯港 / 澳大利亚・中国
+LYNGS ODDDE・DK - 林斯奥得 / 丹麦・中国
+RUMOI・JP - 留萌 / 日本・中国
+REUNION・RE - 留尼汪 / 留尼汪・中国
+DUNGUN・MA - 龙运 / 马来西亚・中国
+LUNDU・MA - 隆杜 / 马来西亚・中国
+LONGONI・MA - 隆戈尼 / 马约特・中国
+LONGIVEW・US - 隆维尤 / 美国・中国
+LUARCA・ES - 卢阿尔卡 / 西班牙・中国
+LUANSHYA・ZA - 卢安夏 / 赞比亚・中国
+LUBECK・DE - 卢卑克 / 德国・中国
+LUBUMBASHI・CO - 卢本巴希 / 刚果(金)・中国
+LJUBLJANA・SL - 卢布尔亚那  / 斯洛文尼亚・中国
+LUDERITZ・NA - 卢德立次 / 纳米比亚・中国
+LUDHIANA・IN - 卢迪亚纳 / 印度・中国
+LUGANVILLE BAY・VA - 卢甘维尔港 / 瓦努阿图・中国
+LOOE・GB - 卢港 / 英国・中国
+LOMMA・SE - 卢马 / 瑞典・中国
+LUMUT・MA - 卢穆特 / 马来西亚・中国
+LUNENBURG・CA - 卢嫩堡 / 加拿大・中国
+LUSAKA・ZA - 卢萨卡 / 赞比亚・中国
+LUXEMBOURG・LU - 卢森堡 / 卢森堡・中国
+LUCEA・JM - 卢西 / 牙买加・中国
+LUCINA TERMINAL・GA - 卢西纳码头 / 加蓬・中国
+LUCINDA・AU - 卢辛达 / 澳大利亚・中国
+ROUEN・FR - 鲁昂 / 法国・中国
+RONEHAMN・SE - 鲁讷港 / 瑞典・中国
+PRINCE RUPERT・CA - 鲁珀特港 / 加拿大・中国
+RUDKOBING・DK - 鲁兹克宾 / 丹麦・中国
+KANOKAWA・JP - 鹿川 / 日本・中国
+KASHIMA・JP - 鹿岛 / 日本・中国
+KAGOSHIMA・JP - 鹿儿岛 / 日本・中国
+ROTTERDAM・NL - 鹿特丹 / 荷兰・中国
+ROAD BAY・AN - 路德湾 / 安圭拉・中国
+LUDWIGSHAFEN・DE - 路德维希港 / 德国・中国
+PORT LOUIS・MA - 路易港  / 毛里求斯・中国
+LOUISBURG・CA - 路易斯堡 / 加拿大・中国
+LOUISVILLE,KY・US - 路易维尔 / 美国・中国
+RENDSBURG・DE - 伦茨堡 / 德国・中国
+LONDON・GB - 伦敦 / 英国・中国
+LONDONDERRY・GB - 伦敦德里 / 英国・中国
+RONNE・DK - 伦讷 / 丹麦・中国
+ROATAN ISLAND・HN - 罗阿坦 / 洪都拉斯・中国
+LUANDA・AO - 罗安达 / 安哥拉・中国
+ROBERTS BANK・CA - 罗伯茨湾 / 加拿大・中国
+ROZENBURG・NL - 罗曾堡 / 荷兰・中国
+RHODES ISLAND・GR - 罗得 / 希腊・中国
+PORT RHOADES・JM - 罗德港 / 牙买加・中国
+ROCKY POINT・JM - 罗基波因特 / 牙买加・中国
+AOCICHAMPTON・AU - 罗克汉普顿 / 澳大利亚・中国
+ROME・IT - 罗马 / 意大利・中国
+LONI・IN - 罗尼 / 印度・中国
+ROCHESTER,US・US - 罗切斯特 / 美国・中国
+ROCHESTER,GB・GB - 罗切斯特 / 英国・中国
+ROSARIO・AR - 罗萨里奥 / 阿根廷・中国
+PUERTO DEL ROSARIO・ES - 罗萨里奥港 / 大西洋群岛・中国
+ROSARITO TERMINAL・MX - 罗萨里托码头 / 墨西哥・中国
+ROSAS・ES - 罗萨斯 / 西班牙・中国
+PORT RUSSELL・NZ - 罗塞尔港 / 新西兰・中国
+ROSYTH・GB - 罗赛斯 / 英国・中国
+ROSENHEIM・DE - 罗森海姆 / 德国・中国
+ROCHEFORT・FR - 罗什福尔 / 法国・中国
+ROSCOFF・FR - 罗斯科夫 / 法国・中国
+ROSSLARE・IE - 罗斯莱尔 / 爱尔兰・中国
+ROSTOCK・DE - 罗斯托克 / 德国・中国
+ROTHESAY・GB - 罗斯西 / 英国・中国
+ROSEAU・DM - 罗索 / 多米尼克・中国
+ROTA・ES - 罗塔 / 西班牙・中国
+ROVINJ・CR - 罗维尼 / 克罗地亚・中国
+PORT ROYAL,US・US - 罗亚尔港 / 美国・中国
+PORT ROYAL,JA・JM - 罗亚尔港 / 牙买加・中国
+LOBITO・AO - 洛比托 / 安哥拉・中国
+LOBOS DE TIERRA・PE - 洛布斯岛 / 秘鲁・中国
+KYLE OF LOCHALSH・GB - 洛哈尔什教区凯尔 / 英国・中国
+LOCHALINE PIER・GB - 洛哈林 / 英国・中国
+LOCH BOISDALE・GB - 洛赫博伊斯代尔 / 英国・中国
+LOCH MADDY・GB - 洛赫马迪 / 英国・中国
+LOCKEPORT・CA - 洛克波特 / 加拿大・中国
+LOCTUDY・FR - 洛克蒂迪 / 法国・中国
+LORAIN・US - 洛雷恩 / 美国・中国
+LORIENT・FR - 洛里昂 / 法国・中国
+LORENGAU・PG - 洛伦高 / 巴布亚新几内亚・中国
+LOMAS・PE - 洛马斯 / 秘鲁・中国
+LOME・TO - 洛美 / 多哥・中国
+LOMOND・CA - 洛蒙德 / 加拿大・中国
+CAP LOPCZ・GA - 洛佩斯角 / 加蓬・中国
+LOS ANGELES・US - 洛杉矶 / 美国・中国
+LOWESTOFT・GB - 洛斯托夫特 / 英国・中国
+LOTA・CL - 洛塔 / 智利・中国
+LOVIISA・FI - 洛维萨 / 芬兰・中国
+LOBITOS・PE - 洛维托斯 / 秘鲁・中国
+LOSSIEMOUTH・GB - 洛西茅斯 / 英国・中国
+LEEUWARDEN・NL - 吕伐登 / 荷兰・中国
+LULEA・SE - 吕勒奥 / 瑞典・中国
+LYSEKIL・SE - 吕瑟希尔 / 瑞典・中国
+MAHE・IN - 马埃 / 印度・中国
+BANJARMASIN・ID - 马辰 / 印度尼西亚・中国
+MADANG・PG - 马当 / 巴布亚新几内亚・中国
+MATEGATA・JP - 马刀泻 / 日本・中国
+MADRAS・IN - 马德拉斯 / 印度・中国
+MADRID・ES - 马德里 / 西班牙・中国
+PUERTO MADRYN・AR - 马德林港 / 阿根廷・中国
+PUERTO MADERO・MX - 马德罗港 / 墨西哥・中国
+MAR DEL PLATA・AR - 马德普拉塔 / 阿根廷・中国
+MATI・PH - 马蒂 / 菲律宾・中国
+MARTIGUES・FR - 马蒂格 / 法国・中国
+MALDONADO・UY - 马尔多纳多 / 乌拉圭・中国
+PORTO MARGHERA・IT - 马尔盖腊港 / 意大利・中国
+MARGILAN・UZ - 马尔吉兰 / 乌兹别克斯坦・中国
+MERCA・SO - 马尔卡 / 索马里・中国
+MARMARIS・TR - 马尔马里斯 / 土耳其・中国
+MALMO・SE - 马尔默 / 瑞典・中国
+MALM・NO - 马尔姆 / 挪威・中国
+MALPE・IN - 马尔佩 / 印度・中国
+MARSALA・IT - 马尔萨拉 / 意大利・中国
+MARSAXLOKK・MA - 马尔萨什洛克 / 马耳他・中国
+MALTA・MA - 马耳他 / 马耳他・中国
+MAGO・RU - 马戈 / 俄罗斯・中国
+MAHAJUNGA・MG - 马哈赞加 / 马达加斯加・中国
+MAGADAN・RU - 马加丹 / 俄罗斯・中国
+MAKAROV・RU - 马卡洛夫 / 俄罗斯・中国
+MACAPA・BR - 马卡帕 / 巴西・中国
+MACASSAR・ID - 马卡萨 / 印度尼西亚・中国
+MALABO・GU - 马拉博 / 赤道几内亚・中国
+MALAGA・ES - 马拉加 / 西班牙・中国
+MARACAIBO・VE - 马拉开波 / 委内瑞拉・中国
+MALANPUR・IN - 马来普尔 / 印度・中国
+MALLAIG・GB - 马莱格 / 英国・中国
+MARANS・FR - 马朗 / 法国・中国
+MERAUKE・ID - 马老奇 / 印度尼西亚・中国
+MALE ISLAND・MV - 马累岛 / 马尔代夫・中国
+MARYBOROUGH・AU - 马里伯勒 / 澳大利亚・中国
+MARIGOT・ES - 马里戈特 / 大西洋群岛・中国
+MARINA DI CARRARA・IT - 马里纳迪卡拉拉 / 意大利・中国
+MALIWADA・IN - 马里瓦达 / 印度・中国
+MARIVELES・PH - 马里韦莱斯 / 菲律宾・中国
+MARIEL・CU - 马里矣尔 / 古巴・中国
+MALILI・ID - 马利利 / 印度尼西亚・中国
+MARIN・ES - 马林 / 西班牙・中国
+MALINDI・KE - 马林迪 / 肯尼亚・中国
+MELAKA・MA - 马六甲 / 马来西亚・中国
+MAROANTSETRA・MG - 马鲁安采特拉 / 马达加斯加・中国
+MAALOY・NO - 马洛于 / 挪威・中国
+MARMORILIK・GL - 马莫里利克 / 格陵兰・中国
+MAMUJU・ID - 马穆朱 / 印度尼西亚・中国
+MANAGUA・NI - 马那瓜  / 尼加拉瓜・中国
+MANATI・CU - 马纳蒂 / 古巴・中国
+MANAKARA・MG - 马纳卡拉 / 马达加斯加・中国
+MANANJARY・MG - 马南扎里河 / 马达加斯加・中国
+MANAUS・BR - 马瑙斯 / 巴西・中国
+MANILA・PH - 马尼拉 / 菲律宾・中国
+MANILA NORTH・PH - 马尼拉北港 / 菲律宾・中国
+MANILA SOUTH・PH - 马尼拉南港 / 菲律宾・中国
+MANITOWOC・US - 马尼托沃克 / 美国・中国
+MANOKWARI・ID - 马诺夸里 / 印度尼西亚・中国
+MANOPLA・CU - 马诺普拉 / 古巴・中国
+MAPUTO・MO - 马普托 / 莫桑比克・中国
+MAJUNGA・MG - 马任加 / 马达加斯加・中国
+MARSA EL BREGA・LY - 马萨勃利加 / 利比亚・中国
+MASAO・PH - 马萨豪 / 菲律宾・中国
+MAZARRON・ES - 马萨龙 / 西班牙・中国
+MAZATALAN・MX - 马萨特兰 / 墨西哥・中国
+MAZATLAN・MX - 马萨特兰  / 墨西哥・中国
+MASSAWA・ER - 马萨瓦 / 厄立特里亚・中国
+MASCOM・LE - 马塞卢 / 莱索托・中国
+MASERU・LE - 马塞卢 / 莱索托・中国
+MACEIO・BR - 马塞约 / 巴西・中国
+MARSEILLES・FR - 马赛 / 法国・中国
+MASAN・KO - 马山 / 韩国・中国
+MASBATE・PH - 马斯巴特 / 菲律宾・中国
+MUSKEGON・US - 马斯基根 / 美国・中国
+MUSCAT ・OM - 马斯喀特 / 阿曼・中国
+MAASSLUIS・NL - 马斯莱斯 / 荷兰・中国
+MASLINICA・CR - 马斯利尼察 / 克罗地亚・中国
+MASNEDSUND・DK - 马斯讷松 / 丹麦・中国
+MARSTAL・DK - 马斯塔尔 / 丹麦・中国
+MARSTRAND・SE - 马斯特兰德 / 瑞典・中国
+MATADI・CO - 马塔迪 / 刚果(金)・中国
+MATARANI・PE - 马塔拉尼 / 秘鲁・中国
+MATANE・CA - 马塔讷 / 加拿大・中国
+MATANZAS,VE・VE - 马坦萨斯 / 委内瑞拉・中国
+MATANZAS,CU・CU - 马坦萨斯 / 古巴・中国
+MUTTRAH・OM - 马特拉 / 阿曼・中国
+MATARA・SR - 马特勒 / 斯里兰卡・中国
+MERSA MATRUH・EG - 马特鲁港 / 埃及・中国
+MAHON・ES - 马翁 / 西班牙・中国
+BANDAR MAHSHAHR・IR - 马夏赫尔港 / 伊朗・中国
+MARSHALL・LI - 马歇尔 / 利比里亚・中国
+MASINLOK・PH - 马辛洛克 / 菲律宾・中国
+MAYAGUEZ・PR - 马亚圭斯 / 波多黎各・中国
+MATSAPHA・WE - 马扎巴 / 斯威士兰・中国
+MAZARA DEL VALLO・IT - 马扎拉德尔瓦洛 / 意大利・中国
+MAJURO・MA - 马朱罗环礁 / 马绍尔群岛・中国
+MARIAGER・DK - 玛丽艾厄 / 丹麦・中国
+MARIEHAMN・FI - 玛丽港 / 芬兰・中国
+MIAMI・US - 迈阿密 / 美国・中国
+MINEHEAD・GB - 迈恩黑德 / 英国・中国
+MEGARA・GR - 迈加拉 / 希腊・中国
+MESOLONGION・GR - 迈索隆吉翁 / 希腊・中国
+METHONI・GR - 迈索尼 / 希腊・中国
+MEDELLIN・CO - 麦德林 / 哥伦比亚・中国
+MAKATEA・FR - 麦卡梯 / 法属波利尼西亚・中国
+MACKAY・AU - 麦凯 / 澳大利亚・中国
+MACDUFF・GB - 麦克达夫 / 英国・中国
+MACTAN・AU - 麦克坦 / 澳大利亚・中国
+PART MACGUARIE・AU - 麦夸里港 / 澳大利亚・中国
+AI MANAMAH・BA - 麦纳麦 / 巴林・中国
+MANCHESTER・GB - 曼彻斯特 / 英国・中国
+MANDAL・NO - 曼达尔 / 挪威・中国
+MANDAPAM・IN - 曼达帕姆 / 印度・中国
+MANDVI・IN - 曼德维 / 印度・中国
+MANDIDEEP・IN - 曼迪帝普 / 印度・中国
+MANTYLUOTO・FI - 曼蒂卢奥托 / 芬兰・中国
+MANFREDONIA・IT - 曼夫雷多尼亚 / 意大利・中国
+MANGROL・IN - 曼格罗尔 / 印度・中国
+BANGKOK・TH - 曼谷 / 泰国・中国
+BANGKOK ECT・TH - 曼谷ECT港 / 泰国・中国
+BANGKOK PAT・TH - 曼谷P港 / 泰国・中国
+BANGKOK SCT・TH - 曼谷SCT港 / 泰国・中国
+MANNHEIM・DE - 曼海姆 / 德国・中国
+MANGALIA・RO - 曼加利亚 / 罗马尼亚・中国
+MANZANILLO,MOXICO・MX - 曼萨尼略 / 墨西哥・中国
+MANZANILLO,PANAMA・PA - 曼萨尼略 / 巴拿马・中国
+MANZANILLO,DO・DM - 曼萨尼约 / 多米尼加・中国
+MENSTAD・NO - 曼斯塔德 / 挪威・中国
+MANTA・EC - 曼塔 / 厄瓜多尔・中国
+MANGALORE・IN - 芒格洛尔 / 印度・中国
+MOUT MAUNGANUI・NZ - 芒特芒阿努伊 / 新西兰・中国
+MOULMEIN・BU - 毛淡棉 / 缅甸・中国
+DROGHEDA・IE - 毛罗赫达 / 爱尔兰・中国
+PORT MEDWAY・CA - 梅德韦港 / 加拿大・中国
+MEDIA LUNA・CU - 梅迪亚卢纳 / 古巴・中国
+MERSIN・TR - 梅尔辛 / 土耳其・中国
+MEDEU・KZ - 梅杰乌 / 哈萨克斯坦・中国
+MERIKARVIA・FI - 梅里卡尔维亚 / 芬兰・中国
+MELILLI・IT - 梅利利 / 意大利・中国
+MELILLA・MO - 梅利利亚 / 梅利利亚・中国
+MEPPEL・NL - 梅珀尔 / 荷兰・中国
+METEGHAN・CA - 梅泰根 / 加拿大・中国
+METLAKATLA・US - 梅特拉卡特拉 / 美国・中国
+MEVAGISSEY・GB - 梅瓦吉西 / 英国・中国
+METHIL・GB - 梅西尔 / 英国・中国
+MEIJILONES・CL - 梅希约内斯 / 智利・中国
+MIKAWA・JP - 美川 / 日本・中国
+MY THO・VI - 美富 / 越南・中国
+MESANE・RU - 美晋 / 俄罗斯・中国
+MAINZ・DE - 美因茨 / 德国・中国
+MONBETSU・JP - 门别 / 日本・中国
+MONDOZA・AR - 门多萨 / 阿根廷・中国
+MUTSURE・JP - 门连 / 日本・中国
+MONROE・US - 门罗 / 美国・中国
+MOJI・JP - 门司 / 日本・中国
+MOMBASA・KE - 蒙巴萨 / 肯尼亚・中国
+MONTEVIDEO・UY - 蒙得维的亚 / 乌拉圭・中国
+MUNDRA・IN - 蒙德拉 / 印度・中国
+MONFALCONE・IT - 蒙法尔科内 / 意大利・中国
+MOENGO・SU - 蒙戈 / 苏里南・中国
+MONGLA・BA - 蒙格拉 / 孟加拉国・中国
+MONT LOUIS・CA - 蒙路易 / 加拿大・中国
+MONROVIA・LI - 蒙罗维亚 / 利比里亚・中国
+MONGSTAD・NO - 蒙斯塔德 / 挪威・中国
+MONTAGUE・CA - 蒙塔古 / 加拿大・中国
+PUERTO MONTT・CL - 蒙特港 / 智利・中国
+MONTEGO BAY・JM - 蒙特歌湾 / 牙买加・中国
+MONTE CARLO・MO - 蒙特卡洛 / 摩纳哥・中国
+MONTERREY・MX - 蒙特雷 / 墨西哥・中国
+MONTREAL・CA - 蒙特利尔 / 加拿大・中国
+MONTROSE・GB - 蒙特罗斯 / 英国・中国
+MUNTOK・ID - 蒙托克 / 印度尼西亚・中国
+MONTOIR・FR - 蒙托伊尔 / 法国・中国
+MEMPHIS,TN・US - 孟费斯 / 美国・中国
+MAKASSAR・ID - 孟加锡 / 印度尼西亚・中国
+BOMBAY・IN - 孟买 / 印度・中国
+MIDDELBURG・NL - 米德尔堡 / 荷兰・中国
+MIDDLESBROUGH・GB - 米德尔斯伯勒 / 英国・中国
+MIDLAND・CA - 米德兰 / 加拿大・中国
+MILBUK・PH - 米尔布克 / 菲律宾・中国
+MILFORD HAVEN・GB - 米尔福德港 / 英国・中国
+MIKINDANI・TA - 米金达尼 / 坦桑尼亚・中国
+MEULABOH・ID - 米拉务 / 印度尼西亚・中国
+MIRAGOANE・HA - 米腊关 / 海地・中国
+MILAN・IT - 米兰 / 意大利・中国
+PUERTO MIRANDA・VE - 米兰达港 / 委内瑞拉・中国
+MILLOM・GB - 米勒姆 / 英国・中国
+MIRI・MA - 米里 / 马来西亚・中国
+MILOS ISLANDS・GR - 米洛斯岛 / 希腊・中国
+MENA ABDULLA・KU - 米纳阿卜杜拉 / 科威特・中国
+MENA AL AHMADI・KU - 米纳艾哈迈迪 / 科威特・中国
+MINATITLAN・MX - 米纳蒂特兰 / 墨西哥・中国
+MINA QABOOS・OM - 米纳卡布斯 / 阿曼・中国
+MINA SULMAN・BA - 米纳苏尔曼 / 巴林・中国
+MENA SAUD・KU - 米纳索特 / 科威特・中国
+MINICOY ISLAND・IN - 米尼科伊岛 / 印度・中国
+MICHIPICOTEN・CA - 米奇皮科滕 / 加拿大・中国
+MICHURIN・BU - 米丘林 / 保加利亚・中国
+RAS AL MISHAB・SA - 米萨卜角 / 沙特阿拉伯・中国
+MISTLEY・GB - 米斯特利 / 英国・中国
+MISURATA・LY - 米苏拉塔 / 利比亚・中国
+MITYLENE・GR - 米提林尼 / 希腊・中国
+MIDDELFART・DK - 米泽尔法特 / 丹麦・中国
+MILWAUKEE・US - 蜜尔沃 / 美国・中国
+MEDAN・ID - 棉兰 / 印度尼西亚・中国
+BINTULU・MA - 民都鲁 / 马来西亚・中国
+BINATANG・MA - 民那丹 / 马来西亚・中国
+NAGOYA・JP - 名古屋 / 日本・中国
+MINDELO・CA - 明德卢港 / 佛得角・中国
+MINNEAPOLIS,MN・US - 明尼阿波利斯 / 美国・中国
+MINSK・BE - 明斯克 / 白俄罗斯・中国
+MO I RANA・NO - 摩城 / 挪威・中国
+MURMANSK・RU - 摩尔曼斯克 / 俄罗斯・中国
+MOGADISHU・SO - 摩加迪沙 / 索马里・中国
+MOA・CU - 莫阿 / 古巴・中国
+MOBILE,AL・US - 莫比尔 / 美国・中国
+MODENA・IT - 莫德纳 / 意大利・中国
+MOLDE・NO - 莫尔德 / 挪威・中国
+MALDON・GB - 莫尔登 / 英国・中国
+MOLFETTA・IT - 莫尔费塔 / 意大利・中国
+MORPHOU BAY・CY - 莫尔富湾 / 塞浦路斯・中国
+MOREHEAD CITY・US - 莫尔黑德城 / 美国・中国
+MORLAIX・FR - 莫尔莱 / 法国・中国
+MORMUGAO・IN - 莫尔穆风 / 印度・中国
+MARMAGAMO・IN - 莫尔穆冈 / 印度・中国
+PORT MORESBY・PG - 莫尔兹比港 / 巴布亚新几内亚・中国
+MORADABAD・IN - 莫拉达巴德 / 印度・中国
+PORT MORANT・JM - 莫兰特港 / 牙买加・中国
+MORELOS・MX - 莫雷洛斯  / 墨西哥・中国
+MOURILYAN・AU - 莫里扬港 / 澳大利亚・中国
+MORON・VE - 莫龙 / 委内瑞拉・中国
+MOROBE・PG - 莫罗贝 / 巴布亚新几内亚・中国
+MORRO REDONDO・MX - 莫罗雷东杜 / 墨西哥・中国
+MORONI・CO - 莫罗尼 / 科摩罗・中国
+MOMA・MO - 莫马 / 莫桑比克・中国
+MONI ANCHORAGE・CY - 莫尼安克雷奇 / 塞浦路斯・中国
+MONOPOLI・IT - 莫诺波利 / 意大利・中国
+MOSSEL BAY・ZA - 莫塞尔贝 / 南非・中国
+MOZAMBIQUE・MO - 莫桑 比克 / 莫桑比克・中国
+MOSJOEN・NO - 莫舍恩 / 挪威・中国
+MOSS・NO - 莫斯 / 挪威・中国
+MOSCOW・RU - 莫斯科 / 俄罗斯・中国
+MESTGHANEM・DZ - 莫斯塔加内姆 / 阿尔及利亚・中国
+MOSTYN・GB - 莫斯廷 / 英国・中国
+MOTRIL・ES - 莫特里尔 / 西班牙・中国
+MOVILLE・IE - 莫维尔 / 爱尔兰・中国
+MOCIMBOA・MO - 莫辛布瓦 / 莫桑比克・中国
+MOLLENDO・PE - 莫延多 / 秘鲁・中国
+MELBOURNE・AU - 墨尔本 / 澳大利亚・中国
+MUKHO・KO - 墨湖 / 韩国・中国
+MERGUI・BU - 墨吉 / 缅甸・中国
+MEXICO CITY・MX - 墨西哥城 / 墨西哥・中国
+MESSINA・IT - 墨西拿 / 意大利・中国
+MACHILIPATNAM・IN - 默吉利伯德讷姆 / 印度・中国
+MERAK・ID - 默拉克(孔雀岛) / 印度尼西亚・中国
+MYRTLE GROVE・US - 默特尔克里克 / 美国・中国
+MTWARA・TA - 姆特瓦拉 / 坦桑尼亚・中国
+KISARAZU・JP - 木更津 / 日本・中国
+MOKPO・KO - 木浦 / 韩国・中国
+MOCAMEDES・AO - 木萨米迪什 / 安哥拉・中国
+MAKIYAMA・JP - 牧山 / 日本・中国
+MUNICH・DE - 慕尼黑 / 德国・中国
+MUARA HARBOUR・NE - 穆阿拉港 / 文莱・中国
+MUBARRAS ISLAND・AE - 穆巴腊岛 / 阿联酋・中国
+MUTSAMUDU・CO - 穆察穆杜 / 科摩罗・中国
+MUDANYA・TR - 穆达尼亚 / 土耳其・中国
+PORT MULGRAVE・CA - 穆尔格拉维港 / 加拿大・中国
+MOKHA・YE - 穆哈 / 也门・中国
+MOHAMMEDIA・MA - 穆罕默迪耶 / 摩洛哥・中国
+MUKALLA・YE - 穆卡拉 / 也门・中国
+MULUND・IN - 穆兰得 / 印度・中国
+MOROMBE・MG - 穆龙贝 / 马达加斯加・中国
+MORONDAVA・MG - 穆龙达瓦 / 马达加斯加・中国
+MURUROA・FR - 穆鲁路 / 法属波利尼西亚・中国
+MUROS・ES - 穆罗斯 / 西班牙・中国
+MOTALA・SE - 穆塔拉 / 瑞典・中国
+MUTARE・ZI - 穆塔雷 / 津巴布韦・中国
+NASSAU・BA - 拿骚 / 巴哈马・中国
+NAHA・JP - 那霸 / 日本・中国
+NAPLES・IT - 那不勒斯 / 意大利・中国
+NAGPUR・IN - 那格浦尔 / 印度・中国
+NARATHIWAT・TH - 那拉提瓦 / 泰国・中国
+NHAVA SHEVA・IN - 那瓦西瓦 / 印度・中国
+NAGA・PH - 那牙 / 菲律宾・中国
+NARVA JOESUU・ES - 纳尔瓦约埃苏 / 爱沙尼亚・中国
+NARVIK・NO - 纳尔维克 / 挪威・中国
+NELSON・NZ - 纳尔逊 / 新西兰・中国
+NAVPAKTOS・GR - 纳夫帕克托斯 / 希腊・中国
+NAUPLIA・GR - 纳夫普利亚 / 希腊・中国
+NAKHODKA・RU - 纳霍德卡 / 俄罗斯・中国
+NAGAPATTINAM・IN - 纳加伯蒂讷姆 / 印度・中国
+NACALA・MO - 纳卡拉 / 莫桑比克・中国
+NACO・HN - 纳科 / 洪都拉斯・中国
+NAKSKOV・DK - 纳克斯考 / 丹麦・中国
+NARIAN MAR・RU - 纳里扬马尔 / 俄罗斯・中国
+NAMIBE・AO - 纳米比 / 安哥拉・中国
+NAMSOS・NO - 纳姆索斯 / 挪威・中国
+NANAIMO・CA - 纳奈莫 / 加拿大・中国
+NANISIVK・CA - 纳尼斯维克 / 加拿大・中国
+NARSSARSSUAQ・GL - 纳萨尔苏瓦克 / 格陵兰・中国
+NESSEBAR・BU - 纳塞巴尔 / 保加利亚・中国
+NASHVILLE,TN・US - 纳什维尔 / 美国・中国
+NASIPIT・PH - 纳斯皮特 / 菲律宾・中国
+NASUGBU・PH - 纳苏格布 / 菲律宾・中国
+NATAL・BR - 纳塔尔 / 巴西・中国
+PUERTO NATALES・CL - 纳塔莱斯港 / 智利・中国
+NAWILIWILI・PA - 纳威利威利 / 美属太平洋群岛・中国
+NAVEGANTES・BR - 纳维根特斯 / 巴西・中国
+NASIK・IN - 纳西克 / 印度・中国
+NAZARBEK・UZ - 纳扎尔别克 / 乌兹别克斯坦・中国
+NADOR・MA - 纳祖尔 / 摩洛哥・中国
+NAIRN・GB - 奈恩 / 英国・中国
+NAERSNES・NO - 奈斯内斯 / 挪威・中国
+NAESTVED・DK - 奈斯特韦磁 / 丹麦・中国
+SOUTHAMPTON・GB - 南安普顿 / 英国・中国
+NANCHITAL・MX - 南吉塔 / 墨西哥・中国
+SOUTH RIDING POINT・BA - 南里登角 / 巴哈马・中国
+SAO FRANCISCO DO SUL・BR - 南圣弗朗西斯科 / 巴西・中国
+SAN JUAN DEL SUR・NI - 南圣胡安 / 尼加拉瓜・中国
+SANTA CRUZ DEL SUR・CU - 南圣克鲁斯 / 古巴・中国
+SODERTELJE・SE - 南泰利耶 / 瑞典・中国
+NANTES・FR - 南特 / 法国・中国
+SOUTH SHIELDS ・GB - 南西尔兹 / 英国・中国
+SODERKOPING・SE - 南雪平 / 瑞典・中国
+NAANTALI・FI - 楠塔利 / 芬兰・中国
+NAVLAKHI・IN - 瑙勒基 / 印度・中国
+NAURU ISLAND・NA - 瑙鲁岛 / 瑙鲁・中国
+NAUTLA・MX - 瑙特拉 / 墨西哥・中国
+NEKSO・DK - 内克瑟 / 丹麦・中国
+NOCOCHEA・AR - 内利切阿 / 阿根廷・中国
+NAIROBI・KE - 内罗毕 / 肯尼亚・中国
+NAPIER・NZ - 内皮尔 / 新西兰・中国
+UCHIURA・JP - 内浦 / 日本・中国
+PORT NECHES・US - 内奇斯港 / 美国・中国
+NESKAUPSTADUR・IS - 内斯克伊斯塔泽 / 冰岛・中国
+NEIAFU・TO - 内亚富 / 汤加・中国
+NEA KARVALI・GR - 内亚卡瓦利 / 希腊・中国
+NOSHIRO・JP - 能代 / 日本・中国
+NYBORG・DK - 尼堡 / 丹麦・中国
+NEGOMBO・SR - 尼甘布 / 斯里兰卡・中国
+NIKOLAYEV・UK - 尼古拉耶夫 / 乌克兰・中国
+NIKISKI・US - 尼基斯基 / 美国・中国
+NICARO・CU - 尼卡罗 / 古巴・中国
+NYKOBING・DK - 尼克宾 / 丹麦・中国
+NIQUERO・CU - 尼克罗 / 古巴・中国
+NYNKASHAMN・SE - 尼奈斯港 / 瑞典・中国
+AMAGASAKI・JP - 尼崎 / 日本・中国
+NEATH・GB - 尼思 / 英国・中国
+NICE・FR - 尼斯 / 法国・中国
+NYSTAD・FI - 尼斯塔德 / 芬兰・中国
+NITEROI・BR - 尼泰罗伊 / 巴西・中国
+NEVIS・SA - 尼维斯 / 圣基茨和尼维斯・中国
+NIEUWPOORT・BE - 尼乌波特 / 比利时・中国
+NYKOPING・SE - 尼雪平 / 瑞典・中国
+NIAH・MA - 尼亚 / 马来西亚・中国
+NIAMGY・NI - 尼亚美 / 尼日尔・中国
+TOTTORI・JP - 鸟取 / 日本・中国
+USELESS LOOP・AU - 鸟塞勒斯卢普 / 澳大利亚・中国
+NEVELSK・RU - 涅韦尔斯克 / 俄罗斯・中国
+NEWBURGH・GB - 纽堡 / 英国・中国
+NEWPORT,US・US - 纽波特 / 美国・中国
+NEWPORT,EN・GB - 纽波特 / 英国・中国
+NEWPORT NEWS・US - 纽波特纽斯 / 美国・中国
+NEW HAVEN,US・US - 纽黑文 / 美国・中国
+NEW HAVEN,EN・GB - 纽黑文 / 英国・中国
+NEW CASTLE,US・US - 纽卡斯尔 / 美国・中国
+NEW CASTLE,CA・CA - 纽卡斯尔 / 加拿大・中国
+NEW CASTLE,EN・GB - 纽卡斯尔 / 英国・中国
+NEW CASTLE,AU・AU - 纽卡斯尔 / 澳大利亚・中国
+NEWRY・GB - 纽里 / 英国・中国
+NEWLYN・GB - 纽林 / 英国・中国
+NUERNBERG・DE - 纽伦堡 / 德国・中国
+NEWARK,NJ・US - 纽瓦克 / 美国・中国
+NEW YORK,NY・US - 纽约 / 美国・中国
+NUEVITAS・CU - 努埃维塔斯 / 古巴・中国
+NUKUALOFA・TO - 努库阿洛法 / 汤加・中国
+NOUMEA・NE - 努美阿 / 新喀里多尼亚・中国
+NOUADHIBOU・MA - 努瓦迪布 / 毛里塔尼亚・中国
+NOUAKCHOTT・MA - 努瓦克肖特 / 毛里塔尼亚・中国
+NORDENHAM・DE - 诺登哈姆 / 德国・中国
+NORRSUNDET・SE - 诺尔松德 / 瑞典・中国
+NORRKOPING・SE - 诺尔雪平 / 瑞典・中国
+NORFOLK,VA・US - 诺福克 / 美国・中国
+NOGLIKI・RU - 诺格利基 / 俄罗斯・中国
+NORKOEPING・SE - 诺克平 / 瑞典・中国
+NORRESUNDBY・DK - 诺勒松比 / 丹麦・中国
+NORWICH・GB - 诺里奇 / 英国・中国
+NORO・SB - 诺鲁 / 所罗门群岛・中国
+NOME・US - 诺姆 / 美国・中国
+NOMUKA ISLAND・TO - 诺穆卡岛 / 汤加・中国
+NORTH BEN・US - 诺思贝 / 美国・中国
+NORWUZ TERMINAL・IR - 诺乌兹港 / 伊朗・中国
+NEUHAUS・DE - 诺伊豪斯 / 德国・中国
+NEUSTADT・DE - 诺伊施塔特 / 德国・中国
+NEUSS・DE - 诺伊斯 / 德国・中国
+ODENSE・DK - 欧登塞 / 丹麦・中国
+EUROPOORT・NL - 欧罗波特 / 荷兰・中国
+IRVINE・GB - 欧文 / 英国・中国
+OWEN SOUND・CA - 欧文桑德 / 加拿大・中国
+LAAYOUNE・TH - 欧云 / 西撒哈拉・中国
+PAR・GB - 帕 / 英国・中国
+PUERTO PADRE・CU - 帕德雷港 / 古巴・中国
+PDSTOW・GB - 帕德斯托 / 英国・中国
+CALETA PATILLOS・CL - 帕蒂略斯 / 智利・中国
+PADOVA・IT - 帕多瓦 / 意大利・中国
+PALMA・ES - 帕尔马 / 西班牙・中国
+CAPE PALMAS・LI - 帕尔马斯角 / 利比里亚・中国
+PALMEIRA・CA - 帕尔梅拉斯 / 佛得角・中国
+PALNACKIE・GB - 帕尔纳基 / 英国・中国
+PUGWASH・CA - 帕格沃希 / 加拿大・中国
+PAGO PAGO・AM - 帕果帕果 / 美属萨摩亚・中国
+PACASMAGYO・PE - 帕卡斯马约 / 秘鲁・中国
+PARKESTON QUAY・GB - 帕克斯顿瓜伊 / 英国・中国
+PARAKOU・BE - 帕拉库 / 贝宁・中国
+PARAMARIBO・SU - 帕拉马里博 / 苏里南・中国
+PARAMONGA・PE - 帕拉蒙加 / 秘鲁・中国
+PALAMOS・ES - 帕拉莫斯 / 西班牙・中国
+PARANAM・SU - 帕拉南 / 苏里南・中国
+PARANG・PH - 帕兰 / 菲律宾・中国
+PARRY SOUND・CA - 帕里桑德 / 加拿大・中国
+PARIS・FR - 帕里斯 / 法国・中国
+PALU・ID - 帕卢 / 印度尼西亚・中国
+PALUA・VE - 帕卢亚 / 委内瑞拉・中国
+PALENQUE・DM - 帕伦克 / 多米尼加・中国
+PALO ALTO・CU - 帕洛阿尔托 / 古巴・中国
+PALOPO・ID - 帕洛波 / 印度尼西亚・中国
+PAMANUKAN・ID - 帕马努坎 / 印度尼西亚・中国
+PAMATACUAL・VE - 帕马塔克亚尔 / 委内瑞拉・中国
+PAPENBURG・DE - 帕彭堡 / 德国・中国
+PAPEETE・FR - 帕皮提 / 法属波利尼西亚・中国
+PASADENA・US - 帕萨迪纳 / 美国・中国
+PASAJES・ES - 帕萨赫斯 / 西班牙・中国
+PARRSBORO・CA - 帕斯博勒 / 加拿大・中国
+PASCAGOULA・US - 帕斯卡古拉 / 美国・中国
+PASPEBIAC・CA - 帕斯佩比亚克 / 加拿大・中国
+PASTELILLO・CU - 帕斯特利洛 / 古巴・中国
+PATAHOLM・SE - 帕塔霍尔姆 / 瑞典・中国
+PATREKSFJORD・IS - 帕特雷克峡湾 / 冰岛・中国
+PATENIEMI・FI - 帕特尼安密 / 芬兰・中国
+PARTINGTON・GB - 帕廷顿 / 英国・中国
+PASIR GUDANG・MA - 帕西古当 / 马来西亚・中国
+PARNU・ES - 派尔努 / 爱沙尼亚・中国
+PAYSANDU・UY - 派桑杜 / 乌拉圭・中国
+PAITA・PE - 派塔 / 秘鲁・中国
+PAIMPOL・FR - 潘波勒 / 法国・中国
+PAIMBOEUF・FR - 潘伯夫 / 法国・中国
+PANJIM・IN - 潘吉姆 / 印度・中国
+PANGANI・TA - 潘加尼 / 坦桑尼亚・中国
+PANJANG・ID - 潘姜 / 印度尼西亚・中国
+PAMPATAR・VE - 潘帕塔尔 / 委内瑞拉・中国
+PAMPLONA・PH - 潘普洛纳 / 菲律宾・中国
+PANGAI・TO - 庞艾 / 汤加・中国
+PANGKAL BALAM・ID - 庞卡尔 / 印度尼西亚・中国
+PANGKALAN SUSU・ID - 庞卡兰苏苏 / 印度尼西亚・中国
+PECEM・BR - 培森 / 巴西・中国
+PEDREGAL・PA - 佩德雷加尔 / 巴拿马・中国
+PERTIGALETE・VE - 佩蒂格来特 / 委内瑞拉・中国
+PAPHOS・CY - 佩福斯 / 塞浦路斯・中国
+PELOTAS・BR - 佩洛塔斯 / 巴西・中国
+KPEME・TO - 佩梅 / 多哥・中国
+PEPEL・SI - 佩佩尔 / 塞拉利昂・中国
+PESARO・IT - 佩萨罗 / 意大利・中国
+PERTH・AU - 佩斯 / 澳大利亚・中国
+PESCARA・IT - 佩斯卡拉 / 意大利・中国
+PATRAS・GR - 佩特雷 / 希腊・中国
+PATMOS ISLAND・GR - 佩特莫斯 / 希腊・中国
+BENGKULU・ID - 朋古鲁 / 印度尼西亚・中国
+PEMBA・MO - 彭巴 / 莫桑比克・中国
+PEMBROKE DOCK・GB - 彭布罗克 / 英国・中国
+PENCO・CL - 彭科 / 智利・中国
+PENRYN・GB - 彭林 / 英国・中国
+PENMAENMAWR・GB - 彭迈恩毛尔 / 英国・中国
+PENNINGTON TERMINAL・NG - 彭宁顿码头 / 尼日利亚・中国
+PENSACOLA・US - 彭萨科拉 / 美国・中国
+PUNTARENAS・CO - 彭塔雷纳斯 / 哥斯达黎加・中国
+PENZANCE・GB - 彭赞斯 / 英国・中国
+PONCE・PR - 蓬塞 / 波多黎各・中国
+PONTA DELGACLA・ES - 蓬塔德尔加达港 / 大西洋群岛・中国
+PUNTA QUILLA・AR - 蓬塔基利亚 / 阿根廷・中国
+PUERTO CARDON・VE - 篷塔卡尔东 / 委内瑞拉・中国
+POINTE A PIERRE・TR - 皮埃尔角城 / 特立尼达和多巴哥・中国
+PEEL・GB - 皮尔 / 英国・中国
+PICTON,CA・CA - 皮克顿 / 加拿大・中国
+PICTON,NZ・NZ - 皮克顿 / 新西兰・中国
+PIRAN・SL - 皮兰 / 斯洛文尼亚・中国
+PORT PIRIE・AU - 皮里港 / 澳大利亚・中国
+PILON・CU - 皮隆 / 古巴・中国
+PYLOS・GR - 皮洛斯 / 希腊・中国
+PIMENTEL・PE - 皮门特尔 / 秘鲁・中国
+PINEY POINT・US - 皮内角 / 美国・中国
+PIPAVAV・IN - 皮帕瓦沃 / 印度・中国
+PISAGUA・PE - 皮萨瓜 / 秘鲁・中国
+PISCO・PE - 皮斯科 / 秘鲁・中国
+PITHAMPUR・IN - 皮坦普尔 / 印度・中国
+PITEA・SE - 皮特奥 / 瑞典・中国
+POINTE A PITRE・GU - 皮特尔角城 / 瓜德罗普・中国
+PIOMBINO・IT - 皮翁比诺 / 意大利・中国
+PIETARSAARI・FI - 皮耶塔尔萨里 / 芬兰・中国
+PITTSBURGH,PA・US - 匹兹堡 / 美国・中国
+CHINCHWAD・IN - 平钦 / 印度・中国
+HIRAO・JP - 平生 / 日本・中国
+PYEONGTAEK ・KO - 平泽 / 韩国・中国
+PERTH,GB・GB - 珀斯 / 英国・中国
+GAMAGORI・JP - 蒲群 / 日本・中国
+PORTSMOUTH,US・US - 朴茨茅斯 / 美国・中国
+PORTSMOUTH,EN・GB - 朴次茅斯 / 英国・中国
+PORTSMOUTH,DM・DM - 朴次茅斯 / 多米尼克・中国
+PUNE PIMPRI・IN - 浦那平钦 / 印度・中国
+POHANG・KO - 浦项 / 韩国・中国
+POOLE・GB - 普尔 / 英国・中国
+PWLLHELI・GB - 普尔黑利 / 英国・中国
+PHUKET・TH - 普吉 / 泰国・中国
+PULA・CR - 普拉 / 克罗地亚・中国
+PUERTO PLATA・DM - 普拉塔港 / 多米尼加・中国
+PRAIA・ES - 普拉亚 / 大西洋群岛・中国
+PULAU BUKOM・SI - 普劳布科姆 / 新加坡・中国
+PRESTON,EN・GB - 普雷斯顿 / 英国・中国
+PRESTON,CU・CU - 普雷斯顿 / 古巴・中国
+PRESCOTT・CA - 普雷斯科特 / 加拿大・中国
+PREVEZA・GR - 普雷韦扎 / 希腊・中国
+PURI・IN - 普里 / 印度・中国
+PRIOLO・IT - 普里奥洛 / 意大利・中国
+PLYMOUTH,US・US - 普利茅斯 / 美国・中国
+PLYMOUTH,EN・GB - 普利茅斯 / 英国・中国
+PLYMOUTH,TT・TR - 普利茅斯 / 特立尼达和多巴哥・中国
+PLYMOUTH,MS・MO - 普利茅斯 / 蒙特塞拉特・中国
+PUERTO PRINCESA・PH - 普林塞萨港 / 菲律宾・中国
+PRINCIPE ISLAND・SA - 普林西比岛 / 圣多美和普林西比・中国
+PULUPANDAN・PH - 普卢潘丹 / 菲律宾・中国
+PROBOLINGGO・ID - 普罗博林戈 / 印度尼西亚・中国
+PLOVDIV・BU - 普罗夫迪夫 / 保加利亚・中国
+PROVO・TH - 普罗伏 / 特克斯和凯科斯群岛・中国
+PROGRESO・MX - 普罗格雷索 / 墨西哥・中国
+PROPRIANO・FR - 普罗普里亚诺 / 法国・中国
+PROVIDENCE・US - 普罗维登斯 / 美国・中国
+PULAU SAMBU・ID - 普苏桑布 / 印度尼西亚・中国
+SEVEN ISLANDS・CA - 七岛 / 加拿大・中国
+NANAO・JP - 七尾 / 日本・中国
+MEGA・JP - 妻鹿 / 日本・中国
+CHICAMA・PE - 奇卡马 / 秘鲁・中国
+CHIMKENT・KZ - 奇姆肯特 / 哈萨克斯坦・中国
+CHICHIRIVICHI・VE - 奇奇里维切 / 委内瑞拉・中国
+CIVITAVECCHIA・IT - 奇维塔韦基亚 / 意大利・中国
+SAKITO・JP - 崎 户 / 日本・中国
+CANAKKALE・TR - 恰纳卡莱 / 土耳其・中国
+CHIBA・JP - 千叶 / 日本・中国
+PORT GENTIL・GA - 谦蒂尔港 / 加蓬・中国
+CHANCAY・PE - 钱凯 / 秘鲁・中国
+CHAMPERICO・GU - 钱佩里科 / 危地马拉・中国
+JOBOS・PR - 乔布斯 / 波多黎各・中国
+GEORGETOWN,KY・US - 乔治敦 / 美国・中国
+GEORGETOWN,CA・CA - 乔治敦 / 加拿大・中国
+GEORGETOWN,GY・GU - 乔治敦 / 圭亚那・中国
+GEORGETOWN,VC・SA - 乔治敦 / 圣文森特和格林纳丁斯・中国
+GEORGETOWN,MY・MA - 乔治敦 / 马来西亚・中国
+CHOLOMA・HN - 桥洛马 / 洪都拉斯・中国
+CHEBOKSARY・RU - 切博克萨雷  / 俄罗斯・中国
+CHESAPEAKE CITY・US - 切萨皮克城 / 美国・中国
+CHESTER・US - 切斯特 / 美国・中国
+CHIMBOTE・PE - 钦博塔 / 秘鲁・中国
+CHINGOLA・ZA - 钦戈拉 / 赞比亚・中国
+CHENNAI・IN - 钦奈 / 印度・中国
+AOMORI・JP - 青森 / 日本・中国
+SHIMIZU・JP - 清水 / 日本・中国
+CHURCHILL・CA - 丘吉尔 / 加拿大・中国
+CHUKURSAY・UZ - 丘库尔赛 / 乌兹别克斯坦・中国
+AKITA・JP - 秋田 / 日本・中国
+IZUMISANO・JP - 泉佐野 / 日本・中国
+KUNSAN・KO - 群山 / 韩国・中国
+POINT GENTIL・ZA - 让蒂尔港 / 南非・中国
+JEREMIE・HA - 热雷米 / 海地・中国
+GENOVA・IT - 热那亚 / 意大利・中国
+ZHEZKAZGAN・KZ - 热兹卡兹甘 / 哈萨克斯坦・中国
+INCHON・KO - 仁川 / 韩国・中国
+ZHDANOV・UK - 日丹诺夫 / 乌克兰・中国
+ZHIGULEVSKOE・RU - 日股列夫斯克 / 俄罗斯・中国
+HITACHI・JP - 日立 / 日本・中国
+HITACHINAKA・JP - 日立那珂 / 日本・中国
+HIAGARI・JP - 日明 / 日本・中国
+GENEVA・SE - 日内瓦 / 瑞典・中国
+VINH・VI - 荣市 / 越南・中国
+JOHOR・MA - 柔佛 / 马来西亚・中国
+10TH OF RAMADAN CITY・EG - 瑞莫丹 / 埃及・中国
+JOAO PESSOA・BR - 若昂佩索阿 / 巴西・中国
+WAKAMATSU・JP - 若松 / 日本・中国
+SAMARCANT・UZ - 撒马尔罕 / 乌兹别克斯坦・中国
+SABA・NE - 萨巴 / 荷属安的列斯・中国
+SABARMATI・IN - 萨巴马提 / 印度・中国
+SABINE・US - 萨宾 / 美国・中国
+SUTTON BRIDGE・GB - 萨顿布里奇 / 英国・中国
+SALDANHA BAY・ZA - 萨尔达尼亚湾 / 南非・中国
+PORT SULPHUR・US - 萨尔弗港 / 美国・中国
+SARNIA・CA - 萨尔尼亚 / 加拿大・中国
+SARPSBORG・NO - 萨尔普斯堡 / 挪威・中国
+SALZBURG・AU - 萨尔斯堡 / 奥地利・中国
+PUNTA SALTACABALLO・ES - 萨尔塔卡瓦略 / 西班牙・中国
+SALT RIVER・JM - 萨尔特里弗 / 牙买加・中国
+SALVADOR・BR - 萨尔瓦多 / 巴西・中国
+SAFAGA・EG - 萨法贾 / 埃及・中国
+SAVANNAH,GA・US - 萨凡纳 / 美国・中国
+SAFI・MA - 萨菲 / 摩洛哥・中国
+ZAGREB・CR - 萨格勒布  / 克罗地亚・中国
+SAGUNTO・ES - 萨贡托 / 西班牙・中国
+SACRAMENTO・US - 萨克拉门托 / 美国・中国
+SAKSKOBING・DK - 萨克斯克宾 / 丹麦・中国
+SALAMAUA・PG - 萨拉毛亚 / 巴布亚新几内亚・中国
+PORTO SALAZAR・AO - 萨拉萨尔港 / 安哥拉・中国
+ZARATE・AR - 萨拉特 / 阿根廷・中国
+SALAVERRY・PE - 萨拉韦里 / 秘鲁・中国
+SALERNO・IT - 萨莱诺 / 意大利・中国
+SALEEF・YE - 萨利夫 / 也门・中国
+SALINA CRUZ・MX - 萨利纳克鲁斯 / 墨西哥・中国
+SALINAS・EC - 萨利纳斯 / 厄瓜多尔・中国
+SARROCH・IT - 萨罗奇 / 意大利・中国
+SULLOM VOE・GB - 萨洛姆湾 / 英国・中国
+SAMARAI・PG - 萨马赖 / 巴布亚新几内亚・中国
+SAMANA・DM - 萨马纳 / 多米尼加・中国
+SAMOS・GR - 萨摩斯岛 / 希腊・中国
+SUMMERSIDE・CA - 萨默塞德 / 加拿大・中国
+SAMSUN・TR - 萨姆松 / 土耳其・中国
+SAPELE・NG - 萨佩莱 / 尼日利亚・中国
+SACHIN・IN - 萨钦 / 印度・中国
+SASSANDRA・CI - 萨桑德 / 科特迪瓦・中国
+SAS VAN GHENT・NL - 萨斯范亨特 / 荷兰・中国
+SASKATOON・CA - 萨斯卡通 / 加拿大・中国
+SABADELL・ES - 萨瓦德尔 / 西班牙・中国
+SUAKIN・SU - 萨瓦金 / 苏丹・中国
+SAVONA・IT - 萨沃纳 / 意大利・中国
+SAVUSAVU BAY・FJ - 萨武萨武湾 / 斐济・中国
+CEIBA HUECA・CU - 塞巴胡埃萨 / 古巴・中国
+SAIPAN ISLAND・PA - 塞班岛 / 太平洋群岛・中国
+PORT SAID・EG - 塞得港 / 埃及・中国
+SELBY・GB - 塞尔比 / 英国・中国
+SEYDISFJORD・IS - 塞济斯菲厄泽 / 冰岛・中国
+SEKONDI・GH - 塞康第 / 加纳・中国
+SEJINKAT・MA - 塞克卡 / 马来西亚・中国
+SALALAH・OM - 塞拉莱 / 阿曼・中国
+SELEBI PIKWE・BO - 塞莱比-皮奎 / 博茨瓦纳・中国
+SALUM・EG - 塞卢姆 / 埃及・中国
+CERRO AZUL・PE - 塞罗阿苏尔 / 秘鲁・中国
+SAIMAA CANAL・FI - 塞马运河 / 芬兰・中国
+SEMIPALATINSK・KZ - 塞米巴拉金斯克 / 哈萨克斯坦・中国
+SENJ・CR - 塞尼 / 克罗地亚・中国
+SENIPAH TERMINAL・ID - 塞尼帕油码头 / 印度尼西亚・中国
+SEPETIBA・BR - 塞佩提巴 / 巴西・中国
+THESSALONIKI・GR - 塞萨洛尼基 / 希腊・中国
+SETE・FR - 塞特 / 法国・中国
+SETUBAL・PT - 塞图巴尔 / 葡萄牙・中国
+SEVASTOPOL・UK - 塞瓦斯托波尔 / 乌克兰・中国
+SEVILLE・ES - 塞维利亚 / 西班牙・中国
+SAUDA・NO - 赛于达 / 挪威・中国
+SEMARANG・ID - 三宝垄 / 印度尼西亚・中国
+ZAMBOANGA・PH - 三宝颜 / 菲律宾・中国
+MIIKE・JP - 三池 / 日本・中国
+MISIMA・JP - 三岛 / 日本・中国
+SAMBAS・ID - 三发 / 印度尼西亚・中国
+THREE RIVERS・CA - 三河城 / 加拿大・中国
+MISUMI・JP - 三角 / 日本・中国
+SAMARINDA・ID - 三马林达 / 印度尼西亚・中国
+MIHARA・JP - 三原 / 日本・中国
+SAMCHOK・KO - 三陟 / 韩国・中国
+MITSUKOSHIMA・JP - 三子岛 / 日本・中国
+THUNDER BAY・CA - 散德湾 / 加拿大・中国
+SAMBAVA・MG - 桑巴瓦 / 马达加斯加・中国
+SANDARNE・SE - 桑达讷 / 瑞典・中国
+SANUDERSFOOT・GB - 桑德斯富特 / 英国・中国
+SANDWICH・GB - 桑德威奇 / 英国・中国
+SANDVIKEN・SE - 桑德维肯 / 瑞典・中国
+ZANZIBAR・TA - 桑给巴尔 / 坦桑尼亚・中国
+SANKULIRANG・ID - 桑库利朗 / 印度尼西亚・中国
+SONDERBORG・DK - 桑讷堡 / 丹麦・中国
+SANDEFJORD・NO - 桑讷菲尤尔 / 挪威・中国
+SANDNES・NO - 桑内斯 / 挪威・中国
+SAMPIT・ID - 桑皮特 / 印度尼西亚・中国
+SANCHEZ・DM - 桑切斯 / 多米尼加・中国
+SANTA CRUZ・BO - 桑塔克鲁斯 / 玻利维亚・中国
+SANTANDER・ES - 桑坦德 / 西班牙・中国
+SANTOS・BR - 桑托斯 / 巴西・中国
+GENERAL SANTOS・PH - 桑托斯 / 菲律宾・中国
+SANGI・PH - 桑义 / 菲律宾・中国
+XALAPA・MX - 色拉巴 / 墨西哥・中国
+CHERBOURG・FR - 瑟堡 / 法国・中国
+SODERHAMN・SE - 瑟德港 / 瑞典・中国
+SOLVESBORG・SE - 瑟尔沃斯堡 / 瑞典・中国
+SALAYA・IN - 瑟拉亚 / 印度・中国
+SOMMERDA・DE - 瑟默达 / 德国・中国
+THURSO・GB - 瑟索 / 英国・中国
+SEMBAWANG・SI - 森巴旺 / 新加坡・中国
+SUNDERLAND・GB - 森德兰 / 英国・中国
+SHAKHTERSK・RU - 沙赫乔特斯克 / 俄罗斯・中国
+SABANG・ID - 沙璜 / 印度尼西亚・中国
+SHARJAH・AE - 沙迦 / 阿联酋・中国
+MINA SAQR・AE - 沙奎港 / 阿联酋・中国
+SALAWATI・ID - 沙拉瓦蒂 / 印度尼西亚・中国
+SANDAKAN・MA - 山打根 / 马来西亚・中国
+SANDOWAY・BU - 山多威 / 缅甸・中国
+TOMAKOMAI・JP - 苫小牧 / 日本・中国
+OGISHIMA・JP - 扇岛 / 日本・中国
+SOUTHEND・GB - 绍森德 / 英国・中国
+CHERCHELL・DZ - 舍尔沙勒 / 阿尔及利亚・中国
+CHEKKA・LE - 舍卡 / 黎巴嫩・中国
+SZCZECIN・PO - 什切青 / 波兰・中国
+KONOSHIMA・JP - 神岛 / 日本・中国
+KOBE・JP - 神户 / 日本・中国
+SAN ESTEBAN DE PRAVIA・ES - 圣埃斯特班 / 西班牙・中国
+ST.IVES・GB - 圣艾夫斯 / 英国・中国
+ST.ANDREWS・CA - 圣安德鲁斯 / 加拿大・中国
+SAN ANTONIO,TX・US - 圣安东尼奥 / 美国・中国
+SAN ANTONIO ESTE,AR・AR - 圣安东尼奥 / 阿根廷・中国
+SAN ANTONIO,CH・CL - 圣安东尼奥 / 智利・中国
+SANTANA・BR - 圣安那 / 巴西・中国
+SANTA ANA・SV - 圣安娜 / 萨尔瓦多・中国
+SANTA BARBARA・US - 圣巴巴拉 / 美国・中国
+SAO PAULO・BR - 圣保罗 / 巴西・中国
+ST PAUL,MN・US - 圣保罗-明尼苏达州 / 美国・中国
+ST.PETERSBURG・RU - 圣彼得堡 / 俄罗斯・中国
+ST.PETERSBURG,FL・US - 圣彼得堡-福罗里达州 / 美国・中国
+SAN PEDRO SULA・HN - 圣彼得苏拉 / 洪都拉斯・中国
+ST.PETER PORT・GB - 圣彼德港 / 英国・中国
+ST.BRIEUC・FR - 圣布里厄 / 法国・中国
+ST.DENIS・QA - 圣但尼 / 卡塔尔・中国
+SANTIAGO,CL・CL - 圣地亚哥 / 智利・中国
+SANTIAGO DE CUBA・CU - 圣地亚哥 / 古巴・中国
+PUERTO SANDINO・NI - 圣蒂诺港 / 尼加拉瓜・中国
+SAN DIEGO・US - 圣迭戈 / 美国・中国
+SAO TOME・SA - 圣多美 / 圣多美和普林西比・中国
+SANTO DOMINGO・DM - 圣多明各 / 多米尼加・中国
+SANTA FE・AR - 圣菲 / 阿根廷・中国
+SAN FERNANDO,TT・TR - 圣费尔南多 / 特立尼达和多巴哥・中国
+SAN FERNANDO,PH・PH - 圣费尔南多 / 菲律宾・中国
+SAN FERNANDO,SP・ES - 圣费尔南多 / 西班牙・中国
+SAN FELIU DE GUIXOLS・ES - 圣费里乌德古绍尔斯 / 西班牙・中国
+SAN FELIX・VE - 圣费利克斯 / 委内瑞拉・中国
+SAN FERNANDO,AR・AR - 圣弗尔南多 / 阿根廷・中国
+SAN JOSE・CO - 圣何塞 / 哥斯达黎加・中国
+ST.HELIER・GB - 圣赫利尔 / 英国・中国
+SAN JUAN・PR - 圣胡安 / 波多黎各・中国
+ST.KITTS・SA - 圣基茨岛 / 圣基茨和尼维斯・中国
+SAN CARLOS,PH・PH - 圣卡洛斯 / 菲律宾・中国
+SAN CARLOS,SP・ES - 圣卡洛斯 / 西班牙・中国
+SANTA LUCIA・CU - 圣卡西亚 / 古巴・中国
+ST.CATHERINES・CA - 圣凯瑟琳斯 / 加拿大・中国
+SANTA CRUZ,US・US - 圣克鲁斯 / 美国・中国
+SANTA CRUZ,AR・AR - 圣克鲁斯 / 阿根廷・中国
+SANTA CRUZ,PH・PH - 圣克鲁斯 / 菲律宾・中国
+SANTA CRUZ(PALMA）・ES - 圣克鲁斯 / 大西洋群岛・中国
+ST.CRUZ DE TENERIFE・ES - 圣克鲁斯-德特内里偻 / 西班牙・中国
+SANTO CRUZ・DM - 圣克鲁兹 / 多米尼加・中国
+ST.LAWRENCE・CA - 圣劳伦斯 / 加拿大・中国
+SAN REMO・IT - 圣雷莫 / 意大利・中国
+ST.LOUIS・QA - 圣路易 / 卡塔尔・中国
+ST.LOUIS DU RHONE・FR - 圣路易罗纳 / 法国・中国
+ST.LOUIS・US - 圣路易斯 / 美国・中国
+SAO LUIZ DE MARANHAO・BR - 圣路易斯 / 巴西・中国
+SAN LOUIS POTOSI・MX - 圣路易斯波托西 / 墨西哥・中国
+PORT SAN LUIS・US - 圣路易斯港 / 美国・中国
+SANTA ROSALIA・MX - 圣罗萨利亚 / 墨西哥・中国
+AGHIOS LOANNIS・GR - 圣洛安尼斯 / 希腊・中国
+SAN LPRENZ0・AR - 圣洛伦索 / 阿根廷・中国
+SAN LORENZO,HN・HN - 圣洛伦索 / 洪都拉斯・中国
+GENERAL SAN MARTIN・PE - 圣马丁将军镇 / 秘鲁・中国
+ST.MARC・HA - 圣马克 / 海地・中国
+PORT ST.MARY・GB - 圣马里港 / 英国・中国
+ST.MALO・FR - 圣马洛 / 法国・中国
+SANTA MARTA・CO - 圣玛尔塔 / 哥伦比亚・中国
+PORT SANTA MARIA・PH - 圣玛丽亚港 / 菲律宾・中国
+ST.NAZAIRE・FR - 圣纳泽尔 / 法国・中国
+AGHIOS NIKOLAOS・GR - 圣尼古拉奥斯 / 希腊・中国
+SAN NICOLAS,AR・AR - 圣尼古拉斯 / 阿根廷・中国
+SAN NICOLAS,PE・PE - 圣尼古拉斯 / 秘鲁・中国
+SAN NICOLAS PAY・NE - 圣尼古拉斯湾 / 荷属安的列斯・中国
+SAN PEDRO DE MACORIS・DM - 圣佩得罗德马科里斯 / 多米尼加・中国
+SAN PEDRO，USA・US - 圣佩德罗 / 美国・中国
+SAN PEDRO,AR・AR - 圣佩德罗 / 阿根廷・中国
+SAN PEDRO,MZ・MO - 圣佩德罗 / 莫桑比克・中国
+SAN PERDRO・CI - 圣佩德罗 / 科特迪瓦・中国
+ST.PIERRE・ST - 圣皮埃尔 / 圣皮埃尔和密克隆・中国
+PORT ST.JOE・US - 圣乔港 / 美国・中国
+ST.GEORGE・GR - 圣乔治 / 格林纳达・中国
+ST.JEAN DE LUZ・FR - 圣让德吕兹 / 法国・中国
+SAN SALVADOR・SV - 圣萨尔瓦多 / 萨尔瓦多・中国
+SAO SEBASTIAO・BR - 圣塞巴斯蒂昂 / 巴西・中国
+AGIOI THEODOROI・GR - 圣塞多罗伊 / 希腊・中国
+ST.SERVAN・FR - 圣塞尔旺 / 法国・中国
+SAN SEBASTIAN BAY・AR - 圣塞瓦斯蒂安 / 阿根廷・中国
+SAN SEBASTIAN・ES - 圣塞瓦斯蒂安 / 西班牙・中国
+SANTAREM・BR - 圣塔伦 / 巴西・中国
+SANTAN TERMINAL・ID - 圣坦油码头 / 印度尼西亚・中国
+SANTO TOMAS DE CASTILLA・GU - 圣托马斯 / 危地马拉・中国
+ST.THOMAS・TH - 圣托马斯 / 美属维尔京群岛・中国
+SANTO TOMAS DE CASTILIA・GU - 圣托马斯德卡斯蒂利亚 / 危地马拉・中国
+SANTO TOMAS MILPAS ALTAS・GU - 圣托马斯米帕斯尔塔斯 / 危地马拉・中国
+PORTO SANTO STEFANO・IT - 圣托斯特凡诺港 / 意大利・中国
+ST.VALERY SUR SOMME・FR - 圣瓦莱里昂科 / 法国・中国
+ST.VALERY EN CAUX・FR - 圣瓦勒利 / 法国・中国
+SAN VICENTE・CL - 圣文森特 / 智利・中国
+ST.VINCENT・SA - 圣文森特 / 圣文森特和格林纳丁斯・中国
+SAN CIPRIAN・ES - 圣西普里安 / 西班牙・中国
+CHRISTMAS ISLAND・KI - 圣延岛 / 基里巴斯・中国
+SAINT JOHN・CA - 圣约翰 / 加拿大・中国
+ST. JOHNS・AN - 圣约翰斯 / 安提瓜和巴布达・中国
+SHINSAKI・JP - 师崎 / 日本・中国
+SERIA・NE - 诗里亚 / 文莱・中国
+STADE・DE - 施塔德 / 德国・中国
+STADERSAND・DE - 施塔德桑德 / 德国・中国
+SHCWARZENHUTTEN・DE - 施瓦芩郝廷 / 德国・中国
+TOKACHI・JP - 十胜 / 日本・中国
+6TH OF OCTOBER・EG - 十月六号港 / 埃及・中国
+OKTYJABRJISKI・RU - 十月市 / 俄罗斯・中国
+ISHINOMAKI・JP - 石卷 / 日本・中国
+SHINKO・JP - 石狩 / 日本・中国
+ISHIGAKI・JP - 石垣 / 日本・中国
+AKYAB・BU - 实兑 / 缅甸・中国
+SIBOLGA・ID - 实武牙 / 印度尼西亚・中国
+SHIKAMA・JP - 饰磨 / 日本・中国
+SIRACHA・TH - 是拉差 / 泰国・中国
+MURORAN・JP - 室兰 / 日本・中国
+SEOUL・KO - 首尔 / 韩国・中国
+SHUAIBA・KU - 舒艾拜 / 科威特・中国
+SHUWAIKH・KU - 舒韦赫 / 科威特・中国
+SUNGEI GERONG・ID - 双溪格龙 / 印度尼西亚・中国
+SUNGEI KOLAK・ID - 双溪克拉克 / 印度尼西亚・中国
+SUNGEI MUAR・MA - 双溪麻坡 / 马来西亚・中国
+MIZUSHIMA・JP - 水岛 / 日本・中国
+MINAMATA・JP - 水俣 / 日本・中国
+HUE・VI - 顺化 / 越南・中国
+STRUER・DK - 斯楚厄 / 丹麦・中国
+STOCKHOLM・SE - 斯德哥尔摩 / 瑞典・中国
+STEPHENVILLE・CA - 斯蒂芬维尔 / 加拿大・中国
+SFAX・TN - 斯法克斯 / 突尼斯・中国
+SCHEVENINGEN・NL - 斯海费宁恩 / 荷兰・中国
+SKIKDA・DZ - 斯基克达 / 阿尔及利亚・中国
+SKIVE・DK - 斯基沃 / 丹麦・中国
+SCARBOROUGH・TR - 斯卡伯勒 / 特立尼达和多巴哥・中国
+SKADOVSK・UK - 斯卡多夫斯克 / 乌克兰・中国
+SKAGEN・DK - 斯卡恩 / 丹麦・中国
+SCHULL・IE - 斯卡尔 / 爱尔兰・中国
+SKAGWAY・US - 斯卡圭 / 美国・中国
+SKAGASTROND・IS - 斯卡加斯特伦 / 冰岛・中国
+SCALLOWAY・GB - 斯卡洛韦 / 英国・中国
+SCAPA FLOW・GB - 斯卡帕伯勒 / 英国・中国
+SKAERBAEK・DK - 斯凯拜克 / 丹麦・中国
+SKAELSKOR・DK - 斯凯尔克 / 丹麦・中国
+SKOPELOS・GR - 斯科派洛斯 / 希腊・中国
+SKOPJE・MA - 斯科普里 / 马其顿・中国
+SCRABSTER・GB - 斯克拉布斯特 / 英国・中国
+SKREDSVIK・SE - 斯克雷特维克 / 瑞典・中国
+SKOGHALL・SE - 斯库格哈尔 / 瑞典・中国
+SKURU・FI - 斯库卢 / 芬兰・中国
+PORTOSCUSO・IT - 斯库索港 / 意大利・中国
+SQUAMISH・CA - 斯阔米什 / 加拿大・中国
+SLAGEN・NO - 斯拉根 / 挪威・中国
+SLIGO・IE - 斯莱戈 / 爱尔兰・中国
+SLUISKIL・NL - 斯勒伊斯基尔 / 荷兰・中国
+BANDAR SERI BEGAWAN・NE - 斯里巴加湾港 / 文莱・中国
+SLITE・SE - 斯利特 / 瑞典・中国
+SMALKALDEN・SU - 斯马卡尔登 / 苏里南・中国
+SPLIT・CR - 斯普利特 / 克罗地亚・中国
+SPRINGDALE・CA - 斯普林代尔 / 加拿大・中国
+SKUDENESHAVN・NO - 斯屈德内斯港 / 挪威・中国
+SKUTSKAR・SE - 斯屈特谢尔 / 瑞典・中国
+CASTELLAMMARE DI STABIA・IT - 斯塔比亚海堡 / 意大利・中国
+STAVANGER・NO - 斯塔万格 / 挪威・中国
+STEGE・DK - 斯泰厄 / 丹麦・中国
+STEINKJER・NO - 斯泰恩谢尔 / 挪威・中国
+STENUNGSUND・SE - 斯泰农松德 / 瑞典・中国
+STENHOUSE BAY・AU - 斯坦豪斯湾 / 澳大利亚・中国
+STANLEY,AU・AU - 斯坦利 / 澳大利亚・中国
+STANLOW・GB - 斯坦洛 / 英国・中国
+STANLEY・MA - 斯坦斯 / 马尔维纳斯・中国
+PORT STANVAC・AU - 斯坦瓦克港 / 澳大利亚・中国
+STRAHAN・AU - 斯特拉恩 / 澳大利亚・中国
+STRALSUND・DE - 斯特拉尔松 / 德国・中国
+STRASBOURG・FR - 斯特拉斯堡 / 法国・中国
+STRATONI・GR - 斯特拉托尼 / 希腊・中国
+STRANGFORD・GB - 斯特兰福德 / 英国・中国
+STRANRAER・GB - 斯特兰拉尔 / 英国・中国
+STRANGNAS・SE - 斯特兰奈斯 / 瑞典・中国
+STRAUMSVIK・IS - 斯特勒伊姆维克 / 冰岛・中国
+STROMSTAD・SE - 斯特伦斯塔德 / 瑞典・中国
+STROMNESS・GB - 斯特罗姆内斯 / 英国・中国
+STONEHAVEN・GB - 斯通黑文 / 英国・中国
+STUBBEKOBING・DK - 斯图德斯特鲁普 / 丹麦・中国
+STEWART・CA - 斯图尔特 / 加拿大・中国
+STUGSUND・SE - 斯图格松德 / 瑞典・中国
+STUTTGART・DE - 斯图加特 / 德国・中国
+STORUGNS・SE - 斯图龙恩斯 / 瑞典・中国
+STOCKPORT・GB - 斯托克波特 / 英国・中国
+STOCKTON,US・US - 斯托克顿 / 美国・中国
+STOCKTON,EN・GB - 斯托克顿 / 英国・中国
+STORNOWAY・GB - 斯托诺韦 / 英国・中国
+SVELVIK・NO - 斯瓦尔维克 / 挪威・中国
+STVANEKE・DK - 斯瓦讷克 / 丹麦・中国
+SWANSEA・GB - 斯旺西 / 英国・中国
+SVELGEN・NO - 斯韦尔根 / 挪威・中国
+SVETLAYA RIVER・RU - 斯伟特拉亚河 / 俄罗斯・中国
+SVENDBORG・DK - 斯文堡 / 丹麦・中国
+SVOLVAER・NO - 斯沃尔韦尔 / 挪威・中国
+SCHIEDAM・NL - 斯希丹 / 荷兰・中国
+YOTUKURA・JP - 四仓 / 日本・中国
+YOKKAICHI・JP - 四日市 / 日本・中国
+SARIKEI・MA - 泗里奎 / 马来西亚・中国
+SURABAYA・ID - 泗水 / 印度尼西亚・中国
+SIBU・MA - 泗务 / 马来西亚・中国
+MATUZAKA・JP - 松坂 / 日本・中国
+MATSUYAMA・JP - 松山 / 日本・中国
+MATSUNAGA・JP - 松永 / 日本・中国
+SUNDSVALL・SE - 松兹瓦尔 / 瑞典・中国
+SONGKHLA・TH - 宋卡 / 泰国・中国
+SUAPE・BR - 苏阿普 / 巴西・中国
+SUAO・TA - 苏澳 / 中国台湾・中国
+SUBIC BAY・PH - 苏比克 / 菲律宾・中国
+SUDA BAY・GR - 苏达湾 / 希腊・中国
+PORT SUDAN・SU - 苏丹港 / 苏丹・中国
+SEWARD・US - 苏厄德 / 美国・中国
+SOUR・LE - 苏尔 / 黎巴嫩・中国
+SOUFRIERE・SA - 苏弗里耶尔 / 圣卢西亚・中国
+SOKHNA・EG - 苏科纳 / 埃及・中国
+SUCRE・BO - 苏克雷 / 玻利维亚・中国
+SUKKERTOPPEN・GL - 苏克托彭 / 格陵兰・中国
+SURAJPUR・IN - 苏拉吉普尔 / 印度・中国
+SURAT・IN - 苏拉特 / 印度・中国
+ZURICH・SE - 苏黎世 / 瑞典・中国
+SURIGAO・PH - 苏里高 / 菲律宾・中国
+SOURIS・CA - 苏里斯 / 加拿大・中国
+SULINA・RO - 苏利纳 / 罗马尼亚・中国
+SUPE・PE - 苏佩 / 秘鲁・中国
+SUSA・TN - 苏萨 / 突尼斯・中国
+SAULT STE.MARIE(MICH.・CA - 苏圣马丽 / 加拿大・中国
+SUVA・FJ - 苏瓦 / 斐济・中国
+SOVETSKAYA GAVAN・RU - 苏维埃港 / 俄罗斯・中国
+SUEZ・EG - 苏伊士 / 埃及・中国
+SUNNDALSORA・NO - 孙达尔瑟拉 / 挪威・中国
+SATTAHIP・TH - 梭桃邑 / 泰国・中国
+SODERTALJE・SE - 索德塔尔杰 / 瑞典・中国
+SOFIA ・BU - 索非亚 / 保加利亚・中国
+SOHAR・OM - 索哈 / 阿曼・中国
+SOCOTRA ISLAND・YE - 索科特拉岛 / 也门・中国
+SOREL・CA - 索雷尔 / 加拿大・中国
+SOLLER・ES - 索列尔 / 西班牙・中国
+SOLINGEN・DE - 索林根 / 德国・中国
+SORONG・ID - 索龙 / 印度尼西亚・中国
+THOROLD・CA - 索罗尔德 / 加拿大・中国
+SOCHI・RU - 索契 / 俄罗斯・中国
+SOSDI・EG - 索思迪 / 埃及・中国
+SORSOGON・PH - 索索贡 / 菲律宾・中国
+ESSAOUIRA・MA - 索维拉 / 摩洛哥・中国
+TARTOUS・SY - 他图斯 / 叙利亚・中国
+TAGBILARAN・PH - 塔比拉兰 / 菲律宾・中国
+TARBERT・GB - 塔伯特 / 英国・中国
+TABOU・CI - 塔布 / 科特迪瓦・中国
+TADOUSSAC・CA - 塔杜萨克 / 加拿大・中国
+PORT TALBOT・GB - 塔尔伯特港 / 英国・中国
+TALDYKORGAN・KZ - 塔尔迪库尔干 / 哈萨克斯坦・中国
+TARFAYA・MA - 塔尔法亚 / 摩洛哥・中国
+TALCAHUANO・CL - 塔尔卡瓦诺 / 智利・中国
+TALTAL・CL - 塔尔塔尔 / 智利・中国
+TARTUS ・SY - 塔尔图斯 / 叙利亚・中国
+TAGANROG・RU - 塔甘罗格 / 俄罗斯・中国
+TAKORADI・GH - 塔科拉迪 / 加纳・中国
+TACOMA,WA・US - 塔科马 / 美国・中国
+TACONITE HARBOUR・US - 塔科尼特港 / 美国・中国
+TACLOBAN・PH - 塔克洛班 / 菲律宾・中国
+PUERTO TARAFA・CU - 塔拉法港 / 古巴・中国
+TARRAGONA・ES - 塔拉戈纳 / 西班牙・中国
+TALARA・PE - 塔拉拉 / 秘鲁・中国
+TALAMONE・IT - 塔拉莫内 / 意大利・中国
+TARAWA ISLAND・KI - 塔拉瓦岛 / 基里巴斯・中国
+TARANTO・IT - 塔兰托 / 意大利・中国
+TALLINN・ES - 塔林 / 爱沙尼亚・中国
+TAMATAVE・MG - 塔马塔夫 / 马达加斯加・中国
+TAMMISAARI・FI - 塔米萨里 / 芬兰・中国
+THAMSHAMN・NO - 塔姆港 / 挪威・中国
+TANAMO・CU - 塔纳莫 / 古巴・中国
+TANANGER・NO - 塔南厄尔 / 挪威・中国
+TASHKENT・KZ - 塔什干 / 哈萨克斯坦・中国
+TASUCU・TR - 塔舒朱 / 土耳其・中国
+TABACO・PH - 塔瓦科 / 菲律宾・中国
+TOU・NO - 塔乌 / 挪威・中国
+TAIPEI・TA - 台北 / 中国台湾・中国
+DAEPORI・KO - 台普 / 韩国・中国
+TAICHUNG・TA - 台中 / 中国台湾・中国
+TYNE DOCK・GB - 太恩港 / 英国・中国
+PORT AU PRINCE・HA - 太子港 / 海地・中国
+TERNEUZEN・NL - 泰尔讷曾 / 荷兰・中国
+THEVENARD・AU - 泰弗纳德 / 澳大利亚・中国
+TEKIRDAG・TR - 泰基尔达 / 土耳其・中国
+THAMESPORT・GB - 泰晤士港  / 英国・中国
+THAMES・NZ - 泰晤士河 / 新西兰・中国
+TAMBO DE MORA・PE - 坦博-德莫拉 / 秘鲁・中国
+TANGA・TA - 坦噶 / 坦桑尼亚・中国
+TAMPA,FL・US - 坦帕 / 美国・中国
+TAMPICO・MX - 坦皮科 / 墨西哥・中国
+PORT TOWNSEND・US - 汤森港 / 美国・中国
+PORT TOWNSEND・US - 汤森港 / 美国・中国
+KARATSU・JP - 唐津 / 日本・中国
+DONALDSONVILLE・US - 唐纳森维尔 / 美国・中国
+TAOYUAN・TA - 桃园 / 中国台湾・中国
+PORT TEWFIK・EG - 陶菲克港 / 埃及・中国
+TAURANGA・NZ - 陶兰加 / 新西兰・中国
+TERPORT・UY - 特尔港 / 巴拉圭・中国
+TEGUCIGALPA ・HN - 特古西加尔巴  / 洪都拉斯・中国
+TELA・HN - 特拉 / 洪都拉斯・中国
+TRABZON・TR - 特拉布宗 / 土耳其・中国
+TRALEE・IE - 特拉利 / 爱尔兰・中国
+TRAMANDAI・BR - 特拉曼达伊 / 巴西・中国
+TRAPANI・IT - 特拉帕尼 / 意大利・中国
+TEL AVIV・IL - 特拉维夫 / 以色列・中国
+TRANGISVAAG・FA - 特朗斯瓦格 / 法罗群岛・中国
+TORE・SE - 特勒 / 瑞典・中国
+TREPORT・FR - 特雷波特 / 法国・中国
+TREGUIER・FR - 特雷吉耶 / 法国・中国
+TRELLEBORG・SE - 特雷勒堡 / 瑞典・中国
+TRIVANDRUM・IN - 特里凡得浪 / 印度・中国
+TRINITE・MA - 特里尼泰 / 马提尼克（法属）・中国
+TROMBETAS・BR - 特龙贝塔斯 / 巴西・中国
+TRONDHEIM・NO - 特隆赫姆 / 挪威・中国
+TRUK ISLAND・PA - 特鲁克群岛 / 太平洋群岛・中国
+TRURO・GB - 特鲁罗 / 英国・中国
+TROUVILLE・FR - 特鲁维尔 / 法国・中国
+TRUJILLO・HN - 特鲁希略 / 洪都拉斯・中国
+TROON・GB - 特伦 / 英国・中国
+TRENTON・US - 特伦顿 / 美国・中国
+TROLLHATTAN・SE - 特罗尔海坦 / 瑞典・中国
+TRAVEMUNDE・DE - 特罗弗明德 / 德国・中国
+TROMSO・NO - 特罗姆瑟 / 挪威・中国
+TELOK RAMUNIA・MA - 特洛拉穆尼亚 / 马来西亚・中国
+TEMA・GH - 特马 / 加纳・中国
+TETNEY TERMINAL・GB - 特奈特米纳尔 / 英国・中国
+TENERIFE・ES - 特内里费  / 西班牙・中国
+DESTREHAN・US - 特斯特汉 / 美国・中国
+TVOROYRI・FA - 特瓦罗伊里 / 法罗群岛・中国
+TWILLINGATE・CA - 特威林盖特 / 加拿大・中国
+TVEDESTRAND・NO - 特维德斯特兰德 / 挪威・中国
+TEMBLADORA・TR - 腾布拉多腊 / 特立尼达和多巴哥・中国
+TENBY・GB - 滕比 / 英国・中国
+TONNING・DE - 滕宁 / 德国・中国
+TONSBERG・NO - 滕斯贝格 / 挪威・中国
+TIKO・CA - 提科 / 喀麦隆・中国
+TENES・DZ - 提奈斯 / 阿尔及利亚・中国
+TINIAN ISLAND・PA - 提尼安岛 / 太平洋群岛・中国
+TISTED・DK - 提斯特德 / 丹麦・中国
+TEESPORT・GB - 提兹港 / 英国・中国
+KANDA・JP - 田 / 日本・中国
+TANABE・JP - 田边 / 日本・中国
+TAGONOURA・JP - 田子浦 / 日本・中国
+TIN CAN・NG - 廷坎 / 尼日利亚・中国
+TEIGNMOUTH・GB - 廷茅斯 / 英国・中国
+TRINCOMALEE・SR - 亭可马里 / 斯里兰卡・中国
+TUMPAT・MA - 通北 / 马来西亚・中国
+COPPERBELT・ZA - 铜带 / 赞比亚・中国
+VUNG TAU・VI - 头顿 / 越南・中国
+TUNIS・TU - 突尼斯 / 突尼斯・中国
+TUNADAL・SE - 突亚多尔 / 瑞典・中国
+TOAMASINA・MG - 图阿马西纳 / 马达加斯加・中国
+TUAPSE・RU - 图阿普谢 / 俄罗斯・中国
+TUBARAO・BR - 图巴朗 / 巴西・中国
+TUBAN・ID - 图班 / 印度尼西亚・中国
+TUBORG HAVN・DK - 图堡港 / 丹麦・中国
+TOBRUK・LY - 图卜鲁格 / 利比亚・中国
+TURKU・FI - 图尔库 / 芬兰・中国
+TULCEA・RO - 图耳恰 / 罗马尼亚・中国
+TUCACAS・VE - 图卡卡斯 / 委内瑞拉・中国
+TULAGI・SB - 图拉吉 / 所罗门群岛・中国
+TULEAR・MG - 图莱亚尔 / 马达加斯加・中国
+TURIAMO・VE - 图里亚莫 / 委内瑞拉・中国
+TUMACO・CO - 图马科 / 哥伦比亚・中国
+TUNAS DE ZAZA・CU - 图纳斯德萨萨 / 古巴・中国
+TUXPAN・MX - 图斯潘 / 墨西哥・中国
+TUTUNCIFTLIK・TR - 图吞西夫特利克 / 土耳其・中国
+TURKMENBASHI・TM - 土库曼巴什 / 土库曼斯坦・中国
+TOULON・FR - 土伦 / 法国・中国
+TAVOY・BU - 土瓦 / 缅甸・中国
+TOPPILA・FI - 托比拉 / 芬兰・中国
+TOPOLOBAMPO・MX - 托波洛班波 / 墨西哥・中国
+TOBERMORY・GB - 托伯莫里 / 英国・中国
+TORNIO・FI - 托尔尼奥 / 芬兰・中国
+THORSHAVN・FA - 托尔斯港 / 法罗群岛・中国
+TORTOLA・TH - 托尔托拉 / 英属维尔京群岛・中国
+TOFTEN・NO - 托夫特 / 挪威・中国
+TORQUAY・GB - 托基 / 英国・中国
+TOIKIS・FI - 托基斯 / 芬兰・中国
+TOCOPILLA・CL - 托科皮亚 / 智利・中国
+TOLAGNARO・MG - 托拉纳罗 / 马达加斯加・中国
+TOLEDO・US - 托莱多 / 美国・中国
+TANDOC・PH - 托莱多 / 菲律宾・中国
+TORRE ANNUNZIATA・IT - 托雷安农齐亚塔 / 意大利・中国
+TORRE DEL GRECO・IT - 托雷德尔格雷科 / 意大利・中国
+PORTO TORRES・IT - 托雷斯港 / 意大利・中国
+TORREVIEJA・ES - 托雷维耶哈 / 西班牙・中国
+TOLI TOLI・ID - 托利托利 / 印度尼西亚・中国
+TOLUCA・MX - 托卢卡 / 墨西哥・中国
+TOME・CL - 托梅 / 智利・中国
+TONNAY CHARENTE・FR - 托内沙朗特 / 法国・中国
+TOPSHAM・GB - 托普瑟姆 / 英国・中国
+TOTNES・GB - 托特尼斯 / 英国・中国
+VEJLE・DK - 瓦埃勒 / 丹麦・中国
+WABANA・CA - 瓦伯兰 / 加拿大・中国
+VADSO・NO - 瓦德瑟 / 挪威・中国
+WADI FEIRAN・EG - 瓦迪费兰 / 埃及・中国
+VARBERG・SE - 瓦尔贝里 / 瑞典・中国
+VALDEMARSVIK・SE - 瓦尔德马会维克 / 瑞典・中国
+VALDIVIA・CL - 瓦尔迪维亚 / 智利・中国
+VALDEZ・US - 瓦尔迪兹 / 美国・中国
+WALLHAMN・SE - 瓦尔港 / 瑞典・中国
+WALKOM・FI - 瓦尔卡姆 / 芬兰・中国
+HUARMEY・PE - 瓦尔梅 / 秘鲁・中国
+VARNA・BU - 瓦尔纳 / 保加利亚・中国
+WARNEMUNDE・DE - 瓦尔内明德 / 德国・中国
+VAL PARAISO・CL - 瓦尔帕莱索 / 智利・中国
+VAAG・FA - 瓦格 / 法罗群岛・中国
+WAHRAN・DZ - 瓦赫兰 / 阿尔及利亚・中国
+WAGENINGEN・SU - 瓦黑宁恩 / 苏里南・中国
+OUAGADOUGOU・BU - 瓦加杜古 / 布基纳法索・中国
+WAIJA・SE - 瓦贾 / 瑞典・中国
+OAXEN・SE - 瓦克森 / 瑞典・中国
+VAKSDAL・NO - 瓦克斯达尔 / 挪威・中国
+VALLETTA・MA - 瓦莱塔 / 马耳他・中国
+WARRI・NG - 瓦里 / 尼日利亚・中国
+VALLEYFIELD・CA - 瓦利菲尔德 / 加拿大・中国
+VALENCIA・ES - 瓦伦西亚 / 西班牙・中国
+VAPI・IN - 瓦皮 / 印度・中国
+HUACHO・PE - 瓦乔 / 秘鲁・中国
+VAASA・FI - 瓦萨 / 芬兰・中国
+HUASCO・CL - 瓦斯科 / 智利・中国
+VASKILUOTO・FI - 瓦斯克尔良托 / 芬兰・中国
+VASTO・IT - 瓦斯托 / 意大利・中国
+WATSON ISLAND・CA - 瓦特逊岛 / 加拿大・中国
+VATIA POINT・FJ - 瓦提亚角 / 斐济・中国
+VASSILIKO BAY・CY - 瓦西利科湾 / 塞浦路斯・中国
+PORT VATHY・GR - 瓦锡港 / 希腊・中国
+MARUGAME・JP - 丸龟 / 日本・中国
+VANGA・KE - 万加 / 肯尼亚・中国
+BANDUNG・ID - 万隆 / 印度尼西亚・中国
+VIENTIANE・LA - 万象 / 老挝・中国
+MENADO・ID - 万鸦老 / 印度尼西亚・中国
+ABOSHI・JP - 网干 / 日本・中国
+ABASHIRI・JP - 网走 / 日本・中国
+WHANGAREI・NZ - 旺阿雷 / 新西兰・中国
+PORT VENDRES・FR - 旺德尔港 / 法国・中国
+WANGANUI・NZ - 旺加努伊 / 新西兰・中国
+BENGKALIS・ID - 望加丽 / 印度尼西亚・中国
+GUATEMALA CITY・GU - 危地马拉城 / 危地马拉・中国
+WILMINGTON,NC・US - 威尔明顿 / 美国・中国
+WILMER,TX・US - 威尔默 / 美国・中国
+WEEHAWKEN・US - 威霍肯 / 美国・中国
+WICK・GB - 威克 / 英国・中国
+WICKLOW・IE - 威克洛 / 爱尔兰・中国
+WILLAPA・US - 威拉帕 / 美国・中国
+PORT WELLER・CA - 威莱尔港 / 加拿大・中国
+WELLAND・CA - 威兰 / 加拿大・中国
+WILHELMSHAVEN，DE・DE - 威廉港 / 德国・中国
+PORT WILLIAM, EN・GB - 威廉港 / 英国・中国
+WILHELMSBURG・DE - 威廉斯堡 / 德国・中国
+WILLEMSTAD・NE - 威廉斯塔德 / 荷属安的列斯・中国
+WISBECH・GB - 威斯贝奇 / 英国・中国
+WEWAK・PG - 威瓦克 / 巴布亚新几内亚・中国
+VERDON・FR - 韦尔东 / 法国・中国
+WELLS・GB - 韦尔斯 / 英国・中国
+HUELVA・ES - 韦尔瓦 / 西班牙・中国
+WAVERLEY HARBOUR・NZ - 韦弗利港 / 新西兰・中国
+PORTO VECCHIO・FR - 韦基奥港 / 法国・中国
+WEXFORD・IE - 韦克斯福德 / 爱尔兰・中国
+VERACRUZ・MX - 韦拉克鲁斯 / 墨西哥・中国
+VERAVAL・IN - 韦拉沃尔 / 印度・中国
+WEYMOUTH・GB - 韦茅斯 / 英国・中国
+WEYMOUTH,CA・CA - 韦默思 / 加拿大・中国
+WEIPA・AU - 韦帕 / 澳大利亚・中国
+WESTON・MA - 韦斯顿 / 马来西亚・中国
+PORTO VESME・IT - 韦斯梅港 / 意大利・中国
+WESTRAY・GB - 韦斯特雷 / 英国・中国
+VESTMANN ISLANDS・IS - 韦斯特曼纳岛 / 冰岛・中国
+VESTMANHAVN・FA - 韦斯特门港 / 法罗群岛・中国
+WESTOPORT・NZ - 韦斯特皮特 / 新西兰・中国
+WESTERVIK・SE - 韦斯特维克 / 瑞典・中国
+VAITAPE・FR - 韦他佩 / 法属波利尼西亚・中国
+VYBORG・RU - 维堡 / 俄罗斯・中国
+VICTORIA,CA・CA - 维多利亚 / 加拿大・中国
+VITORIA,BR・BR - 维多利亚 / 巴西・中国
+VICTORIA,CM・CA - 维多利亚 / 喀麦隆・中国
+VICTORIA,GN・GU - 维多利亚 / 几内亚・中国
+VICTORIA,SC・SE - 维多利亚港 / 塞舌尔・中国
+VICTORIA POINT・BU - 维多利亚角 / 缅甸・中国
+VILNIUS・LI - 维尔纽斯 / 立陶宛・中国
+VIFSTAVARF・SE - 维弗斯塔瓦夫 / 瑞典・中国
+VIGO・ES - 维哥 / 西班牙・中国
+VILA DO CONDE・BR - 维拉多康德 / 巴西・中国
+PORT VILA・VA - 维拉港 / 瓦努阿图・中国
+VILLANUEVA・PH - 维拉努埃瓦 / 菲律宾・中国
+VILLETA・UY - 维拉塔 / 巴拉圭・中国
+VILLANUEVA,HN・HN - 维兰纽瓦 / 洪都拉斯・中国
+VILLAGARCIA・ES - 维利亚加西 / 西班牙・中国
+VISAKHAPATNAM・IN - 维沙卡帕特南 / 印度・中国
+VISBY・SE - 维斯比 / 瑞典・中国
+WISMAR・DE - 维斯马 / 德国・中国
+VESTERAS・SE - 维斯特拉斯 / 瑞典・中国
+VYSOTSK・RU - 维索茨克 / 俄罗斯・中国
+VITA・CU - 维塔 / 古巴・中国
+VIAREGGIO・IT - 维亚雷焦 / 意大利・中国
+VIANA DO CASTELO・PT - 维亚纳堡 / 葡萄牙・中国
+VIENNA・AU - 维也纳 / 奥地利・中国
+VIEUX FORT・SA - 维约堡 / 圣卢西亚・中国
+ONOMICHI・JP - 尾道 / 日本・中国
+OWASE・JP - 尾鹫 / 日本・中国
+VEITSILUOTO・FI - 卫特什露土 / 芬兰・中国
+ULSAN・KO - 蔚山 / 韩国・中国
+WYNDHAM・AU - 温德姆 / 澳大利亚・中国
+VANCOUVER,US・CA - 温哥华 / 加拿大・中国
+VANCOUVER,WA・US - 温哥华 / 美国・中国
+WINNEBA・GH - 温尼巴 / 加纳・中国
+WINNIPEG・CA - 温尼伯湖 / 加拿大・中国
+WINDSOR・CA - 温泽尔 / 加拿大・中国
+VENTSPILS・LA - 文茨皮尔斯 / 拉脱维亚・中国
+PORT WELD・MA - 文德港 / 马来西亚・中国
+VENGURLA・IN - 文古尔拉 / 印度・中国
+VENLO・NL - 文洛 / 荷兰・中国
+UMBA・RU - 翁巴 / 俄罗斯・中国
+BAHIA HONDA・CU - 翁达港 / 古巴・中国
+HONFLEUR・FR - 翁弗勒尔 / 法国・中国
+WALLVIK・SE - 喔尔维尔 / 瑞典・中国
+WARREN POINT・GB - 沃 伦波因特 / 英国・中国
+VOLDA・NO - 沃尔达 / 挪威・中国
+VARDO・NO - 沃尔德 / 挪威・中国
+VORDINGBORG・DK - 沃尔丁堡 / 丹麦・中国
+WALTON・CA - 沃尔顿 / 加拿大・中国
+WOERTH・DE - 沃尔斯 / 德国・中国
+WORKINGTON・GB - 沃金顿 / 英国・中国
+WARKWORTH・GB - 沃克沃思 / 英国・中国
+WALLAROO・AU - 沃拉鲁 / 澳大利亚・中国
+WATCHET・GB - 沃切特 / 英国・中国
+FORT WORTH,TX・US - 沃斯堡 / 美国・中国
+WATERFORD・IE - 沃特福德 / 爱尔兰・中国
+ATSUMI・JP - 渥美 / 日本・中国
+PONTA DO UBU・BR - 乌布角 / 巴西・中国
+UDDEVALLA・SE - 乌德瓦拉 / 瑞典・中国
+CASTRO URDIALES・ES - 乌迪亚莱斯堡 / 西班牙・中国
+NEU-ULM・DE - 乌尔姆 / 德国・中国
+UGLEGORSK・RU - 乌格里哥斯克 / 俄罗斯・中国
+OXELOSUND・SE - 乌克瑟勒松德 / 瑞典・中国
+UMANAK・GL - 乌马纳克 / 格陵兰・中国
+UMM QASAR・IQ - 乌姆盖斯尔 / 伊拉克・中国
+UMM AL QUWAIN・AE - 乌姆盖万 / 阿联酋・中国
+UMM SAID・QA - 乌姆赛义德 / 卡塔尔・中国
+UPERNIVIK・GL - 乌佩尼维克 / 格陵兰・中国
+UJG PANDANG・ID - 乌戎潘当 / 印度尼西亚・中国
+USHUAIA・AR - 乌斯怀亚 / 阿根廷・中国
+UST-DUNAYSK・UK - 乌斯列戈尔斯克 / 乌克兰・中国
+USTKA・PO - 乌斯特卡 / 波兰・中国
+OTTERBACKEN・SE - 乌特拜肯 / 瑞典・中国
+OUISTREHAM・FR - 乌伊斯特勒昂 / 法国・中国
+KURE・JP - 吴港 / 日本・中国
+WOODFIBRE・CA - 伍德菲伯 / 加拿大・中国
+WOODLARK ISLAND・PG - 伍德拉克岛 / 巴布亚新几内亚・中国
+WUPPERTAL・DE - 伍珀塔尔 / 德国・中国
+WORCESTER,MA・US - 伍斯特 / 美国・中国
+BUTUAN・PH - 武端 / 菲律宾・中国
+VOHEMAR・MG - 武海马尔 / 马达加斯加・中国
+MAIZURU・JP - 舞鹤 / 日本・中国
+BELAWAN・ID - 勿拉湾 / 印度尼西亚・中国
+BLINYU・ID - 勿里洋 / 印度尼西亚・中国
+PORT OF SPAIN・TR - 西班牙港 / 特立尼达和多巴哥・中国
+SYDNEY(CA・CA - 西德尼 / 加拿大・中国
+SIDI KERIR・EG - 西迪基里尔 / 埃及・中国
+SIDON・LE - 西顿 / 黎巴嫩・中国
+CIENFUEGOS・CU - 西恩富戈斯 / 古巴・中国
+WESTERN PORT・AU - 西港 / 澳大利亚・中国
+NISHINOMIYA・JP - 西宫 / 日本・中国
+SAIGON・VI - 西贡 / 越南・中国
+SIHANOUKVILLE・KO - 西哈努克 / 柬埔寨・中国
+SIMONSTOWN・ZA - 西蒙斯敦 / 南非・中国
+SEATTLE,WA・US - 西雅图 / 美国・中国
+SEATTLE,WA・US - 西雅图 / 美国・中国
+SIBENIK・CR - 希贝尼克 / 克罗地亚・中国
+CHEBOYGAN・US - 希博伊甘 / 美国・中国
+SHERBROOKE・CA - 希布洛克 / 加拿大・中国
+HIRTSHALS・DK - 希茨海尔斯 / 丹麦・中国
+HIDALGO・US - 希达尔戈 / 美国・中国
+CHIOS・GR - 希俄斯 / 希腊・中国
+SKIEN・NO - 希恩 / 挪威・中国
+KIRKENES・NO - 希尔克内斯 / 挪威・中国
+GIJON・ES - 希洪 / 西班牙・中国
+CHICOUTIMI・CA - 希库提米 / 加拿大・中国
+HILO・PA - 希洛 / 美属太平洋群岛・中国
+HINIGARAN・PH - 希尼加兰 / 菲律宾・中国
+SHIPPEGAN・CA - 希皮根 / 加拿大・中国
+SHIP HARBOUR・CA - 希普港 / 加拿大・中国
+HEYSHAM・GB - 希舍姆 / 英国・中国
+SHEET HARBOUR・CA - 希特港 / 加拿大・中国
+SWINOUJSCIE・PO - 希维诺乌伊希切 / 波兰・中国
+SYDNEY・AU - 悉尼 / 澳大利亚・中国
+KO SICHANG・TH - 锡昌岛 / 泰国・中国
+ES SIDER・LY - 锡德尔 / 利比亚・中国
+SEAHAM・GB - 锡厄姆 / 英国・中国
+SIGLUFJORD・IS - 锡格品菲厄泽 / 冰岛・中国
+SIKKA・IN - 锡卡 / 印度・中国
+SIKEA・SE - 锡克奥 / 瑞典・中国
+SIRACUSA・IT - 锡拉库萨 / 意大利・中国
+SILIKATNAYA・RU - 锡利卡特纳亚 / 俄罗斯・中国
+CILERO・ES - 锡列罗 / 西班牙・中国
+SIMRISHAMN・SE - 锡姆里斯港 / 瑞典・中国
+SINES・PT - 锡尼什 / 葡萄牙・中国
+SINOP・TR - 锡诺普 / 土耳其・中国
+SEARSPORT・US - 锡斯波特 / 美国・中国
+SITKA・US - 锡特卡 / 美国・中国
+SITRA・BA - 锡特拉 / 巴林・中国
+KIIRE・JP - 喜入 / 日本・中国
+ITOZAKI・JP - 系崎 / 日本・中国
+HOSOSHIMA・JP - 细岛 / 日本・中国
+SHIMONOSEKI・JP - 下关 / 日本・中国
+SHIMOTSU・JP - 下津 / 日本・中国
+KUDAMATSU・JP - 下松 / 日本・中国
+SHIMODA・JP - 下田 / 日本・中国
+CHARLOTTE,NC・US - 夏洛特 / 美国・中国
+CHARLOTTE,NC・US - 夏洛特 / 美国・中国
+CHARLOTTETOWN・CA - 夏洛特敦 / 加拿大・中国
+SHARPNESS・GB - 夏普内斯 / 英国・中国
+SENBOKU・JP - 仙北 / 日本・中国
+SEMPORNA・MA - 仙本那 / 马来西亚・中国
+SENDAI・JP - 仙台 / 日本・中国
+DANANG・VI - 岘港 / 越南・中国
+AINOURA・JP - 相浦 / 日本・中国
+AIOI・JP - 相生 / 日本・中国
+HONG KONG・HO - 香港 / 中国香港・中国
+HIBIKINADA・JP - 响滩湾 / 日本・中国
+MUKAISHIMA・JP - 向岛 / 日本・中国
+SHOREHAM・GB - 肖勒姆 / 英国・中国
+SHORTLAND ISLAND・SB - 肖特兰岛 / 所罗门群岛・中国
+KOKURA・JP - 小仓 / 日本・中国
+ONAHAMA・JP - 小名滨 / 日本・中国
+LITTLE SAN SALVADOR I.・BA - 小圣萨尔瓦多岛 / 巴哈马・中国
+KOMATSUSHIMA・JP - 小松岛 / 日本・中国
+LITTLE NARROWS・CA - 小窄峡 / 加拿大・中国
+OTARU・JP - 小樽 / 日本・中国
+SHERBRO ISLAND・SI - 歇尔布罗岛 / 塞拉利昂・中国
+SHEDIAC・CA - 谢迪艾克 / 加拿大・中国
+CHETICAMP・CA - 谢蒂均普 / 加拿大・中国
+SHELBURNE(N.S.・CA - 谢尔本 / 加拿大・中国
+SHELL HAVEN・GB - 谢尔赫文 / 英国・中国
+SKELLEFTEA・SE - 谢莱夫特奥 / 瑞典・中国
+SKELLEFTEHAMN・SE - 谢莱夫特港 / 瑞典・中国
+CINCINNATI,OH・US - 辛辛那提 / 美国・中国
+CHINDE・MO - 欣代 / 莫桑比克・中国
+NEW AMSTERDAM・GU - 新阿姆斯特丹 / 圭亚那・中国
+NEW ORLEANS,LA ・US - 新奥尔良 / 美国・中国
+NEW BEDFORD・US - 新贝德福德 / 美国・中国
+SINMINATO・JP - 新凑 / 日本・中国
+NEW DELHI・IN - 新德里 / 印度・中国
+FARIDABAD・IN - 新德里F港 / 印度・中国
+PATPARGANJ・IN - 新德里P港 / 印度・中国
+TUGLAKABAD・IN - 新德里T港 / 印度・中国
+NIIGATA HIGASHI・JP - 新东 / 日本・中国
+NEW TUTICORIN・IN - 新杜蒂戈林 / 印度・中国
+NEW GLASGOW・CA - 新格拉斯哥 / 加拿大・中国
+NUEVA GERONA・CU - 新赫罗纳 / 古巴・中国
+SINGAPORE・SI - 新加坡 / 新加坡・中国
+NIIHAMA・JP - 新居滨 / 日本・中国
+UUSIKAUPUNKI・FI - 新考蓬基 / 芬兰・中国
+NOVO REDONDO・AO - 新里东杜 / 安哥拉・中国
+NEW RICHMOND・CA - 新里士满 / 加拿大・中国
+NEW LONDON(CONN.・US - 新伦敦 / 美国・中国
+NEW LONDON・US - 新伦敦 / 美国・中国
+NEW ROSS・IE - 新罗斯 / 爱尔兰・中国
+NOVOROSSIYSK・RU - 新罗西斯克 / 俄罗斯・中国
+NEW MANGALORE・IN - 新芒格洛尔 / 印度・中国
+NUEVA PALMIRA・UY - 新帕尔米拉 / 乌拉圭・中国
+NEW PLYMOUTH・NZ - 新普利茅斯 / 新西兰・中国
+NEW WESTMINSTER・CA - 新威斯敏斯特 / 加拿大・中国
+NIGATA・JP - 新泻 / 日本・中国
+CINTA TERMINAL・ID - 信塔油码头 / 印度尼西亚・中国
+THURSDAY ISLAND・AU - 星期四岛 / 澳大利亚・中国
+KUMAMOTO・JP - 熊本 / 日本・中国
+CEUTA・ES - 休达 / 西班牙・中国
+HURON・US - 休伦 / 美国・中国
+PORT HURON・US - 休伦港 / 美国・中国
+HOUSTON,TX・US - 休斯顿 / 美国・中国
+CEBU・PH - 宿务 / 菲律宾・中国
+SUZAKI・JP - 须崎 / 日本・中国
+SCHULAU・DE - 许劳 / 德国・中国
+HUSNES・NO - 许斯内斯 / 挪威・中国
+PORTO ALEGRE・BR - 轩格里港 / 巴西・中国
+KOPING・SE - 雪平 / 瑞典・中国
+NHA TRANG・VI - 芽庄 / 越南・中国
+YALTA・UK - 雅尔塔 / 乌克兰・中国
+JAFFA・IL - 雅法 / 以色列・中国
+JAKOBSHAVN・GL - 雅各布港 / 格陵兰・中国
+JAKARTA・ID - 雅加达 / 印度尼西亚・中国
+JAKARTA UTC1・ID - 雅加达UTC1 / 印度尼西亚・中国
+JAKARTA UTC2・ID - 雅加达UTC2 / 印度尼西亚・中国
+JAKARTA UTC3・ID - 雅加达UTC3 / 印度尼西亚・中国
+YARMOUTH,CA・CA - 雅茅思 / 加拿大・中国
+YAP・FE - 雅浦 / 密克罗尼西亚联邦国・中国
+ADAMSTOWN・PI - 亚当斯敦 / 皮特凯恩岛・中国
+PORT ADAMS・US - 亚当斯港 / 美国・中国
+ADEN・YE - 亚丁 / 也门・中国
+AQABA ・JO - 亚喀巴 / 约旦・中国
+YARIMCA・TR - 亚勒姆贾 / 土耳其・中国
+ALEXANDRIA・US - 亚历山大 / 美国・中国
+ALEXANDRIA・EG - 亚历山大 / 埃及・中国
+PORTO ALEXANDRE・AO - 亚历山大港 / 安哥拉・中国
+ALEXANDROVSK・RU - 亚历山大罗夫斯克 / 俄罗斯・中国
+ALEXANDROUPOLIS・GR - 亚历山德鲁波利斯 / 希腊・中国
+YALI ISLAND・GR - 亚利岛 / 希腊・中国
+YAREN・NA - 亚伦 / 瑙鲁・中国
+ASUNCION・UY - 亚松森 / 巴拉圭・中国
+ATLANTA,GA ・US - 亚特兰大 / 美国・中国
+YABUCOA・PR - 亚武科阿 / 波多黎各・中国
+YENBO・SA - 延布 / 沙特阿拉伯・中国
+JONKOPING・SE - 延雪平 / 瑞典・中国
+IZUHARA・JP - 严原 / 日本・中国
+IWAKUNI・JP - 岩国 / 日本・中国
+SHIOGAMA・JP - 盐斧 / 日本・中国
+SALT LAKE CITY,UT・US - 盐湖城 / 美国・中国
+YANDINA・SB - 扬迪纳 / 所罗门群岛・中国
+YAMPI SOUND・AU - 扬皮桑德 / 澳大利亚・中国
+YAMBA・AU - 杨巴 / 澳大利亚・中国
+YANGON・BU - 仰光 / 缅甸・中国
+GEFLE・SE - 耶夫勒 / 瑞典・中国
+YERAKINI・GR - 耶兰基尼 / 希腊・中国
+PUERTO DE HIERRO・VE - 耶罗港 / 委内瑞拉・中国
+YEKATERINBURG・RU - 叶卡捷琳堡 / 俄罗斯・中国
+IBICUY・AR - 伊比奎 / 阿根廷・中国
+IBO・MO - 伊博 / 莫桑比克・中国
+ITZEHOE・DE - 伊策霍 / 德国・中国
+EDEN・AU - 伊登 / 澳大利亚・中国
+EDITHBURGH・AU - 伊迪斯堡 / 澳大利亚・中国
+IRKUTSK・RU - 伊尔库茨克 / 俄罗斯・中国
+ILE ROUSSE・FR - 伊尔鲁斯 / 法国・中国
+IGGESUND・SE - 伊格松德 / 瑞典・中国
+IGOUMENITSA・GR - 伊古迈尼察 / 希腊・中国
+IQUIQUE・CL - 伊基克 / 智利・中国
+IQUITOS・PE - 伊基托斯 / 秘鲁・中国
+IGARKA・RU - 伊加尔卡 / 俄罗斯・中国
+YKSPIHLAJA・FI - 伊克斯皮拉雅 / 芬兰・中国
+IRAKLION・GR - 伊拉克利翁 / 希腊・中国
+PORT ELIZABETH・ZA - 伊丽莎白港 / 南非・中国
+ELIZABETH,NJ・US - 伊丽莎白-新泽西 / 美国・中国
+ERIE・US - 伊利 / 美国・中国
+ILIGAN・PH - 伊利甘 / 菲律宾・中国
+ILLYCHEVSK・UK - 伊利乔夫斯克 / 乌克兰・中国
+IRAKO・JP - 伊良湖 / 日本・中国
+ILHEUS・BR - 伊列乌斯 / 巴西・中国
+ILO・PE - 伊洛 / 秘鲁・中国
+ILOILO・PH - 伊洛伊洛 / 菲律宾・中国
+IMMINGHAM・GB - 伊明赫姆 / 英国・中国
+YMUIDEN・NL - 伊穆伊登 / 荷兰・中国
+INEBOLU・TR - 伊内博卢 / 土耳其・中国
+INHAMBANE・MO - 伊尼扬巴内 / 莫桑比克・中国
+IPSWICH・GB - 伊普斯威奇 / 英国・中国
+ISABEL・PH - 伊萨贝尔 / 菲律宾・中国
+PORT ISABEL・US - 伊萨贝尔港 / 美国・中国
+ISABELA,CU・CU - 伊萨贝拉 / 古巴・中国
+ISABELA,PH・PH - 伊萨贝拉 / 菲律宾・中国
+ISAFJORD・IS - 伊萨菲厄泽 / 冰岛・中国
+ITHAKA ISLAND・GR - 伊萨基 / 希腊・中国
+ISKENDERUN・TR - 伊斯肯德伦 / 土耳其・中国
+ISTHMIA・GR - 伊斯米亚 / 希腊・中国
+ISNAS・FI - 伊斯奈斯 / 芬兰・中国
+ISTANBUL・TR - 伊斯坦布尔 / 土耳其・中国
+ITAGUAI・BR - 伊塔瓜伊 / 巴西・中国
+ITAQUI・BR - 伊塔基 / 巴西・中国
+ITAJAI・BR - 伊塔雅伊 / 巴西・中国
+ITEA・GR - 伊泰阿 / 希腊・中国
+IMARI・JP - 伊万里 / 日本・中国
+IVIGHTUT・GL - 伊维赫图特 / 格陵兰・中国
+IBIZA・ES - 伊维萨 / 西班牙・中国
+GYTHION・GR - 伊西翁 / 希腊・中国
+IYO MISHIMA・JP - 伊予三岛 / 日本・中国
+IZMAIL・UK - 伊兹梅尔 / 乌克兰・中国
+IZMIT・TR - 伊兹米特 / 土耳其・中国
+IZMIR・TR - 伊兹密尔 / 土耳其・中国
+IZOLA・SL - 伊佐拉 / 斯洛文尼亚・中国
+KINUURA・JP - 衣浦 / 日本・中国
+PORT IBRAHIM・EG - 易卜拉欣港 / 埃及・中国
+IMBITUBA・BR - 因比图巴 / 巴西・中国
+INNOSHIMA・JP - 因岛 / 日本・中国
+INVERGORDON・GB - 因弗戈登 / 英国・中国
+INVERCARGILL・NZ - 因弗卡吉尔 / 新西兰・中国
+INVERNESS・GB - 因弗内斯 / 英国・中国
+INKOO・FI - 因科 / 芬兰・中国
+INNISFAIL・AU - 因尼斯费尔 / 澳大利亚・中国
+IMPERIA・IT - 因佩里亚 / 意大利・中国
+INNSBRUCK・AU - 因斯布鲁克 / 奥地利・中国
+INDIANAPOLIS,IN・US - 印第安纳波利斯 / 美国・中国
+INGOLSTADT・DE - 英戈尔斯塔特 / 德国・中国
+ANGRA DO HEROISMO・ES - 英雄港 / 大西洋群岛・中国
+URANGAN・AU - 尤兰根 / 澳大利亚・中国
+EUREKA・US - 尤里卡 / 美国・中国
+JULIANEHAAB・GL - 尤利安娜霍布 / 格陵兰・中国
+RONNEBYHAMN・SE - 尤讷比港 / 瑞典・中国
+YUZHNYY・UK - 尤日内 / 乌克兰・中国
+YURA・JP - 由良 / 日本・中国
+ABURATSU・JP - 油津 / 日本・中国
+UTANSJO・SE - 友丹佐 / 瑞典・中国
+UMEA・SE - 于默奥 / 瑞典・中国
+LJUSNE・SE - 于斯讷 / 瑞典・中国
+USKUDAR・TR - 于斯屈达尔 / 土耳其・中国
+YSTAD・SE - 于斯塔德 / 瑞典・中国
+UBE・JP - 宇部 / 日本・中国
+UNO・JP - 宇野 / 日本・中国
+TAMA SIMA・JP - 玉岛 / 日本・中国
+TAMANO・JP - 玉野 / 日本・中国
+OMAEZAKI・JP - 御前崎 / 日本・中国
+JURONG・SI - 裕廊 / 新加坡・中国
+YOUGHAL・IE - 约尔 / 爱尔兰・中国
+JOHANNESBURG・ZA - 约翰内斯堡 / 南非・中国
+IONA・CA - 约纳 / 加拿大・中国
+UNYE・TR - 云耶 / 土耳其・中国
+ZAHRANI・LE - 宰赫拉尼 / 黎巴嫩・中国
+ZAANDAM・NL - 赞丹 / 荷兰・中国
+ZANTE・GR - 赞特 / 希腊・中国
+DZAOUDZI・CO - 藻德济 / 科摩罗・中国
+ZEEBRUGGE・BE - 泽布吕赫 / 比利时・中国
+DIKHELIA・CY - 泽凯利亚 / 塞浦路斯・中国
+PUERTO ZARATE・AR - 泽拉特 / 阿根廷・中国
+ZELENIKA・SE - 泽莱尼卡 / 塞尔维亚和黑山共和国・中国
+JERSEY CITY・US - 泽西城 / 美国・中国
+ZADAR・CR - 扎达尔 / 克罗地亚・中国
+ZASHITA・KZ - 扎西塔 / 哈萨克斯坦・中国
+MINA ZAYED・AE - 扎伊德港 / 阿联酋・中国
+JAIPUR・IN - 斋浦尔 / 印度・中国
+JAMESTOWN・SH - 詹姆斯敦 / 圣赫勒拿・中国
+JAMBI・ID - 占碑 / 印度尼西亚・中国
+NAGAURA・JP - 长浦 / 日本・中国
+NAGASAKI・JP - 长崎 / 日本・中国
+LONG BEACH・US - 长滩 / 美国・中国
+CHANGHANG・KO - 长项 / 韩国・中国
+DJENO TERMINAL・CO - 哲诺油码头 / 刚果(布)・中国
+CHINHAE・KO - 镇海 / 韩国・中国
+CIGADING・ID - 芝格丁 / 印度尼西亚・中国
+CHICAGO,IL・US - 芝加哥 / 美国・中国
+CILACAP・ID - 芝拉扎 / 印度尼西亚・中国
+SHIBAURA・JP - 芝浦 / 日本・中国
+CHITA・JP - 知多 / 日本・中国
+NAOSHIMA ISLAND・JP - 直岛 / 日本・中国
+TEGAL・ID - 直葛 / 印度尼西亚・中国
+NAOETSU・JP - 直江津 / 日本・中国
+TELUKBETUNG・ID - 直落勿洞 / 印度尼西亚・中国
+BOTANY BAY・AU - 植物学湾 / 澳大利亚・中国
+SHIBUSHI・JP - 志不志 / 日本・中国
+WAKKANAI・JP - 稚内 / 日本・中国
+NAKAGUSUKU・JP - 中城 / 日本・中国
+JUAYMAH TERMINAL・SA - 朱阿马码头 / 沙特阿拉伯・中国
+JUBAIL・SA - 朱拜勒 / 沙特阿拉伯・中国
+JORF LASFAR・MA - 朱尔夫莱斯费尔 / 摩洛哥・中国
+JOUNIEH・LE - 朱尼耶 / 黎巴嫩・中国
+JUNEAU・US - 朱诺 / 美国・中国
+ZLEITEN・LY - 兹利坦 / 利比亚・中国
+ZLOBINO・RU - 兹诺比诺 / 俄罗斯・中国
+ZUARA・LY - 兹瓦拉 / 利比亚・中国
+ZWOLLE・NL - 兹沃勒 / 荷兰・中国
+FREEPORT・BA - 自由港 / 巴哈马・中国
+ZONGULDAK・TR - 宗古尔达克 / 土耳其・中国
+PALM BEACH・US - 棕榈滩 / 美国・中国
+ZUETINA・LY - 祖埃提纳 / 利比亚・中国
+SAIKI・JP - 佐伯 / 日本・中国
+SAGANOSEKI・JP - 佐贺关 / 日本・中国
+SASEBO・JP - 佐世保 / 日本・中国
+GIBRALTAR・GI - 直布罗陀 / 直布罗陀・中国
+BASUO・CH - 八所 / 中国・中国
+CHENGDU・CH - 成都 / 中国・中国
+NANCHANG・CH - 南昌 / 中国・中国
+WUZHOU・CH - 梧州 / 中国・中国
+HUIZHOU・CH - 惠州 / 中国・中国
+SANSHAN・CH - 三山 / 中国・中国
+YANGZHOU・CH - 扬州 / 中国・中国
+SHUIDONG・CH - 水东港 / 中国・中国
+DA CHAN BAY・CH - 大铲湾 / 中国・中国
+JIALI・CH - 嘉丽 / 中国・中国
+WUCHONG・CH - 乌冲 / 中国・中国
+DONGJIANGCANG・CH - 东江仓 / 中国・中国
+JISI・CH - 集司 / 中国・中国
+ZHUHAI・CH - 珠海 / 中国・中国
+ZHOUSHAN・CH - 舟山 / 中国・中国
+ZHONGSHAN・CH - 中山 / 中国・中国
+ZHENJIANG・CH - 镇江 / 中国・中国
+ZHAPU・CH - 乍浦 / 中国・中国
+ZHANJIANG・CH - 湛江 / 中国・中国
+ZHANGZHOU・CH - 漳州 / 中国・中国
+ZHANGJIAGANG・CH - 张家港 / 中国・中国
+ZHANGJIABU・CH - 张家埠 / 中国・中国
+YIWU・CH - 义乌 / 中国・中国
+YINGKOU・CH - 营口 / 中国・中国
+YANTIAN・CH - 盐田 / 中国・中国
+YANTAI・CH - 烟台 / 中国・中国
+YANGSHAN・CH - 洋山 / 中国・中国
+YANGPU・CH - 杨浦 / 中国・中国
+XIDI・CH - 西堤 / 中国・中国
+XIAMEN・CH - 厦门 / 中国・中国
+WUXI・CH - 无锡 / 中国・中国
+WUHAN・CH - 武汉 / 中国・中国
+WENZHOU・CH - 温州 / 中国・中国
+WEIHAI・CH - 威海 / 中国・中国
+TIANJIN・CH - 天津 / 中国・中国
+TAICANG・CH - 太仓 / 中国・中国
+SUZHOU・CH - 苏州 / 中国・中国
+SHUNDE・CH - 顺德 / 中国・中国
+SHIPU・CH - 石浦 / 中国・中国
+SHIJIU・CH - 石臼 / 中国・中国
+SHENZHEN・CH - 深圳 / 中国・中国
+SHEKOU・CH - 蛇口 / 中国・中国
+SHANWEI・CH - 汕尾 / 中国・中国
+SHANTOU・CH - 汕头 / 中国・中国
+SHANGHAI・CH - 上海 / 中国・中国
+SANYA・CH - 三亚 / 中国・中国
+SAIQI・CH - 赛岐 / 中国・中国
+RIZHAO・CH - 日照 / 中国・中国
+QUANZHOU・CH - 泉州 / 中国・中国
+QINHUANGDAO・CH - 秦皇岛 / 中国・中国
+QINGDAO・CH - 青岛 / 中国・中国
+NINGBO・CH - 宁波 / 中国・中国
+NANSHAN・CH - 南山 / 中国・中国
+NANTONG・CH - 南通 / 中国・中国
+NANJING・CH - 南京 / 中国・中国
+MAWEI・CH - 马尾 / 中国・中国
+MACUN・CH - 马村 / 中国・中国
+LONGKOU・CH - 龙口 / 中国・中国
+LIANYUNGANG・CH - 连云港 / 中国・中国
+LANSHAN・CH - 岚山 / 中国・中国
+LAIZHOU・CH - 莱州 / 中国・中国
+JIUJIANG・CH - 九江 / 中国・中国
+JINZHOU・CH - 锦州 / 中国・中国
+JINGTANG・CH - 京唐 / 中国・中国
+JIANGYIN・CH - 江阴 / 中国・中国
+HUANGPU・CH - 黄埔 / 中国・中国
+JIANGMEN・CH - 江门 / 中国・中国
+HUANGHUA・CH - 黄骅 / 中国・中国
+HUALIAN・CH - 花莲 / 中国・中国
+HANGZHOU・CH - 杭州 / 中国・中国
+HAIMEN・CH - 海门 / 中国・中国
+HAIAN・CH - 海安 / 中国・中国
+HAIKOU・CH - 海口 / 中国・中国
+GUANGZHOU・CH - 广州 / 中国・中国
+FUZHOU・CH - 福州 / 中国・中国
+FOSHAN・CH - 佛山 / 中国・中国
+FANGCHENG・CH - 防城 / 中国・中国
+DONGSHAN・CH - 东山 / 中国・中国
+DONGGUAN・CH - 东莞 / 中国・中国
+DANDONG・CH - 丹东 / 中国・中国
+DALIAN・CH - 大连 / 中国・中国
+CHONGQING・CH - 重庆 / 中国・中国
+CHIWAN・CH - 赤湾 / 中国・中国
+CHANGZHOU・CH - 常州 / 中国・中国
+CHANGSHU・CH - 常熟 / 中国・中国
+CHANGSHA・CH - 长沙 / 中国・中国
+BEIJING・CH - 北京 / 中国・中国
+BEIHAI・CH - 北海 / 中国・中国
+BAYUQUAN・CH - 鲅鱼圈(营口) / 中国・中国
+MACAO・MA - 澳门 / 中国澳门・中国
+QINZHOU・CH - 钦州 / 中国・中国
+TAIPEI・CH - 台北 / 中国・中国
+KAOHSIUNG・CH - 高雄 / 中国・中国
+KEELUNG・CH - 基隆 / 中国・中国
+TAICHUNG・CH - 台中 / 中国・中国
+HAMAAD・QA - 哈马德 / 卡塔尔・中国
+SAN LORENZO,AR・AR - 圣洛伦索 / 阿根廷・中国
+ESMERADLDAS・EC - 埃斯梅腊达斯 / 厄瓜多尔・中国
+MEJILLONES・CL - 梅希约内斯 / 智利・中国
+USAHUAI・AR - 乌斯怀亚 / 阿根廷・中国
+GEBZE・TR - 格贝兹 / 土耳其・中国
+EVYAP・TR - 艾维亚普 / 土耳其・中国
+TRISDTE・IT - 迪利亚斯特 / 意大利・中国
+VENICE・IT - 威尼斯 / 意大利・中国
+ANCONA・IT - 安科纳 / 意大利・中国
+COEGA・ZA - 库哈 / 南非・中国
+WUHU・CH - 芜湖 / 中国・中国
+GLUCKSTADT・DE - 格吕克施塔特 / 德国・中国
+PANGAON・BA - 盘贡 / 孟加拉国・中国
+UMM QASAR(NORTH)・IQ - 乌姆盖斯尔(北) / 伊拉克・中国
+UMM QASAR(SOUTH)・IQ - 乌姆盖斯尔(南) / 伊拉克・中国
+KARACHI PICT・PA - 卡拉奇 PICT码头 / 巴基斯坦・中国
+KARACHI SAPT・PA - 卡拉奇 SAPT码头 / 巴基斯坦・中国
+XIAOLAN・CH - 小榄 / 中国・中国
+SHENWAN・CH - 神湾 / 中国・中国
+CHORNOMRSK・UK - 伊利切夫斯克 / 乌克兰・中国
+BANGKOK SSW・TH - 曼谷SSW码头 / 泰国・中国
+ZHAOQING・CH - 肇庆 / 中国・中国
+YUNFU・CH - 云浮 / 中国・中国
+PERAWANG・ID - 珀拉旺 / 印度尼西亚(印尼)・中国
